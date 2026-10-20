@@ -1,0 +1,17 @@
+pm2 start npm --name "invoices_be" -- run dev
+pm2 start npm --name "invoices_fe" -- run dev
+pm2 start npm --name "invoices_fe" -- run start
+
+pm2 start npm --name "hdn_be" -- run dev
+pm2 start npm --name "hdn_fe" -- run dev
+pm2 start npm --name "hdn_fe" -- run start
+
+pm2 start npm --name "bios_be" -- run dev
+pm2 start npm --name "bios_fe" -- run dev
+pm2 start npm --name "bios_fe" -- run start
+
+npx prisma db push
+npx prisma generate
+
+https://hoadondientu.gdt.gov.vn/
+3200758117/1234567@Abc

@@ -1,0 +1,3 @@
+pm2 start npm --name "invoices_be" -- run dev
+pm2 start npm --name "invoices_fe" -- run dev
+pm2 start npm --name "invoices_fe" -- run start
