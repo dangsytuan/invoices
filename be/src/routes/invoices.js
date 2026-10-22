@@ -1,131 +1,142 @@
 const express = require('express');
+const { PrismaClient } = require('@prisma/client');
+
 const router = express.Router();
-const axios = require('axios');
+const prisma = new PrismaClient();
 
-function getQueyDay(daysToSubtract = 30) {
-  // Bổ sung số 0 ở đầu nếu số < 10 (ví dụ: 8 -> "08")
-  const pad = (num) => String(num).padStart(2, '0');
-
-  // Chuyển đổi mốc thời gian sang ngày/tháng/năm theo múi giờ Việt Nam
-  const formatVN = (date) => {
-    const formatter = new Intl.DateTimeFormat('en-GB', {
-      timeZone: 'Asia/Ho_Chi_Minh',
-      year: 'numeric',
-      month: '2-digit',
-      day: '2-digit',
-    });
-    return formatter.format(date); // Trả về dạng DD/MM/YYYY
-  };
-
-  // Mốc thời gian hiện tại
-  const now = new Date();
-
-  // Mốc thời gian lùi lại X ngày
-  const past = new Date(now);
-  past.setDate(past.getDate() - daysToSubtract);
-
-  return {
-    fromDate: `${formatVN(past)}T00:00:00`,
-    toDate: `${formatVN(now)}T23:59:59`
-  };
-}
-
-router.get('/list', async (req, res) => {
-  const token = req.cookies.token;
-  if (!token) {
-    return res.status(401).json({ success: false, message: 'Chưa đăng nhập!' });
-  }
-
-  const { fromDate, toDate } = getQueyDay()
-  const url = `https://hoadondientu.gdt.gov.vn/api/query/invoices/sold?sort=tdlap:desc&size=15&search=tdlap=ge=${fromDate};tdlap=le=${toDate}`;
-
-  // Chuyển đổi các cookie riêng lẻ trong raw data thành 1 chuỗi Header Cookie hợp lệ
-  const cookieHeader = [
-    `jwt=${token}`,
-  ].join('; ');
-  
-  const headers = {
-    'accept': 'application/json, text/plain, */*',
-    'accept-language': 'vi',
-    'action': 'Xem hóa đơn (hóa đơn bán ra)',
-    'authorization': `Bearer ${token}`,
-    'cookie': cookieHeader,
-    'end-point': '/tra-cuu/tra-cuu-hoa-don',
-    'priority': 'u=1, i',
-    'referer': 'https://hoadondientu.gdt.gov.vn/tra-cuu/tra-cuu-hoa-don',
-    'request-id': 'e2453e44-7402-49d4-bbb4-8b89575eb195',
-    'sec-ch-ua': '"Chromium";v="154", "Google Chrome";v="154", "Not A(Brand";v="99"',
-    'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-platform': '"macOS"',
-    'sec-fetch-dest': 'empty',
-    'sec-fetch-mode': 'cors',
-    'sec-fetch-site': 'same-origin',
-    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36'
-  };
+/**
+ * @route   GET /api/invoices
+ * @desc    Lấy danh sách hóa đơn (có hỗ trợ lọc theo type, phân trang)
+ * @query   type (INBOUND | OUTBOUND), page (mặc định 1), limit (mặc định 10)
+ */
+router.get('/', async (req, res) => {
   try {
-    const response = await axios.get(url, { headers });
+    const { type, search, startDate, endDate, page = 1, limit = 50 } = req.query;
+    
+    const skip = (Number(page) - 1) * Number(limit);
+    const take = Number(limit);
+
+    // Xây dựng điều kiện lọc (where) cho Prisma
+    const where = {};
+
+    // 1. Lọc theo loại hóa đơn (INBOUND / OUTBOUND) nếu có
+    if (type && type !== 'ALL') {
+      where.type = type;
+    }
+
+    // 2. Lọc theo khoảng thời gian (dựa trên trường ngày lập hóa đơn `tdlap`)
+    if (startDate || endDate) {
+      where.tdlap = {};
+      if (startDate) {
+        where.tdlap.gte = new Date(startDate); // Từ ngày (00:00:00)
+      }
+      if (endDate) {
+        // Đặt giờ kết thúc là cuối ngày để lấy trọn vẹn ngày endDate
+        const endDateTime = new Date(endDate);
+        endDateTime.setHours(23, 59, 59, 999);
+        where.tdlap.lte = endDateTime;
+      }
+    }
+
+    // 3. Lọc theo từ khóa tìm kiếm
+    if (search && search.trim() !== '') {
+      const keyword = search.trim();
+      where.OR = [
+        { nbten: { contains: keyword, mode: 'insensitive' } },
+        { nbmst: { contains: keyword, mode: 'insensitive' } },
+        { nmten: { contains: keyword, mode: 'insensitive' } },
+        { nmmst: { contains: keyword, mode: 'insensitive' } },
+        { khhdon: { contains: keyword, mode: 'insensitive' } },
+      ];
+      
+      const numKeyword = Number(keyword);
+      if (!isNaN(numKeyword)) {
+        where.OR.push({ shdon: numKeyword });
+      }
+    }
+
+    // Truy vấn Database đồng thời đếm tổng và lấy dữ liệu phân trang
+    const [total, invoices] = await Promise.all([
+      prisma.invoice.count({ where }),
+      prisma.invoice.findMany({
+        where,
+        include: { details: true },
+        orderBy: { tdlap: 'desc' },
+        skip,
+        take,
+      }),
+    ]);
 
     return res.status(200).json({
-        susccess: true,
-        data: response.data
+      success: true,
+      data: invoices,
+      pagination: {
+        total,
+        page: Number(page),
+        limit: Number(limit),
+        totalPages: Math.ceil(total / limit),
+      },
     });
   } catch (error) {
-    
-    return res.status(500).json({
-        susccess: false,
-        data: error.message
-    });
+    console.error('Lỗi khi lấy danh sách hóa đơn:', error);
+    return res.status(500).json({ success: false, message: 'Lỗi server nội bộ' });
   }
 });
 
-router.post('/detail', async (req, res) => {
-  const token = req.cookies.token;
-  if (!token) {
-    return res.status(401).json({ success: false, message: 'Chưa đăng nhập!' });
-  }
-
-    const { khhdon, shdon } = req.body;
-    const url = `https://hoadondientu.gdt.gov.vn/api/query/invoices/detail?nbmst=3200758117&khhdon=${khhdon}&shdon=${shdon}&khmshdon=1`;
-    // https://hoadondientu.gdt.gov.vn/api/query/invoices/detail?nbmst=3200758117&khhdon=C26TVN&shdon=152&khmshdon=1
-
-  // Ghép các dòng cookie đúng theo thứ tự nguyên bản từ raw data
-  const cookieHeader = [
-    `jwt=${token}`,
-  ].join('; ');
-
-  const headers = {
-    'sec-ch-ua-platform': '"macOS"',
-    'authorization': `Bearer ${token}`,
-    'action': 'Xem%20h%C3%B3a%20%C4%91%C6%A1n%20(h%C3%B3a%20%C4%91%C6%A1n%20b%C3%A1n%20ra)',
-    'accept-language': 'vi',
-    'sec-ch-ua': '"Chromium";v="154", "Google Chrome";v="154", "Not A(Brand";v="99"',
-    'sec-ch-ua-mobile': '?0',
-    'request-id': 'e2453e44-7402-49d4-bbb4-8b89575eb195',
-    'end-point': '/tra-cuu/tra-cuu-hoa-don',
-    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36',
-    'accept': 'application/json, text/plain, */*',
-    'sec-fetch-site': 'same-origin',
-    'sec-fetch-mode': 'cors',
-    'sec-fetch-dest': 'empty',
-    'referer': 'https://hoadondientu.gdt.gov.vn/tra-cuu/tra-cuu-hoa-don',
-    'accept-encoding': 'gzip, deflate, br, zstd',
-    'cookie': cookieHeader,
-    'priority': 'u=1, i'
-  };
-
+/**
+ * @route   GET /api/invoices/:id
+ * @desc    Lấy chi tiết một hóa đơn theo ID kèm theo danh sách sản phẩm chi tiết
+ */
+router.get('/:id', async (req, res) => {
   try {
-    const response = await axios.get(url, { headers });
-    
+    const { id } = req.params;
+
+    const invoice = await prisma.invoice.findUnique({
+      where: { id },
+      include: {
+        details: true,
+        stockTransactions: true,
+      },
+    });
+
+    if (!invoice) {
+      return res.status(404).json({ success: false, message: 'Không tìm thấy hóa đơn' });
+    }
+
+    return res.status(200).json({ success: true, data: invoice });
+  } catch (error) {
+    console.error('Lỗi khi lấy chi tiết hóa đơn:', error);
+    return res.status(500).json({ success: false, message: 'Lỗi server nội bộ' });
+  }
+});
+
+/**
+ * @route   DELETE /api/invoices/:id
+ * @desc    Xóa một hóa đơn (các bảng liên quan như InvoiceDetail sẽ tự động xóa nhờ onDelete: Cascade)
+ */
+router.delete('/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    const existingInvoice = await prisma.invoice.findUnique({
+      where: { id },
+    });
+
+    if (!existingInvoice) {
+      return res.status(404).json({ success: false, message: 'Không tìm thấy hóa đơn để xóa' });
+    }
+
+    await prisma.invoice.delete({
+      where: { id },
+    });
+
     return res.status(200).json({
-        susccess: true,
-        data: response.data
+      success: true,
+      message: 'Đã xóa hóa đơn thành công',
     });
   } catch (error) {
-    
-    return res.status(500).json({
-        susccess: false,
-        data: error.message
-    });
+    console.error('Lỗi khi xóa hóa đơn:', error);
+    return res.status(500).json({ success: false, message: 'Lỗi server nội bộ' });
   }
 });
 

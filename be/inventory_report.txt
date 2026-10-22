@@ -1,0 +1,692 @@
+==================================================
+          BÁO CÁO TỒN KHO HÀNG HÓA TỪ HÓA ĐƠN
+          Thời gian xuất báo cáo: 10:06:38 22/10/2026
+==================================================
+
+TỔNG QUAN:
+- Tổng số hóa đơn Mua vào (INBOUND):   269
+- Tổng số hóa đơn Bán ra (OUTBOUND):  170
+- Tổng số hóa đơn đã xử lý:           439
+
+CHI TIẾT TỒN KHO:
+--------------------------------------------------------------------------------
+STT   | Tên hàng hóa                                  | ĐVT        | Nhập       | Xuất       | Tồn kho   
+---------------------------------------------------------------------------------------------------------
+1     | Cáp mạng Cat6 FTP 305m/ thùng, hiệu Aptek     | Mét        | 1220       | 0          | 1220      
+2     | Mực chai Siêu mịn 1320 Komax-130G             | Chai       | 600        | 0          | 600       
+3     | Dây cáp mạng internet LAN chưa lắp với đầu nối điện, 24AWG 0.52MM CCAG. Cách điện HDPE + Vỏ bọc PVC.Model : CAT5E FTP | Mét        | 305        | 0          | 305       
+4     | Gạt mực HP1010/1200/1320 (12A/15A /49A Universal) | Cái        | 200        | 0          | 200       
+5     | Dây điện VCmo 2x1.0 Cadivi                    | Mét        | 200        | 0          | 200       
+6     | Chuột máy tính DAREU LM103_TM201U08603G       | Chiếc      | 190        | 0          | 190       
+7     | Chuột máy tính DAREU LM106G Black_TM233G08601G | Chiếc      | 154        | 0          | 154       
+8     | Bàn phím máy tính DAREU LK185 Black_TK577U08601G | Chiếc      | 150        | 0          | 150       
+9     | Trống máy in HP 1010/1020 (ES-HP1010)         | Cái        | 100        | 0          | 100       
+10    | Chuột không dây Rapoo M1 2.4GHz DPI 1600 màu đen. Hiệu Rapoo | Chiếc      | 100        | 0          | 100       
+11    | Chuột máy tính DARE-U LM103G               | Chiếc      | 80         | 0          | 80        
+12    | Bàn di chuột; Model: L­11; 200mmx250mm        | Cái        | 80         | 0          | 80        
+13    | Bàn phím dùng cho máy tính xách tay, mã hàng : EGHKYAL16 | cái        | 59         | 1          | 58        
+14    | Bàn phím MTXT hiệu SONTEPAT-EGHKYAL16         | CÁI        | 57         | 2          | 55        
+15    | Chuột máy tính DARE-U LM103 - TM201U08603G    | Chiếc      | 50         | 0          | 50        
+16    | Tấm nền màn hình LCD 15.6                     | CÁI        | 50         | 0          | 50        
+17    | Tấm nền màn hình LCD 14.0                     | CÁI        | 43         | 0          | 43        
+18    | Màn hình MTXT LCD 15.6 inch                   | CÁI        | 40         | 0          | 40        
+19    | Camera quan sát (DH-IPC-HDW1230T2-A), phụ kiện | Bộ         | 35         | 0          | 35        
+20    | EN49608_Nguồn máy tính Xigmatek X-Power III 350 (250W, 230V) | Chiếc      | 33         | 0          | 33        
+21    | Phần mềm M365 Personal English APAC Subscr 1YR Medialess (EP2-32409) | Bộ         | 31         | 0          | 31        
+22    | Chuột máy tính không dây EMS816 Eblue      | chiếc      | 50         | 20         | 30        
+23    | EN49132_ Vỏ máy tính Xigmatek XS-25           | Chiếc      | 30         | 0          | 30        
+24    | Chuột quang máy tính có dây, hiệu G-NET, Model: GM103PRO, cổng kết nối: USB, hàng mới 100% | Cái        | 30         | 0          | 30        
+25    | BỘ NHỚ TRONG KINGSPEC 16GB 3200 MHZ           | CÁI        | 30         | 0          | 30        
+26    | CHUỘT GAMING KHÔNG DÂY NEWMEN G7              | CÁI        | 30         | 0          | 30        
+27    | Chuột máy tính DARE-U LM106G Black            | Chiếc      | 30         | 0          | 30        
+28    | MÀN HÌNH MÁY TÍNH 23.8 INCH FHD MONITOR FSID24BFIY; HIỆU FEUVISION | CÁI        | 26         | 0          | 26        
+29    | Bộ thu sóng wifi USB, model BL-WN151, kích thước 20.5*14.6*6.3 mm. có chức năng thu sóng wifi sử dụng cho máy vi tính | Chiếc      | 25         | 0          | 25        
+30    | Pin Li- ion cho máy tính xách tay, 11.55V, dung lượng 41.9Wh, model HT03XL, hiệu NTCO | CÁI        | 25         | 0          | 25        
+31    | Bộ thu sóng wifi USB (thiết bị truyền dữ liệu băng rộng, hoạt động trong băng tần 2,4GHz), model BL-WN155A, có chức năng thu sóng wifi sử dụng cho máy vi tính, hiệu LB-Link | Chiếc      | 25         | 0          | 25        
+32    | Bàn Phím dùng cho MTXT hiệu SONTEPAT mã S510HKD19 | Cái        | 21         | 0          | 21        
+33    | Tấm màn hình LCD, kích thước: 15.6 inch, Model: MB156CS05-3 no br pcb 245, dùng cho máy tính xách tay, hiệu: HKC, hàng mới 100% | CÁI        | 21         | 0          | 21        
+34    | Bộ loa có dây máy tính,gồm 2 loa(trái và phải),đã lắp vỏ riêng biệt, model:M22,công suất:30W, ĐA:220V,dải tần: 100-20kHz,hiệu:X-STAR,mới100% | Chiếc      | 20         | 0          | 20        
+35    | NGUỒN MÁY TÍNH XIMATEK  X-P III 650           | CÁI        | 20         | 0          | 20        
+36    | Bộ bàn phím và chuột máy tính có dây, hiệu SOREX, Model: KM3000, Loại phím: Giả cơ, số nút: 104, chuột quang, kết nối: USB, Có đèn LED, hàng mới 100% | Bộ         | 20         | 0          | 20        
+37    | Rulo ép HP1010/1020 * Canon 2900              | Cái        | 20         | 0          | 20        
+38    | BỘ NHỚ TRONG GSKILL 16G F4 - 3200 C16S        | CHIẾC      | 20         | 0          | 20        
+39    | Bàn di chuột 20*25 2mm A                      | Cái        | 20         | 0          | 20        
+40    | EN46407_Nguồn máy tính Xigmatek Litepower II i350 (200W, 230V) | Chiếc      | 20         | 0          | 20        
+41    | Nguồn máy tính Xigmatek POLIMA M26-600        | Cái        | 20         | 0          | 20        
+42    | Túi chống sốc                                 | Cái        | 20         | 0          | 20        
+43    | Gạt từ HP 1010/1020 (12A/49A/53A)             | Cái        | 20         | 0          | 20        
+44    | Màn hình MTXT LCD 14 inch                     | CÁI        | 19         | 0          | 19        
+45    | Tấm màn hình LCD, kích thước: 14 inch, Model: MB140CS01-4 no br, MB140AN01-3, dùng cho máy tính xách tay, hiệu: HKC, hàng mới 100% | CÁI        | 18         | 0          | 18        
+46    | MÀN HÌNH MÁY TÍNH 21.45 INCH FHD MONITOR; MODEL: FSID22DFJY; HIỆU FEUVISION | CÁI        | 17         | 0          | 17        
+47    | EN45952_Nguồn máy tính Xigmatek X-Power III 350(250W, 230V) | Chiếc      | 16         | 0          | 16        
+48    | Chuột vi tính Fuhlen B07S                     | Cái        | 15         | 0          | 15        
+49    | HỘP MỰC IN LASER KOGON Q2612A/ 303            | Hộp        | 15         | 0          | 15        
+50    | VỎ MÁY TÍNH SAMA 3301                         | CHIẾC      | 14         | 0          | 14        
+51    | Bộ nhớ máy tính Apacer DDR4 8GB 3200 OC NOX RGB AURA2 | CÁI        | 13         | 0          | 13        
+52    | VỎ MÁY TÍNH EN48250                           | CÁI        | 12         | 0          | 12        
+53    | Ổ CỨNG SSD COLORFUL SL500 256GB               | CÁI        | 12         | 0          | 12        
+54    | Bàn phím máy tính DAREU LK145 Black_TK547U08601G | Chiếc      | 11         | 0          | 11        
+55    | TẤM MẠCH IN ĐÃ LẮP RÁP MSI H610               | CHIẾC      | 11         | 0          | 11        
+56    | Bộ nhớ trong RAM, model: KJIB DDR4 3200MHz 8GB UDIMM. Hiệu Kingbank | Cái        | 11         | 0          | 11        
+57    | EN45990_Nguồn máy tính Xigmatek X-Power III 650 (600W, 230V) | Chiếc      | 11         | 0          | 11        
+58    | BỘ NHỚ RAM KINGMAX ZEUS GLOG43G 8GB           | CHIẾC      | 11         | 0          | 11        
+59    | BỘ NHỚ RAM KINGMAX ZEUS GLOG43F 8GB           | CHIẾC      | 11         | 0          | 11        
+60    | NGUỒN SAMA 535                                | CHIẾC      | 10         | 0          | 10        
+61    | Bo mạch chủ máy tính ASUS PRIME H510M-K R2.0_90MB1E80-M0UAY0 | CÁI        | 10         | 0          | 10        
+62    | Thanh nhớ ngoài Kingston 64GB USB 3.2 DataTraveler Exodia M_DTXM/64GB | cái        | 10         | 0          | 10        
+63    | Quạt tản nhiệt dùng cholaptop,model N99, công suất 3.2W,mới100% | Cái        | 10         | 0          | 10        
+64    | Ổ cứng cắm trong SSD Teamgroup T253TZ256G0C101 2.5" SATA3 T-FORCE VULCAN Z SSD 256GB | Chiếc      | 10         | 0          | 10        
+65    | MÀN HÌNH MÁY TÍNH 27 INCH FHD MONITOR FSID27BFI; HIỆU FEUVISION | CÁI        | 10         | 0          | 10        
+66    | SSD 120Gb                                     | Cái        | 10         | 0          | 10        
+67    | Tai nghe có khung chụp qua đầu, hiệu G-NET, Model: GH316 , cổng kết nối: USB, có míc đàm thoại, chiều dài dây kết nối: 1.8m, có đèn LED, Hàng mới 100% | Cái        | 10         | 0          | 10        
+68    | Tấm màn hình LCD, kích thước: 14 inch, Model: MB140AN01-4, dùng cho máy tính xách tay, hiệu: HKC, hàng mới 100% | CÁI        | 10         | 0          | 10        
+69    | Bộ nhớ Ram PC hiệu SSTC 8GB DDR4 3200Mhz AMD/Intel; model: U3200A-C22-8GB | Cái        | 10         | 0          | 10        
+70    | Bộ vi xử lý Intel Core i5-12400 2.50 GHz up to 4.40 Ghz ,18MB Cache,Socket Intel LGA 1700 | Cái        | 10         | 0          | 10        
+71    | Bảng mạch chính JGINYUE H610M-D PLUS, dùng cho máy vi tính | Cái        | 10         | 0          | 10        
+72    | Ổ CỨNG GẮN TRONG SAMSUNG SSD 870 250G         | CHIẾC      | 10         | 0          | 10        
+73    | Bộ chia cổng USB ra 4 cổng, giúp kết nối với nhiều thiết bị ngoại vi khác, Model: ORICO-AH-A13/A12F, hiệu ORICO | Cái        | 10         | 0          | 10        
+74    | Camera quan sát (DH-IPC-HFW1230TL2-A-VN)      | Bộ         | 10         | 0          | 10        
+75    | Chuột không dây Rapoo M1 2.4GHz DPI 1600 màu đen. Hiệu Rapoo | Cái        | 10         | 0          | 10        
+76    | MÀN HÌNH HKC 27INCH MG27H17                   | CÁI        | 10         | 0          | 10        
+77    | BÀN PHÍM  DAREU EK 1280                       | CÁI        | 10         | 0          | 10        
+78    | MÀN HÌNH AOC 27" CURVE: C27G2Z/74             | CHIẾC      | 10         | 0          | 10        
+79    | EN46072 - Vỏ máy tính Xigmatek XA-20          | Chiếc      | 10         | 0          | 10        
+80    | Vỏ case XIGMATEK XA-22 (ATX)                  | Chiếc      | 10         | 0          | 10        
+81    | Hộp mực in HP 1010/1012/1018 (Q2612A) 2K      | hộp        | 10         | 0          | 10        
+82    | Hộp mực in HP P1102/1212NF/M1130(CE285A/CB435A) 1.6K | hộp        | 10         | 0          | 10        
+83    | Chuột máy tính DAREU EM908X _Black, Optical sw | Chiếc      | 10         | 0          | 10        
+84    | Tấm màn hình LCD hiệu INNOLUX 15.6 dùng cholaptop | cái        | 10         | 0          | 10        
+85    | BÀN PHÍM FUHLEN ERASER                        | CÁI        | 10         | 0          | 10        
+86    | Bộ vi xử lý Intel Core I3-14100 3.5 GHz turbo up to 4.7 Ghz, 12MB Cache,Socket FCLGA 1700 | Cái        | 10         | 0          | 10        
+87    | Tấm nền màn hình tinh thể lỏng LCD 15.6 inch. Model: B156XTNAA.0, là bộ phận của màn hình máy tính xách tay, khôngphải màn hình hoàn chỉnh. Hiệu: BOE, nhà sản xuất: BOE. Mới 100%. | cái        | 10         | 0          | 10        
+88    | TẤM MẠCH CHÍNH ĐÃ LẮP RÁP MSI H610            | CÁI        | 10         | 0          | 10        
+89    | Bộ nhớ trong RAM, model: DDRAM4 3200Mhz 8GB, hiệu Jginyue | Cái        | 10         | 0          | 10        
+90    | Mực đổ siêu mịn                               | Bình       | 10         | 0          | 10        
+91    | EN90519_ Vỏ máy tính Xigmatek View III        | Chiếc      | 10         | 0          | 10        
+92    | TẤM MẠCH VT-GIGABYTE -  GA B560M              | CÁI        | 10         | 0          | 10        
+93    | Dây cáp truyền tín hiệu HDTV, dùng cho máy tính dài 10m, Hiệu Arigato | Cái        | 10         | 0          | 10        
+94    | Tấm nền màn hình LCD hiệu AUO 14.0 inch dùng cho laptop | cái        | 10         | 0          | 10        
+95    | Pin ( ắc quy ion liti) ký hiệu SO21TO, dùng cho máy tính xách tay loại pin 4-12 cell, điện thế 10v-30v, dòng điện 2A-7A, dung lượng từ 1000 mAh -10000 mAh, mới 100%. | cái        | 22         | 13         | 9         
+96    | EN45969_Nguồn máy tính Xigmatek X-Power III 450 (400W, 230V) | Chiếc      | 9          | 0          | 9         
+97    | Nguồn máy tính Xigmatek X-Power III 550 (500W, 230V) | Chiếc      | 9          | 0          | 9         
+98    | Adapter dùng cho máy laptop - ADT             | Cái        | 8          | 0          | 8         
+99    | Pin KH LionMTXT4.12Coll,10V-30V,21-7A         | CÁI        | 8          | 1          | 7         
+100   | Màn hình HKC 23.8 inch MB24V39                | Chiếc      | 7          | 0          | 7         
+101   | Ổ cứng vi tính (SSD) Adata SU650 256G SATA III (ASU650SS-256GT-R) | CÁI        | 7          | 0          | 7         
+102   | Bàn phím máy tính DARE-U LK185                | Chiếc      | 7          | 0          | 7         
+103   | Bộ nhớ trong RAM Kingbank, model: KJIB DDR4 3200MHz 16GB UDIMM | Cái        | 7          | 0          | 7         
+104   | Ổ ĐĨA CỨNG SSD CỦA MÁY VI TÍNH HIỆU TEAMGROUP CX2 512GB 2.5 INCH SATA III | CÁI        | 6          | 0          | 6         
+105   | Ổ CỨNG GẮN TRONG SAMSUNG 870NEVO 250GB        | CÁI        | 6          | 0          | 6         
+106   | Ổ CỨNG APACER 120 GB AS SSD 2,5" 7MM          | CÁI        | 6          | 0          | 6         
+107   | VỎ MÁY TÍNH GIPCO GIP - 3586G                 | CÁI        | 6          | 0          | 6         
+108   | BẢNG MẠCH CHÍNH MSI H510                      | CÁI        | 6          | 0          | 6         
+109   | Quạt dùng cho máy tính Xigmatek Infinity Pro 3 | Chiếc      | 6          | 0          | 6         
+110   | Pin DE1AS 4-12cell 10v-30v 2a-7a 1000-10000mah | CÁI        | 6          | 0          | 6         
+111   | Ổ CỨNG KINGSPEC 128GB                         | CHIẾC      | 6          | 0          | 6         
+112   | Pin lithium cho máy tính xách tay, 10-30V/2A-7A, dung lượng 1000mAh-10000mAh, model AC21DE, mới 100% | cái        | 10         | 5          | 5         
+113   | Chuột máy tính DAREU LM103                    | Chiếc      | 5          | 0          | 5         
+114   | Thiết bị chuyển mạch Tp-Link, TLSG1005D       | Cái        | 5          | 0          | 5         
+115   | Củ sạc cho máy tính, chất liệu:  nhựa, input: 100-240V/50 60HZ/1.5A, output: 19.5V/3.33A, KT  chiều dài: 1.7m+-10%. Model:  XCS2.Mới100% | cái        | 5          | 0          | 5         
+116   | Bàn phím dùng cho máy tính xách tay, mã hàng : EGHKYAL20 | cái        | 5          | 0          | 5         
+117   | Bàn phím dùng cho máy tính xách tay, mã hàng : EGHKYAL21 | cái        | 5          | 0          | 5         
+118   | Màn hình HKC 21.5 inch MB21V13-U              | Chiếc      | 5          | 0          | 5         
+119   | Ổ đĩa cứng SSD của máy vi tính hiệu TeamGroup MP33 256GB M.2 PCIe Gen3x4 | CÁI        | 5          | 0          | 5         
+120   | Dây cáp truyền tín hiệu HDTV 4K,dùng cho máy tính,,chiều dài 10m,điện áp dưới 80V,mã HD84K10M | Cái        | 5          | 0          | 5         
+121   | Bộ chia cổng USB ra 4 cổng, Model: ORICO-AH-A13/A12F, hiệu ORICO | Cái        | 5          | 0          | 5         
+122   | Camera quan sát (IPC-S51FEP), phụ kiện        | Bộ         | 5          | 0          | 5         
+123   | Camera quan  sát (IPC-S31FEP), phụ kiện       | Bộ         | 5          | 0          | 5         
+124   | Thiết bị thu phát vô tuyến TP- Link , TL-WN725N | Cái        | 5          | 0          | 5         
+125   | Bàn phím máy tính DAREU LK145 BLACK           | Chiếc      | 5          | 0          | 5         
+126   | Ổ cứng SSD PATRIOT P210 dung lượng 128GB 2.5'' SATA3 P/N P210S128G25 | Chiếc      | 5          | 0          | 5         
+127   | EN49187_ Vỏ máy tính Xigmatek View II 3F      | Chiếc      | 5          | 0          | 5         
+128   | Bút trình chiếu- model: VP101, hiệu Vesine    | Cái        | 5          | 0          | 5         
+129   | Dây cáp truyền tín hiệu HDTV 4K (cáp dữ liệu tròn) dùng cho máy tính 2.0 2Kx4K PREMIUM 5M, điện áp không quá 80V, dã gắn đầu nối, cách điện bằng nhựa, chiều dài 5m, mới 100% | Cái        | 5          | 0          | 5         
+130   | HỘP MỰC IN LASER KOGON CE278A/ 85A/ 35A       | Hộp        | 5          | 0          | 5         
+131   | EN47567_ Vỏ máy tính Xigmatek XA-22           | Chiếc      | 5          | 0          | 5         
+132   | BỘ TẢN NHIỆT KHÍ CPU ID-COOLING SE-214-XT     | Cái        | 5          | 0          | 5         
+133   | Nguồn XIGMATEK X-POWER III 350                | Chiếc      | 5          | 0          | 5         
+134   | ĐĨA DVD CHỨA MÃ KÍCH HOẠT VÀ P/M HỆ ĐIỀU HÀNH WINDOW 11 PRO 64BIT ENG INTL 1PK DSP OEI DVDFQC-10528 DÙNG CÀI ĐẶT CHO HỆ Đ/HÀNH WINDOW 11 TRÊN MÁY TÍNH, HIỆU: MICROSOFT, MỚI 100% | CÁI        | 5          | 0          | 5         
+135   | Ổ CỨNG APACER 120 GB Á SSD 2,5" 7MM           | CÁI        | 5          | 0          | 5         
+136   | EN49361_Quạt dùng cho máy tính Xigmatek Infinity Pro 5 Arctic | Chiếc      | 5          | 0          | 5         
+137   | Ổ CỨNG VI TÍNH ( SSD ) Lexar SSD NS100 256GB Sata III 6Gbs ( LNS100-256RB ) | Chiếc      | 5          | 0          | 5         
+138   | Tấm nền màn hình tinh thể lỏng LCD 14.0 inch. Model: LQ140M1JW62, là bộ phận của màn hình máy tính xách tay, khôngphải màn hình hoàn chỉnh. Hiệu: HKC, nhà sản xuất: HKC. Mới 100%. | cái        | 5          | 0          | 5         
+139   | EN42775_ Vỏ máy tính Xigmatek Cubi M Black    | Chiếc      | 5          | 0          | 5         
+140   | Bảng mạch chính ASUS PRIME H610M-K D4         | Chiếc      | 5          | 0          | 5         
+141   | Bộ chuyển đổi USB WiFi Tenda U11 Pro AX900 Thẻ tín hiệu WiFi Băng tần kép Ăng-ten 6dBi cho PC Laptop | Cái        | 5          | 0          | 5         
+142   | Bút trình chiếu phát tia laser màu đỏ VP101­ Vesine | Cái        | 5          | 0          | 5         
+143   | Bộ nhớ ngoài Kingston USB 64GB DataTraveler Exodia S (DTXS/64GB) | Cái        | 5          | 0          | 5         
+144   | Mực chai Brother 2240                         | Chai       | 5          | 0          | 5         
+145   | TẢN NHIỆT KHÍ JONSBO CR- 1000 EVO (COLOR) BLACK | Chiếc      | 5          | 0          | 5         
+146   | Ổ CỨNG KINGSPEC 240 GB                        | CHIẾC      | 4          | 0          | 4         
+147   | Cục sạc máy tính xách tay, ký hiệu Dell.inc, Model FA90M11. Điện vào (110-240)V-/50HZ, Điện ra 19.5v-20v, công suất 4.62a. Mới 100% | cái        | 10         | 6          | 4         
+148   | Ổ cứng Kingspec 256GB Interface SATAIII       | Cái        | 4          | 0          | 4         
+149   | MẠCH CHÍNH VI TÍNH GIGABYTE H610M H V3 DDR4   | CÁI        | 4          | 0          | 4         
+150   | Màn hình máy tính 21.45 inch FHD Monitor; Model: FSID22DFJY; Hiệu FEUVISION | CÁI        | 4          | 0          | 4         
+151   | Ổ CỨNG SSD SAMSUNG 870 EVO 500GB              | CÁI        | 4          | 0          | 4         
+152   | Thiết bị chuyển mạch SINIC- 3108POE           | Cái        | 4          | 0          | 4         
+153   | Thiết bị chuyển đổi tín hiệu quang điện,model HTB3100-A/B kt 95*72*28mm, nguồn điện 5v2a, dùng để chuyển đổi tín hiệu quang thành tín hiệu điện và ngược lại, hiệu netlink ,mới 100 | Bộ         | 4          | 0          | 4         
+154   | Màn Hình HKC MB24V39 (FHD/120Hz/IPS)          | Chiếc      | 4          | 0          | 4         
+155   | Ổ cứng máy tính HIKSEMI HS-ESSD - T200N 256G  | Cái        | 4          | 0          | 4         
+156   | Bộ vi xử lý Intel Core I5-14400 2.50 GHz up to 4.70 GHz, 20MB Cache,socket FCLGA1700 | Cái        | 4          | 0          | 4         
+157   | Nguồn XIGMATEK X-POWER III 550                | Chiếc      | 4          | 0          | 4         
+158   | Thiết bị thu phát vô tuyến RG-EW1200G Pro     | Cái        | 4          | 0          | 4         
+159   | NGUỒN MÁY TÍNH SAMA 535                       | CHIẾC      | 4          | 0          | 4         
+160   | Củ sạc cho máy tính, chất liệu:nhựa, input: 100-240V/50-60HZ/1.7A, output: 20V/3.25A, KT chiều dài: 1.7m+-10%. Model: LE32-AS. NSX: LingTiangCo. Không có tên thương hiệu.Mới100% | cái        | 8          | 5          | 3         
+161   | MẠCH CHÍNH VT GIGABYTE-GA H510                | CÁI        | 3          | 0          | 3         
+162   | BỘ NHỚ TRONG GSKILL 16G F4-3200 C16S          | CHIẾC      | 3          | 0          | 3         
+163   | Mạch chính Asus Prime H510M-K R2.0            | Cái        | 3          | 0          | 3         
+164   | Ổ cứng 2.5" SATAIII LEXAR 256GB_ LNQ100X256G-RNNNG | Chiếc      | 3          | 0          | 3         
+165   | Thiết bị chuyển mạch TP-Link, TL-SG1008D      | Cái        | 3          | 0          | 3         
+166   | Bảng mạch chính Asus PRIME H610M-K D4         | Cái        | 3          | 0          | 3         
+167   | Túi xách                                      | Cái        | 3          | 0          | 3         
+168   | Màn hình máy tính 21.45 inch FHD Monitor; Model: FSID22DFJY; Hiệu FEUVISION | Cái        | 3          | 0          | 3         
+169   | Pin Li- ion cho máy tính xách tay, 11.4V, dung lượng 42Wh, model WDX0R, hiệu NTCO | CÁI        | 3          | 0          | 3         
+170   | Tấm màn hình LCD, kích thước: 15.6 inch, Model: NT156WHM-N44 no br, dùng cho máy tính xách tay, hiệu BOE, hàng mới 100% | CÁI        | 3          | 0          | 3         
+171   | Ổ cứng Lexar 512GB SSD NQ100 2.5"  SATA3 (LNQ100X512G-RNNNG) | Cái        | 3          | 0          | 3         
+172   | Bộ vi xử lý vi tính Intel Pentium Gold G6405  | Cái        | 3          | 0          | 3         
+173   | BẢNG MẠCH CHINH MSI H510                      | CÁI        | 3          | 0          | 3         
+174   | Ổ đĩa cứng gắn trong máy vi tính hiệu LEXAR M.2 2280 SSD 256GB (LNM620X256G - RNNNG) | CÁI        | 3          | 0          | 3         
+175   | Ổ CỨNG KINGSPEC 256GB INTERFACE SATAIII       | CÁI        | 3          | 0          | 3         
+176   | Ổ CỨNG KINGSPEC 512GB INTERFACE M.2 PCIE_NE-512 | CÁI        | 3          | 0          | 3         
+177   | Ổ cứng LEXAR 256GB_LNS100-256RB               | Chiếc      | 3          | 0          | 3         
+178   | BO MẠCH CHÍNH MÁY VI TÍNH (Main Board) MSI PRO H610M-E DDR4 (PROH610M-E-BOX) | CÁI        | 3          | 0          | 3         
+179   | Máy In Canon Laser LBP6030                    | Cái        | 3          | 0          | 3         
+180   | Ổ cứng Lexar 256GB SSD NM620 PCIe G3x4 (LNM620X256G-RNNNG) | Cái        | 3          | 0          | 3         
+181   | Vỏ máy tính Xigmatek AQua ML                  | Chiếc      | 3          | 0          | 3         
+182   | Màn hình máy tính 21.45 inch FHD Monitor FSID 22BFJ | Cái        | 3          | 0          | 3         
+183   | Ổ đĩa cứng gắn trong máy vi tính hiệu LEXAR 2.5 inche SSD 512GB (LNS100 - 512RB) | CÁI        | 3          | 0          | 3         
+184   | Tấm mạch in đã lắp ráp MSI PRO H610M-S DDR4   | Chiếc      | 3          | 0          | 3         
+185   | Ổ cứng Kingspec 256GB Interface SATAIII       | CÁI        | 3          | 0          | 3         
+186   | Củ sạc cho máy tính, chất liệu: nhựa, input: 100-240V/50 60HZ/1.5A, output: 19V/3.42A, KT chiều dài: 1.7m+-10%. Model: XCS3. Mới100% | cái        | 10         | 8          | 2         
+187   | Tản nhiệt nước cho bộ vi xử lí trung tâm (CPU), model: Aqua Elite 360 Black Argb V3, màu đen, Hiệu Thermalright | Chiếc      | 2          | 0          | 2         
+188   | Bộ nhớ trong Kingspec 16GB DDR4 3200MHZ _KS3200D4P13516G | Chiếc      | 2          | 0          | 2         
+189   | Ổ cứng SSD hiệu HIKSEMI mã HS-SSD-WAVE(P) 256G dùng cho máy tính 256G | Chiếc      | 2          | 0          | 2         
+190   | EN45976_Nguồn máy tính Xigmatek X-Power III 500 (450W, 230V) | Chiếc      | 2          | 0          | 2         
+191   | EN90526_ Vỏ máy tính Xigmatek View III 3F     | Chiếc      | 2          | 0          | 2         
+192   | Chuột vi tính Fuhlen L102                     | Cái        | 2          | 0          | 2         
+193   | Bộ vi xử lý Intel Core i5 processor 14400F 2.50 GHz up to 4.70 GHz,20MB Cache,65 W,socket FCLGA1700-BX8071514400F | Chiếc      | 2          | 0          | 2         
+194   | BO MẠCH CHỦ MÁY TÍNH ASUS PRIME H510M-K R2.0_90MB1E80-M0UAY0 | CÁI        | 2          | 0          | 2         
+195   | Camera IPC-A32EP-L                            | Cái        | 2          | 0          | 2         
+196   | Thẻ nhớ Micro SD card Kingspec Mixage 64G _MT103064 | Chiếc      | 2          | 0          | 2         
+197   | Chuột máy tính không dây EMS816B màu đen -Eblue | Chiếc      | 2          | 0          | 2         
+198   | Bộ vi xử lý Intel Pentium Gold G6405 4M Cache,4.10 GHZ)  | Cái        | 2          | 0          | 2         
+199   | Máy tính xách tay HP 15-fd2050wm Core Ultra 5- 225U 512GB SSD 8GB 15.6"FHD Touch Win 11 Natural Silver_D4JK5UA | Cái        | 2          | 0          | 2         
+200   | Mạch chính Asus Prime H610M-K D4              | Cái        | 2          | 0          | 2         
+201   | Pin li-ion dùng cho MTXT 4-12cell, 10v-30v,2A-7A,3 | cái        | 2          | 0          | 2         
+202   | BỘ NHỚ TRONG RAM KINGMAX ZEUS GLOG 43F 8GB    | CHIẾC      | 2          | 0          | 2         
+203   | BO MẠCH CHÍNH MÁY VI TÍNH (MAIN BOARD) MSI PRO H610M-E DDR4 (PROH610M-E-BOX) | CÁI        | 2          | 0          | 2         
+204   | Chíp vi xử lý Intel Pentium Gold G6400 4.0 GHz 4MB Cache Socket LGA 1200 (SRH3Y) | Cái        | 2          | 0          | 2         
+205   | Máy tính xách tay ASUS Vivobook 14 (Model: X1404V) Core 5 120U 8GB 256GB 14.0-inch FHD Intel Iris Xe Graphics Wi-Fi 6 Quiet Blue (X1404VAP-V14.C58256) | Chiếc      | 2          | 0          | 2         
+206   | Ổ cứng LEXAR NQ710 PCIe G4x4 500GB_ LNQ710X500G-RNNNG | Chiếc      | 2          | 0          | 2         
+207   | Thanh nhớ ngoài Kingston 64GB USB 3.2 DataTraveler Exodia_DTX/64GB | Chiếc      | 2          | 0          | 2         
+208   | Bo mạch chủ máy tính ASUS PRIME H610M-K D4_90MB1A10-M2UAY0 | CÁI        | 2          | 0          | 2         
+209   | Bảng mạch chính Asus PRIME H510M-K R2.0       | Cái        | 2          | 0          | 2         
+210   | Phần mềm M365 Personal English APAC Subscr 1YR Medialess ( EP2-32409 ) | Bộ         | 2          | 0          | 2         
+211   | Bộ vi xử lý AMD Ryzen 5 5500 3.6 GHz up to 4.2GHz, 19MB Cache, Socket AM4. Hiệu: AMD | Chiếc      | 2          | 0          | 2         
+212   | Vỏ máy tính Xigmatek Amun Arctic 3F           | Chiếc      | 2          | 0          | 2         
+213   | Ổ CỨNG VI TÍNH (SSD) LEXAR SSD NS100 256GB SATA III 6GBS (LNS100-256RB) | CÁI        | 2          | 0          | 2         
+214   | Phần mềm điện tử Microsoft Win Pro 11 64 bit All Lng PK Lic Online DwnLd NR-FQC-10572 | Chiếc      | 2          | 0          | 2         
+215   | Màn hình HKC MB21V13-U                        | Chiếc      | 2          | 0          | 2         
+216   | Ổ cứng SSD AIRDISK (Lexar) P10 512GB M.2 NVMe PCIe Gen3x4 | Chiếc      | 2          | 0          | 2         
+217   | Máy tính xách tay Dell Inspiron 15 3530 (P112F010) Core i5-1334U 8GB 512GB 15.6" FHD Touch Intel Iris Xe Graphics (i3530-5623BLK) | Chiếc      | 2          | 0          | 2         
+218   | Cạc màn hình Gigabyte 6GB GV-N3050WF2OCV2-6GD | CÁI        | 2          | 0          | 2         
+219   | Camera quan sát (DH-IPC-HFW1230TL2-A-VN) , phụ kiện | Bộ         | 2          | 0          | 2         
+220   | Bộ chuyển đổi nguồn dùng cho camera Hikvision DS-3E0110MP-60 | Cái        | 2          | 0          | 2         
+221   | Ổ CỨNG KINGSPEC 512GB INTERFACE SATAIII_P3-512 | CÁI        | 2          | 0          | 2         
+222   | Chíp vi xử lý Intel Core i5 14400 ,20M Cache, 4.7 GHz | Cái        | 2          | 0          | 2         
+223   | Màn hình HKC 27 inch MG27H18                  | Chiếc      | 2          | 0          | 2         
+224   | Ổ CỨNG MSI 480GB SPATIUM S270 2.5"            | CHIẾC      | 2          | 0          | 2         
+225   | Ổ cứng chuyên Camera 4Tb                      | Cái        | 2          | 0          | 2         
+226   | Tấm nền màn hình LCD hiệu BOE 15.6            | cái        | 2          | 0          | 2         
+227   | Ổ cứng SSD dùng cho máy vi tính hiệu SSTC 2.5" Sata III M110 512GB | CÁI        | 2          | 0          | 2         
+228   | Chuột máy tính DAREU LM106G Black_TM233G08601G | CÁI        | 2          | 0          | 2         
+229   | Ổ cứng vi tính (SSD) Lexar SSD NS100 256GB Sata III 6Gbs (LNS100-256RB) | CÁI        | 2          | 0          | 2         
+230   | Hộp ổ cứng 3.5"/2.5" USB 3.0, Đen, ORICO 3588US3-V1-BK-BP-HW | Chiếc      | 2          | 0          | 2         
+231   | Ổ CỨNG KINGSPEC 256GB INTERFACE SATAIII_P3-256 | CÁI        | 5          | 4          | 1         
+232   | Bảng mạch chính MSI B760M GAMING PLUS WIFI DDR4 | Cái        | 1          | 0          | 1         
+233   | Nguồn Máy Vi Tính CM MWE Bronze V3 230V 750W  | Cái        | 1          | 0          | 1         
+234   | EN48555 _Nguồn máy tính Xigmatek Hyper H750   | Chiếc      | 1          | 0          | 1         
+235   | Đĩa DVD chứa phần mềm ứng dụng dùng cho hệ điều hành máy tính Microsoft, ko chứa mật mã dân sự, Windows Pro 11 64Bit Eng Intl 1pk DSP OEI DVD.Part no: FQC-10572, mới 100% | Cái        | 1          | 0          | 1         
+236   | Bộ vi xử lý Intel Pentium Gold G6405 4.10GHz/4MB Cache/Socket LGA 1200 | Chiếc      | 1          | 0          | 1         
+237   | Thiết bị chuyển mạch Reyee RG-EG105G-V3       | Cái        | 1          | 0          | 1         
+238   | Máy quét ảnh hoặc tài liệu HP Scanjet Pro 2000 S2 Scanner- 6FW06A | Cái        | 1          | 0          | 1         
+239   | Máy in canon LBP 246DW                        | Cái        | 1          | 0          | 1         
+240   | Dây HDMI 10m                                  | Cái        | 1          | 0          | 1         
+241   | Dây HDMI 15m                                  | Cái        | 1          | 0          | 1         
+242   | Máy tính xách tay Dell DC15250 (P112F010) Core i5-1334U 8GB 512GB 15.6" FHD Touch Intel Iris Xe Graphics Windows 11 Black (DC15250-5315BLK) | Chiếc      | 1          | 0          | 1         
+243   | Ổ cứng SSD LEXAR NS100 256GB Sata III 2.5" (LNS100-256RB) | Cái        | 1          | 0          | 1         
+244   | Chíp vi xử lý Intel Core i5- 14400F 2.50 GHz up to 4.70 GHz,20MB Cache, socket FCLGA1700 | Cái        | 1          | 0          | 1         
+245   | Ổ cứng PATRIOT SSD 512G P300 M.2 2280 NVMe - P300P512GM28 | Cái        | 1          | 0          | 1         
+246   | Card VGA của máy vi tính thương hiệu ZOTAC TWIN EDGE OC RTX 5050 8GB GDDR6 | Bộ         | 1          | 0          | 1         
+247   | BỘ VI XỬ LÝ INTEL PENTIUM GOLD G6405 4M CACHE, 4.10 GHZ | CÁI        | 1          | 0          | 1         
+248   | MÀN HÌNH  LCD MSI PRO MP273W E14A 27"         | CÁI        | 1          | 0          | 1         
+249   | Bàn phím dùng cho máy tính xách tay, loại linh kiện thay thế, không tích hợp bàn di chuột, không kèm dây cáp kết nối, chất liệu vỏ bằng nhựa, model DE7567ZIN, mới 100% | CÁI        | 1          | 0          | 1         
+250   | Bàn phím dùng cho laptop, model:EDE6520SE, nhãn hiệu: SENMOER,chất liệu: nhựa, điện áp 19V3.34A,KT: 27.5­ 34.5*10.5cm+­10%. Mới 100% | CÁI        | 1          | 0          | 1         
+251   | Thiết bị kiểm soát vào ra Hikvision SH-K1T9803F | Cái        | 1          | 0          | 1         
+252   | Máy quét sách, tài liệu ET18 Pro              | Chiếc      | 1          | 0          | 1         
+253   | Bộ vi xử lý CPU Intel Core i7-14700KF 2.5 GHz up to 5.6 GHz, 33MB Cache, socket FCLGA1700 | Cái        | 1          | 0          | 1         
+254   | Ổ cứng Colorful 256GB_ SL500 256GB            | Chiếc      | 1          | 0          | 1         
+255   | BO MẠCH CHÍNH MÁY VI TÍNH (Mainboard) MSI H310M PRO-M2(H310MPRO-M2) | Cái        | 1          | 0          | 1         
+256   | Mạch chính vi tính Asus PRIME H610M-K D4      | Cái        | 1          | 0          | 1         
+257   | Bàn phím vi tính Fuhlen L411                  | Chiếc      | 1          | 0          | 1         
+258   | Chuột máy tính Fuhlen L102                    | Cái        | 1          | 0          | 1         
+259   | Bàn phím máy tính có dây, hiệu G-NET, Model: GK306, Loại bàn phím: Cơ, chất liệu phím: nhựa, Số nút: 104, Chiều dài cáp nối: 1,5m - cổng kết nối USB, có đèn LED, Hàng mới 100% | Cái        | 1          | 0          | 1         
+260   | Máy tính xách tay Dell 16 DC16251 (P131F001) Core 5 120U 512GB SSD 8GB 16" (1920x1200) TOUCHSCREEN WINDOWS 11 SILVER (LDC16251-5506SLV-PUS) | Chiếc      | 1          | 0          | 1         
+261   | Túi xách loại 1                               | Cái        | 1          | 0          | 1         
+262   | Máy Quét Ảnh Hoặc Tài Liệu HP PRO 2000S2-6FW06A | Cái        | 1          | 0          | 1         
+263   | Chíp vi xử lý Intel Core i3 12100 3.30GHz 12M 1700 | Chiếc      | 1          | 0          | 1         
+264   | Bảng mạch chính Asrock B760M PRO RS/D4        | Chiếc      | 1          | 0          | 1         
+265   | Mạch chính VT_GIGABYTE GA-A520M-K V2          | Cái        | 1          | 0          | 1         
+266   | Cạc màn hình MSI GeForce RTX 3050 VENTUS 2X E 6G OC | Cái        | 1          | 0          | 1         
+267   | Ổ cứng chưa ghi, chưa có dữ liệu, dùng cho máy tính; Model DS10HKVS-VX2; Hiệu HIKVISION | Cái        | 1          | 0          | 1         
+268   | Ổ cứng chuyên Camera 10TB                     | Cái        | 1          | 0          | 1         
+269   | Mạch chính vi tính Gigabyte H110M-M.2      | Cái        | 1          | 0          | 1         
+270   | MẠCH CHÍNH VT - GIGABYTE-GA H510              | CHIẾC      | 1          | 0          | 1         
+271   | Bộ vi xử lý AMD Ryzen 5 7500F                 | Cái        | 1          | 0          | 1         
+272   | Đầu ghi hình KTS 32 kênh ( DHI-NVR4232-4KS3), phụ kiện | Bộ         | 1          | 0          | 1         
+273   | Ổ cứng lắp trong Western Digital 4TB 3.5 '' sata3, màu tím (Purple) (WD43PURZ) | Cái        | 1          | 0          | 1         
+274   | Dây cáp mạng DS-1LN6UZC0                      | Cuộn       | 1          | 0          | 1         
+275   | Cáp mạng Cat6 FTP 305m/ thùng, hiệu Aptek     | Thùng      | 1          | 0          | 1         
+276   | Cáp mạng Cat 6 UTP 305m/thùng, Hiệu Aptek     | Thùng      | 1          | 0          | 1         
+277   | Đầu ghi hình KTS 8 kênh (DHI-NVR1108HS-S3/H), phụ kiện | Bộ         | 1          | 0          | 1         
+278   | Vỏ máy tính Xigmatek XA-22                    | Cái        | 1          | 0          | 1         
+279   | Máy in Laser trắng đen HP LaserJet M211d (9YF82A) | Cái        | 1          | 0          | 1         
+280   | Ổ CỨNG VI TÍNH ( SSD ) Lexar SSD NM620 256GB M.2 2280 PCIe Gen3x4 (LNM620X256G-RNNNG )(LNM620X256G-RNNNG) | Cái        | 1          | 0          | 1         
+281   | Nguồn máy tính Xigmatek X-Power III 450       | Cái        | 1          | 0          | 1         
+282   | Quạt tản nhiệt (fan gen 12 sk 1700 Black) dùng cho máy vi tính, điện áp 12V, công suất 2.4W, không hiệu | Cái        | 1          | 0          | 1         
+283   | Chíp vi xử lý Intel Core i3-12100             | Cái        | 1          | 0          | 1         
+284   | Bảng mạch chính Asus PRIME H610M-K D4         | Chiếc      | 1          | 0          | 1         
+285   | Ổ cứng Kingspec 256GB Interface SataIII P3-256 | Chiếc      | 1          | 0          | 1         
+286   | Cạc màn hình Asus 6GB DUAL-RTX3050-O6G        | Cái        | 1          | 0          | 1         
+287   | Phần mềm Windows 11 Pro 64-bit All Lng PK Lic Online DwnLd NR FQC-10572_Retail Online ESD | Chiếc      | 1          | 0          | 1         
+288   | Chíp vi xử lý INTEL CORE i3 14100F - 3.50 GHZ (BX8071514100F SRMX2 ) + Quạt | Cái        | 1          | 0          | 1         
+289   | Card đồ họa ASUS GT1030-SL-2G-BRK_90YV0AT0-M0NA00 | Chiếc      | 1          | 0          | 1         
+290   | Bảng mạch chính ASUS TUF GAMING B760M-PLUS WIFI D4 | Chiếc      | 1          | 0          | 1         
+291   | Nguồn XIGMATEK X-POWER III 650                | Chiếc      | 1          | 0          | 1         
+292   | Máy quét Ricoh fi8270 (PA03810B551)           | Chiếc      | 1          | 0          | 1         
+293   | Máy quét Ricoh iX2400 (PA03870-B101)          | Cái        | 1          | 0          | 1         
+294   | Bộ vi xử lý Intel Core i7-14700 3.4 GHz up to 5.4 GHz, 30MB Cache, socket FCLGA1700 | Cái        | 1          | 0          | 1         
+295   | Hộp ổ cứng 2.5" USB 3.0, Đen, ORICO 25PW1-U3-BK-HW | Chiếc      | 1          | 0          | 1         
+296   | Vỏ máy tính Xigmatek Cubi M Black             | Chiếc      | 1          | 0          | 1         
+297   | Màn hình Vi Tính Dell LCD-U2424H-23.8-WHD-3Y  | Bộ         | 1          | 0          | 1         
+298   | Bàn phím máy tính DAREU EK98L Grey-black,Dream switch | Chiếc      | 1          | 0          | 1         
+299   | Bàn phím dùng cho MTXT hiệu SONTEPAT: KHGHHN25 | CÁI        | 1          | 0          | 1         
+300   | BỘ NHỚ RAM CỦA MÁY VI TÍNH XÁCH TAY TEAMGROUP ELITE 8GB DDR5-5600 | CÁI        | 1          | 0          | 1         
+301   | Nguồn XIGMATEK THOR T750 V3 (750w ,80 Plus Bronze ) | Chiếc      | 1          | 0          | 1         
+302   | Thiết bị định tuyến băng tần 2,4Ghz, W-CDMA FDD/E-UTRA FDD, TP-LINK, TL-MR100 | Cái        | 1          | 0          | 1         
+303   | Máy in Laser Canon LBP 243DW II NK            | Cái        | 1          | 0          | 1         
+304   | Chíp vi xử lý Intel Core i3 processor 14100 3.50 GHz up to 4.70 GHz,12MB Cache,60 W,socket FCLGA1700-CM8071505092206 | Cái        | 1          | 0          | 1         
+305   | Card màn hình MSI RTX 3050 VENTUS 2X 6G OC    | Chiếc      | 1          | 0          | 1         
+306   | Bộ nhớ trong RAM Kingbank, model: KJIB DDR4 3200MHz 16GB, dùng trong máy tính để bàn | Chiếc      | 1          | 0          | 1         
+307   | Máy chiếu hiệu Panasonic PT-VX610             | Cái        | 1          | 0          | 1         
+308   | Màn chiếu treo 70 x 70                        | Cái        | 1          | 0          | 1         
+309   | MÀN HÌNH VI TÍNH (LCD) AOC 27B30H/74 27 INCH/1920x1080/120Hz/IPS/VGA/HDMI/ĐEN(27B30H/74) | Cái        | 1          | 0          | 1         
+310   | Bàn phím dùng cho máy tính xách tay, loại linh kiện thay thế, không tích hợp bàn di chuột, không kèm dây cáp kết nối, chất liệu vỏ bằng nhựa , model B4R1ZL300_MSIGL66LEDDO, nhãn hiệu DATAVIUM, mới 100% | CÁI        | 1          | 0          | 1         
+311   | Bàn phím dùng cho máy tính xách tay, loại linh kiện thay thế, không tích hợp bàn di chuột, không kèm dây cáp kết nối, chất liệu vỏ bằng nhựa , model Q5H8VA120_DE3541ZIN, nhãn hiệu DATAVIUM, mới 100% | CÁI        | 1          | 0          | 1         
+312   | Bàn phím dùng cho máy tính xách tay, mã hàng : EGHKYAL21 | CÁI        | 1          | 0          | 1         
+313   | EN90069_ Vỏ máy tính Xigmatek AQua MS Arctic  | Chiếc      | 1          | 0          | 1         
+314   | Chuột máy tính EM6102 màu trắng E-Dra         | Chiếc      | 1          | 0          | 1         
+315   | Bàn phím EK312 Beta E-Dra                     | Chiếc      | 1          | 0          | 1         
+316   | HỘP MỰC IN LASER KOGON Q7516A/ 309            | Hộp        | 1          | 0          | 1         
+317   | Dịch vụ chữ ký số I-CA - Gói DKM_3N_TC_CD     | Gói        | 1          | 0          | 1         
+318   | Thiết bị Token ePass2003 (bao gồm vỏ hộp + phong bì) | Chiếc      | 1          | 0          | 1         
+319   | Thiết bị kiểm soát vào ra Hikvision SH-K1 T9803F | Chiếc      | 1          | 0          | 1         
+320   | Màn hình máy tính 23.8 inch FHD Monitor; Model: FSID24BFIY; Hiệu FEUVISION | CÁI        | 1          | 0          | 1         
+321   | Màn hình máy vi tính để bàn (desktop), kích thước: 23.6 inch , hiệu: GLOWY, model: GW24 | Chiếc      | 1          | 0          | 1         
+322   | Máy in Canon laser LBP6030W                   | cái        | 1          | 0          | 1         
+323   | Máy in Canon LBP 243dw                        | Chiếc      | 1          | 0          | 1         
+324   | Cạc màn hình Asus 8GB DUAL-RTX5050-8G         | Cái        | 1          | 0          | 1         
+325   | Đầu ghi hình KTS 16 kênh (DHI-NVR4116HS-4KS3), phụ kiện | Bộ         | 1          | 0          | 1         
+326   | Ổ cứng gắn trong Seagate 4000GB               | Cái        | 1          | 0          | 1         
+327   | Bộ chuyển đổi nguồn dùng cho camera Hikvision DS-3E0106MP-35 | Cái        | 1          | 0          | 1         
+328   | Tivi UHD Samsung UA43DU7000KXXV               | bộ         | 1          | 0          | 1         
+329   | Cáp dữ liệu VIDEO HDMI HD175 8K dài 1.5M Ugreen (45431) | chiếc      | 1          | 0          | 1         
+330   | Chíp vi xử lý Intel Core i3 10105 3.7Ghz/6M/1200  | chiếc      | 1          | 0          | 1         
+331   | Bộ nhớ ram của máy vi tính hiệu TeamGroup Elite 8GB DDR4-3200 | cái        | 1          | 0          | 1         
+332   | Ổ cứng máy tính SSD 256GB Kingmax             | cái        | 1          | 0          | 1         
+333   | EN49132_ Vỏ máy tính Xigmatek XS- 25          | chiếc      | 1          | 0          | 1         
+334   | Nguồn máy tính Delta 350W nhãn hiệu VSP, model: P350W, công suất 350W | cái        | 1          | 0          | 1         
+335   | Màn hình LCD MSI MAG 274CXF 27                | Cái        | 1          | 0          | 1         
+336   | EN43826_Vỏ máy tính Xigmatek Alphard Arctic 3GF | Chiếc      | 1          | 0          | 1         
+337   | Bộ chíp vi xử lý CPU Intel Core i5-12400F     | Chiếc      | 1          | 0          | 1         
+338   | Ổ cứng SSD LEXAR NM610 PRO 500GB M.2 2280 Gen 3x4 NVMe | Chiếc      | 1          | 0          | 1         
+339   | Phần Mềm Microsoft office professional plus 2021 English APAC DM (SKU-79P-05746) | Chiếc      | 1          | 0          | 1         
+340   | Phần mềm Windows Pro 11 64Bit Eng Intl 1pk DSP OEI (FQC-10572) | Chiếc      | 1          | 0          | 1         
+341   | Máy in canon LBP 246DW II                     | Cái        | 1          | 0          | 1         
+342   | Hộp mực in HP P1102 ( 1212N/P1005) (CB435A/CE285A) | Hộp        | 1          | 0          | 1         
+343   | 760237040: Thanh đấu nối dạng rỗng, chuẩn SL, 1U, 24 cổng 9-1375191-2: Ổ cắm mạng không chống nhiễu cat5e, RJ45, chuẩn SL, màu đen | Cái        | 1          | 0          | 1         
+344   | Chíp vi xử lý Intel Core i5 14400F ,20M Cache, 4.7 GHz | Cái        | 1          | 0          | 1         
+345   | Mạch chính Asus TUF Gaming B760M-PLUS WIFI II | Chiếc      | 1          | 0          | 1         
+346   | Màn hình HKC 27 inch MG27H17                  | Chiếc      | 1          | 0          | 1         
+347   | Cạc màn hình MSI RTX 5060 8G SHADOW 2X OC     | Chiếc      | 1          | 0          | 1         
+348   | Bàn phím máy tính DAREU EK87 v2 Gray-black,Dream switch | Chiếc      | 1          | 0          | 1         
+349   | Chuột máy tính DAREU EM911 _Black             | Chiếc      | 1          | 0          | 1         
+350   | Ổ cứng SSD PATRIOT P210 dung lượng 256GB 2.5'' SATA3 P/N P210S256G25 | Chiếc      | 1          | 0          | 1         
+351   | Ổ cứng Kingspec 256GB Interface SATAIII_P3-256 | Chiếc      | 1          | 0          | 1         
+352   | Bộ vi xử lý AMD Ryzen 7 7800X3D 4.2 GHz up to 5.0GHz, 104MB Cache, Socket AM5 | Cái        | 1          | 0          | 1         
+353   | EN46575_Tản nhiệt nước Xigmatek FENIX II 360  | Chiếc      | 1          | 0          | 1         
+354   | Tủ mạng 19'' 20U-D800                         | Cái        | 1          | 0          | 1         
+355   | Phần mềm Windows 11 Pro 64-bit All Lng PK Lic Online DwnLd NR FQC-10572_ Retail Online ESD | Chiếc      | 1          | 0          | 1         
+356   | Bảng mạch chính HUANANZHI X99-F8D PLUS        | Chiếc      | 1          | 0          | 1         
+357   | Máy in bill Epson TM-T82IV ( USB+Serial+LAN, P/n C31CL47412 ) | cái        | 1          | 0          | 1         
+358   | Bàn phím dùng cho máy tính xách tay, loại linh kiện thay thế, không tích hợp bàn di chuột, không kèm dây cáp kết nối, chất liệu vỏ bằng nhựa , model N3C7QD17A_DE7466LIGHT, nhãn hiệu DATAVIUM, mới 100% | CÁI        | 1          | 0          | 1         
+359   | ổ cứng lắp trong Western Digital 2TB 3.5"Sata 3,màu xanh(Blue)(WD20EZBX) | Cái        | 1          | 0          | 1         
+360   | Bộ nhớ trong RAM, model: KJXS DDR4 3200MHz 16GB UDIMM. Hiệu Kingbank | Cái        | 1          | 0          | 1         
+361   | Màn hình màu tinh thể lỏng dùng cho máy tính để bàn, Led monitor 24", nhãn hiệu: DUAN, model: DA-IP2409S, thông số điện: 12V DC/ 2.5A. Mới 100% | Bộ         | 1          | 0          | 1         
+362   | Máy In Brother HL-L2321D                      | Cái        | 1          | 0          | 1         
+363   | Bộ sạc laptop replacement AC Adapter, Model: ADP-180W-DH, INPUT 100-240V 2A 50/60HZ, OUTPUT:20V-9A, sạc có dây, màu đen, không hiệu. Mới 100% | CÁI        | 1          | 0          | 1         
+364   | Pin Li- ion cho máy tính xách tay, 11.25V, dung lượng 41Wh, model G91J0, hiệu NTCO. NSX: HuiZhou WuFeng Electronic Co., Ltd. Hàng mới 100% | CÁI        | 1          | 0          | 1         
+365   | Tấm màn hình LCD, kích thước: 15.6 inch, Model: NV156FHM-N4V, dùng cho máy tính xách tay, hiệu: BOE, hàng mới 100% | CÁI        | 1          | 0          | 1         
+366   | Cục sạc của Laptop 19.5V.4.62 A7.4x5.0        | cái        | 1          | 1          | 0         
+367   | Máy in HP laser M211DW (9YF83A)               | cái        | 1          | 1          | 0         
+368   | Máy tính xách tay Dell 15 DC15250, Intel(R) Core(TM) i5-1334U, 15.6"FHD, 16G(1x16G), 512GB SSD, 3 Cell-41Whr, Win 11 Home, OfficeHome24, OS365, BH 12 tháng, DC5I5357W1-Silver | bộ         | 1          | 1          | 0         
+369   | Túi máy tính xách tay Dell 15.6'              | chiếc      | 1          | 1          | 0         
+370   | Bo mạch chính máy vi tính Asus PRIME H510M-K  | cái        | 1          | 1          | 0         
+371   | Nhân công vệ sinh máy tính                    | -          | 0          | 0          | 0         
+372   | Pin ( ắc quy ion liti) ký hiệu AC21DE, dùng cho máy tính xách tay loại pin 4-12 cell, điện thế 10v-30v, dòng điện 2A-7A, dung lượng từ 1000 mAh -10000 nAh, mới 100% | cái        | 10         | 10         | 0         
+373   | Tấm màn hình LCD hiệu BOE 15.6 dùng cho laptop | cái        | 5          | 5          | 0         
+374   | Tấm nền màn hình LCD hiệu BOE 14.0 inch dùng cho laptop | cái        | 5          | 5          | 0         
+375   | Nhân công lắp đặt bảo trì                     | -          | 0          | 0          | 0         
+376   | Hóa đơn thay thế cho hóa đơn điện tử mẫu 1 ký hiệu C26THT số 27 lập ngày 24/07/2026 | -          | 0          | 0          | 0         
+377   | khách hàng mua hàng trên shope                | -          | 0          | 0          | 0         
+378   | Hóa đơn thay thế cho hóa đơn điện tử mẫu 1 ký hiệu C26THT số 44 lập ngày 24/08/2026 | -          | 0          | 0          | 0         
+379   | Hộp mộ ực SK-TN022 Komax                      | hộp        | 0          | 1          | -1        
+380   | Máy In Brother HL-L2321D                      | cái        | 0          | 1          | -1        
+381   | MẠCH CHÍNH VT - GIGABYTE-GA H510              | cái        | 0          | 1          | -1        
+382   | Vỏ máy tính Xigmatek Cubi M Black             | cái        | 0          | 1          | -1        
+383   | Bộ thu sóng wifi USB (thiết bị truyền dữ liệu băng rộng, hoạt động trong băng tần 2,4GHz), model BLWN155A, có chức năng thu sóng wifi sử dụng cho máy vi tính, hiệu LB-Link | cái        | 0          | 1          | -1        
+384   | Mực chai Brother 2240CA                       | hộp        | 0          | 1          | -1        
+385   | Bộ máy tính để bàn (Bảng mạch chính Asus PRIME H610M-K D4; Chíp vi xử lý Intel Core i3-12100; Quạt tản nhiệt (fan gen 12 sk 1700 Black); Bộ nhớ trong RAM, model: KJIB DDR4 3200MHz 8GB UDIMM. Hiệu Kingbank;; Ổ CỨNG VI TÍNH ( SSD ) Lexar SSD NM620 256GB M.2 2280 PCIe Gen3x4 (LNM620X256GRNNNG )(LNM620X256G-RNNNG); Nguồn máy tính Xigmatek X-Power III 450; Vỏ máy tính Xigmatek XA-22; 'MÀN HÌNH MÁY TÍNH 27 INCH FHD MONITOR FSID27BFI; HIỆU FEUVISION) | cái        | 0          | 1          | -1        
+386   | Bộ máy tính để bàn (CPU Intel Core i7 14700 /Mainboard Asus TUF GAMING B760M-PLUS WIFI DDR4 - RAM Kingbank 32G (16Gx2) DDR4 3200MHz Black - Tản nhiệt nước cho bộ vi xử lí trung tâm (CPU), model: Aqua Elite 360 Black Argb V3, màu đen, Hiệu Thermalright - Ổ cứng SSD Lexar NQ710 500GB PCIe Gen4 x4 NVMe  - VỎ CASE XIGMATEK GAMING X II 3F - Nguồn CST xigmatek X650  - Màn hình HKC MB24V39 23.8 inch - Bàn Phím Dareu LK145 - Chuột Dareu LM103) | bộ         | 0          | 1          | -1        
+387   | Máy quét/ Scanner HP 2000 S2                  | cái        | 0          | 1          | -1        
+388   | 'EN45952_Nguồn máy tính Xigmatek X-Power III 350(250W, 230V) | cái        | 0          | 1          | -1        
+389   | Mạch chính vi tính Gigabyte B760M G P WIFI DDR4 | cái        | 0          | 1          | -1        
+390   | Chíp vi xử lý Intel Core i5 14400F ,20M Cache, 4.7 GHz | cái        | 0          | 1          | -1        
+391   | Ổ cứng 2.5" SATAIII LEXAR 256GB_ LNQ100X256G-RNNNG | cái        | 0          | 1          | -1        
+392   | Màn hình HKC 27 inch MG27H18                  | cái        | 0          | 1          | -1        
+393   | Bảng mạch chính Asus PRIME B760M-F D4         | CÁI        | 0          | 1          | -1        
+394   | Bộ vi xử lý AMD Ryzen 5 7500F                 | CÁI        | 0          | 1          | -1        
+395   | Màn hình máy tính 21.5 inch Hikvision DS-D5022F2-1V2 | CÁI        | 0          | 1          | -1        
+396   | BỘ MÁY TÍNH ĐỂ BÀN (Mạch chính Gigabyte B760M; CPU Intel Core i7-14700KF; Tản nhiệt nước Thermalright Aqua Elite 360; DRAM KINGBANK 32G (16G x 2) BUS 3200Mhz; Ổ ĐĨA CỨNG SSD CỦA MÁY VI TÍNH HIỆU TEAMGROUP CX2 512GB; Ổ cứng chuyên Camera 10TB; Cạc màn hình Asus 8GB DUAL-RTX5050-8G; Cạc màn hình Asus 6GB DUAL-RTX3050-O6G; Nguồn máy tính Xigmatek X-POWER III 650; Vỏ máy tính Xigmatek View II 3F; Màn hình Gaming Cong MSI MAG 275CF X24; Bàn phím máy tính DAREU LK145; Phần mềm Windows 11Pro 64Bit ). | cái        | 0          | 1          | -1        
+397   | Bàn phím máy tính DAREU LK185 Black_TK577U08601G | CÁI        | 0          | 1          | -1        
+398   | Ổ cứng Lexar 256GB SSD NM620 PCIe G3x4 (LNM620X256G-RNNNG) | CÁI        | 0          | 1          | -1        
+399   | Máy in Laser trắng đen HP LaserJet M211d (9YF82A) | cái        | 0          | 1          | -1        
+400   | Đầu ghi hình KTS 16 kênh (DHI-NVR4116HS-4KS3), phụ kiện | Cái        | 0          | 1          | -1        
+401   | Ổ cứng gắn trong Seagate 4000GB               | cái        | 0          | 1          | -1        
+402   | Bộ chuyển đổi nguồn dùng cho camera Hikvision DS-3E0106MP-35 | cái        | 0          | 1          | -1        
+403   | Màn hình HKC 21.5 inch MB21V13-U              | CÁI        | 0          | 1          | -1        
+404   | EN45969_Nguồn máy tính Xigmatek X-Power III 450 (400W, 230V) | CÁI        | 0          | 1          | -1        
+405   | Máy tính xách tay ASUS Vivobook 14 (Model: X1404V) Core 5 120U 8GB 256GB 14.0-inch FHD Intel Iris Xe Graphics Wi-Fi 6 Quiet Blue (X1404VAP-V14.C58256) | Cái        | 0          | 1          | -1        
+406   | MÀN HÌNH MÁY TÍNH 23.8 INCH FHD MONITOR FSID24BFIY; HIỆU FEUVISION | Cái        | 0          | 1          | -1        
+407   | Máy quét sách, tài liệu ET18 Pro              | cái        | 0          | 1          | -1        
+408   | Ổ CỨNG KINGSPEC 512GB INTERFACE M.2 PCIE_NE-512 | cái        | 0          | 1          | -1        
+409   | EN47567_ Vỏ máy tính Xigmatek XA-22           | cái        | 0          | 1          | -1        
+410   | Ổ cứng 2.5 " SATAIII LEXAR 512GB_ LNS100- 512RB | cái        | 0          | 1          | -1        
+411   | Bộ máy vi tính để bàn(-Bảng mạch chính Asus PRIME H510M-K R2.0-Ổ CỨNG KINGSPEC 256GB INTERFACE SATAIII_P3-256-Bộ vi xử lý Intel Pentium Gold G6405 4.10GHz/4MB Cache/Socket LGA 1200-EN45952_Nguồn máy tính Xigmatek X-Power III 350(250W, 230V)-Bàn phím MTXT hiệu SONTEPAT-EGHKYAL16-Chuột máy tính DARE-U LM103G)-Màn hình máy tính 21.5 inch Hikvision DS-D5022F2-1V2) | bộ         | 0          | 1          | -1        
+412   | Thiết bị kiểm soát vào ra hikvision SH-K1T9803F | cái        | 0          | 1          | -1        
+413   | Ổ CỨNG SSD COLORFUL SL500 256GB               | cái`       | 0          | 1          | -1        
+414   | gạt mực 009                                   | cái        | 0          | 1          | -1        
+415   | Chi phí lắp đặt                               | công       | 0          | 1          | -1        
+416   | BỘ MÁY TÍNH ĐỂ BÀN (Mạch chính Gigabyte B760M; CPU Intel Core i7-14700KF 2.5 GHz; Tản nhiệt nước Thermalright Aqua Elite 360; RAM KINGBANK 32G (16g X2) BUS 3200Mhz; SSD Lexar NQ710 500GB M.2 PCIe NVMe; Ổ cứng chuyên Camera 10TB; Cạc màn hình Asus 8GB DUAL-RTX5050-8G; Cạc màn hình Asus 6GB DUAL-RTX3050-O6G; Nguồn máy tính Xigmatek X-POWER III 650; Vỏ máy tính Xigmatek View II 3F; Màn hình Gaming Cong MSI MAG 275CF X24; Bàn phím máy tính DAREU LK145; Phần mềm Windows 11Pro 64Bit ). | cái        | 0          | 1          | -1        
+417   | Máy tính xách tay Dell Inspiron 15 3530       | cái        | 0          | 1          | -1        
+418   | Vỏ máy vi tính CASE MIK BARBATOS M BLACK      | cái        | 0          | 1          | -1        
+419   | Đầu ghi hình KTS 32 kênh ( DHI-NVR4232-4KS3), phụ kiện | bộ         | 0          | 1          | -1        
+420   | Ổ cứng lắp trong Western Digital 4TB 3.5 '' sata3, màu tím (Purple) (WD43PURZ) | bộ         | 0          | 1          | -1        
+421   | Dây cáp mạng DS-1LN6UZC0                      | cuộn       | 0          | 1          | -1        
+422   | Cáp mạng Cat6 FTP 305m/ thùng, hiệu Aptek     | thùng      | 0          | 1          | -1        
+423   | Máy tính xách tay Dell 16 DC16251 (P131F001) Core 5 120U 512GB SSD 8GB 16" (1920x1200) TOUCHSCREEN WINDOWS 11 SILVER. | cái        | 0          | 1          | -1        
+424   | 'Tấm nền màn hình LCD hiệu BOE 15.6           | Cái        | 0          | 1          | -1        
+425   | BẢNG MẠCH CHINH MSI H510                      | cái        | 0          | 1          | -1        
+426   | Ổ cứng LEXAR 256GB_LNS100-256RB               | cái        | 0          | 1          | -1        
+427   | EN46575_Tản nhiệt nước Xigmatek FENIX II 360  | cái        | 0          | 1          | -1        
+428   | EN45969_Nguồn máy tính Xigmatek X-Power III 450 (400W, 230V) | cái        | 0          | 1          | -1        
+429   | Mạch chính vi tính Gigabyte H110M-M.2      | cái        | 0          | 1          | -1        
+430   | Tivi LED Coocaa 43S3U                         | cái        | 0          | 1          | -1        
+431   | Bàn phím dùng cho máy tính xách tay, loại linh kiện thay thế, không tích hợp bàn di chuột, không kèm dây cáp kết nối, chất liệu vỏ bằng nhựa, model DE7567ZIN, mới 100% | cái        | 0          | 1          | -1        
+432   | Máy Quét Ảnh Hoặc Tài Liệu HP PRO 2000S2- 6FW06A | cái        | 0          | 1          | -1        
+433   | Máy tính xách tay Dell 15 DC15250             | Cái        | 0          | 1          | -1        
+434   | Bộ máy tính để bàn (Bộ vi xử lý Intel Core I3-14100 3.5 GHz turbo up to 4.7 Ghz, 12MB Cache,Socket FCLGA 1700; Bộ nhớ trong RAM, model: KJIB DDR4 3200MHz 8GB UDIMM. Hiệu Kingbank; BO MẠCH CHÍNH MÁY VI TÍNH (Main Board) MSI PRO H610M-E DDR4 (PROH610M-E-BOX); EN49608_Nguồn máy tính Xigmatek X-Power III 350 (250W, 230V)) | cái        | 0          | 1          | -1        
+435   | Màn hình HKC 21.5 inch MB21V13-U              | cái        | 0          | 1          | -1        
+436   | Bộ máy tính để bàn (MẠCH CHÍNH VI TÍNH H610M H V3; Chíp vi xử lý Intel Core i5- 14400F 2.50 GHz up to 4.70 GHz,20MB Cache, socket FCLGA1700; Bộ nhớ Ram PC hiệu SSTC 8GB DDR4 3200Mhz; SSD Lexar NQ710 500GB M.2 PCIe Gen4 x4 NVMe LNQ710X500G; Nguồn máy tính Xigmatek X-POWER III 650 - 600W; Vỏ máy tính Xigmatek View II 3F; Màn hình máy tính 21.5 inch Hikvision DS-D5022F2-1V2; Bàn phím máy tính DAREU LK185 Black; Chuột DAREU EM908X _Black, Optical ) | cái        | 0          | 1          | -1        
+437   | Tấm màn hình LCD 14.0                         | CÁI        | 0          | 1          | -1        
+438   | Bộ chia cổng USB ra 4 cổng, giúp kết nối với nhiều thiết bị ngoại vi khác, Model: ORICO-AH-A13/A12F, hiệu ORICO | cái        | 0          | 1          | -1        
+439   | Cục sạc máy tính xách tay, ký hiệuDell.inc, Model FA90M11. Điện vào(110-240)V-/50HZ, Điện ra 19.5v-20vcông suất 4.62a. Mới 100% | cái        | 0          | 1          | -1        
+440   | HỘP MỰC IN LASER KOGON Q7516A/ 309            | cái        | 0          | 1          | -1        
+441   | EN46072 - Vỏ máy tính Xigmatek XA-20          | cái        | 0          | 1          | -1        
+442   | Máy tính xách tay Dell Inspiron 15 3530 (P112F010) Core i5-1334U 8GB 512GB 15.6" FHD Touch Intel Iris Xe Graphics (i3530-5623BLK) | chiếc      | 0          | 1          | -1        
+443   | Túi xách                                      | cái        | 0          | 1          | -1        
+444   | Bộ máy tính để bàn (TẤM MẠCH IN ĐÃ LẮP RÁP MSI H610; Bộ vi xử lý Intel Core I3-14100 3.5 GHz turbo up to 4.7 Ghz, 12MB Cache,Socket FCLGA 1700; Ổ cứng LEXAR 256GB_LNS100-256RB; BỘ NHỚ RAM KINGMAX ZEUS GLOG43G 8GB; EN45952_Nguồn máy tính Xigmatek X-Power III 350(250W, 230V); EN49132_ Vỏ máy tính Xigmatek XS- 25; Bàn phím máy tính DAREU LK185; Chuột máy tính DAREU LM103_TM201U08603G; MÀN HÌNH MÁY TÍNH 21.45 INCH FHD MONITOR) | Bộ         | 0          | 1          | -1        
+445   | Bộ lưu điện Santak - Mã hàng TG 1250 Pro      | CÁI        | 0          | 1          | -1        
+446   | Bảng mạch chính Asus PRIME H610M-K D4         | CÁI        | 0          | 1          | -1        
+447   | Dây HDMI 10m                                  | cái        | 0          | 1          | -1        
+448   | Dây HDMI 15m                                  | cái        | 0          | 1          | -1        
+449   | Bàn phím máy tính DAREU EK98L Grey-black,Dream switch | cái        | 0          | 1          | -1        
+450   | Thiết bị chuyển mạch Reyee RG-EG105G-V3       | cái        | 0          | 1          | -1        
+451   | hiết bị định tuyến băng tần 2,4Ghz, W-CDMA FDD/E-UTRA FDD, TP-LINK, TL-MR100 | cái        | 0          | 1          | -1        
+452   | TẤM MẠCH IN ĐÃ LẮP RÁP MSI H610               | cái        | 0          | 1          | -1        
+453   | Máy in Laser Canon LBP 243DW II NK            | cái        | 0          | 1          | -1        
+454   | Mực chai Brother 2240CA                       | cái        | 0          | 1          | -1        
+455   | Hộp ổ cứng 2.5" USB 3.0, Đen, ORICO 25PW1-U3- BK-HW | cái        | 0          | 1          | -1        
+456   | Cục sạc máy tính xách tay, ký hiệuDell.inc, Model FA90M11 | Cái        | 0          | 1          | -1        
+457   | Cáp dữ liệu VIDEO HDMI HD175 8K               | Cái        | 0          | 1          | -1        
+458   | Bộ máy vi tính để bàn - Mạch chính Asus TUF Gaming B760M - Chíp vi xử lý Intel Core i5 14400F ,20M Cache, 4.7 GHz  - Cạc màn hình MSI RTX 5060 8G SHADOW 2X OC - Màn hình Vi Tính Dell LCD-U2424 - Màn hình HKC 27 inch MG27H17 - Ổ cứng PATRIOT SSD 512G P300 M.2 2280 NVMe - Nguồn máy tính Xigmatek X-Power III 650 - Tản nhiệt nước Xigmatek FENIX II 360 - BBàn phím máy tính DAREU EK98L Grey-black,Dream switch - Chuột máy tính DAREU EM911 _ Black - Vỏ máy tính Xigmatek View II 3F | Bộ         | 0          | 1          | -1        
+459   | BO MẠCH CHÍNH MÁY VI TÍNH (MAIN BOARD) MSI PRO H610M-E DDR4 (PROH610M-E-BOX) | cái        | 0          | 1          | -1        
+460   | Chíp vi xử lý Intel Core i3 processor 14100 3.50 GHz up to 4.70 GHz,12MB Cache,60 W,socket | cái        | 0          | 1          | -1        
+461   | Bộ vi xử lý Intel Pentium Gold G6405 4M Cache,4.10 GHZ | cái        | 0          | 1          | -1        
+462   | Vỏ case máy tính màu trắng nhãn hiệu VSP, model: X3 PRO | cái        | 0          | 1          | -1        
+463   | MÀN HÌNH MÁY TÍNH 23.8 INCH FHD               | cái        | 0          | 1          | -1        
+464   | Dây cáp truyền tín hiệu HDTV 4K,dùng cho máy tính,,chiều dài 10m,điện áp dưới 80V,mã HD84K10M | cái        | 0          | 1          | -1        
+465   | Bộ máy tính để bàn (Mạch chính vi tính Asus H610 -K, CPU Intel Core i5 14400 (Intel LGA1700 - 10 Core - 16 Thread - Base 2.5Ghz - Turbo 4.7Ghz - Cache 20MB), DDRAM KINGBANK 16G BUS 3200 tản, Ổ ĐĨA CỨNG SSD CỦA MÁY VI TÍNH HIỆU TEAMGROUP CX2 512GB 2.5 INCH SATA III, Nguồn máy tính Xigmatek X-POWER III 350 - 300W, Vỏ case XIGMATEK XA-22 (ATX) EN47567, Màn Hình Gaming AOC CU34B3E 34 inch 2K (W-QHD/VA/120Hz/1ms), Bàn phím + chuột Dareu LK185) | cái        | 0          | 1          | -1        
+466   | Máy In Canon Laser LBP6030                    | cái        | 0          | 1          | -1        
+467   | Máy in Canon LBP 243dw                        | chiếc      | 0          | 1          | -1        
+468   | MÀN HÌNH MÁY TÍNH 27 INCH FHD MONITOR FSID27BFI; HIỆU FEUVISION | cái        | 0          | 1          | -1        
+469   | 'Bộ loa có dây máy tính,gồm 2 loa(trái và phải),đã lắp vỏ riêng biệt, model:M22,công suất:30W, ĐA:220V,dải tần: 100-20kHz,hiệu:X-STAR,mới100% | cái        | 0          | 1          | -1        
+470   | Cạc màn hình Asus 6GB DUAL-RTX3050-O6G        | cái        | 0          | 1          | -1        
+471   | Máy quét Ricoh fi8270 (PA03810B551)           | cái        | 0          | 1          | -1        
+472   | Máy quét Ricoh iX2400 (PA03870-B101)          | cái        | 0          | 1          | -1        
+473   | Thiết bị kiểm soát vào ra Hikvision SH-K1 T9803F | cái        | 0          | 1          | -1        
+474   | Ổ cứng Lexar 256GB SSD NM620 PCIe G3x4 (LNM620X256G-RNNNG) | cái        | 0          | 1          | -1        
+475   | Chuột vi tính Fuhlen B07S                     | cái        | 0          | 1          | -1        
+476   | Nguồn máy tính Xigmatek POLIMA M26-600        | cái        | 0          | 1          | -1        
+477   | Máy in bill Epson TM-T82IV ( USB+Serial+LAN, P/n C31CL47412 ) | Cái        | 0          | 1          | -1        
+478   | BỘ MÁY TÍNH ĐỂ BÀN (Mạch chính vi tính Gigabyte A520M K; Bộ vi xử lý AMD Ryzen 5 3200G; Bộ nhớ trong RAM Kingbank KJIB DDR4 3200MHz 16GB; Ổ cứng LEXAR 256GB_LNS100-256RB; Nguồn máy tính Xigmatek X-Power III 350(250W, 230V); Vỏ máy tính Xigmatek XA-20; MÀN HÌNH MÁY TÍNH 23.8 INCH FHD HIỆU FEUVISION; Bàn phím máy tính DAREU LK185 Black; Chuột máy tính DARE-U LM106G Black;  Phần Mềm Microsoft office professional plus 2021 English APAC DM; Phần mềm Windows Pro 11 64Bit Eng Intl 1pk DSP OEI) | Bộ         | 0          | 1          | -1        
+479   | Máy quét ảnh hoặc tài liệu HP Pro 3000 S4 -6FW07a | CÁI        | 0          | 1          | -1        
+480   | Đầu ghi hình KTS 16 kênh (DHI- NVR5216-EI2), phụ kiện | bộ         | 0          | 1          | -1        
+481   | Camera truyền hình DH-IPC- HDW1439V-A-IL-VN; Hiệu Dahua | cái        | 0          | 1          | -1        
+482   | ổ cứng lắp trong Western Digital 6TB 3.5\" Sata3, màu tím(Purple) (WD64PURZ) | cái        | 0          | 1          | -1        
+483   | Thiết bị chuyển mạch cấp nguồn cho camera có switch mạng 8 cổng POE DS-3E1310P-EI/M | cái        | 0          | 1          | -1        
+484   | ổ cứng lắp trong Western Digital 2TB 3.5"Sata 3,màu xanh(Blue)(WD20EZBX) | cái        | 0          | 1          | -1        
+485   | Bộ máy tính để bàn (Mạch chính vi tính Asus PRIME H610M-K D4; Bộ vi xử lý Intel Core I5-14400 2.50 GHz up to 4.70 GHz, 20MB Cache,socket FCLGA1700; BỘ NHỚ TRONG KINGSPEC 16GB 3200 MHZ; Ổ CỨNG VI TÍNH ( SSD ) Lexar SSD NM620 256GB M.2 2280 PCIe Gen3x4; Nguồn XIGMATEK X-POWER III 550; Vỏ máy tính Xigmatek View II 3F; Bàn phím vi tính Fuhlen L411; Chuột máy tính Fuhlen L102; Màn hình HKC 23.8 inch MB24V39; Phần mềm Windows 11 Pro 64-bit All Lng PK Lic Online DwnLd NR FQC-10572_ Retail Online ESD) | Bộ         | 0          | 1          | -1        
+486   | Mạch chính Asus Prime H610M-K                 | cái        | 0          | 1          | -1        
+487   | Chíp vi xử lý Intel Core i3 12100 3.30GHz 12M 1700 | cái        | 0          | 1          | -1        
+488   | Bộ nhớ trong RAM, model: KJIB DDR4 3200MHz 8GB UDIMM | cái        | 0          | 1          | -1        
+489   | MÀN HÌNH MÁY TÍNH 23.8 INCH FHD MONITOR FSID24BFIY | cái        | 0          | 1          | -1        
+490   | Vỏ máy tính Xigmatek XS- 25                   | cái        | 0          | 1          | -1        
+491   | Thiết bị thu phát vô tuyến RUIJIE_RG-RAP62    | cái        | 0          | 1          | -1        
+492   | MẠCH CHÍNH VI TÍNH GIGABYTE H610M H V3 DDR4   | cái        | 0          | 1          | -1        
+493   | EN45952_Nguồn máy tính Xigmatek XPower III 350(250W, 230V) | cái        | 0          | 1          | -1        
+494   | Chuôṭ máy t ́ ınh DARE-U LM103G             | cái        | 0          | 1          | -1        
+495   | Máy in Canon laser LBP6030                    | cái        | 0          | 2          | -2        
+496   | Cục sạc máy tính xách tay, ký hiệuDell.inc, Model FA90M11 | cái        | 0          | 2          | -2        
+497   | Bo mạch chính/ Mainboard Asus PRIME A520M-K   | cái        | 0          | 2          | -2        
+498   | EN42775_ Vỏ máy tính Xigmatek Cubi M Black    | cái        | 0          | 2          | -2        
+499   | Bàn phím máy tính DAREU LK145 BLACK           | cái        | 0          | 2          | -2        
+500   | Chuột máy tính DAREU EM908X _Black, Optical sw | cái        | 0          | 2          | -2        
+501   | Chíp vi xử lý Intel Core i5 14400 ,20M Cache, 4.7 GHz | cái        | 0          | 2          | -2        
+502   | Màn hình máy tính 21.45 inch FHD Monitor FSID22BFJ | cái        | 0          | 2          | -2        
+503   | Bộ loa có dây máy tính,gồm 2 loa(trái và phải),đã lắp vỏ riêng biệt, model:M22,công suất:30W | cái        | 0          | 2          | -2        
+504   | Bộ chuyển đổi USB WiFi Tenda U11 Pro AX900 Thẻ tín hiệu WiFi Băng tần kép Ăng-ten 6dBi cho PC | cái        | 0          | 2          | -2        
+505   | Thiết bị chuyển đổi tín hiệu quang điện,model HTB3100-A/B kt 95*72*28mm, nguồn điện 5v2a | cái        | 0          | 2          | -2        
+506   | Bộ máy tính để bàn (Bảng mạch chính Asus PRIME H610M-K D4; Bộ vi xử lý Intel Core i5-12400 2.50 GHz; Bộ nhớ trong Kingspec 16GB DDR4 3200MHZ ; Ổ cứng SSD hiệu HIKSEMI mã HSSSD-WAVE(P) 256G dùng cho máy tính; Nguồn máy tính Xigmatek X-Power III 500 (450W, 230V); EN90526_ Vỏ máy tính Xigmatek View III 3F; Màn hình HKC 23.8 inch MB24V39; Chuột vi tính Fuhlen L102; Bàn phím máy tính DAREU LK145 Black; Phần mềmđiện tử Microsoft Win Pro 11 64 bit All Lng PK Lic Online) | Bộ         | 0          | 2          | -2        
+507   | Bộ Máy Tính Để Bàn (BO MẠCH CHÍNH MÁY VI TÍNH MSI PRO H610M-E DDR4 ; Chíp vi xử lý Intel Pentium Gold G6400 4.0 GHz 4MB Cache Socket LGA 1200 (SRH3Y) ; Bộ nhớ trong RAM, model: DDRAM4 3200Mhz 8GB, hiệu Jginyue; Ổ cứng Kingspec 256GB Interface SATAIII; Vỏ case Xigmatek XA-20; Màn hình máy tính 21.45 inch FHD Monitor; Model: FSID22DFJY; Hiệu FEUVISION; Bàn phím máy tính DAREU LK185 Black; Chuột máy tính DAREU LM103) | Bộ         | 0          | 2          | -2        
+508   | BỘ TẢN NHIỆT KHÍ CPU ID-COOLING SE-214-XT     | cái        | 0          | 2          | -2        
+509   | Camera quan sát (DH-IPC-HFW1230TL2-A-VN) , phụ kiện | cái        | 0          | 2          | -2        
+510   | Bộ chuyển đổi nguồn dùng cho camera Hikvision DS-3E0110MP-60 | cái        | 0          | 2          | -2        
+511   | Cáp mạng Cat 6 UTP 305m/thùng, Hiệu Aptek     | thùng      | 0          | 2          | -2        
+512   | Máy chiếu hiệu Panasonic PT-VX610             | cái        | 0          | 2          | -2        
+513   | Màn hình máy chiếu                            | cái        | 0          | 2          | -2        
+514   | Bút trình chiếu phát tia laser màu đỏ VP101 Vesine | cái        | 0          | 2          | -2        
+515   | Bộ nhớ Ram PC hiệu SSTC 8GB DDR4 3200Mhz AMD/Intel | cái        | 0          | 2          | -2        
+516   | Vỏ máy tính Xigmatek XA-22                    | cái        | 0          | 2          | -2        
+517   | Ổ cứng Lexar 256GB SSD NM620 PCIe G3x4 (LNM620X256G-RNNNG | cái        | 0          | 2          | -2        
+518   | Ổ cứng PATRIOT SSD 512G P300 M.2 2280 NVMe - P300P512GM28 | cái        | 0          | 2          | -2        
+519   | CPU Intel Pentium Gold G6405 (Intel LGA1200 - 2 Core - 4 Thread - Base 4.1Ghz - Cache 4MB) | cái        | 0          | 2          | -2        
+520   | Bộ máy tính để bàn ( Bộ vi xử lý Intel Pentium Gold G6405 4M Cache,4.10 GHZ), BẢNG MẠCH CHÍNH MSI H510, Ổ cứng 2.5" SATAIII LEXAR 256GB_ LNQ100X256G, Bộ nhớ Ram PC hiệu SSTC 8GB DDR4 3200Mhz AMD/Intel, Nguồn máy tính Xigmatek X-Power III 350 (250W, 230V), Vỏ máy tính Xigmatek XS-25, Màn hình HKC 21.5 inch MB21V13-U, Bàn phím máy tính DAREU LK185 Black_TK577U08601G, Chuột máy tính DARE-U LM103G, Bàn di chuột; Model: L­11; 200mmx250mm) | cái        | 0          | 2          | -2        
+521   | Bộ nhớ ngoài Kingston USB 64GB DataTraveler Exodia S (DTXS/64GB) | cái        | 0          | 2          | -2        
+522   | Ổ cứng SSD PATRIOT P210 dung lượng 128GB 2.5'' SATA3 P/N P210S128G25 | cái        | 0          | 2          | -2        
+523   | Camera IP ngoài trời Imou IPC-B7ED-5M0TEA-EU/FSP14 | cái        | 0          | 2          | -2        
+524   | Gạt mực 009                                   | cái        | 0          | 2          | -2        
+525   | Bộ máy tính để bàn  (Mạch chính vi tính Gigabyte H610M K, Ram Kingbank 32GB (16GB x2) DDR4 3600MHz Tản nhiệt, Bộ vi xử lý Intel Core I5-14400 2.50 GHz up to 4.70 GHz, 20MB Cache,socket FCLGA1700, Ổ ĐĨA CỨNG SSD CỦA MÁY VI TÍNH HIỆU TEAMGROUP CX2 512GB 2.5 INCH SATA III, Nguồn máy tính Xigmatek X-Power III 650 (600W, 230V), MÀN HÌNH MÁY TÍNH 23.8 INCH FHD MONITOR FSID24BFIY, Vỏ máy tính Xigmatek XA-22, Bàn phím máy tính DAREU LK185, Chuột máy tính DAREU LM103, HỆ ĐIỀU HÀNH WINDOW 11 PRO 64BIT) | bộ         | 0          | 2          | -2        
+526   | Máy Quét Ảnh Hoặc Tài Liệu HP PRO 2000S2-6FW06A | cái        | 0          | 2          | -2        
+527   | Camera quan sát (IPC-S51FEP), phụ kiện        | bộ         | 0          | 2          | -2        
+528   | Chíp vi xử lý Intel Core i5- 14400F 2.50 GHz up to 4.70 GHz,20MB Cache, socket FCLGA1700 | cái        | 0          | 2          | -2        
+529   | Củ sạc cho máy tính, chất liệu: nhựa, input: 100-240V/50 60HZ/1.5A, output: 19V/3.42A, KT chiều dài: 1.7m+-10%. Model: XCS3. Mới100% | cái        | 0          | 2          | -2        
+530   | Tấm màn hình LCD, kích thước: 14 inch, Model: MB140CS01-4 no br, MB140AN01-3, dùng cho máy tính xách tay, hiệu: HKC, hàng mới 100% | cái        | 0          | 2          | -2        
+531   | Ổ cứng SSD HIKSEMI (2.5inch SATA3) dung lượng 256GB P/N: HS-SSD-WAVE(S) 256G | Cái        | 0          | 2          | -2        
+532   | EN45990_Nguồn máy tính Xigmatek X-Power III 650 (600W, 230V) | CÁI        | 0          | 2          | -2        
+533   | Mực chai Brother                              | bình       | 0          | 2          | -2        
+534   | Adapter dùng cho máy 
+laptop - ADT            | CÁI        | 0          | 2          | -2        
+535   | Mực chai Brother                              | bình       | 0          | 2          | -2        
+536   | Thiết bị thu phát vô tuyến TP- Link , TL-WN725N | cái        | 0          | 2          | -2        
+537   | Bàn phím máy tính DAREU EK87 v2 Gray-black,Dream switch | cái        | 0          | 2          | -2        
+538   | Thanh nhớ ngoài Kingston 64GB USB 3.2 DataTraveler Exodia_DTX/64GB | cái        | 0          | 2          | -2        
+539   | Máy quét ảnh hoặc tài liệu HP Pro 3000 S4 -6FW07a | cái        | 0          | 2          | -2        
+540   | Bộ nhớ trong RAM, model: DDRAM4 3200Mhz 8GB, hiệu Jginyue | cái        | 0          | 2          | -2        
+541   | EN49132_ Vỏ máy tính Xigmatek XS-25           | cái        | 0          | 2          | -2        
+542   | VỎ MÁY TÍNH GIPCO GIP - 3586G                 | cái        | 0          | 2          | -2        
+543   | Nguồn máy tính Xigmatek XPower III 450 (400W, 230V) | cái        | 0          | 2          | -2        
+544   | Bộ vi xử lý Intel Core I5-14400 2.50 GHz up to 4.70 GHz, 20MB Cache,socket FCLGA1700 | cái        | 0          | 2          | -2        
+545   | Ổ cứng Lexar 512GB SSD NQ100 2.5" SATA3 (LNQ100X512G-RNNNG) | cái        | 0          | 2          | -2        
+546   | Bộ nhớ trong RAM Kingbank, model: KJIB DDR4 3200MHz 16GB UDIMM | cái        | 0          | 2          | -2        
+547   | Pin lithium cho máy tính xách10-30V/2A-7A, dung lượng1000mAh-10000mAh, model AC21DEmới 100% | cái        | 0          | 3          | -3        
+548   | Gạt từ máy in                                 | cái        | 0          | 3          | -3        
+549   | Mực chai Brother                              | BÌNH       | 0          | 3          | -3        
+550   | Máy in canon LBP 246DW                        | cái        | 0          | 3          | -3        
+551   | Bảng mạch chính Asus PRIME H610M-K D4         | cái        | 0          | 3          | -3        
+552   | Ổ CỨNG KINGSPEC 256GB INTERFACE SATAIII_P3-256 | cái        | 0          | 3          | -3        
+553   | EN49132_ Vỏ máy tính Xigmatek XS- 25          | cái        | 0          | 3          | -3        
+554   | Máy tính xách tay HP 15-fd2050wm Core Ultra 5- 225U 512GB SSD 8GB 15.6"FHD Touch Win 11 Natural Silver_D4JK5UA | cái        | 0          | 3          | -3        
+555   | Bộ Máy Tính Để Bàn (BO MẠCH CHÍNH MÁY VI TÍNH MSI PRO H610M-E DDR4 ; Bộ vi xử lý Intel Core i5-12400 2.50 GHz up to 4.40 Ghz ,18MB Cache,Socket Intel LGA 1700; Bộ nhớ trong RAM, model: DDRAM4 3200Mhz 8GB, hiệu Jginyue; Ổ cứng Kingspec 256GB Interface SATAIII; Vỏ case Xigmatek XA-20; Màn hình máy tính 21.45 inch FHD Monitor; Model: FSID22DFJY; Hiệu FEUVISION; Bàn phím máy tính DAREU LK185 Black; Chuột máy tính DAREU LM103) | Bộ         | 0          | 3          | -3        
+556   | Bộ vi xử lý Intel Pentium Gold G6405 4M Cache,4.10 GHZ) | cái        | 0          | 3          | -3        
+557   | Chuột máy tính DAREU LM106G Black_TM233G08601G | cái        | 0          | 3          | -3        
+558   | Ổ ĐĨA CỨNG SSD CỦA MÁY VI TÍNH HIỆU TEAMGROUP CX2 512GB 2.5 INCH SATA III | cái        | 0          | 3          | -3        
+559   | Mực chai Brother 2240                         | cái        | 0          | 3          | -3        
+560   | Thiết bị chuyển mạch Tp-Link, TLSG1005D       | bộ         | 0          | 3          | -3        
+561   | Bo mạch chính máy vi tính Asus PRIME H510M-K  | CÁI        | 0          | 3          | -3        
+562   | Chíp vi xử lý Intel Core i3 10105 3.7Ghz/6M/1200 | CÁI        | 0          | 3          | -3        
+563   | Ổ cứng máy tính SSD 256GB Kingmax             | CÁI        | 0          | 3          | -3        
+564   | Nguồn máy tính Delta 350W nhãn hiệu VSP,model: P350W, công suất 350W | CÁI        | 0          | 3          | -3        
+565   | Màn hình máy tính 21.45
+ inch FHD Monitor FSID22BFJ | CÁI        | 0          | 3          | -3        
+566   | Màn hình máy tính 21.45 inch FHD Monitor FSID 22BFJ | CÁI        | 0          | 3          | -3        
+567   | Quạt dùng cho máy tính Xigmatek Infinity Pro 3 | cái        | 0          | 3          | -3        
+568   | Thiết bị chuyển mạch TP-Link, TL-SG1008D      | cái        | 0          | 3          | -3        
+569   | Củ sạc cho máy tính, chất liệu: nhựa, input: 100-240V/50 60HZ/1.5A, output: 19.5V/3.33A, KT chiều dài: 1.7m +-10%. Model: XCS2.Mới100% | cái        | 0          | 3          | -3        
+570   | Pin Li- ion cho máy tính xách tay, 11.55V, dung lượng 41.9Wh, model HT03XL, hiệu NTCO | cái        | 0          | 3          | -3        
+571   | Dây cáp truyền tín hiệu HDTV 4K (Cáp dữ liệu tròn) dùng cho máy tính 2.0 2Kx4K PREMIUM 5m, điện áp dưới 80V, đã gắn đầu nối, cách điện bằng nhựa, chiều dài 5m, mới 100% | cái        | 0          | 3          | -3        
+572   | Adapter dùng cho máy laptop - ADT             | cái        | 0          | 3          | -3        
+573   | Dây cáp mạng CAT5E UTP 25AWG cường lực        | cuộn       | 0          | 3          | -3        
+574   | Ổ CỨNG VI TÍNH (SSD) Lexar SSD NS100 256GB Sata III 6Gbs (LNS100-256RB) | cái        | 0          | 4          | -4        
+575   | Bộ nhớ ram của máy vi tính hiệu TeamGroup Elite 8GB DDR4-3200 | CÁI        | 0          | 4          | -4        
+576   | Ổ CỨNG APACER 120 GB Á SSD 2,5" 7MM           | cái        | 0          | 4          | -4        
+577   | HỘP MỰC IN LASER KOGON CE278A/ 85A/ 35A       | cái        | 0          | 4          | -4        
+578   | BẢNG MẠCH CHÍNH MSI H510                      | cái        | 0          | 4          | -4        
+579   | Mực đổ siêu mịn                               | cái        | 0          | 4          | -4        
+580   | Máy tính xách tay Dell 16 DC16251 (P131F001) Core 5 120U 512GB SSD 8GB 16" (1920x1200) TOUCHSCREEN WINDOWS 11 SILVER | cái        | 0          | 4          | -4        
+581   | Bộ loa có dây máy tính,gồm 2 loa(trái và phải),đã lắp vỏ riêng biệt, model:M22,công suất:30W, ĐA:220V,dải tần: 100-20kHz,hiệu:X-STAR,mới100% | cái        | 0          | 4          | -4        
+582   | Ổ CỨNG MSI 480GB SPATIUM S270 2.5"            | cái        | 0          | 4          | -4        
+583   | BỘ NHỚ TRONG GSKILL 16G F4-3200 C16S          | cái        | 0          | 4          | -4        
+584   | Thiết bị chuyển mạch SINIC- 3108POE           | cái        | 0          | 4          | -4        
+585   | Thiết bị chuyển đổi tín hiệu quang điện,model HTB3100-A/B kt 95*72*28mm, nguồn điện 5v2a, dùng để chuyển đổi tín hiệu quang thành tín hiệu điện và ngược lại, hiệu netlink ,mới 100 | bộ         | 0          | 4          | -4        
+586   | Thiết bị chuyển mạch Tp-Link, TLSG1005D       | cái        | 0          | 4          | -4        
+587   | Thiết bị thu phát vô tuyến RG-EW1200G Pro     | cái        | 0          | 4          | -4        
+588   | Bộ nhớ Ram PC hiệu SSTC 8GB DDR4 3200Mhz AMD  | cái        | 0          | 4          | -4        
+589   | T253TZ256G0C101 2.5" SATA3 T-FORCE VULCAN Z SSD 256GB | cái        | 0          | 4          | -4        
+590   | Camera quan sát Hikvision DS- 2DE2C400IWG/W W | cái        | 0          | 4          | -4        
+591   | Bảng mạch chính Asus PRIME H510M-K R2.0       | cái        | 0          | 5          | -5        
+592   | Rulo ép HP1010/1020 * Canon 2900              | cái        | 0          | 5          | -5        
+593   | Ổ cứng máy tính HIKSEMI HS-ESSD - T200N 256G  | cái        | 0          | 5          | -5        
+594   | Tấm màn hình LCD hiệu INNOLUX 15.6 dùng cholaptop | CÁI        | 0          | 5          | -5        
+595   | Bàn di chuột; Model: L­11; 200mmx250mm        | CÁI        | 0          | 5          | -5        
+596   | Gạt từ HP 1010/1020 (12A/49A/53A)             | cái        | 0          | 5          | -5        
+597   | Bộ máy tính để bàn (TẤM MẠCH IN ĐÃ LẮP RÁP MSI H610; Bộ vi xử lý Intel Core I3-14100 3.5 GHz turbo up to 4.7 Ghz, 12MB Cache,Socket FCLGA 1700; Bộ nhớ trong RAM, model: DDRAM4 3200Mhz 8GB, hiệu Jginyue; EN49608_Nguồn máy tính Xigmatek X-Power III 350 (250W, 230V);  Ổ CỨNG KINGSPEC 512GB INTERFACE SATAIII_P3-512; MÀN HÌNH MÁY TÍNH 27 INCH FHD MONITOR FSID27BFI; HIỆU FEUVISION; Chuột máy tính DAREU LM103_TM201U08603G; Bàn phím máy tính DAREU LK185) | bộ         | 0          | 5          | -5        
+598   | Bảng mạch chính JGINYUE H610M-D PLUS          | cái        | 0          | 5          | -5        
+599   | Bộ nhớ Ram PC hiệu SSTC 8GB DDR4 3200Mhz AMD/Intel; model: U3200A-C22-8GB | cái        | 0          | 5          | -5        
+600   | Bàn phím máy tính DAREU LK185 Black           | cái        | 0          | 5          | -5        
+601   | Chuột máy tính DAREU LM103                    | cái        | 0          | 5          | -5        
+602   | Thẻ nhớ EXCERIA CL10 U3 V30 4K A1 dung lượng 128GB Kioxia LMEX2L128GG4 | cái        | 0          | 6          | -6        
+603   | Pin DE1AS 4-12cell 10v-30v 2a-7a 1000-10000mah | cái        | 0          | 6          | -6        
+604   | Chuột máy tính DARE-U LM103G               | CÁI        | 0          | 6          | -6        
+605   | Mực đổ siêu mịn                               | BÌNH       | 0          | 6          | -6        
+606   | EN49608_Nguồn máy tính Xigmatek X-Power III 350 (250W, 230V) | cái        | 0          | 6          | -6        
+607   | EN49132_ Vỏ máy tính Xigmatek XS- 25          | CÁI        | 0          | 6          | -6        
+608   | Màn hình máy tính 21.5 inch Hikvision DS-D5022F2-1V2 | cái        | 0          | 6          | -6        
+609   | Camera (DH-IPC-HFW2449T-AS- IL), phụ kiện     | cái        | 0          | 6          | -6        
+610   | Bao lụa máy in                                | cái        | 0          | 7          | -7        
+611   | EN45990_Nguồn máy tính Xigmatek X-Power III 650 (600W, 230V) | cái        | 0          | 7          | -7        
+612   | EN45952_Nguồn máy tính Xigmatek X-Power III 350(250W, 230V) | cái        | 0          | 7          | -7        
+613   | Bàn di chuột 20*25 2mm A                      | cái        | 0          | 7          | -7        
+614   | Ổ CỨNG KINGSPEC 256GB INTERFACE SATAIII       | cái        | 0          | 7          | -7        
+615   | Ổ cứng cắm trong SSD Teamgroup T253TZ256G0C101 2.5" SATA3 T-FORCE VULCAN Z SSD 256GB | cái        | 0          | 7          | -7        
+616   | MẠCH CHÍNH VT GIGABYTE-GA H510                | cái        | 0          | 7          | -7        
+617   | Túi chống sốc                                 | cái        | 0          | 7          | -7        
+618   | Bảng mạch chính JGINYUE H610M-D PLUS, dùng cho máy vi tính | cái        | 0          | 7          | -7        
+619   | Nguồn máy tính Xigmatek X-Power III 350 (250W, 230V) | cái        | 0          | 7          | -7        
+620   | NGUỒN SAMA 535                                | cái        | 0          | 8          | -8        
+621   | Màn hình HKC 23.8 inch MB24V39                | cái        | 0          | 8          | -8        
+622   | Bộ nhớ trong RAM, model: KJIB DDR4 3200MHz 8GB UDIMM. Hiệu Kingbank | cái        | 0          | 8          | -8        
+623   | Màn hình MTXT LCD 14 inch                     | cái        | 0          | 8          | -8        
+624   | Ổ CỨNG KINGSPEC 240 GB                        | cái        | 0          | 8          | -8        
+625   | Bàn Phím dùng cho MTXT hiệu SONTEPAT mã S510HKD19 | CÁI        | 0          | 8          | -8        
+626   | NGUỒN MÁY TÍNH SAMA 535                       | cái        | 0          | 8          | -8        
+627   | BỘ NHỚ RAM KINGMAX ZEUS GLOG43G 8GB           | cái        | 0          | 9          | -9        
+628   | Ổ CỨNG SSD COLORFUL SL500 256GB               | cái        | 0          | 9          | -9        
+629   | Nguồn máy tính Xigmatek X-Power III 350(250W, 230V) | cái        | 0          | 9          | -9        
+630   | Bộ vi xử lý Intel Core i5-12400 2.50 GHz up to 4.40 Ghz ,18MB Cache,Socket Intel LGA 1700 | cái        | 0          | 9          | -9        
+631   | Bộ máy tính để bàn (TẤM MẠCH CHÍNH ĐÃ LẮP RÁP MSI H610; BỘ NHỚ TRONG KINGSPEC 16GB 3200 MHZ; Ổ CỨNG GẮN TRONG SAMSUNG SSD 870 250G; BÀN PHÍM FUHLEN ERASER; CHUỘT GAMING KHÔNG DÂY NEWMEN G7; VỎ MÁY TÍNH SAMA 330; Nguồn máy tính Xigmatek X-Power III 650; Màn hình HKC 27 inch MG27H11) | bộ         | 0          | 10         | -10       
+632   | Bộ máy tính để bàn (TẤM MẠCH VT-GIGABYTE - GA B560M; BỘ NHỚ TRONG KINGSPEC 16GB 3200 MHZ; Vỏ máy tính Xigmatek View III; CHUỘT GAMING KHÔNG DÂY NEWMEN G7; Bàn phím Dareu EK1280; Nguồn máy tính Xigmatek X-Power III 650; Màn hình AOC 27” CURVE C27G2Z/74; Ổ CỨNG SSD SAMSUNG 870 EVO 500GB x4; Ổ CỨNG GẮN TRONG SAMSUNG 870NEVO 250GB x6) | bộ         | 0          | 10         | -10       
+633   | Túi chống số                                  | cái        | 0          | 10         | -10       
+634   | Chuột máy tính DARE-U LM106G Black            | cái        | 0          | 10         | -10       
+635   | Chuột máy tính không dây EMS816 Eblue      | cái        | 0          | 10         | -10       
+636   | Camera quan sát (DH-IPC-HFW1230TL2-A-VN)      | bộ         | 0          | 10         | -10       
+637   | Gạt mực HP1010/1200/1320 (12A/15A /49A Universal) | CÁI        | 0          | 10         | -10       
+638   | Pin ( ắc quy ion liti) ký hiệu SO21TO, dùng cho máy tính xách tay loại pin 4-12 cell, điện thế 10v-30v, dòng điện 2A-7A, dung lượng từ 1000 mAh -10000 mAh, mới 100%. | CÁI        | 0          | 10         | -10       
+639   | Chuột không dây Rapoo M1 2.4GHz DPI 1600 màu đen. Hiệu Rapoo | cái        | 0          | 10         | -10       
+640   | BỘ NHỚ RAM KINGMAX ZEUS GLOG43F 8GB           | cái        | 0          | 11         | -11       
+641   | MÀN HÌNH MÁY TÍNH 21.45 INCH FHD MONITOR; MODEL: FSID22DFJY; HIỆU FEUVISION | cái        | 0          | 11         | -11       
+642   | Pin KH LionMTXT4.12Coll,10V-30V,21-7A         | cái        | 0          | 11         | -11       
+643   | Vỏ máy tính Xigmatek XS-25                    | cái        | 0          | 11         | -11       
+644   | Ổ CỨNG KINGSPEC 128GB                         | cái        | 0          | 12         | -12       
+645   | Mực chai siêu mịn HP 1320                     | chai       | 0          | 13         | -13       
+646   | Camera quan sát (DH-IPC-HDW1230T2-A), phụ kiện | cái        | 0          | 13         | -13       
+647   | HỘP MỰC IN LASER KOGON Q2612A/ 303            | cái        | 0          | 13         | -13       
+648   | Trống máy in HP 1010/1020 (ES -HP 1010)       | CÁI        | 0          | 13         | -13       
+649   | Bộ thu sóng wifi USB (thiết bị truyền dữ liệu băng rộng, hoạt động trong băng tần 2,4GHz), model BL-WN155A, có chức năng thu sóng wifi sử dụng cho máy vi tính, hiệu LB-Link | cái        | 0          | 14         | -14       
+650   | BỘ NHỚ TRONG GSKILL 16G F4 - 3200 C16S        | cái        | 0          | 14         | -14       
+651   | Bàn Phím dùng cho MTXT hiệu SONTEPAT mã S510HKD19 | cái        | 0          | 14         | -14       
+652   | MÀN HÌNH MÁY TÍNH 23.8 INCH FHD MONITOR FSID24BFIY; HIỆU FEUVISION | cái        | 0          | 14         | -14       
+653   | Mực chai siêu mịn HP 1320                     | bình       | 0          | 15         | -15       
+654   | Chuột máy tính không dây ESM816 Eblue         | cái        | 0          | 15         | -15       
+655   | Bàn phím máy tính DAREU LK185                 | cái        | 0          | 15         | -15       
+656   | Bàn phím máy tính DAREU LK185 Black_TK577U08601G | chiếc      | 0          | 16         | -16       
+657   | Gạt mực HP1010/1200/1320(12A/15A/49A Universal | cái        | 0          | 18         | -18       
+658   | Rulo ép HP 1010/1020* canon 2900              | cái        | 0          | 18         | -18       
+659   | Trống máy in HP 1010/1020 (É-HP1010)          | cái        | 0          | 20         | -20       
+660   | Trống máy in                                  | cái        | 0          | 22         | -22       
+661   | Camera quan sát (DH-IPC-HDW1230T2-A), phụ kiện | bộ         | 0          | 22         | -22       
+662   | Mực chai siêu mịn HP 1320                     | cái        | 0          | 23         | -23       
+663   | Phần mềm M365 Personal English APAC Subscr 1YR Medialess (EP2-32409) | bộ         | 0          | 31         | -31       
+664   | Màn hình MTXT LCD 15.6 inch                   | cái        | 0          | 33         | -33       
+665   | Tấm nền màn hình LCD 15.6                     | cái        | 0          | 41         | -41       
+666   | Bàn di chuột; Model: L­11; 200mmx250mm        | cái        | 0          | 41         | -41       
+667   | Tấm nền màn hình LCD 14.0                     | cái        | 0          | 47         | -47       
+668   | Chuột máy tính DARE-U LM103G               | cái        | 0          | 49         | -49       
+669   | Trống máy in HP 1010/1020 (ES -HP 1010)       | cái        | 0          | 61         | -61       
+670   | Chuột máy tính DAREU LM103_TM201U08603G       | cái        | 0          | 70         | -70       
+671   | Bàn phím máy tính DAREU LK185 Black_TK577U08601G | cái        | 0          | 76         | -76       
+672   | Gạt mực HP1010/1200/1320 (12A/15A /49A Universal) | cái        | 0          | 85         | -85       
+673   | Bàn phím MTXT hiệu SONTEPAT-EGHKYAL16         | cái        | 0          | 109        | -109      
+674   | Dây điện VCmo 2x1.0 Cadivi                    | mét        | 0          | 200        | -200      
+675   | Dây cáp mạng internet LAN chưa lắp với đầu nối điện, 24AWG 0.52MM CCAG. Cách điện HDPE + Vỏ bọc PVC.Model : CAT5E FTP | mét        | 0          | 305        | -305      
+676   | Cáp mạng Cat6 FTP 305m/ thùng, hiệu Aptek     | mét        | 0          | 1220       | -1220     

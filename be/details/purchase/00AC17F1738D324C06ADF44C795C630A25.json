@@ -1,0 +1,366 @@
+{
+  "nbmst": "1602212740",
+  "khmshdon": 1,
+  "khhdon": "C26TYY",
+  "shdon": 2981,
+  "cqt": "8911",
+  "cttkhac": [],
+  "dvtte": "VND",
+  "hdon": "01",
+  "hsgcma": "0ade637c-6c41-4a79-b7cd-28da0a7bf692",
+  "hsgoc": "8ce14d6d-3a95-48f2-90bd-e107518da50c",
+  "hthdon": 1,
+  "htttoan": 9,
+  "id": "03fcf785-ba13-4449-8f9e-d0c7c17f6e75",
+  "idtbao": null,
+  "khdon": null,
+  "khhdgoc": null,
+  "khmshdgoc": null,
+  "lhdgoc": null,
+  "mhdon": "00AC17F1738D324C06ADF44C795C630A25",
+  "mtdiep": null,
+  "mtdtchieu": "V0100109106C44447C1E49E4E17BF1FBE918FE4C8F0",
+  "nbdchi": "Ấp Hòa Hưng, Xã An Châu, Tỉnh An Giang, Việt Nam",
+  "chma": null,
+  "chten": null,
+  "nbhdktngay": null,
+  "nbhdktso": null,
+  "nbhdso": null,
+  "nblddnbo": null,
+  "nbptvchuyen": null,
+  "nbstkhoan": "4777798",
+  "nbten": "CÔNG TY TNHH VI TÍNH HUỲNH LÂM",
+  "nbtnhang": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN Á CHÂU - CHI NHÁNH AN GIANG",
+  "nbtnvchuyen": null,
+  "nbttkhac": [],
+  "ncma": "2026-08-27T06:04:11.919Z",
+  "ncnhat": "2026-08-27T06:04:11.929Z",
+  "ngcnhat": "tvan_viettel",
+  "nky": "2026-08-27T06:04:11Z",
+  "nmdchi": "Số nhà 201 Tôn Thất Thuyết, Phường Nam Đông Hà, Tỉnh Quảng Trị, Việt Nam",
+  "nmmst": "3200758117",
+  "nmstkhoan": null,
+  "nmten": "CÔNG TY TNHH MINH NHẬT DIGITAL SYSTEMS",
+  "nmtnhang": null,
+  "nmtnmua": null,
+  "nmttkhac": [
+    {
+      "ttruong": "Loại giấy tờ người mua",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Số giấy tờ người mua",
+      "kdlieu": "string",
+      "dlieu": null
+    }
+  ],
+  "ntao": "2026-08-27T06:04:11.876Z",
+  "ntnhan": "2026-08-27T06:04:11.838Z",
+  "pban": "2.1.0",
+  "ptgui": 1,
+  "shdgoc": null,
+  "tchat": 1,
+  "tdlap": "2026-08-26T17:00:00Z",
+  "tgia": 1,
+  "tgtcthue": 4406482,
+  "tgtthue": 352518,
+  "tgtttbchu": "Bốn triệu bảy trăm năm mươi chín nghìn đồng",
+  "tgtttbso": 4759000,
+  "thdon": "Hóa đơn giá trị gia tăng",
+  "thlap": 202608,
+  "thttlphi": [],
+  "thttltsuat": [
+    {
+      "tsuat": "8%",
+      "thtien": 4406482,
+      "tthue": 352518,
+      "gttsuat": null
+    }
+  ],
+  "tlhdon": "Hóa đơn giá trị gia tăng",
+  "ttcktmai": 0,
+  "tthai": 1,
+  "ttkhac": [
+    {
+      "ttruong": "Ghi chú",
+      "kdlieu": "string",
+      "dlieu": "Shopee"
+    },
+    {
+      "ttruong": "Trạng thái thanh toán",
+      "kdlieu": "string",
+      "dlieu": "Đã thanh toán"
+    },
+    {
+      "ttruong": "Mã số bí mật",
+      "kdlieu": "string",
+      "dlieu": "V9UNHF5URF0YSYJ"
+    },
+    {
+      "ttruong": "Ghi chú hóa đơn",
+      "kdlieu": "string",
+      "dlieu": null
+    }
+  ],
+  "tttbao": 1,
+  "ttttkhac": [
+    {
+      "ttruong": "Tổng tiền thuế tiêu thụ đặc biệt",
+      "kdlieu": "string",
+      "dlieu": "0"
+    },
+    {
+      "ttruong": "Tổng tiền phí",
+      "kdlieu": "string",
+      "dlieu": "0"
+    }
+  ],
+  "ttxly": 5,
+  "tvandnkntt": "0100109106",
+  "mhso": null,
+  "ladhddt": 1,
+  "mkhang": null,
+  "nbsdthoai": "0927035808",
+  "nbdctdtu": "huynhlamvitinh@gmail.com",
+  "nbfax": null,
+  "nbwebsite": null,
+  "nbcks": "{\"Subject\":\"UID=MST:1602212740,CN=CÔNG TY TNHH VI TÍNH HUỲNH LÂM,L=AN GIANG,C=VN\",\"SerialNumber\":\"5404FFFEB7033FB324B728D3C2EE8916\",\"Issuer\":\"C=VN, O=Viettel Group, CN=Viettel-CA SHA2\",\"NotAfter\":\"2027-09-17T10:28:00\",\"NotBefore\":\"2025-09-17T10:28:00\",\"SigningTime\":\"2026-08-27T13:04:11\"}",
+  "nmsdthoai": null,
+  "nmdctdtu": "mndigitalsys@gmail.com",
+  "nmcmnd": null,
+  "nmcks": null,
+  "bhphap": 0,
+  "hddunlap": null,
+  "gchdgoc": null,
+  "tbhgtngay": null,
+  "bhpldo": null,
+  "bhpcbo": null,
+  "bhpngay": null,
+  "tdlhdgoc": null,
+  "tgtphi": null,
+  "unhiem": null,
+  "mstdvnunlhdon": null,
+  "tdvnunlhdon": null,
+  "nbmdvqhnsach": null,
+  "nbsqdinh": null,
+  "nbncqdinh": null,
+  "nbcqcqdinh": null,
+  "nbhtban": null,
+  "nmmdvqhnsach": null,
+  "nmddvchden": null,
+  "nmtgvchdtu": null,
+  "nmtgvchdden": null,
+  "nbtnban": null,
+  "dcdvnunlhdon": null,
+  "dksbke": null,
+  "dknlbke": null,
+  "thtttoan": "TM/CK",
+  "msttcgp": "0100109106",
+  "cqtcks": "{\"Subject\":\"CN=CỤC THUẾ,O=BỘ TÀI CHÍNH,L=Hà Nội,C=VN\",\"SerialNumber\":\"2A05F812673607B0\",\"Issuer\":\"CN=CA phục vụ các cơ quan Nhà nước G2, O=Ban Cơ yếu Chính phủ, C=VN\",\"NotAfter\":\"2030-03-12T16:36:53\",\"NotBefore\":\"2025-03-13T16:36:53\",\"SigningTime\":\"2026-08-27T13:04:11\"}",
+  "gchu": "",
+  "kqcht": null,
+  "hdntgia": null,
+  "tgtkcthue": null,
+  "tgtkhac": null,
+  "nmshchieu": null,
+  "nmnchchieu": null,
+  "nmnhhhchieu": null,
+  "nmqtich": null,
+  "ktkhthue": null,
+  "nmstttoan": null,
+  "nmttttoan": null,
+  "mddkdoanh": null,
+  "tddkdoanh": null,
+  "dcddkdoanh": null,
+  "nmmtinh": null,
+  "nmttinh": null,
+  "nmmxa": null,
+  "nmtxa": null,
+  "nbmstgoc": null,
+  "lddctthe": null,
+  "hdhhdvu": [
+    {
+      "idhdon": "03fcf785-ba13-4449-8f9e-d0c7c17f6e75",
+      "id": "6bb0be57-2be0-4d78-b741-52e89fd0dc19",
+      "dgia": 1629630,
+      "dvtinh": "CÁI",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 1,
+      "tchat": 1,
+      "ten": "BO MẠCH CHÍNH MÁY VI TÍNH (Main Board) MSI PRO H610M-E DDR4 (PROH610M-E-BOX)",
+      "thtcthue": null,
+      "thtien": 1629630,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 1,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Ghi chú dòng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "1760000"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "130370"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "03fcf785-ba13-4449-8f9e-d0c7c17f6e75",
+      "id": "b87ac2f5-b634-4919-827a-be2de19080db",
+      "dgia": 1276852,
+      "dvtinh": "CÁI",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 2,
+      "tchat": 1,
+      "ten": "Màn hình máy tính 21.45 inch FHD Monitor; Model: FSID22DFJY; Hiệu FEUVISION",
+      "thtcthue": null,
+      "thtien": 1276852,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 2,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Ghi chú dòng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "1379000"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "102148"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "03fcf785-ba13-4449-8f9e-d0c7c17f6e75",
+      "id": "43cd333c-36f1-48a1-a033-e784537d9383",
+      "dgia": 1500000,
+      "dvtinh": "CÁI",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 3,
+      "tchat": 1,
+      "ten": "Màn hình máy tính 23.8 inch FHD Monitor; Model: FSID24BFIY; Hiệu FEUVISION",
+      "thtcthue": null,
+      "thtien": 1500000,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 3,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Ghi chú dòng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "1620000"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "120000"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    }
+  ],
+  "qrcode": "00020101021202000400260052005300540058005900600062009966000001101602212740020110306C26TYY0404298105082026082706094759000.0",
+  "ttmstten": null,
+  "ladhddtten": null,
+  "hdxkhau": null,
+  "hdxkptquan": null,
+  "hdgktkhthue": null,
+  "hdonLquans": null,
+  "tthdclquan": false,
+  "pdndungs": null,
+  "hdtbssrses": null,
+  "hdTrung": null,
+  "isHDTrung": null,
+  "hdcttchinh": 0,
+  "dlhquan": null,
+  "dlnhtmai": null,
+  "bltphi": null,
+  "tcsvhdChinh": null
+}

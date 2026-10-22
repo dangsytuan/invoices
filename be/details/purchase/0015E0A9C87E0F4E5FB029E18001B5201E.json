@@ -1,0 +1,657 @@
+{
+  "nbmst": "0400548986",
+  "khmshdon": 1,
+  "khhdon": "C26TMK",
+  "shdon": 452,
+  "cqt": "4802",
+  "cttkhac": [],
+  "dvtte": "VND",
+  "hdon": "01",
+  "hsgcma": "f117d8da-f649-446b-9a18-7ecc2f8ec059",
+  "hsgoc": "3b65ed90-1ae5-47f7-b838-251795dd6133",
+  "hthdon": 1,
+  "htttoan": 9,
+  "id": "f73a56cf-867c-4a94-b285-a05c0484b3c3",
+  "idtbao": null,
+  "khdon": null,
+  "khhdgoc": null,
+  "khmshdgoc": null,
+  "lhdgoc": null,
+  "mhdon": "0015E0A9C87E0F4E5FB029E18001B5201E",
+  "mtdiep": null,
+  "mtdtchieu": "V0100109106876EA69A552F4EE687A22E8790CF205C",
+  "nbdchi": "445 Hoàng Diệu - Phường Hòa Cường - Thành Phố Đà Nẵng - Việt Nam",
+  "chma": null,
+  "chten": null,
+  "nbhdktngay": null,
+  "nbhdktso": null,
+  "nbhdso": null,
+  "nblddnbo": null,
+  "nbptvchuyen": null,
+  "nbstkhoan": "1976068168;20052110300998",
+  "nbten": "CÔNG TY TNHH THIẾT BỊ TRUYỀN THÔNG MINH KHOA",
+  "nbtnhang": "Ngân hàng TMCP Kỹ Thương Việt Nam;Ngân Hàng Nông Nghiệp Và PTNT Quận Cẩm Lệ",
+  "nbtnvchuyen": null,
+  "nbttkhac": [
+    {
+      "ttruong": "Link tra cứu người bán",
+      "kdlieu": "string",
+      "dlieu": "https://vinvoice.viettel.vn/utilities/invoice-search"
+    }
+  ],
+  "ncma": "2026-09-07T01:51:05.327Z",
+  "ncnhat": "2026-09-07T01:51:05.338Z",
+  "ngcnhat": "tvan_viettel",
+  "nky": "2026-09-07T01:51:03Z",
+  "nmdchi": "Số nhà 201 Tôn Thất Thuyết, Phường Nam Đông Hà, Tỉnh Quảng Trị, Việt Nam",
+  "nmmst": "3200758117",
+  "nmstkhoan": null,
+  "nmten": "CÔNG TY TNHH MINH NHẬT DIGITAL SYSTEMS",
+  "nmtnhang": null,
+  "nmtnmua": null,
+  "nmttkhac": [
+    {
+      "ttruong": "Loại giấy tờ người mua",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Số giấy tờ người mua",
+      "kdlieu": "string",
+      "dlieu": null
+    }
+  ],
+  "ntao": "2026-09-07T01:51:05.274Z",
+  "ntnhan": "2026-09-07T01:51:05.235Z",
+  "pban": "2.1.0",
+  "ptgui": 1,
+  "shdgoc": null,
+  "tchat": 1,
+  "tdlap": "2026-09-06T17:00:00Z",
+  "tgia": 1,
+  "tgtcthue": 10600000,
+  "tgtthue": 848000,
+  "tgtttbchu": "Mười một triệu bốn trăm bốn mươi tám nghìn đồng",
+  "tgtttbso": 11448000,
+  "thdon": "HÓA ĐƠN ĐIỆN TỬ GIÁ TRỊ GIA TĂNG",
+  "thlap": 202609,
+  "thttlphi": [],
+  "thttltsuat": [
+    {
+      "tsuat": "8%",
+      "thtien": 10600000,
+      "tthue": 848000,
+      "gttsuat": null
+    }
+  ],
+  "tlhdon": "HÓA ĐƠN ĐIỆN TỬ GIÁ TRỊ GIA TĂNG",
+  "ttcktmai": 0,
+  "tthai": 1,
+  "ttkhac": [
+    {
+      "ttruong": "sophieu",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "restaurant",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "ngaydi",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "ngayden",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "sokhach",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "sophong",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "foliono",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "giaphong",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "sodatphong",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Ghi chú",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Quy đổi",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Trạng thái thanh toán",
+      "kdlieu": "string",
+      "dlieu": "Đã thanh toán"
+    },
+    {
+      "ttruong": "Mã số bí mật",
+      "kdlieu": "string",
+      "dlieu": "5YMRDR0QKKLD8JG"
+    },
+    {
+      "ttruong": "Ghi chú hóa đơn",
+      "kdlieu": "string",
+      "dlieu": null
+    }
+  ],
+  "tttbao": 1,
+  "ttttkhac": [
+    {
+      "ttruong": "Tổng tiền thuế tiêu thụ đặc biệt",
+      "kdlieu": "string",
+      "dlieu": "0"
+    },
+    {
+      "ttruong": "Tổng tiền phí",
+      "kdlieu": "string",
+      "dlieu": "0"
+    }
+  ],
+  "ttxly": 5,
+  "tvandnkntt": "0100109106",
+  "mhso": null,
+  "ladhddt": 1,
+  "mkhang": null,
+  "nbsdthoai": "0911201100",
+  "nbdctdtu": "minhkhoacom@gmail.com",
+  "nbfax": "0911201100",
+  "nbwebsite": null,
+  "nbcks": "{\"Subject\":\"1.2.840.113549.1.9.1=#16104e4f4e414d4540474d41494c2e434f4d,UID=MST:0400548986,CN=CÔNG TY TNHH THIẾT BỊ TRUYỀN THÔNG MINH KHOA,L=ĐÀ NẴNG,C=VN\",\"SerialNumber\":\"5404FFFEB7033FB324B728D3C2DBC8AE\",\"Issuer\":\"C=VN, O=Viettel Group, CN=Viettel-CA SHA2\",\"NotAfter\":\"2028-01-29T02:27:00\",\"NotBefore\":\"2025-05-29T02:27:00\",\"SigningTime\":\"2026-09-07T08:51:03\"}",
+  "nmsdthoai": null,
+  "nmdctdtu": "Mndigitalsys@gmail.com",
+  "nmcmnd": null,
+  "nmcks": null,
+  "bhphap": 0,
+  "hddunlap": null,
+  "gchdgoc": null,
+  "tbhgtngay": null,
+  "bhpldo": null,
+  "bhpcbo": null,
+  "bhpngay": null,
+  "tdlhdgoc": null,
+  "tgtphi": null,
+  "unhiem": null,
+  "mstdvnunlhdon": null,
+  "tdvnunlhdon": null,
+  "nbmdvqhnsach": null,
+  "nbsqdinh": null,
+  "nbncqdinh": null,
+  "nbcqcqdinh": null,
+  "nbhtban": null,
+  "nmmdvqhnsach": null,
+  "nmddvchden": null,
+  "nmtgvchdtu": null,
+  "nmtgvchdden": null,
+  "nbtnban": null,
+  "dcdvnunlhdon": null,
+  "dksbke": null,
+  "dknlbke": null,
+  "thtttoan": "TM/CK",
+  "msttcgp": "0100109106",
+  "cqtcks": "{\"Subject\":\"CN=CỤC THUẾ,O=BỘ TÀI CHÍNH,L=Hà Nội,C=VN\",\"SerialNumber\":\"2A05F812673607B0\",\"Issuer\":\"CN=CA phục vụ các cơ quan Nhà nước G2, O=Ban Cơ yếu Chính phủ, C=VN\",\"NotAfter\":\"2030-03-12T16:36:53\",\"NotBefore\":\"2025-03-13T16:36:53\",\"SigningTime\":\"2026-09-07T08:51:05\"}",
+  "gchu": "",
+  "kqcht": null,
+  "hdntgia": null,
+  "tgtkcthue": null,
+  "tgtkhac": null,
+  "nmshchieu": null,
+  "nmnchchieu": null,
+  "nmnhhhchieu": null,
+  "nmqtich": null,
+  "ktkhthue": null,
+  "nmstttoan": null,
+  "nmttttoan": null,
+  "mddkdoanh": null,
+  "tddkdoanh": null,
+  "dcddkdoanh": null,
+  "nmmtinh": null,
+  "nmttinh": null,
+  "nmmxa": null,
+  "nmtxa": null,
+  "nbmstgoc": null,
+  "lddctthe": null,
+  "hdhhdvu": [
+    {
+      "idhdon": "f73a56cf-867c-4a94-b285-a05c0484b3c3",
+      "id": "e2184752-1dc6-4708-8dc7-142da3ba4fb4",
+      "dgia": 185000,
+      "dvtinh": "cái",
+      "ltsuat": "8%",
+      "sluong": 10,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 1,
+      "tchat": 1,
+      "ten": "Pin ( ắc quy ion liti) ký hiệu AC21DE, dùng cho máy tính xách tay loại pin 4-12 cell, điện thế 10v-30v, dòng điện 2A-7A, dung lượng từ 1000 mAh -10000 nAh, mới 100%",
+      "thtcthue": null,
+      "thtien": 1850000,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 1,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "1998000"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "148000"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "f73a56cf-867c-4a94-b285-a05c0484b3c3",
+      "id": "f94c9492-1fcc-46ae-a0c9-c533651e3b11",
+      "dgia": 150000,
+      "dvtinh": "cái",
+      "ltsuat": "8%",
+      "sluong": 8,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 2,
+      "tchat": 1,
+      "ten": "Củ sạc cho máy tính, chất liệu:nhựa, input: 100-240V/50-60HZ/1.7A, output: 20V/3.25A, KT chiều dài: 1.7m+-10%. Model: LE32-AS. NSX: LingTiangCo. Không có tên thương hiệu.Mới100%",
+      "thtcthue": null,
+      "thtien": 1200000,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 2,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "1296000"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "96000"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "f73a56cf-867c-4a94-b285-a05c0484b3c3",
+      "id": "7d74616b-cc08-4a26-bbd9-e15cde47553b",
+      "dgia": 130000,
+      "dvtinh": "cái",
+      "ltsuat": "8%",
+      "sluong": 10,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 3,
+      "tchat": 1,
+      "ten": "Củ sạc cho máy tính, chất liệu: nhựa, input: 100-240V/50 60HZ/1.5A, output: 19V/3.42A, KT chiều dài: 1.7m+-10%. Model: XCS3. Mới100%",
+      "thtcthue": null,
+      "thtien": 1300000,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 3,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "1404000"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "104000"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "f73a56cf-867c-4a94-b285-a05c0484b3c3",
+      "id": "66a32570-c03f-4d38-b41d-d2fd903fbaa1",
+      "dgia": 120000,
+      "dvtinh": "cái",
+      "ltsuat": "8%",
+      "sluong": 5,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 4,
+      "tchat": 1,
+      "ten": "Củ sạc cho máy tính, chất liệu:  nhựa, input: 100-240V/50 60HZ/1.5A, output: 19.5V/3.33A, KT  chiều dài: 1.7m+-10%. Model:  XCS2.Mới100%",
+      "thtcthue": null,
+      "thtien": 600000,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 4,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "648000"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "48000"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "f73a56cf-867c-4a94-b285-a05c0484b3c3",
+      "id": "79f27b48-b032-43fc-b46f-6e3f06e66be3",
+      "dgia": 190000,
+      "dvtinh": "cái",
+      "ltsuat": "8%",
+      "sluong": 5,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 5,
+      "tchat": 1,
+      "ten": "Bàn phím dùng cho máy tính xách tay, mã hàng : EGHKYAL20",
+      "thtcthue": null,
+      "thtien": 950000,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 5,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "1026000"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "76000"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "f73a56cf-867c-4a94-b285-a05c0484b3c3",
+      "id": "28395d28-3d51-4919-a0d9-45d9a222605e",
+      "dgia": 240000,
+      "dvtinh": "cái",
+      "ltsuat": "8%",
+      "sluong": 5,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 6,
+      "tchat": 1,
+      "ten": "Bàn phím dùng cho máy tính xách tay, mã hàng : EGHKYAL21",
+      "thtcthue": null,
+      "thtien": 1200000,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 6,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "1296000"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "96000"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "f73a56cf-867c-4a94-b285-a05c0484b3c3",
+      "id": "e07d469b-8e5f-4e3c-a781-7c3dafc18f31",
+      "dgia": 350000,
+      "dvtinh": "cái",
+      "ltsuat": "8%",
+      "sluong": 5,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 7,
+      "tchat": 1,
+      "ten": "Tấm màn hình LCD hiệu BOE 15.6 dùng cho laptop",
+      "thtcthue": null,
+      "thtien": 1750000,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 7,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "1890000"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "140000"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "f73a56cf-867c-4a94-b285-a05c0484b3c3",
+      "id": "26b4acb7-1a55-4a9e-8d64-01bef727f19b",
+      "dgia": 350000,
+      "dvtinh": "cái",
+      "ltsuat": "8%",
+      "sluong": 5,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 8,
+      "tchat": 1,
+      "ten": "Tấm nền màn hình LCD hiệu BOE 14.0 inch dùng cho laptop",
+      "thtcthue": null,
+      "thtien": 1750000,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 8,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "1890000"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "140000"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    }
+  ],
+  "qrcode": "00020101021202000400260052005300540058005900600062009964000001100400548986020110306C26TMK040345205082026090706081.1448E7",
+  "ttmstten": null,
+  "ladhddtten": null,
+  "hdxkhau": null,
+  "hdxkptquan": null,
+  "hdgktkhthue": null,
+  "hdonLquans": null,
+  "tthdclquan": false,
+  "pdndungs": null,
+  "hdtbssrses": null,
+  "hdTrung": null,
+  "isHDTrung": null,
+  "hdcttchinh": 0,
+  "dlhquan": null,
+  "dlnhtmai": null,
+  "bltphi": null,
+  "tcsvhdChinh": null
+}

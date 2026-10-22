@@ -1,0 +1,116 @@
+datasource db {
+  provider = "postgresql" // Hoặc mysql, sqlserver tùy bạn chọn
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// Enum phân loại Chiều giao dịch (Mua vào / Bán ra)
+enum InvoiceType {
+  INBOUND  // Hóa đơn mua vào (Công ty mình là người mua)
+  OUTBOUND // Hóa đơn bán ra (Công ty mình là người xuất bán)
+}
+
+// Bảng lưu thông tin chung của Hóa đơn
+model Invoice {
+  id           String            @id @default(uuid())
+  type         InvoiceType  // Phân loại: INBOUND (Mua vào) hoặc OUTBOUND (Bán ra)
+  
+  // Thông tin định danh hóa đơn
+  nbmst        String            // Mã số thuế người bán
+  nbten        String            // Tên người bán
+  nmmst        String            // Mã số thuế người mua
+  nmten        String            // Tên người mua
+  
+  khmshdon     Int               // Ký hiệu mẫu số hóa đơn (VD: 1)
+  khhdon       String            // Ký hiệu hóa đơn (VD: C26TVN)
+  shdon        Int               // Số hóa đơn (VD: 170)
+  hdon         String            // Loại hóa đơn (VD: "01" - Hóa đơn GTGT)
+  thdon        String            // Tên loại hóa đơn (VD: "Hóa đơn giá trị gia tăng")
+  
+  cqt          String?           // Cơ quan thuế cấp mã
+  hsgcma       String?           // Mã cơ quan thuế / Mã giao dịch CQT
+  mhdon        String?           // Mã hóa đơn của cơ quan thuế
+  ncma         DateTime?         // Ngày cấp mã
+  nky          DateTime?         // Ngày ký số
+  tdlap        DateTime          // Ngày lập hóa đơn
+  
+  // Thông tin thanh toán & Tiền tệ
+  dvtte        String            @default("VND") // Đồng tiền thanh toán
+  tgtcthue     Float             // Tổng giá trị chưa thuế
+  tgtthue      Float             // Tổng tiền thuế GTGT
+  tgtttbso     Float             // Tổng giá trị thanh toán bằng số (có thuế)
+  tgtttbchu    String?           // Tổng giá trị thanh toán bằng chữ
+  thtttoan     String?           // Hình thức thanh toán (VD: TM/CK)
+  
+  // Quan hệ 1-nhiều với chi tiết hóa đơn
+  details      InvoiceDetail[]   
+  stockTransactions StockTransaction[]
+
+  createdAt    DateTime          @default(now())
+  updatedAt    DateTime          @updatedAt
+
+  @@index([nbmst])
+  @@index([nmmst])
+  @@index([shdon, khhdon])
+}
+
+// Bảng lưu chi tiết hàng hóa, dịch vụ trong hóa đơn
+model InvoiceDetail {
+  id           String    @id @default(uuid())
+  invoiceId    String    // Khóa ngoại liên kết tới bảng Invoice
+  invoice      Invoice   @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
+
+  stt          Int       // Số thứ tự dòng
+  ten          String    // Tên hàng hóa, dịch vụ
+  dvtinh       String?   // Đơn vị tính (VD: Chiếc, Bộ, Cái)
+  sluong       Float     // Số lượng
+  dgia         Float     // Đơn giá chưa thuế
+  thtien       Float     // Thành tiền chưa thuế
+  tsuat        Float     // Thuế suất (VD: 0.08 tương ứng 8%)
+  ltsuat       String?   // Chuỗi thuế suất hiển thị (VD: "8%")
+  stckhau      Float?    // Số tiền chiết khấu
+  
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  @@index([invoiceId])
+}
+
+// Bảng ghi nhận lịch sử Nhập/Xuất kho theo từng dòng hóa đơn
+model StockTransaction {
+  id              String        @id @default(uuid())
+  invoiceId       String        // Khóa ngoại liên kết tới Invoice
+  invoice         Invoice       @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
+  
+  type            InvoiceType  // INBOUND (Nhập) hoặc OUTBOUND (Xuất)
+  productName     String        // Tên hàng hóa, dịch vụ
+  unit            String?       // Đơn vị tính
+  quantity        Float         // Số lượng
+  unitPrice       Float         // Đơn giá chưa thuế
+  totalAmount     Float         // Thành tiền chưa thuế
+  transactionDate DateTime      // Ngày giao dịch (Lấy theo ngày lập hóa đơn tdlap)
+
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  @@index([productName])
+  @@index([transactionDate])
+  @@index([invoiceId])
+}
+
+model Product {
+  id            String   @id @default(uuid())
+  name          String   @unique // Tên sản phẩm chuẩn (đã chuẩn hóa)
+  unit          String?  // Đơn vị tính chuẩn
+  totalImported Float    @default(0) // Tổng lượng đã nhập
+  totalExported Float    @default(0) // Tổng lượng đã xuất
+  stockBalance  Float    @default(0) // Tồn kho hiện tại
+
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([name])
+}

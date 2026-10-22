@@ -1,0 +1,507 @@
+{
+  "nbmst": "0106777540",
+  "khmshdon": 1,
+  "khhdon": "C26TYY",
+  "shdon": 223,
+  "cqt": "0113",
+  "cttkhac": [
+    {
+      "ttruong": "InvoiceTemplateID",
+      "kdlieu": "string",
+      "dlieu": "740eb31e-e3f1-4b48-8a9f-9c5e296faacc"
+    },
+    {
+      "ttruong": "IsTaxReduction",
+      "kdlieu": "numeric",
+      "dlieu": "False"
+    },
+    {
+      "ttruong": "IsTaxReduction43",
+      "kdlieu": "numeric",
+      "dlieu": "True"
+    },
+    {
+      "ttruong": "RefID",
+      "kdlieu": "string",
+      "dlieu": "f26be3bb-1fc9-48a7-8120-617ca4c6b143"
+    },
+    {
+      "ttruong": "AmountDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "0"
+    },
+    {
+      "ttruong": "AmountOCDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "CoefficientDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "ExchangRateDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "MainCurrency",
+      "kdlieu": "string",
+      "dlieu": "VND"
+    },
+    {
+      "ttruong": "QuantityDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "UnitPriceDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "UnitPriceOCDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "AppID",
+      "kdlieu": "string",
+      "dlieu": "F7E8D7E5-BB5A-421B-8B39-D3A35D661F08"
+    },
+    {
+      "ttruong": "TransactionID",
+      "kdlieu": "string",
+      "dlieu": "25FVIJ4X0X98"
+    }
+  ],
+  "dvtte": "VND",
+  "hdon": "01",
+  "hsgcma": "c060fd20-739e-4213-9417-e21a32120963",
+  "hsgoc": "de4ad31e-cba1-430c-9e70-9ddd60e4e525",
+  "hthdon": 1,
+  "htttoan": 9,
+  "id": "f3377eac-b259-4c36-bdf4-b0516afa1afb",
+  "idtbao": null,
+  "khdon": null,
+  "khhdgoc": null,
+  "khmshdgoc": null,
+  "lhdgoc": null,
+  "mhdon": "000FDE337F76F845149268DA08C0EAAEED",
+  "mtdiep": null,
+  "mtdtchieu": "V01012431507FD42DF13F2B4CB3B6CB18FD391B2237",
+  "nbdchi": "Số 27 Ngõ 20 Nguyễn Viết Xuân, Phường Phương Liệt, TP Hà Nội, Việt Nam.",
+  "chma": null,
+  "chten": null,
+  "nbhdktngay": null,
+  "nbhdktso": null,
+  "nbhdso": null,
+  "nblddnbo": null,
+  "nbptvchuyen": null,
+  "nbstkhoan": "2434666888",
+  "nbten": "CÔNG TY TNHH CÔNG NGHỆ VÀ THƯƠNG MẠI NGUYÊN VŨ",
+  "nbtnhang": "Ngân hàng TMCP Quân đội - Chi nhánh Lê Trọng Tấn",
+  "nbtnvchuyen": null,
+  "nbttkhac": [
+    {
+      "ttruong": "SellerAddress",
+      "kdlieu": "string",
+      "dlieu": "Số 27 Ngõ 20 Nguyễn Viết Xuân, Phường Phương Liệt, TP Hà Nội, Việt Nam."
+    },
+    {
+      "ttruong": "SellerBankAccount",
+      "kdlieu": "string",
+      "dlieu": "2434666888"
+    },
+    {
+      "ttruong": "SellerBankName",
+      "kdlieu": "string",
+      "dlieu": "Ngân hàng TMCP Quân đội - Chi nhánh Lê Trọng Tấn"
+    },
+    {
+      "ttruong": "SellerPhoneNumber",
+      "kdlieu": "string",
+      "dlieu": "0981839191"
+    }
+  ],
+  "ncma": "2026-08-05T02:50:56.367Z",
+  "ncnhat": "2026-08-05T02:50:56.378Z",
+  "ngcnhat": "tvan_misa",
+  "nky": "2026-08-05T02:50:52Z",
+  "nmdchi": "Số nhà 201 Tôn Thất Thuyết, Phường Nam Đông Hà, Tỉnh Quảng Trị, Việt Nam",
+  "nmmst": "3200758117",
+  "nmstkhoan": null,
+  "nmten": "CÔNG TY TNHH MINH NHẬT DIGITAL SYSTEMS",
+  "nmtnhang": null,
+  "nmtnmua": null,
+  "nmttkhac": [],
+  "ntao": "2026-08-05T02:50:56.316Z",
+  "ntnhan": "2026-08-05T02:50:55.875Z",
+  "pban": "2.1.0",
+  "ptgui": 1,
+  "shdgoc": null,
+  "tchat": 1,
+  "tdlap": "2026-08-04T17:00:00Z",
+  "tgia": 1,
+  "tgtcthue": 2412038,
+  "tgtthue": 192962,
+  "tgtttbchu": "Hai triệu sáu trăm linh năm nghìn đồng chẵn.",
+  "tgtttbso": 2605000,
+  "thdon": "Hóa đơn giá trị gia tăng",
+  "thlap": 202608,
+  "thttlphi": [],
+  "thttltsuat": [
+    {
+      "tsuat": "8%",
+      "thtien": 2412038,
+      "tthue": 192962,
+      "gttsuat": null
+    }
+  ],
+  "tlhdon": "Hóa đơn giá trị gia tăng",
+  "ttcktmai": 0,
+  "tthai": 1,
+  "ttkhac": [
+    {
+      "ttruong": "StockTotalAmount",
+      "kdlieu": "numeric",
+      "dlieu": "2605000.0"
+    },
+    {
+      "ttruong": "StockTotalAmountOC",
+      "kdlieu": "numeric",
+      "dlieu": "2605000.0"
+    }
+  ],
+  "tttbao": 1,
+  "ttttkhac": [
+    {
+      "ttruong": "TotalAmount",
+      "kdlieu": "numeric",
+      "dlieu": "2605000.0"
+    },
+    {
+      "ttruong": "TotalAmountInWordsByENG",
+      "kdlieu": "string",
+      "dlieu": "Two million, six hundred five thousand dong."
+    },
+    {
+      "ttruong": "TotalAmountInWordsVN",
+      "kdlieu": "string",
+      "dlieu": "Hai triệu sáu trăm linh năm nghìn đồng chẵn."
+    },
+    {
+      "ttruong": "TotalAmountWithoutVAT",
+      "kdlieu": "numeric",
+      "dlieu": "2412038.0"
+    },
+    {
+      "ttruong": "TotalAmountWithoutVATOC",
+      "kdlieu": "numeric",
+      "dlieu": "2412038.0"
+    },
+    {
+      "ttruong": "TotalSaleAmount",
+      "kdlieu": "numeric",
+      "dlieu": "2412038.0"
+    },
+    {
+      "ttruong": "TotalSaleAmountOC",
+      "kdlieu": "numeric",
+      "dlieu": "2412038.0"
+    },
+    {
+      "ttruong": "TotalVATAmount",
+      "kdlieu": "numeric",
+      "dlieu": "192962.0"
+    },
+    {
+      "ttruong": "TotalAmountOC",
+      "kdlieu": "numeric",
+      "dlieu": "2605000.0"
+    },
+    {
+      "ttruong": "TotalVATAmountOC",
+      "kdlieu": "numeric",
+      "dlieu": "192962.0"
+    }
+  ],
+  "ttxly": 5,
+  "tvandnkntt": "0101243150",
+  "mhso": null,
+  "ladhddt": 1,
+  "mkhang": "KH0383",
+  "nbsdthoai": "0981839191",
+  "nbdctdtu": null,
+  "nbfax": null,
+  "nbwebsite": null,
+  "nbcks": "{\"Subject\":\"userId=MST:0106777540, CN=CÔNG TY TNHH CÔNG NGHỆ VÀ THƯƠNG MẠI NGUYÊN VŨ, O=CÔNG TY TNHH CÔNG NGHỆ VÀ THƯƠNG MẠI NGUYÊN VŨ, S=Hà Nội, C=VN\",\"SerialNumber\":\"54010C2D0281A9D5315C6774BE2387A0\",\"Issuer\":\"CN=MISA-CA RS, O=MISA JOINT STOCK COMPANY, C=VN\",\"NotAfter\":\"2026-12-03T03:47:45\",\"NotBefore\":\"2026-07-02T00:55:02\",\"SigningTime\":\"2026-08-05T09:50:52\"}",
+  "nmsdthoai": null,
+  "nmdctdtu": null,
+  "nmcmnd": null,
+  "nmcks": null,
+  "bhphap": 0,
+  "hddunlap": null,
+  "gchdgoc": null,
+  "tbhgtngay": null,
+  "bhpldo": null,
+  "bhpcbo": null,
+  "bhpngay": null,
+  "tdlhdgoc": null,
+  "tgtphi": null,
+  "unhiem": null,
+  "mstdvnunlhdon": null,
+  "tdvnunlhdon": null,
+  "nbmdvqhnsach": null,
+  "nbsqdinh": null,
+  "nbncqdinh": null,
+  "nbcqcqdinh": null,
+  "nbhtban": null,
+  "nmmdvqhnsach": null,
+  "nmddvchden": null,
+  "nmtgvchdtu": null,
+  "nmtgvchdden": null,
+  "nbtnban": null,
+  "dcdvnunlhdon": null,
+  "dksbke": null,
+  "dknlbke": null,
+  "thtttoan": "TM/CK",
+  "msttcgp": "0101243150",
+  "cqtcks": "{\"Subject\":\"CN=CỤC THUẾ,O=BỘ TÀI CHÍNH,L=Hà Nội,C=VN\",\"SerialNumber\":\"2A05F812673607B0\",\"Issuer\":\"CN=CA phục vụ các cơ quan Nhà nước G2, O=Ban Cơ yếu Chính phủ, C=VN\",\"NotAfter\":\"2030-03-12T16:36:53\",\"NotBefore\":\"2025-03-13T16:36:53\",\"SigningTime\":\"2026-08-05T09:50:56\"}",
+  "gchu": "",
+  "kqcht": null,
+  "hdntgia": null,
+  "tgtkcthue": null,
+  "tgtkhac": null,
+  "nmshchieu": null,
+  "nmnchchieu": null,
+  "nmnhhhchieu": null,
+  "nmqtich": null,
+  "ktkhthue": null,
+  "nmstttoan": null,
+  "nmttttoan": null,
+  "mddkdoanh": null,
+  "tddkdoanh": null,
+  "dcddkdoanh": null,
+  "nmmtinh": null,
+  "nmttinh": null,
+  "nmmxa": null,
+  "nmtxa": null,
+  "nbmstgoc": null,
+  "lddctthe": null,
+  "hdhhdvu": [
+    {
+      "idhdon": "f3377eac-b259-4c36-bdf4-b0516afa1afb",
+      "id": "baf0dc80-851f-4996-9df5-ca57d5c871f4",
+      "dgia": 69444.44,
+      "dvtinh": "Chiếc",
+      "ltsuat": "8%",
+      "sluong": 15,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 1,
+      "tchat": 1,
+      "ten": "Bộ loa có dây máy tính,gồm 2 loa(trái và phải),đã lắp vỏ riêng biệt, model:M22,công suất:30W, ĐA:220V,dải tần: 100-20kHz,hiệu:X-STAR,mới100%",
+      "thtcthue": null,
+      "thtien": 1041667,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 1,
+      "ttkhac": [
+        {
+          "ttruong": "Amount",
+          "kdlieu": "numeric",
+          "dlieu": "1041667.0"
+        },
+        {
+          "ttruong": "AmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "1041667.0"
+        },
+        {
+          "ttruong": "AmountWithoutVATOC",
+          "kdlieu": "numeric",
+          "dlieu": "1041667.0"
+        },
+        {
+          "ttruong": "DiscountAmount",
+          "kdlieu": "numeric",
+          "dlieu": "0.0"
+        },
+        {
+          "ttruong": "SortOrder",
+          "kdlieu": "numeric",
+          "dlieu": "1"
+        },
+        {
+          "ttruong": "UnitPrice",
+          "kdlieu": "numeric",
+          "dlieu": "69444.44"
+        },
+        {
+          "ttruong": "VATAmount",
+          "kdlieu": "numeric",
+          "dlieu": "83333.0"
+        },
+        {
+          "ttruong": "VATAmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "83333.0"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "f3377eac-b259-4c36-bdf4-b0516afa1afb",
+      "id": "f65ab291-f690-4c6e-98f0-78067a3eaac0",
+      "dgia": 35185.19,
+      "dvtinh": "Chiếc",
+      "ltsuat": "8%",
+      "sluong": 10,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 2,
+      "tchat": 1,
+      "ten": "Bộ thu sóng wifi USB, model BL-WN151, kích thước 20.5*14.6*6.3 mm. có chức năng thu sóng wifi sử dụng cho máy vi tính",
+      "thtcthue": null,
+      "thtien": 351852,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 2,
+      "ttkhac": [
+        {
+          "ttruong": "Amount",
+          "kdlieu": "numeric",
+          "dlieu": "351852.0"
+        },
+        {
+          "ttruong": "AmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "351852.0"
+        },
+        {
+          "ttruong": "AmountWithoutVATOC",
+          "kdlieu": "numeric",
+          "dlieu": "351852.0"
+        },
+        {
+          "ttruong": "DiscountAmount",
+          "kdlieu": "numeric",
+          "dlieu": "0.0"
+        },
+        {
+          "ttruong": "SortOrder",
+          "kdlieu": "numeric",
+          "dlieu": "2"
+        },
+        {
+          "ttruong": "UnitPrice",
+          "kdlieu": "numeric",
+          "dlieu": "35185.19"
+        },
+        {
+          "ttruong": "VATAmount",
+          "kdlieu": "numeric",
+          "dlieu": "28148.0"
+        },
+        {
+          "ttruong": "VATAmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "28148.0"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "f3377eac-b259-4c36-bdf4-b0516afa1afb",
+      "id": "8b4714f8-a591-4e03-b91d-345c5b0fefd6",
+      "dgia": 101851.85,
+      "dvtinh": "Cái",
+      "ltsuat": "8%",
+      "sluong": 10,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 3,
+      "tchat": 1,
+      "ten": "Quạt tản nhiệt dùng cholaptop,model N99, công suất 3.2W,mới100%",
+      "thtcthue": null,
+      "thtien": 1018519,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 3,
+      "ttkhac": [
+        {
+          "ttruong": "Amount",
+          "kdlieu": "numeric",
+          "dlieu": "1018519.0"
+        },
+        {
+          "ttruong": "AmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "1018519.0"
+        },
+        {
+          "ttruong": "AmountWithoutVATOC",
+          "kdlieu": "numeric",
+          "dlieu": "1018519.0"
+        },
+        {
+          "ttruong": "DiscountAmount",
+          "kdlieu": "numeric",
+          "dlieu": "0.0"
+        },
+        {
+          "ttruong": "SortOrder",
+          "kdlieu": "numeric",
+          "dlieu": "3"
+        },
+        {
+          "ttruong": "UnitPrice",
+          "kdlieu": "numeric",
+          "dlieu": "101851.85"
+        },
+        {
+          "ttruong": "VATAmount",
+          "kdlieu": "numeric",
+          "dlieu": "81481.0"
+        },
+        {
+          "ttruong": "VATAmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "81481.0"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    }
+  ],
+  "qrcode": "00020101021202000400260052005300540058005900600062009965000001100106777540020110306C26TYY040322305082026080506092605000.0",
+  "ttmstten": null,
+  "ladhddtten": null,
+  "hdxkhau": null,
+  "hdxkptquan": null,
+  "hdgktkhthue": null,
+  "hdonLquans": null,
+  "tthdclquan": false,
+  "pdndungs": null,
+  "hdtbssrses": null,
+  "hdTrung": null,
+  "isHDTrung": null,
+  "hdcttchinh": null,
+  "dlhquan": null,
+  "dlnhtmai": null,
+  "bltphi": null,
+  "tcsvhdChinh": null
+}

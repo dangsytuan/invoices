@@ -1,0 +1,332 @@
+{
+  "nbmst": "1602212740",
+  "khmshdon": 1,
+  "khhdon": "C26TYY",
+  "shdon": 1467,
+  "cqt": "8911",
+  "cttkhac": [],
+  "dvtte": "VND",
+  "hdon": "01",
+  "hsgcma": "296be24a-6ac3-4e38-a4d5-4ecc42ba3cbf",
+  "hsgoc": "3358b2d7-f282-4e03-9547-9969061f3e41",
+  "hthdon": 1,
+  "htttoan": 9,
+  "id": "c21aa56b-fc7b-4990-90e7-82b191d23b61",
+  "idtbao": null,
+  "khdon": null,
+  "khhdgoc": null,
+  "khmshdgoc": null,
+  "lhdgoc": null,
+  "mhdon": "00FAE1AE0C5C2040DCA1B1051FA44F63F2",
+  "mtdiep": null,
+  "mtdtchieu": "V01001091065CEAD391569B4E91A8ADC7EF202690C4",
+  "nbdchi": "Ấp Hòa Hưng, Xã An Châu, Tỉnh An Giang, Việt Nam",
+  "chma": null,
+  "chten": null,
+  "nbhdktngay": null,
+  "nbhdktso": null,
+  "nbhdso": null,
+  "nblddnbo": null,
+  "nbptvchuyen": null,
+  "nbstkhoan": "4777798",
+  "nbten": "CÔNG TY TNHH VI TÍNH HUỲNH LÂM",
+  "nbtnhang": "NGÂN HÀNG THƯƠNG MẠI CỔ PHẦN Á CHÂU - CHI NHÁNH AN GIANG",
+  "nbtnvchuyen": null,
+  "nbttkhac": [
+    {
+      "ttruong": "Quận, huyện người bán",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Tỉnh/Thành phố người bán",
+      "kdlieu": "string",
+      "dlieu": "An Giang"
+    },
+    {
+      "ttruong": "Mã quốc gia người bán",
+      "kdlieu": "string",
+      "dlieu": "84"
+    },
+    {
+      "ttruong": "Link tra cứu người bán",
+      "kdlieu": "string",
+      "dlieu": null
+    }
+  ],
+  "ncma": "2026-06-27T06:30:39.278Z",
+  "ncnhat": "2026-06-27T06:30:39.288Z",
+  "ngcnhat": "tvan_viettel",
+  "nky": "2026-06-27T06:30:38Z",
+  "nmdchi": "Số nhà 201 Tôn Thất Thuyết, Phường Nam Đông Hà, Tỉnh Quảng Trị, Việt Nam",
+  "nmmst": "3200758117",
+  "nmstkhoan": null,
+  "nmten": "CÔNG TY TNHH MINH NHẬT DIGITAL SYSTEMS",
+  "nmtnhang": null,
+  "nmtnmua": null,
+  "nmttkhac": [
+    {
+      "ttruong": "Loại giấy tờ người mua",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Số giấy tờ người mua",
+      "kdlieu": "string",
+      "dlieu": null
+    }
+  ],
+  "ntao": "2026-06-27T06:30:39.235Z",
+  "ntnhan": "2026-06-27T06:30:39.190Z",
+  "pban": "2.1.0",
+  "ptgui": 1,
+  "shdgoc": null,
+  "tchat": 1,
+  "tdlap": "2026-06-26T17:00:00Z",
+  "tgia": 1,
+  "tgtcthue": 4362037,
+  "tgtthue": 348963,
+  "tgtttbchu": "Bốn triệu bảy trăm mười một nghìn đồng",
+  "tgtttbso": 4711000,
+  "thdon": "Hóa đơn giá trị gia tăng",
+  "thlap": 202606,
+  "thttlphi": [],
+  "thttltsuat": [
+    {
+      "tsuat": "8%",
+      "thtien": 4362037,
+      "tthue": 348963,
+      "gttsuat": null
+    }
+  ],
+  "tlhdon": "Hóa đơn giá trị gia tăng",
+  "ttcktmai": 0,
+  "tthai": 1,
+  "ttkhac": [
+    {
+      "ttruong": "Ghi chú",
+      "kdlieu": "string",
+      "dlieu": "Shopee"
+    },
+    {
+      "ttruong": "Trạng thái thanh toán",
+      "kdlieu": "string",
+      "dlieu": "Chưa thanh toán"
+    },
+    {
+      "ttruong": "Mã số bí mật",
+      "kdlieu": "string",
+      "dlieu": "XS2QLHO6PBVDSF8"
+    },
+    {
+      "ttruong": "Ghi chú hóa đơn",
+      "kdlieu": "string",
+      "dlieu": null
+    }
+  ],
+  "tttbao": 1,
+  "ttttkhac": [
+    {
+      "ttruong": "Tổng tiền thuế tiêu thụ đặc biệt",
+      "kdlieu": "string",
+      "dlieu": "0"
+    },
+    {
+      "ttruong": "Tổng tiền phí",
+      "kdlieu": "string",
+      "dlieu": "0"
+    }
+  ],
+  "ttxly": 5,
+  "tvandnkntt": "0100109106",
+  "mhso": null,
+  "ladhddt": 1,
+  "mkhang": null,
+  "nbsdthoai": "0927035808",
+  "nbdctdtu": "huynhlamvitinh@gmail.com",
+  "nbfax": null,
+  "nbwebsite": null,
+  "nbcks": "{\"Subject\":\"UID=MST:1602212740,CN=CÔNG TY TNHH VI TÍNH HUỲNH LÂM,L=AN GIANG,C=VN\",\"SerialNumber\":\"5404FFFEB7033FB324B728D3C2EE8916\",\"Issuer\":\"C=VN, O=Viettel Group, CN=Viettel-CA SHA2\",\"NotAfter\":\"2027-09-17T10:28:00\",\"NotBefore\":\"2025-09-17T10:28:00\",\"SigningTime\":\"2026-06-27T13:30:38\"}",
+  "nmsdthoai": null,
+  "nmdctdtu": "mndigitalsys@gmail.com",
+  "nmcmnd": null,
+  "nmcks": null,
+  "bhphap": 0,
+  "hddunlap": null,
+  "gchdgoc": null,
+  "tbhgtngay": null,
+  "bhpldo": null,
+  "bhpcbo": null,
+  "bhpngay": null,
+  "tdlhdgoc": null,
+  "tgtphi": null,
+  "unhiem": null,
+  "mstdvnunlhdon": null,
+  "tdvnunlhdon": null,
+  "nbmdvqhnsach": null,
+  "nbsqdinh": null,
+  "nbncqdinh": null,
+  "nbcqcqdinh": null,
+  "nbhtban": null,
+  "nmmdvqhnsach": null,
+  "nmddvchden": null,
+  "nmtgvchdtu": null,
+  "nmtgvchdden": null,
+  "nbtnban": null,
+  "dcdvnunlhdon": null,
+  "dksbke": null,
+  "dknlbke": null,
+  "thtttoan": "TM/CK",
+  "msttcgp": "0100109106",
+  "cqtcks": "{\"Subject\":\"CN=CỤC THUẾ,O=BỘ TÀI CHÍNH,L=Hà Nội,C=VN\",\"SerialNumber\":\"2A05F812673607B0\",\"Issuer\":\"CN=CA phục vụ các cơ quan Nhà nước G2, O=Ban Cơ yếu Chính phủ, C=VN\",\"NotAfter\":\"2030-03-12T16:36:53\",\"NotBefore\":\"2025-03-13T16:36:53\",\"SigningTime\":\"2026-06-27T13:30:39\"}",
+  "gchu": "",
+  "kqcht": null,
+  "hdntgia": null,
+  "tgtkcthue": null,
+  "tgtkhac": null,
+  "nmshchieu": null,
+  "nmnchchieu": null,
+  "nmnhhhchieu": null,
+  "nmqtich": null,
+  "ktkhthue": null,
+  "nmstttoan": null,
+  "nmttttoan": null,
+  "mddkdoanh": null,
+  "tddkdoanh": null,
+  "dcddkdoanh": null,
+  "nmmtinh": null,
+  "nmttinh": null,
+  "nmmxa": null,
+  "nmtxa": null,
+  "nbmstgoc": null,
+  "lddctthe": null,
+  "hdhhdvu": [
+    {
+      "idhdon": "c21aa56b-fc7b-4990-90e7-82b191d23b61",
+      "id": "a277a308-d592-406f-a870-bdd2121aaba1",
+      "dgia": 1268518.5,
+      "dvtinh": "CÁI",
+      "ltsuat": "8%",
+      "sluong": 2,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 1,
+      "tchat": 1,
+      "ten": "MÀN HÌNH MÁY TÍNH 21.45 INCH FHD MONITOR; MODEL: FSID22DFJY; HIỆU FEUVISION",
+      "thtcthue": null,
+      "thtien": 2537037,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 1,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Ghi chú dòng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "2740000"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "202963"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "c21aa56b-fc7b-4990-90e7-82b191d23b61",
+      "id": "356307b4-bf79-4069-baf6-b713aa5047f1",
+      "dgia": 1825000,
+      "dvtinh": "CÁI",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 2,
+      "tchat": 1,
+      "ten": "Ổ ĐĨA CỨNG SSD CỦA MÁY VI TÍNH HIỆU TEAMGROUP CX2 512GB 2.5 INCH SATA III",
+      "thtcthue": null,
+      "thtien": 1825000,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 2,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Ghi chú dòng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "1971000"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "146000"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    }
+  ],
+  "qrcode": "00020101021202000400260052005300540058005900600062009966000001101602212740020110306C26TYY0404146705082026062706094711000.0",
+  "ttmstten": null,
+  "ladhddtten": null,
+  "hdxkhau": null,
+  "hdxkptquan": null,
+  "hdgktkhthue": null,
+  "hdonLquans": null,
+  "tthdclquan": false,
+  "pdndungs": null,
+  "hdtbssrses": null,
+  "hdTrung": null,
+  "isHDTrung": null,
+  "hdcttchinh": 0,
+  "dlhquan": null,
+  "dlnhtmai": null,
+  "bltphi": null,
+  "tcsvhdChinh": null
+}

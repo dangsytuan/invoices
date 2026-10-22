@@ -1,0 +1,492 @@
+{
+  "nbmst": "0400548986",
+  "khmshdon": 1,
+  "khhdon": "C26TMK",
+  "shdon": 52,
+  "cqt": "4802",
+  "cttkhac": [],
+  "dvtte": "VND",
+  "hdon": "01",
+  "hsgcma": "e1ef9447-69d1-455f-bd8e-fd53335be396",
+  "hsgoc": "97f43e52-171e-469d-b928-185081885932",
+  "hthdon": 1,
+  "htttoan": 9,
+  "id": "d591d9d7-c95e-4642-be1b-978de8f6ccca",
+  "idtbao": null,
+  "khdon": null,
+  "khhdgoc": null,
+  "khmshdgoc": null,
+  "lhdgoc": null,
+  "mhdon": "00B43876E98BE34F61AB1809ACEF3CFD4D",
+  "mtdiep": null,
+  "mtdtchieu": "V010010910672E4695179124B6FAD35D5A3098291ED",
+  "nbdchi": "445 Hoàng Diệu - Phường Hòa Cường - Thành Phố Đà Nẵng - Việt Nam",
+  "chma": null,
+  "chten": null,
+  "nbhdktngay": null,
+  "nbhdktso": null,
+  "nbhdso": null,
+  "nblddnbo": null,
+  "nbptvchuyen": null,
+  "nbstkhoan": "20052110300998",
+  "nbten": "CÔNG TY TNHH THIẾT BỊ TRUYỀN THÔNG MINH KHOA",
+  "nbtnhang": "Ngân Hàng Nông Nghiệp Và PTNT Quận Cẩm Lệ",
+  "nbtnvchuyen": null,
+  "nbttkhac": [
+    {
+      "ttruong": "Quận, huyện người bán",
+      "kdlieu": "string",
+      "dlieu": "Hải Châu"
+    },
+    {
+      "ttruong": "Tỉnh/Thành phố người bán",
+      "kdlieu": "string",
+      "dlieu": "Đà Nẵng"
+    },
+    {
+      "ttruong": "Mã quốc gia người bán",
+      "kdlieu": "string",
+      "dlieu": "84"
+    },
+    {
+      "ttruong": "Link tra cứu người bán",
+      "kdlieu": "string",
+      "dlieu": "https://vinvoice.viettel.vn/utilities/invoice-search"
+    }
+  ],
+  "ncma": "2026-02-05T07:46:03.684Z",
+  "ncnhat": "2026-02-05T07:46:03.693Z",
+  "ngcnhat": "tvan_viettel",
+  "nky": "2026-02-05T07:46:02Z",
+  "nmdchi": "Số nhà 201 Tôn Thất Thuyết, Phường Nam Đông Hà, Tỉnh Quảng Trị, Việt Nam",
+  "nmmst": "3200758117",
+  "nmstkhoan": null,
+  "nmten": "CÔNG TY TNHH MINH NHẬT DIGITAL SYSTEMS",
+  "nmtnhang": null,
+  "nmtnmua": null,
+  "nmttkhac": [
+    {
+      "ttruong": "Loại giấy tờ người mua",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Số giấy tờ người mua",
+      "kdlieu": "string",
+      "dlieu": null
+    }
+  ],
+  "ntao": "2026-02-05T07:46:03.643Z",
+  "ntnhan": "2026-02-05T07:46:03.604Z",
+  "pban": "2.1.0",
+  "ptgui": 1,
+  "shdgoc": null,
+  "tchat": 1,
+  "tdlap": "2026-02-04T17:00:00Z",
+  "tgia": 1,
+  "tgtcthue": 4570000,
+  "tgtthue": 365600,
+  "tgtttbchu": "Bốn triệu chín trăm ba mươi lăm nghìn sáu trăm đồng",
+  "tgtttbso": 4935600,
+  "thdon": "HÓA ĐƠN ĐIỆN TỬ GIÁ TRỊ GIA TĂNG",
+  "thlap": 202602,
+  "thttlphi": [],
+  "thttltsuat": [
+    {
+      "tsuat": "8%",
+      "thtien": 4570000,
+      "tthue": 365600,
+      "gttsuat": null
+    }
+  ],
+  "tlhdon": "HÓA ĐƠN ĐIỆN TỬ GIÁ TRỊ GIA TĂNG",
+  "ttcktmai": 0,
+  "tthai": 1,
+  "ttkhac": [
+    {
+      "ttruong": "sophieu",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "restaurant",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "ngaydi",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "ngayden",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "sokhach",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "sophong",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "foliono",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "giaphong",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "sodatphong",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Ghi chú",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Quy đổi",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Trạng thái thanh toán",
+      "kdlieu": "string",
+      "dlieu": "Đã thanh toán"
+    },
+    {
+      "ttruong": "Mã số bí mật",
+      "kdlieu": "string",
+      "dlieu": "PCZJK6GLUEBUWGZ"
+    },
+    {
+      "ttruong": "Ghi chú hóa đơn",
+      "kdlieu": "string",
+      "dlieu": null
+    }
+  ],
+  "tttbao": 1,
+  "ttttkhac": [
+    {
+      "ttruong": "Tổng tiền thuế tiêu thụ đặc biệt",
+      "kdlieu": "string",
+      "dlieu": "0"
+    },
+    {
+      "ttruong": "Tổng tiền phí",
+      "kdlieu": "string",
+      "dlieu": "0"
+    }
+  ],
+  "ttxly": 5,
+  "tvandnkntt": "0100109106",
+  "mhso": null,
+  "ladhddt": 1,
+  "mkhang": null,
+  "nbsdthoai": "0911201100",
+  "nbdctdtu": "minhkhoacom@gmail.com",
+  "nbfax": "0911201100",
+  "nbwebsite": null,
+  "nbcks": "{\"Subject\":\"1.2.840.113549.1.9.1=#16104e4f4e414d4540474d41494c2e434f4d,UID=MST:0400548986,CN=CÔNG TY TNHH THIẾT BỊ TRUYỀN THÔNG MINH KHOA,L=ĐÀ NẴNG,C=VN\",\"SerialNumber\":\"5404FFFEB7033FB324B728D3C2DBC8AE\",\"Issuer\":\"C=VN, O=Viettel Group, CN=Viettel-CA SHA2\",\"NotAfter\":\"2028-01-29T02:27:00\",\"NotBefore\":\"2025-05-29T02:27:00\",\"SigningTime\":\"2026-02-05T14:46:02\"}",
+  "nmsdthoai": null,
+  "nmdctdtu": null,
+  "nmcmnd": null,
+  "nmcks": null,
+  "bhphap": 0,
+  "hddunlap": null,
+  "gchdgoc": null,
+  "tbhgtngay": null,
+  "bhpldo": null,
+  "bhpcbo": null,
+  "bhpngay": null,
+  "tdlhdgoc": null,
+  "tgtphi": null,
+  "unhiem": null,
+  "mstdvnunlhdon": null,
+  "tdvnunlhdon": null,
+  "nbmdvqhnsach": null,
+  "nbsqdinh": null,
+  "nbncqdinh": null,
+  "nbcqcqdinh": null,
+  "nbhtban": null,
+  "nmmdvqhnsach": null,
+  "nmddvchden": null,
+  "nmtgvchdtu": null,
+  "nmtgvchdden": null,
+  "nbtnban": null,
+  "dcdvnunlhdon": null,
+  "dksbke": null,
+  "dknlbke": null,
+  "thtttoan": "TM/CK",
+  "msttcgp": "0100109106",
+  "cqtcks": "{\"Subject\":\"CN=CỤC THUẾ,O=BỘ TÀI CHÍNH,L=Hà Nội,C=VN\",\"SerialNumber\":\"2A05F812673607B0\",\"Issuer\":\"CN=CA phục vụ các cơ quan Nhà nước G2, O=Ban Cơ yếu Chính phủ, C=VN\",\"NotAfter\":\"2030-03-12T16:36:53\",\"NotBefore\":\"2025-03-13T16:36:53\",\"SigningTime\":\"2026-02-05T14:46:03\"}",
+  "gchu": "",
+  "kqcht": null,
+  "hdntgia": null,
+  "tgtkcthue": null,
+  "tgtkhac": null,
+  "nmshchieu": null,
+  "nmnchchieu": null,
+  "nmnhhhchieu": null,
+  "nmqtich": null,
+  "ktkhthue": null,
+  "nmstttoan": null,
+  "nmttttoan": null,
+  "mddkdoanh": null,
+  "tddkdoanh": null,
+  "dcddkdoanh": null,
+  "nmmtinh": null,
+  "nmttinh": null,
+  "nmmxa": null,
+  "nmtxa": null,
+  "nbmstgoc": null,
+  "lddctthe": null,
+  "hdhhdvu": [
+    {
+      "idhdon": "d591d9d7-c95e-4642-be1b-978de8f6ccca",
+      "id": "754c6a76-0ee0-4950-b82f-db90f90f5623",
+      "dgia": 165000,
+      "dvtinh": "cái",
+      "ltsuat": "8%",
+      "sluong": 5,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 1,
+      "tchat": 1,
+      "ten": "Pin ( ắc quy ion liti) ký hiệu SO21TO, dùng cho máy tính xách tay loại pin 4-12 cell, điện thế 10v-30v, dòng điện 2A-7A, dung lượng từ 1000 mAh -10000 mAh, mới 100%.",
+      "thtcthue": null,
+      "thtien": 825000,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 1,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Ghi chú dòng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "891000"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "66000"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "d591d9d7-c95e-4642-be1b-978de8f6ccca",
+      "id": "5b4fb974-3522-42d0-bea1-3cac9bf13adb",
+      "dgia": 49000,
+      "dvtinh": "cái",
+      "ltsuat": "8%",
+      "sluong": 5,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 2,
+      "tchat": 1,
+      "ten": "Bàn phím dùng cho máy tính xách tay, mã hàng : EGHKYAL16",
+      "thtcthue": null,
+      "thtien": 245000,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 2,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Ghi chú dòng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "264600"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "19600"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "d591d9d7-c95e-4642-be1b-978de8f6ccca",
+      "id": "55a01083-2189-4c7d-a139-f0cfa38ea224",
+      "dgia": 230000,
+      "dvtinh": "cái",
+      "ltsuat": "8%",
+      "sluong": 5,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 3,
+      "tchat": 1,
+      "ten": "Tấm nền màn hình tinh thể lỏng LCD 14.0 inch. Model: LQ140M1JW62, là bộ phận của màn hình máy tính xách tay, khôngphải màn hình hoàn chỉnh. Hiệu: HKC, nhà sản xuất: HKC. Mới 100%.",
+      "thtcthue": null,
+      "thtien": 1150000,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 3,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Ghi chú dòng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "1242000"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "92000"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "d591d9d7-c95e-4642-be1b-978de8f6ccca",
+      "id": "1ae5f818-4943-47f6-8f92-26bba13b2c41",
+      "dgia": 235000,
+      "dvtinh": "cái",
+      "ltsuat": "8%",
+      "sluong": 10,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 4,
+      "tchat": 1,
+      "ten": "Tấm nền màn hình tinh thể lỏng LCD 15.6 inch. Model: B156XTNAA.0, là bộ phận của màn hình máy tính xách tay, khôngphải màn hình hoàn chỉnh. Hiệu: BOE, nhà sản xuất: BOE. Mới 100%.",
+      "thtcthue": null,
+      "thtien": 2350000,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 4,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Ghi chú dòng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "2538000"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "188000"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    }
+  ],
+  "qrcode": "00020101021202000400260052005300540058005900600062009964000001100400548986020110306C26TMK04025205082026020506094935600.0",
+  "ttmstten": null,
+  "ladhddtten": null,
+  "hdxkhau": null,
+  "hdxkptquan": null,
+  "hdgktkhthue": null,
+  "hdonLquans": null,
+  "tthdclquan": false,
+  "pdndungs": null,
+  "hdtbssrses": null,
+  "hdTrung": null,
+  "isHDTrung": null,
+  "hdcttchinh": 0,
+  "dlhquan": null,
+  "dlnhtmai": null,
+  "bltphi": null,
+  "tcsvhdChinh": null
+}

@@ -1,0 +1,452 @@
+{
+  "nbmst": "0700906047",
+  "khmshdon": 1,
+  "khhdon": "C26TTB",
+  "shdon": 377,
+  "cqt": "3503",
+  "cttkhac": [
+    {
+      "ttruong": "InvoiceTemplateID",
+      "kdlieu": "string",
+      "dlieu": "496e982a-9af7-478b-9b63-ade264514bb5"
+    },
+    {
+      "ttruong": "IsTaxReduction",
+      "kdlieu": "numeric",
+      "dlieu": "False"
+    },
+    {
+      "ttruong": "IsTaxReduction43",
+      "kdlieu": "numeric",
+      "dlieu": "True"
+    },
+    {
+      "ttruong": "OrganizationUnitID",
+      "kdlieu": "string",
+      "dlieu": "606b63a8-8881-11f0-9d16-005056b219fb"
+    },
+    {
+      "ttruong": "RefID",
+      "kdlieu": "string",
+      "dlieu": "35588d89-54bb-49a0-96e1-fdb09a205846"
+    },
+    {
+      "ttruong": "IsShowLineNumber",
+      "kdlieu": "numeric",
+      "dlieu": "0"
+    },
+    {
+      "ttruong": "IsSettlementInvoice",
+      "kdlieu": "numeric",
+      "dlieu": "False"
+    },
+    {
+      "ttruong": "AmountDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "AmountOCDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "CoefficientDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "ExchangRateDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "MainCurrency",
+      "kdlieu": "string",
+      "dlieu": "VND"
+    },
+    {
+      "ttruong": "QuantityDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "UnitPriceDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "UnitPriceOCDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "0"
+    },
+    {
+      "ttruong": "AppID",
+      "kdlieu": "string",
+      "dlieu": "3A136051-81E2-4372-BFC7-5C6C12B73159"
+    },
+    {
+      "ttruong": "TransactionID",
+      "kdlieu": "string",
+      "dlieu": "L5FECPA8KPA2"
+    }
+  ],
+  "dvtte": "VND",
+  "hdon": "01",
+  "hsgcma": "b328bfab-c96e-4475-b34d-89a007a38a82",
+  "hsgoc": "23761ce9-bdfc-4cce-8946-3fae100a080b",
+  "hthdon": 1,
+  "htttoan": 9,
+  "id": "17f86a2d-cc53-4650-866c-8668679f020b",
+  "idtbao": null,
+  "khdon": null,
+  "khhdgoc": "C26TTB",
+  "khmshdgoc": "1",
+  "lhdgoc": 1,
+  "mhdon": "00F86D1C43AA9C4F82AC192FBC5227E361",
+  "mtdiep": null,
+  "mtdtchieu": "V010124315031910B98DC66485581B41564FE38B986",
+  "nbdchi": "47/1 Đặng Thùy Trâm, Phường Duy Hà, Ninh Bình, Việt Nam.",
+  "chma": null,
+  "chten": null,
+  "nbhdktngay": null,
+  "nbhdktso": null,
+  "nbhdso": null,
+  "nblddnbo": null,
+  "nbptvchuyen": null,
+  "nbstkhoan": "700906047",
+  "nbten": "CÔNG TY TNHH CÔNG NGHỆ THƯƠNG MẠI TNB",
+  "nbtnhang": "Techcombank - CN Nam Định",
+  "nbtnvchuyen": null,
+  "nbttkhac": [
+    {
+      "ttruong": "SellerAddress",
+      "kdlieu": "string",
+      "dlieu": "47/1 Đặng Thùy Trâm, Phường Duy Hà, Ninh Bình, Việt Nam."
+    },
+    {
+      "ttruong": "SellerBankAccount",
+      "kdlieu": "string",
+      "dlieu": "700906047"
+    },
+    {
+      "ttruong": "SellerBankName",
+      "kdlieu": "string",
+      "dlieu": "Techcombank - CN Nam Định"
+    },
+    {
+      "ttruong": "SellerEmail",
+      "kdlieu": "string",
+      "dlieu": "tnbcty@gmail.com"
+    },
+    {
+      "ttruong": "SellerPhoneNumber",
+      "kdlieu": "string",
+      "dlieu": "0967277667"
+    }
+  ],
+  "ncma": "2026-10-21T04:19:23.961Z",
+  "ncnhat": "2026-10-21T04:19:23.978Z",
+  "ngcnhat": "tvan_misa",
+  "nky": "2026-10-21T04:19:31Z",
+  "nmdchi": "Số nhà 201 Tôn Thất Thuyết, Phường Nam Đông Hà, Tỉnh Quảng Trị, Việt Nam",
+  "nmmst": "3200758117",
+  "nmstkhoan": null,
+  "nmten": "CÔNG TY TNHH MINH NHẬT DIGITAL SYSTEMS",
+  "nmtnhang": null,
+  "nmtnmua": "CÔNG TY TNHH MINH NHẬT DIGITAL SYSTEMS",
+  "nmttkhac": [],
+  "ntao": "2026-10-21T04:19:23.702Z",
+  "ntnhan": "2026-10-21T04:19:22.586Z",
+  "pban": "2.1.0",
+  "ptgui": 1,
+  "shdgoc": 373,
+  "tchat": 2,
+  "tdlap": "2026-10-20T17:00:00Z",
+  "tgia": 1,
+  "tgtcthue": 4259259.6,
+  "tgtthue": 340740.4,
+  "tgtttbchu": "Bốn triệu sáu trăm nghìn đồng chẵn.",
+  "tgtttbso": 4600000,
+  "thdon": "Hóa đơn giá trị gia tăng",
+  "thlap": 202610,
+  "thttlphi": [],
+  "thttltsuat": [
+    {
+      "tsuat": "8%",
+      "thtien": 4259259.6,
+      "tthue": 340740.4,
+      "gttsuat": null
+    }
+  ],
+  "tlhdon": "Hóa đơn giá trị gia tăng",
+  "ttcktmai": 0,
+  "tthai": 2,
+  "ttkhac": [
+    {
+      "ttruong": "SpecificInvoiceType",
+      "kdlieu": "numberic",
+      "dlieu": "0"
+    }
+  ],
+  "tttbao": 1,
+  "ttttkhac": [
+    {
+      "ttruong": "TotalAmount",
+      "kdlieu": "numeric",
+      "dlieu": "4600000.0"
+    },
+    {
+      "ttruong": "TotalAmountInWordsByENG",
+      "kdlieu": "string",
+      "dlieu": "Four million, six hundred thousand dongs."
+    },
+    {
+      "ttruong": "TotalAmountWithoutVAT",
+      "kdlieu": "numeric",
+      "dlieu": "4259259.6"
+    },
+    {
+      "ttruong": "TotalAmountWithoutVATOC",
+      "kdlieu": "numeric",
+      "dlieu": "4259259.6"
+    },
+    {
+      "ttruong": "TotalSaleAmount",
+      "kdlieu": "numeric",
+      "dlieu": "4259259.6"
+    },
+    {
+      "ttruong": "TotalSaleAmountOC",
+      "kdlieu": "numeric",
+      "dlieu": "4259259.6"
+    },
+    {
+      "ttruong": "TotalVATAmount",
+      "kdlieu": "numeric",
+      "dlieu": "340740.4"
+    },
+    {
+      "ttruong": "TotalAmountOC",
+      "kdlieu": "numeric",
+      "dlieu": "4600000.0"
+    },
+    {
+      "ttruong": "TotalVATAmountOC",
+      "kdlieu": "numeric",
+      "dlieu": "340740.4"
+    }
+  ],
+  "ttxly": 5,
+  "tvandnkntt": "0101243150",
+  "mhso": null,
+  "ladhddt": 1,
+  "mkhang": "3200758117",
+  "nbsdthoai": "0967277667",
+  "nbdctdtu": "tnbcty@gmail.com",
+  "nbfax": null,
+  "nbwebsite": null,
+  "nbcks": "{\"Subject\":\"OID.0.9.2342.19200300.100.1.1=MST:0700906047, CN=CÔNG TY TNHH CÔNG NGHỆ THƯƠNG MẠI TNB, S=Tỉnh Ninh Bình, C=VN\",\"SerialNumber\":\"5401016850A746E549BEF801CC0B4A06\",\"Issuer\":\"CN=FastCA SHA-256 R1, O=CÔNG TY CỔ PHẦN CHỮ KÝ SỐ FASTCA, C=VN\",\"NotAfter\":\"2028-08-26T12:00:00\",\"NotBefore\":\"2025-09-06T05:00:00\",\"SigningTime\":\"2026-10-21T11:19:31\"}",
+  "nmsdthoai": null,
+  "nmdctdtu": null,
+  "nmcmnd": null,
+  "nmcks": null,
+  "bhphap": 0,
+  "hddunlap": null,
+  "gchdgoc": null,
+  "tbhgtngay": null,
+  "bhpldo": null,
+  "bhpcbo": null,
+  "bhpngay": null,
+  "tdlhdgoc": "2026-10-18T17:00:00Z",
+  "tgtphi": null,
+  "unhiem": null,
+  "mstdvnunlhdon": null,
+  "tdvnunlhdon": null,
+  "nbmdvqhnsach": null,
+  "nbsqdinh": null,
+  "nbncqdinh": null,
+  "nbcqcqdinh": null,
+  "nbhtban": null,
+  "nmmdvqhnsach": null,
+  "nmddvchden": null,
+  "nmtgvchdtu": null,
+  "nmtgvchdden": null,
+  "nbtnban": null,
+  "dcdvnunlhdon": null,
+  "dksbke": null,
+  "dknlbke": null,
+  "thtttoan": "TM/CK",
+  "msttcgp": "0101243150",
+  "cqtcks": "{\"Subject\":\"CN=CỤC THUẾ,O=BỘ TÀI CHÍNH,L=Hà Nội,C=VN\",\"SerialNumber\":\"2A05F812673607B0\",\"Issuer\":\"CN=CA phục vụ các cơ quan Nhà nước G2, O=Ban Cơ yếu Chính phủ, C=VN\",\"NotAfter\":\"2030-03-12T16:36:53\",\"NotBefore\":\"2025-03-13T16:36:53\",\"SigningTime\":\"2026-10-21T11:19:23\"}",
+  "gchu": "",
+  "kqcht": null,
+  "hdntgia": null,
+  "tgtkcthue": null,
+  "tgtkhac": null,
+  "nmshchieu": null,
+  "nmnchchieu": null,
+  "nmnhhhchieu": null,
+  "nmqtich": null,
+  "ktkhthue": null,
+  "nmstttoan": null,
+  "nmttttoan": null,
+  "mddkdoanh": null,
+  "tddkdoanh": null,
+  "dcddkdoanh": null,
+  "nmmtinh": null,
+  "nmttinh": null,
+  "nmmxa": null,
+  "nmtxa": null,
+  "nbmstgoc": null,
+  "lddctthe": null,
+  "hdhhdvu": [
+    {
+      "idhdon": "17f86a2d-cc53-4650-866c-8668679f020b",
+      "id": "42aac143-be74-4c5b-bc30-9040354aee21",
+      "dgia": 60185.19,
+      "dvtinh": "Chiếc",
+      "ltsuat": "8%",
+      "sluong": 50,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 1,
+      "tchat": 1,
+      "ten": "Chuột không dây Rapoo M1 2.4GHz DPI 1600 màu đen. Hiệu Rapoo",
+      "thtcthue": null,
+      "thtien": 3009259.5,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 1,
+      "ttkhac": [
+        {
+          "ttruong": "Amount",
+          "kdlieu": "numeric",
+          "dlieu": "3009259.5"
+        },
+        {
+          "ttruong": "AmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "3009259.5"
+        },
+        {
+          "ttruong": "AmountWithoutVATOC",
+          "kdlieu": "numeric",
+          "dlieu": "3009259.5"
+        },
+        {
+          "ttruong": "DiscountAmount",
+          "kdlieu": "numeric",
+          "dlieu": "0.0"
+        },
+        {
+          "ttruong": "SortOrder",
+          "kdlieu": "numeric",
+          "dlieu": "1"
+        },
+        {
+          "ttruong": "UnitPrice",
+          "kdlieu": "numeric",
+          "dlieu": "60185.19"
+        },
+        {
+          "ttruong": "VATAmount",
+          "kdlieu": "numeric",
+          "dlieu": "240740.76"
+        },
+        {
+          "ttruong": "VATAmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "240740.76"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "17f86a2d-cc53-4650-866c-8668679f020b",
+      "id": "011027be-fdf2-489d-b804-1c5d9de32dc7",
+      "dgia": 41666.67,
+      "dvtinh": "Chiếc",
+      "ltsuat": "8%",
+      "sluong": 30,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 2,
+      "tchat": 1,
+      "ten": "Chuột máy tính DAREU LM103_TM201U08603G",
+      "thtcthue": null,
+      "thtien": 1250000.1,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 2,
+      "ttkhac": [
+        {
+          "ttruong": "Amount",
+          "kdlieu": "numeric",
+          "dlieu": "1250000.1"
+        },
+        {
+          "ttruong": "AmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "1250000.1"
+        },
+        {
+          "ttruong": "AmountWithoutVATOC",
+          "kdlieu": "numeric",
+          "dlieu": "1250000.1"
+        },
+        {
+          "ttruong": "DiscountAmount",
+          "kdlieu": "numeric",
+          "dlieu": "0.0"
+        },
+        {
+          "ttruong": "SortOrder",
+          "kdlieu": "numeric",
+          "dlieu": "2"
+        },
+        {
+          "ttruong": "UnitPrice",
+          "kdlieu": "numeric",
+          "dlieu": "41666.67"
+        },
+        {
+          "ttruong": "VATAmount",
+          "kdlieu": "numeric",
+          "dlieu": "99999.64"
+        },
+        {
+          "ttruong": "VATAmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "99999.64"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    }
+  ],
+  "qrcode": "00020101021202000400260052005300540058005900600062009965000001100700906047020110306C26TTB040337705082026102106094600000.0",
+  "ttmstten": null,
+  "ladhddtten": null,
+  "hdxkhau": null,
+  "hdxkptquan": null,
+  "hdgktkhthue": null,
+  "hdonLquans": null,
+  "tthdclquan": false,
+  "pdndungs": null,
+  "hdtbssrses": null,
+  "hdTrung": null,
+  "isHDTrung": null,
+  "hdcttchinh": 0,
+  "dlhquan": null,
+  "dlnhtmai": null,
+  "bltphi": null,
+  "tcsvhdChinh": null
+}

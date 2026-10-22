@@ -1,0 +1,763 @@
+{
+  "nbmst": "0700798698",
+  "khmshdon": 1,
+  "khhdon": "C26THT",
+  "shdon": 2302,
+  "cqt": "3502",
+  "cttkhac": [
+    {
+      "ttruong": "InvoiceTemplateID",
+      "kdlieu": "string",
+      "dlieu": "c4904b30-7f3d-4697-b483-e6634fdba758"
+    },
+    {
+      "ttruong": "IsTaxReduction",
+      "kdlieu": "numeric",
+      "dlieu": "False"
+    },
+    {
+      "ttruong": "IsTaxReduction43",
+      "kdlieu": "numeric",
+      "dlieu": "True"
+    },
+    {
+      "ttruong": "RefID",
+      "kdlieu": "string",
+      "dlieu": "48991517-bbf9-4612-8cc9-9fb9368e581c"
+    },
+    {
+      "ttruong": "AmountDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "0"
+    },
+    {
+      "ttruong": "AmountOCDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "CoefficientDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "ExchangRateDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "MainCurrency",
+      "kdlieu": "string",
+      "dlieu": "VND"
+    },
+    {
+      "ttruong": "QuantityDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "UnitPriceDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "UnitPriceOCDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "AppID",
+      "kdlieu": "string",
+      "dlieu": "F7E8D7E5-BB5A-421B-8B39-D3A35D661F08"
+    },
+    {
+      "ttruong": "TransactionID",
+      "kdlieu": "string",
+      "dlieu": "W1F3HBNZL2ZA"
+    }
+  ],
+  "dvtte": "VND",
+  "hdon": "01",
+  "hsgcma": "2215c01b-0772-45a2-b776-58afd916ab52",
+  "hsgoc": "56e936fa-8a68-4b65-90f4-8da744b578e2",
+  "hthdon": 1,
+  "htttoan": 9,
+  "id": "7c471e34-1d89-403a-bbdf-b874278527e3",
+  "idtbao": null,
+  "khdon": null,
+  "khhdgoc": null,
+  "khmshdgoc": null,
+  "lhdgoc": null,
+  "mhdon": "00D3B3D5ECA5ED4513AB90B553E6678D48",
+  "mtdiep": null,
+  "mtdtchieu": "V01012431509C9D3B39B0DB451492DF9457C3506F2C",
+  "nbdchi": "Số 172, Đường Lê Duẩn, Phường Phủ Lý, Tỉnh Ninh Bình, Việt Nam",
+  "chma": null,
+  "chten": null,
+  "nbhdktngay": null,
+  "nbhdktso": null,
+  "nbhdso": null,
+  "nblddnbo": null,
+  "nbptvchuyen": null,
+  "nbstkhoan": "19037226615018",
+  "nbten": "CÔNG TY TNHH TIN HỌC HTL",
+  "nbtnhang": "Ngân Hàng Thương Mại Cổ Phần Kỹ Thương Việt Nam",
+  "nbtnvchuyen": null,
+  "nbttkhac": [
+    {
+      "ttruong": "SellerAddress",
+      "kdlieu": "string",
+      "dlieu": "Số 172, Đường Lê Duẩn, Phường Phủ Lý, Tỉnh Ninh Bình, Việt Nam"
+    },
+    {
+      "ttruong": "SellerBankAccount",
+      "kdlieu": "string",
+      "dlieu": "19037226615018"
+    },
+    {
+      "ttruong": "SellerBankName",
+      "kdlieu": "string",
+      "dlieu": "Ngân Hàng Thương Mại Cổ Phần Kỹ Thương Việt Nam"
+    },
+    {
+      "ttruong": "SellerEmail",
+      "kdlieu": "string",
+      "dlieu": "ketoan.htlcomputer@gmail.com"
+    },
+    {
+      "ttruong": "SellerPhoneNumber",
+      "kdlieu": "string",
+      "dlieu": "02263.622.699"
+    }
+  ],
+  "ncma": "2026-04-23T08:31:11.398Z",
+  "ncnhat": "2026-04-23T08:31:11.407Z",
+  "ngcnhat": "tvan_misa",
+  "nky": "2026-04-23T08:30:49Z",
+  "nmdchi": "Số nhà 201 Tôn Thất Thuyết, Phường Nam Đông Hà, Tỉnh Quảng Trị, Việt Nam",
+  "nmmst": "3200758117",
+  "nmstkhoan": null,
+  "nmten": "CÔNG TY TNHH MINH NHẬT DIGITAL SYSTEMS",
+  "nmtnhang": null,
+  "nmtnmua": null,
+  "nmttkhac": [
+    {
+      "ttruong": "AccountObjectEmailAddressSIDI",
+      "kdlieu": "string",
+      "dlieu": "mndigitalsys@gmail.com"
+    }
+  ],
+  "ntao": "2026-04-23T08:31:11.352Z",
+  "ntnhan": "2026-04-23T08:31:11.305Z",
+  "pban": "2.1.0",
+  "ptgui": 1,
+  "shdgoc": null,
+  "tchat": 1,
+  "tdlap": "2026-04-22T17:00:00Z",
+  "tgia": 1,
+  "tgtcthue": 19708333,
+  "tgtthue": 1576667,
+  "tgtttbchu": "Hai mươi mốt triệu hai trăm tám mươi lăm nghìn đồng chẵn.",
+  "tgtttbso": 21285000,
+  "thdon": "Hóa đơn giá trị gia tăng",
+  "thlap": 202604,
+  "thttlphi": [],
+  "thttltsuat": [
+    {
+      "tsuat": "8%",
+      "thtien": 19708333,
+      "tthue": 1576667,
+      "gttsuat": null
+    }
+  ],
+  "tlhdon": "Hóa đơn giá trị gia tăng",
+  "ttcktmai": 0,
+  "tthai": 1,
+  "ttkhac": [
+    {
+      "ttruong": "StockTotalAmount",
+      "kdlieu": "numeric",
+      "dlieu": "21285000.0"
+    },
+    {
+      "ttruong": "StockTotalAmountOC",
+      "kdlieu": "numeric",
+      "dlieu": "21285000.0"
+    }
+  ],
+  "tttbao": 1,
+  "ttttkhac": [
+    {
+      "ttruong": "TotalAmount",
+      "kdlieu": "numeric",
+      "dlieu": "21285000.0"
+    },
+    {
+      "ttruong": "TotalAmountInWordsByENG",
+      "kdlieu": "string",
+      "dlieu": "Twenty-one million, two hundred eighty-five thousand dong."
+    },
+    {
+      "ttruong": "TotalAmountInWordsVN",
+      "kdlieu": "string",
+      "dlieu": "Hai mươi mốt triệu hai trăm tám mươi lăm nghìn đồng chẵn."
+    },
+    {
+      "ttruong": "TotalAmountWithoutVAT",
+      "kdlieu": "numeric",
+      "dlieu": "19708333.0"
+    },
+    {
+      "ttruong": "TotalAmountWithoutVATOC",
+      "kdlieu": "numeric",
+      "dlieu": "19708333.0"
+    },
+    {
+      "ttruong": "TotalSaleAmount",
+      "kdlieu": "numeric",
+      "dlieu": "19708333.0"
+    },
+    {
+      "ttruong": "TotalSaleAmountOC",
+      "kdlieu": "numeric",
+      "dlieu": "19708333.0"
+    },
+    {
+      "ttruong": "TotalVATAmount",
+      "kdlieu": "numeric",
+      "dlieu": "1576667.0"
+    },
+    {
+      "ttruong": "TotalAmountOC",
+      "kdlieu": "numeric",
+      "dlieu": "21285000.0"
+    },
+    {
+      "ttruong": "TotalVATAmountOC",
+      "kdlieu": "numeric",
+      "dlieu": "1576667.0"
+    }
+  ],
+  "ttxly": 5,
+  "tvandnkntt": "0101243150",
+  "mhso": null,
+  "ladhddt": 1,
+  "mkhang": "3200758117",
+  "nbsdthoai": "02263.622.699",
+  "nbdctdtu": "ketoan.htlcomputer@gmail.com",
+  "nbfax": null,
+  "nbwebsite": null,
+  "nbcks": "{\"Subject\":\"E=QUYENLT1986@GMAIL.COM, OID.0.9.2342.19200300.100.1.1=MST:0700798698, CN=CÔNG TY TNHH TIN HỌC HTL, L=HÀ NAM, C=VN\",\"SerialNumber\":\"5404FFFEB7033FB324B728D3C2EB6DC6\",\"Issuer\":\"C=VN, O=Viettel Group, CN=Viettel-CA SHA2\",\"NotAfter\":\"2028-12-04T08:29:00\",\"NotBefore\":\"2025-09-04T08:29:00\",\"SigningTime\":\"2026-04-23T15:30:49\"}",
+  "nmsdthoai": null,
+  "nmdctdtu": null,
+  "nmcmnd": null,
+  "nmcks": null,
+  "bhphap": 0,
+  "hddunlap": null,
+  "gchdgoc": null,
+  "tbhgtngay": null,
+  "bhpldo": null,
+  "bhpcbo": null,
+  "bhpngay": null,
+  "tdlhdgoc": null,
+  "tgtphi": null,
+  "unhiem": null,
+  "mstdvnunlhdon": null,
+  "tdvnunlhdon": null,
+  "nbmdvqhnsach": null,
+  "nbsqdinh": null,
+  "nbncqdinh": null,
+  "nbcqcqdinh": null,
+  "nbhtban": null,
+  "nmmdvqhnsach": null,
+  "nmddvchden": null,
+  "nmtgvchdtu": null,
+  "nmtgvchdden": null,
+  "nbtnban": null,
+  "dcdvnunlhdon": null,
+  "dksbke": null,
+  "dknlbke": null,
+  "thtttoan": "TM/CK",
+  "msttcgp": "0101243150",
+  "cqtcks": "{\"Subject\":\"CN=CỤC THUẾ,O=BỘ TÀI CHÍNH,L=Hà Nội,C=VN\",\"SerialNumber\":\"2A05F812673607B0\",\"Issuer\":\"CN=CA phục vụ các cơ quan Nhà nước G2, O=Ban Cơ yếu Chính phủ, C=VN\",\"NotAfter\":\"2030-03-12T16:36:53\",\"NotBefore\":\"2025-03-13T16:36:53\",\"SigningTime\":\"2026-04-23T15:31:11\"}",
+  "gchu": "",
+  "kqcht": null,
+  "hdntgia": null,
+  "tgtkcthue": null,
+  "tgtkhac": null,
+  "nmshchieu": null,
+  "nmnchchieu": null,
+  "nmnhhhchieu": null,
+  "nmqtich": null,
+  "ktkhthue": null,
+  "nmstttoan": null,
+  "nmttttoan": null,
+  "mddkdoanh": null,
+  "tddkdoanh": null,
+  "dcddkdoanh": null,
+  "nmmtinh": null,
+  "nmttinh": null,
+  "nmmxa": null,
+  "nmtxa": null,
+  "nbmstgoc": null,
+  "lddctthe": null,
+  "hdhhdvu": [
+    {
+      "idhdon": "7c471e34-1d89-403a-bbdf-b874278527e3",
+      "id": "9feb4408-e142-4596-ad34-bcf27fc725f7",
+      "dgia": 4074074.07,
+      "dvtinh": "Cái",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 1,
+      "tchat": 1,
+      "ten": "Chíp vi xử lý Intel Core i5 14400F ,20M Cache, 4.7 GHz",
+      "thtcthue": null,
+      "thtien": 4074074,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 1,
+      "ttkhac": [
+        {
+          "ttruong": "Amount",
+          "kdlieu": "numeric",
+          "dlieu": "4074074.0"
+        },
+        {
+          "ttruong": "AmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "4074074.0"
+        },
+        {
+          "ttruong": "AmountWithoutVATOC",
+          "kdlieu": "numeric",
+          "dlieu": "4074074.0"
+        },
+        {
+          "ttruong": "DiscountAmount",
+          "kdlieu": "numeric",
+          "dlieu": "0.0"
+        },
+        {
+          "ttruong": "InventoryItemCategoryCode",
+          "kdlieu": "string",
+          "dlieu": "HH"
+        },
+        {
+          "ttruong": "InventoryItemCategoryName",
+          "kdlieu": "string",
+          "dlieu": "Hàng hóa"
+        },
+        {
+          "ttruong": "SortOrder",
+          "kdlieu": "numeric",
+          "dlieu": "1"
+        },
+        {
+          "ttruong": "UnitPrice",
+          "kdlieu": "numeric",
+          "dlieu": "4074074.07"
+        },
+        {
+          "ttruong": "VATAmount",
+          "kdlieu": "numeric",
+          "dlieu": "325926.0"
+        },
+        {
+          "ttruong": "VATAmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "325926.0"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "7c471e34-1d89-403a-bbdf-b874278527e3",
+      "id": "b51ac0b1-beab-4d1c-92a5-4613cbece0d7",
+      "dgia": 3398148.15,
+      "dvtinh": "Chiếc",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 2,
+      "tchat": 1,
+      "ten": "Mạch chính Asus TUF Gaming B760M-PLUS WIFI II",
+      "thtcthue": null,
+      "thtien": 3398148,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 2,
+      "ttkhac": [
+        {
+          "ttruong": "Amount",
+          "kdlieu": "numeric",
+          "dlieu": "3398148.0"
+        },
+        {
+          "ttruong": "AmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "3398148.0"
+        },
+        {
+          "ttruong": "AmountWithoutVATOC",
+          "kdlieu": "numeric",
+          "dlieu": "3398148.0"
+        },
+        {
+          "ttruong": "DiscountAmount",
+          "kdlieu": "numeric",
+          "dlieu": "0.0"
+        },
+        {
+          "ttruong": "InventoryItemCategoryCode",
+          "kdlieu": "string",
+          "dlieu": "HH"
+        },
+        {
+          "ttruong": "InventoryItemCategoryName",
+          "kdlieu": "string",
+          "dlieu": "Hàng hóa"
+        },
+        {
+          "ttruong": "SortOrder",
+          "kdlieu": "numeric",
+          "dlieu": "2"
+        },
+        {
+          "ttruong": "UnitPrice",
+          "kdlieu": "numeric",
+          "dlieu": "3398148.15"
+        },
+        {
+          "ttruong": "VATAmount",
+          "kdlieu": "numeric",
+          "dlieu": "271852.0"
+        },
+        {
+          "ttruong": "VATAmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "271852.0"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "7c471e34-1d89-403a-bbdf-b874278527e3",
+      "id": "b5736a23-228b-4aab-b3b6-aecb8ad1186b",
+      "dgia": 2546296.3,
+      "dvtinh": "Chiếc",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 3,
+      "tchat": 1,
+      "ten": "Màn hình HKC 27 inch MG27H17",
+      "thtcthue": null,
+      "thtien": 2546296,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 3,
+      "ttkhac": [
+        {
+          "ttruong": "Amount",
+          "kdlieu": "numeric",
+          "dlieu": "2546296.0"
+        },
+        {
+          "ttruong": "AmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "2546296.0"
+        },
+        {
+          "ttruong": "AmountWithoutVATOC",
+          "kdlieu": "numeric",
+          "dlieu": "2546296.0"
+        },
+        {
+          "ttruong": "DiscountAmount",
+          "kdlieu": "numeric",
+          "dlieu": "0.0"
+        },
+        {
+          "ttruong": "InventoryItemCategoryCode",
+          "kdlieu": "string",
+          "dlieu": "HH"
+        },
+        {
+          "ttruong": "InventoryItemCategoryName",
+          "kdlieu": "string",
+          "dlieu": "Hàng hóa"
+        },
+        {
+          "ttruong": "SortOrder",
+          "kdlieu": "numeric",
+          "dlieu": "3"
+        },
+        {
+          "ttruong": "UnitPrice",
+          "kdlieu": "numeric",
+          "dlieu": "2546296.3"
+        },
+        {
+          "ttruong": "VATAmount",
+          "kdlieu": "numeric",
+          "dlieu": "203704.0"
+        },
+        {
+          "ttruong": "VATAmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "203704.0"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "7c471e34-1d89-403a-bbdf-b874278527e3",
+      "id": "c2b861cf-fc42-4c18-a7c3-89a4a7551dbf",
+      "dgia": 9027777.78,
+      "dvtinh": "Chiếc",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 4,
+      "tchat": 1,
+      "ten": "Cạc màn hình MSI RTX 5060 8G SHADOW 2X OC",
+      "thtcthue": null,
+      "thtien": 9027778,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 4,
+      "ttkhac": [
+        {
+          "ttruong": "Amount",
+          "kdlieu": "numeric",
+          "dlieu": "9027778.0"
+        },
+        {
+          "ttruong": "AmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "9027778.0"
+        },
+        {
+          "ttruong": "AmountWithoutVATOC",
+          "kdlieu": "numeric",
+          "dlieu": "9027778.0"
+        },
+        {
+          "ttruong": "DiscountAmount",
+          "kdlieu": "numeric",
+          "dlieu": "0.0"
+        },
+        {
+          "ttruong": "InventoryItemCategoryCode",
+          "kdlieu": "string",
+          "dlieu": "HH"
+        },
+        {
+          "ttruong": "InventoryItemCategoryName",
+          "kdlieu": "string",
+          "dlieu": "Hàng hóa"
+        },
+        {
+          "ttruong": "SortOrder",
+          "kdlieu": "numeric",
+          "dlieu": "4"
+        },
+        {
+          "ttruong": "UnitPrice",
+          "kdlieu": "numeric",
+          "dlieu": "9027777.78"
+        },
+        {
+          "ttruong": "VATAmount",
+          "kdlieu": "numeric",
+          "dlieu": "722222.0"
+        },
+        {
+          "ttruong": "VATAmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "722222.0"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "7c471e34-1d89-403a-bbdf-b874278527e3",
+      "id": "2e422c33-5753-45cb-8126-d7e9ee3f3509",
+      "dgia": 444444.44,
+      "dvtinh": "Chiếc",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 5,
+      "tchat": 1,
+      "ten": "Bàn phím máy tính DAREU EK87 v2 Gray-black,Dream switch",
+      "thtcthue": null,
+      "thtien": 444444,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 5,
+      "ttkhac": [
+        {
+          "ttruong": "Amount",
+          "kdlieu": "numeric",
+          "dlieu": "444444.0"
+        },
+        {
+          "ttruong": "AmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "444444.0"
+        },
+        {
+          "ttruong": "AmountWithoutVATOC",
+          "kdlieu": "numeric",
+          "dlieu": "444444.0"
+        },
+        {
+          "ttruong": "DiscountAmount",
+          "kdlieu": "numeric",
+          "dlieu": "0.0"
+        },
+        {
+          "ttruong": "InventoryItemCategoryCode",
+          "kdlieu": "string",
+          "dlieu": "HH"
+        },
+        {
+          "ttruong": "InventoryItemCategoryName",
+          "kdlieu": "string",
+          "dlieu": "Hàng hóa"
+        },
+        {
+          "ttruong": "SortOrder",
+          "kdlieu": "numeric",
+          "dlieu": "5"
+        },
+        {
+          "ttruong": "UnitPrice",
+          "kdlieu": "numeric",
+          "dlieu": "444444.44"
+        },
+        {
+          "ttruong": "VATAmount",
+          "kdlieu": "numeric",
+          "dlieu": "35556.0"
+        },
+        {
+          "ttruong": "VATAmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "35556.0"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "7c471e34-1d89-403a-bbdf-b874278527e3",
+      "id": "1d180813-34e2-4135-9b25-1953e60c6d4f",
+      "dgia": 217593,
+      "dvtinh": "Chiếc",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 6,
+      "tchat": 1,
+      "ten": "Chuột máy tính DAREU EM911 _Black",
+      "thtcthue": null,
+      "thtien": 217593,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 6,
+      "ttkhac": [
+        {
+          "ttruong": "Amount",
+          "kdlieu": "numeric",
+          "dlieu": "217593.0"
+        },
+        {
+          "ttruong": "AmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "217593.0"
+        },
+        {
+          "ttruong": "AmountWithoutVATOC",
+          "kdlieu": "numeric",
+          "dlieu": "217593.0"
+        },
+        {
+          "ttruong": "DiscountAmount",
+          "kdlieu": "numeric",
+          "dlieu": "0.0"
+        },
+        {
+          "ttruong": "SortOrder",
+          "kdlieu": "numeric",
+          "dlieu": "6"
+        },
+        {
+          "ttruong": "UnitPrice",
+          "kdlieu": "numeric",
+          "dlieu": "217593.0"
+        },
+        {
+          "ttruong": "VATAmount",
+          "kdlieu": "numeric",
+          "dlieu": "17407.0"
+        },
+        {
+          "ttruong": "VATAmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "17407.0"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    }
+  ],
+  "qrcode": "00020101021202000400260052005300540058005900600062009965000001100700798698020110306C26THT0404230205082026042306082.1285E7",
+  "ttmstten": null,
+  "ladhddtten": null,
+  "hdxkhau": null,
+  "hdxkptquan": null,
+  "hdgktkhthue": null,
+  "hdonLquans": null,
+  "tthdclquan": false,
+  "pdndungs": null,
+  "hdtbssrses": null,
+  "hdTrung": null,
+  "isHDTrung": null,
+  "hdcttchinh": null,
+  "dlhquan": null,
+  "dlnhtmai": null,
+  "bltphi": null,
+  "tcsvhdChinh": null
+}

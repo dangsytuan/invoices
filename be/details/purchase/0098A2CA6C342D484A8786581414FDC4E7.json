@@ -1,0 +1,428 @@
+{
+  "nbmst": "0400431674",
+  "khmshdon": 1,
+  "khhdon": "C26TTT",
+  "shdon": 1955,
+  "cqt": "4803",
+  "cttkhac": [
+    {
+      "ttruong": "InvoiceTemplateID",
+      "kdlieu": "string",
+      "dlieu": "8dedfd15-bbd4-423a-b4cd-c4bee5ad1924"
+    },
+    {
+      "ttruong": "IsTaxReduction",
+      "kdlieu": "numeric",
+      "dlieu": "False"
+    },
+    {
+      "ttruong": "IsTaxReduction43",
+      "kdlieu": "numeric",
+      "dlieu": "True"
+    },
+    {
+      "ttruong": "RefID",
+      "kdlieu": "string",
+      "dlieu": "c71b1f77-3b81-4887-9450-81166e934091"
+    },
+    {
+      "ttruong": "TaxReductionType",
+      "kdlieu": "string",
+      "dlieu": "5"
+    },
+    {
+      "ttruong": "TaxReductionDescription",
+      "kdlieu": "string",
+      "dlieu": "204/2025/QH15"
+    },
+    {
+      "ttruong": "AmountDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "0"
+    },
+    {
+      "ttruong": "AmountOCDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "CoefficientDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "ExchangRateDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "MainCurrency",
+      "kdlieu": "string",
+      "dlieu": "VND"
+    },
+    {
+      "ttruong": "QuantityDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "0"
+    },
+    {
+      "ttruong": "UnitPriceDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "UnitPriceOCDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "AppID",
+      "kdlieu": "string",
+      "dlieu": "2AC7D9700E1A472895FC8FC2CE91BD07"
+    },
+    {
+      "ttruong": "TransactionID",
+      "kdlieu": "string",
+      "dlieu": "PKFBC_ZB94JD"
+    }
+  ],
+  "dvtte": "VND",
+  "hdon": "01",
+  "hsgcma": "41d70b2c-d05e-4973-b4a5-f6880ed5d19c",
+  "hsgoc": "beb9b3e1-3098-4f47-b272-66642936ae5c",
+  "hthdon": 1,
+  "htttoan": 9,
+  "id": "fa392f90-f266-44d6-8acf-8c249e3ff86b",
+  "idtbao": null,
+  "khdon": null,
+  "khhdgoc": null,
+  "khmshdgoc": null,
+  "lhdgoc": null,
+  "mhdon": "0098A2CA6C342D484A8786581414FDC4E7",
+  "mtdiep": null,
+  "mtdtchieu": "V01012431508D0E8685D5A54F648D7E0DA7EEC81FE7",
+  "nbdchi": "116 Hàm Nghi - Phường Thanh Khê - Thành Phố Đà Nẵng - Việt Nam",
+  "chma": null,
+  "chten": null,
+  "nbhdktngay": null,
+  "nbhdktso": null,
+  "nbhdso": null,
+  "nblddnbo": null,
+  "nbptvchuyen": null,
+  "nbstkhoan": "65785009",
+  "nbten": "CÔNG TY TNHH THƯƠNG MẠI & DỊCH VỤ TIN HỌC KHẢI HUY",
+  "nbtnhang": "Ngân hàng ACB - PGD Cầu Vồng Đà Nẵng",
+  "nbtnvchuyen": null,
+  "nbttkhac": [
+    {
+      "ttruong": "CompanyBankNameWithBranch",
+      "kdlieu": "string",
+      "dlieu": "Ngân hàng ACB - PGD Cầu Vồng Đà Nẵng"
+    },
+    {
+      "ttruong": "SellerAddress",
+      "kdlieu": "string",
+      "dlieu": "116 Hàm Nghi - Phường Thanh Khê - Thành Phố Đà Nẵng - Việt Nam"
+    },
+    {
+      "ttruong": "SellerBankAccount",
+      "kdlieu": "string",
+      "dlieu": "65785009"
+    },
+    {
+      "ttruong": "SellerBankName",
+      "kdlieu": "string",
+      "dlieu": "Ngân hàng ACB - PGD Cầu Vồng Đà Nẵng"
+    },
+    {
+      "ttruong": "SellerEmail",
+      "kdlieu": "string",
+      "dlieu": "khaihuyketoan@gmail.com"
+    },
+    {
+      "ttruong": "SellerFax",
+      "kdlieu": "string",
+      "dlieu": "02363690796"
+    },
+    {
+      "ttruong": "SellerPhoneNumber",
+      "kdlieu": "string",
+      "dlieu": "02363690797"
+    },
+    {
+      "ttruong": "SellerWebsite",
+      "kdlieu": "string",
+      "dlieu": "khaihuy.com.vn"
+    }
+  ],
+  "ncma": "2026-03-28T10:15:18.844Z",
+  "ncnhat": "2026-03-28T10:15:18.851Z",
+  "ngcnhat": "tvan_misa",
+  "nky": "2026-03-28T10:15:15Z",
+  "nmdchi": "201 Tôn Thất Thuyết, Phường Nam Đông Hà, Tỉnh Quảng Trị, Việt Nam.",
+  "nmmst": "3200758117",
+  "nmstkhoan": null,
+  "nmten": "CÔNG TY TNHH MINH NHẬT DIGITAL SYSTEMS",
+  "nmtnhang": null,
+  "nmtnmua": null,
+  "nmttkhac": [
+    {
+      "ttruong": "AccountObjectID",
+      "kdlieu": "string",
+      "dlieu": "2ed63494-35c0-477f-9f18-f9f3fbd841e9"
+    }
+  ],
+  "ntao": "2026-03-28T10:15:18.809Z",
+  "ntnhan": "2026-03-28T10:15:18.767Z",
+  "pban": "2.1.0",
+  "ptgui": 1,
+  "shdgoc": null,
+  "tchat": 1,
+  "tdlap": "2026-03-27T17:00:00Z",
+  "tgia": 1,
+  "tgtcthue": 2018519,
+  "tgtthue": 161481,
+  "tgtttbchu": "Hai triệu một trăm tám mươi nghìn đồng chẵn.",
+  "tgtttbso": 2180000,
+  "thdon": "Hóa đơn giá trị gia tăng",
+  "thlap": 202603,
+  "thttlphi": [],
+  "thttltsuat": [
+    {
+      "tsuat": "8%",
+      "thtien": 2018519,
+      "tthue": 161481,
+      "gttsuat": null
+    }
+  ],
+  "tlhdon": "Hóa đơn giá trị gia tăng",
+  "ttcktmai": 0,
+  "tthai": 1,
+  "ttkhac": [
+    {
+      "ttruong": "ListStockName",
+      "kdlieu": "string",
+      "dlieu": "156"
+    }
+  ],
+  "tttbao": 1,
+  "ttttkhac": [
+    {
+      "ttruong": "TotalAmount",
+      "kdlieu": "numeric",
+      "dlieu": "2180000.0000"
+    },
+    {
+      "ttruong": "TotalAmountInWordsByENG",
+      "kdlieu": "string",
+      "dlieu": "Two million, one hundred eighty thousand dong."
+    },
+    {
+      "ttruong": "TotalAmountWithoutVAT",
+      "kdlieu": "numeric",
+      "dlieu": "2018519.00000000"
+    },
+    {
+      "ttruong": "TotalAmountWithoutVATOC",
+      "kdlieu": "numeric",
+      "dlieu": "2018519.0000"
+    },
+    {
+      "ttruong": "TotalSaleAmount",
+      "kdlieu": "numeric",
+      "dlieu": "2018519.0000"
+    },
+    {
+      "ttruong": "TotalSaleAmountOC",
+      "kdlieu": "numeric",
+      "dlieu": "2018519.0000"
+    },
+    {
+      "ttruong": "TotalVATAmount",
+      "kdlieu": "numeric",
+      "dlieu": "161481.0000"
+    },
+    {
+      "ttruong": "TotalAmountOC",
+      "kdlieu": "numeric",
+      "dlieu": "2180000.0000"
+    },
+    {
+      "ttruong": "TotalVATAmountOC",
+      "kdlieu": "numeric",
+      "dlieu": "161481.0000"
+    }
+  ],
+  "ttxly": 5,
+  "tvandnkntt": "0101243150",
+  "mhso": null,
+  "ladhddt": 1,
+  "mkhang": "MNHAT QT",
+  "nbsdthoai": "02363690797",
+  "nbdctdtu": "khaihuyketoan@gmail.com",
+  "nbfax": "02363690796",
+  "nbwebsite": "khaihuy.com.vn",
+  "nbcks": "{\"Subject\":\"OID.0.9.2342.19200300.100.1.1=MST:0400431674, CN=CÔNG TY TNHH THƯƠNG MẠI & DỊCH VỤ TIN HỌC KHẢI HUY, S=Thành phố Đà Nẵng, C=VN\",\"SerialNumber\":\"5401016F3259FE6932A3FDE16CC2BF9C\",\"Issuer\":\"CN=FastCA SHA-256 R1, O=CÔNG TY CỔ PHẦN CHỮ KÝ SỐ FASTCA, C=VN\",\"NotAfter\":\"2028-05-31T02:27:00\",\"NotBefore\":\"2025-05-31T02:27:00\",\"SigningTime\":\"2026-03-28T17:15:15\"}",
+  "nmsdthoai": null,
+  "nmdctdtu": null,
+  "nmcmnd": null,
+  "nmcks": null,
+  "bhphap": 0,
+  "hddunlap": null,
+  "gchdgoc": null,
+  "tbhgtngay": null,
+  "bhpldo": null,
+  "bhpcbo": null,
+  "bhpngay": null,
+  "tdlhdgoc": null,
+  "tgtphi": null,
+  "unhiem": null,
+  "mstdvnunlhdon": null,
+  "tdvnunlhdon": null,
+  "nbmdvqhnsach": null,
+  "nbsqdinh": null,
+  "nbncqdinh": null,
+  "nbcqcqdinh": null,
+  "nbhtban": null,
+  "nmmdvqhnsach": null,
+  "nmddvchden": null,
+  "nmtgvchdtu": null,
+  "nmtgvchdden": null,
+  "nbtnban": null,
+  "dcdvnunlhdon": null,
+  "dksbke": null,
+  "dknlbke": null,
+  "thtttoan": "TM/CK",
+  "msttcgp": "0101243150",
+  "cqtcks": "{\"Subject\":\"CN=CỤC THUẾ,O=BỘ TÀI CHÍNH,L=Hà Nội,C=VN\",\"SerialNumber\":\"2A05F812673607B0\",\"Issuer\":\"CN=CA phục vụ các cơ quan Nhà nước G2, O=Ban Cơ yếu Chính phủ, C=VN\",\"NotAfter\":\"2030-03-12T16:36:53\",\"NotBefore\":\"2025-03-13T16:36:53\",\"SigningTime\":\"2026-03-28T17:15:18\"}",
+  "gchu": "",
+  "kqcht": null,
+  "hdntgia": null,
+  "tgtkcthue": null,
+  "tgtkhac": null,
+  "nmshchieu": null,
+  "nmnchchieu": null,
+  "nmnhhhchieu": null,
+  "nmqtich": null,
+  "ktkhthue": null,
+  "nmstttoan": null,
+  "nmttttoan": null,
+  "mddkdoanh": null,
+  "tddkdoanh": null,
+  "dcddkdoanh": null,
+  "nmmtinh": null,
+  "nmttinh": null,
+  "nmmxa": null,
+  "nmtxa": null,
+  "nbmstgoc": null,
+  "lddctthe": null,
+  "hdhhdvu": [
+    {
+      "idhdon": "fa392f90-f266-44d6-8acf-8c249e3ff86b",
+      "id": "e3980213-2ef1-40bf-afae-4dd35dc065ad",
+      "dgia": 2018519,
+      "dvtinh": "Cái",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 1,
+      "tchat": 1,
+      "ten": "MÀN HÌNH VI TÍNH (LCD) AOC 27B30H/74 27 INCH/1920x1080/120Hz/IPS/VGA/HDMI/ĐEN(27B30H/74)",
+      "thtcthue": null,
+      "thtien": 2018519,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 1,
+      "ttkhac": [
+        {
+          "ttruong": "Amount",
+          "kdlieu": "numeric",
+          "dlieu": "2018519.000000"
+        },
+        {
+          "ttruong": "AmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "2018519.000000"
+        },
+        {
+          "ttruong": "AmountWithoutVATOC",
+          "kdlieu": "numeric",
+          "dlieu": "2018519.000000"
+        },
+        {
+          "ttruong": "DiscountAmount",
+          "kdlieu": "numeric",
+          "dlieu": "0.000000"
+        },
+        {
+          "ttruong": "MainConvertRate",
+          "kdlieu": "numeric",
+          "dlieu": "1.000000"
+        },
+        {
+          "ttruong": "MainQuantity",
+          "kdlieu": "numeric",
+          "dlieu": "1.000000"
+        },
+        {
+          "ttruong": "MainUnitName",
+          "kdlieu": "string",
+          "dlieu": "Cái"
+        },
+        {
+          "ttruong": "MainUnitPrice",
+          "kdlieu": "numeric",
+          "dlieu": "2018519.000000"
+        },
+        {
+          "ttruong": "RowType",
+          "kdlieu": "numeric",
+          "dlieu": "0"
+        },
+        {
+          "ttruong": "SortOrder",
+          "kdlieu": "numeric",
+          "dlieu": "1"
+        },
+        {
+          "ttruong": "UnitPrice",
+          "kdlieu": "numeric",
+          "dlieu": "2018519.000000"
+        },
+        {
+          "ttruong": "VATAmount",
+          "kdlieu": "numeric",
+          "dlieu": "161481.000000"
+        },
+        {
+          "ttruong": "VATAmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "161481.000000"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    }
+  ],
+  "qrcode": "00020101021202000400260052005300540058005900600062009966000001100400431674020110306C26TTT0404195505082026032806092180000.0",
+  "ttmstten": null,
+  "ladhddtten": null,
+  "hdxkhau": null,
+  "hdxkptquan": null,
+  "hdgktkhthue": null,
+  "hdonLquans": null,
+  "tthdclquan": false,
+  "pdndungs": null,
+  "hdtbssrses": null,
+  "hdTrung": null,
+  "isHDTrung": null,
+  "hdcttchinh": null,
+  "dlhquan": null,
+  "dlnhtmai": null,
+  "bltphi": null,
+  "tcsvhdChinh": null
+}

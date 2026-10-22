@@ -1,0 +1,452 @@
+{
+  "nbmst": "0402226769",
+  "khmshdon": 1,
+  "khhdon": "C26THD",
+  "shdon": 1731,
+  "cqt": "4806",
+  "cttkhac": [],
+  "dvtte": "VND",
+  "hdon": "01",
+  "hsgcma": "e4566fe4-ca7a-4f63-a37a-06f06616460a",
+  "hsgoc": "cfd6d9f7-63df-4f91-b131-74ef6eb93040",
+  "hthdon": 1,
+  "htttoan": 9,
+  "id": "63dbee9e-c73f-456c-9be5-0a8632ef0946",
+  "idtbao": null,
+  "khdon": null,
+  "khhdgoc": null,
+  "khmshdgoc": null,
+  "lhdgoc": null,
+  "mhdon": "0068E6870C3C29441C9FDE73A06FD6704F",
+  "mtdiep": null,
+  "mtdtchieu": "V01007278256B0020762862403DB7B7264695F45001",
+  "nbdchi": "Tổ 6, Thôn Quan Nam 1, Phường Liên Chiểu, Thành phố Đà Nẵng, Việt Nam",
+  "chma": null,
+  "chten": null,
+  "nbhdktngay": null,
+  "nbhdktso": null,
+  "nbhdso": null,
+  "nblddnbo": null,
+  "nbptvchuyen": null,
+  "nbstkhoan": "112002967058",
+  "nbten": "CÔNG TY TNHH CÔNG NGHỆ HÀ DUY",
+  "nbtnhang": "Ngân Hàng TMCP Công Thương Việt Nam- Chi nhánh Đà Nẵng",
+  "nbtnvchuyen": null,
+  "nbttkhac": [
+    {
+      "ttruong": "UnitCode",
+      "kdlieu": "string",
+      "dlieu": "CTY"
+    },
+    {
+      "ttruong": "KindOfInvoice",
+      "kdlieu": "string",
+      "dlieu": "1"
+    },
+    {
+      "ttruong": "VoucherDate",
+      "kdlieu": "string",
+      "dlieu": "2026-06-08T18:39:39"
+    },
+    {
+      "ttruong": "InvoiceDate",
+      "kdlieu": "string",
+      "dlieu": "2026-06-08"
+    },
+    {
+      "ttruong": "NumberExternal1",
+      "kdlieu": "numeric",
+      "dlieu": "0"
+    },
+    {
+      "ttruong": "NumberExternal2",
+      "kdlieu": "numeric",
+      "dlieu": "0"
+    },
+    {
+      "ttruong": "NumberExternal3",
+      "kdlieu": "numeric",
+      "dlieu": "0"
+    }
+  ],
+  "ncma": "2026-06-08T11:39:10.503Z",
+  "ncnhat": "2026-06-08T11:39:10.515Z",
+  "ngcnhat": "tvan_pmqldoanhnghiep",
+  "nky": "2026-06-08T11:39:39Z",
+  "nmdchi": "201 Tôn Thất Thuyết, Phường Nam Đông Hà, Tỉnh Quảng Trị, Việt Nam",
+  "nmmst": "3200758117",
+  "nmstkhoan": null,
+  "nmten": "CÔNG TY TNHH MINH NHẬT DIGITAL SYSTEMS",
+  "nmtnhang": null,
+  "nmtnmua": null,
+  "nmttkhac": [
+    {
+      "ttruong": "Reference",
+      "kdlieu": "string",
+      "dlieu": "0"
+    }
+  ],
+  "ntao": "2026-06-08T11:39:10.457Z",
+  "ntnhan": "2026-06-08T11:39:10.278Z",
+  "pban": "2.1.0",
+  "ptgui": 1,
+  "shdgoc": null,
+  "tchat": 1,
+  "tdlap": "2026-06-07T17:00:00Z",
+  "tgia": 1,
+  "tgtcthue": 11097222,
+  "tgtthue": 887778,
+  "tgtttbchu": "Mười một triệu, chín trăm tám mươi lăm nghìn đồng chẵn",
+  "tgtttbso": 11985000,
+  "thdon": "Hóa đơn điện tử giá trị gia tăng",
+  "thlap": 202606,
+  "thttlphi": [],
+  "thttltsuat": [
+    {
+      "tsuat": "8%",
+      "thtien": 11097222,
+      "tthue": 887778,
+      "gttsuat": null
+    }
+  ],
+  "tlhdon": "Hóa đơn điện tử giá trị gia tăng",
+  "ttcktmai": 0,
+  "tthai": 1,
+  "ttkhac": [
+    {
+      "ttruong": "KeySearch",
+      "kdlieu": "string",
+      "dlieu": "AQAAAPy8zw2LZCMl8/fulDHuS8kgGApVJtnsCgiGFsdMv8TayAoXRdMHIv0=012496"
+    },
+    {
+      "ttruong": "InvoiceType",
+      "kdlieu": "string",
+      "dlieu": "1"
+    },
+    {
+      "ttruong": "AdjustmentType",
+      "kdlieu": "string",
+      "dlieu": "0"
+    },
+    {
+      "ttruong": "VoucherType",
+      "kdlieu": "string",
+      "dlieu": "1"
+    }
+  ],
+  "tttbao": 1,
+  "ttttkhac": [
+    {
+      "ttruong": "TaxExternal",
+      "kdlieu": "string",
+      "dlieu": "8$0$0$0$0"
+    }
+  ],
+  "ttxly": 5,
+  "tvandnkntt": "0100727825",
+  "mhso": null,
+  "ladhddt": 1,
+  "mkhang": "KH3200758117",
+  "nbsdthoai": "0906456987",
+  "nbdctdtu": "nguyenhaduy2023@gmail.com",
+  "nbfax": null,
+  "nbwebsite": null,
+  "nbcks": "{\"Subject\":\"C=VN, S=Đà Nẵng, CN=CÔNG TY TNHH CÔNG NGHỆ HÀ DUY, OID.0.9.2342.19200300.100.1.1=MST:0402226769\",\"SerialNumber\":\"540101136707C5CDB472AAF0734D122E\",\"Issuer\":\"C=VN, O=CÔNG TY CỔ PHẦN THƯƠNG MẠI VISNAM, CN=ONE-CA SHA-256\",\"NotAfter\":\"2027-03-03T06:57:23\",\"NotBefore\":\"2024-03-14T08:20:17\",\"SigningTime\":\"2026-06-08T18:39:39\"}",
+  "nmsdthoai": null,
+  "nmdctdtu": null,
+  "nmcmnd": null,
+  "nmcks": null,
+  "bhphap": 0,
+  "hddunlap": null,
+  "gchdgoc": null,
+  "tbhgtngay": null,
+  "bhpldo": null,
+  "bhpcbo": null,
+  "bhpngay": null,
+  "tdlhdgoc": null,
+  "tgtphi": null,
+  "unhiem": null,
+  "mstdvnunlhdon": null,
+  "tdvnunlhdon": null,
+  "nbmdvqhnsach": null,
+  "nbsqdinh": null,
+  "nbncqdinh": null,
+  "nbcqcqdinh": null,
+  "nbhtban": null,
+  "nmmdvqhnsach": null,
+  "nmddvchden": null,
+  "nmtgvchdtu": null,
+  "nmtgvchdden": null,
+  "nbtnban": null,
+  "dcdvnunlhdon": null,
+  "dksbke": null,
+  "dknlbke": null,
+  "thtttoan": "TM/CK",
+  "msttcgp": "0100727825",
+  "cqtcks": "{\"Subject\":\"CN=CỤC THUẾ,O=BỘ TÀI CHÍNH,L=Hà Nội,C=VN\",\"SerialNumber\":\"2A05F812673607B0\",\"Issuer\":\"CN=CA phục vụ các cơ quan Nhà nước G2, O=Ban Cơ yếu Chính phủ, C=VN\",\"NotAfter\":\"2030-03-12T16:36:53\",\"NotBefore\":\"2025-03-13T16:36:53\",\"SigningTime\":\"2026-06-08T18:39:10\"}",
+  "gchu": "",
+  "kqcht": null,
+  "hdntgia": null,
+  "tgtkcthue": null,
+  "tgtkhac": null,
+  "nmshchieu": null,
+  "nmnchchieu": null,
+  "nmnhhhchieu": null,
+  "nmqtich": null,
+  "ktkhthue": null,
+  "nmstttoan": null,
+  "nmttttoan": null,
+  "mddkdoanh": null,
+  "tddkdoanh": null,
+  "dcddkdoanh": null,
+  "nmmtinh": null,
+  "nmttinh": null,
+  "nmmxa": null,
+  "nmtxa": null,
+  "nbmstgoc": null,
+  "lddctthe": null,
+  "hdhhdvu": [
+    {
+      "idhdon": "63dbee9e-c73f-456c-9be5-0a8632ef0946",
+      "id": "a0fb3967-74ea-48a1-b4a2-865e9608383d",
+      "dgia": 3296296.29,
+      "dvtinh": "Chiếc",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 1,
+      "tchat": 1,
+      "ten": "Bảng mạch chính ASUS TUF GAMING B760M-PLUS WIFI D4",
+      "thtcthue": null,
+      "thtien": 3296296,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 1,
+      "ttkhac": [
+        {
+          "ttruong": "ExternalValue",
+          "kdlieu": "string",
+          "dlieu": "1$1$0$8$263704"
+        },
+        {
+          "ttruong": "NumberExternal1",
+          "kdlieu": "numeric",
+          "dlieu": "0"
+        },
+        {
+          "ttruong": "NumberExternal2",
+          "kdlieu": "numeric",
+          "dlieu": "0"
+        },
+        {
+          "ttruong": "NumberExternal3",
+          "kdlieu": "numeric",
+          "dlieu": "0"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "63dbee9e-c73f-456c-9be5-0a8632ef0946",
+      "id": "f68933fa-4e79-4f9f-bde1-fbf1511e61c5",
+      "dgia": 273148.15,
+      "dvtinh": "Chiếc",
+      "ltsuat": "8%",
+      "sluong": 5,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 2,
+      "tchat": 1,
+      "ten": "Bàn phím máy tính DAREU LK145 BLACK",
+      "thtcthue": null,
+      "thtien": 1365741,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 2,
+      "ttkhac": [
+        {
+          "ttruong": "ExternalValue",
+          "kdlieu": "string",
+          "dlieu": "2$1$0$8$109259"
+        },
+        {
+          "ttruong": "NumberExternal1",
+          "kdlieu": "numeric",
+          "dlieu": "0"
+        },
+        {
+          "ttruong": "NumberExternal2",
+          "kdlieu": "numeric",
+          "dlieu": "0"
+        },
+        {
+          "ttruong": "NumberExternal3",
+          "kdlieu": "numeric",
+          "dlieu": "0"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "63dbee9e-c73f-456c-9be5-0a8632ef0946",
+      "id": "d48312b8-ea34-4260-94c6-7380dcc7b9fe",
+      "dgia": 564814.81,
+      "dvtinh": "Chiếc",
+      "ltsuat": "8%",
+      "sluong": 5,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 3,
+      "tchat": 1,
+      "ten": "Ổ cứng SSD PATRIOT P210 dung lượng 128GB 2.5'' SATA3 P/N P210S128G25",
+      "thtcthue": null,
+      "thtien": 2824074,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 3,
+      "ttkhac": [
+        {
+          "ttruong": "ExternalValue",
+          "kdlieu": "string",
+          "dlieu": "3$1$0$8$225926"
+        },
+        {
+          "ttruong": "NumberExternal1",
+          "kdlieu": "numeric",
+          "dlieu": "0"
+        },
+        {
+          "ttruong": "NumberExternal2",
+          "kdlieu": "numeric",
+          "dlieu": "0"
+        },
+        {
+          "ttruong": "NumberExternal3",
+          "kdlieu": "numeric",
+          "dlieu": "0"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "63dbee9e-c73f-456c-9be5-0a8632ef0946",
+      "id": "8462adec-836d-4e76-82ea-935c3b2e694b",
+      "dgia": 972222.22,
+      "dvtinh": "Chiếc",
+      "ltsuat": "8%",
+      "sluong": 3,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 4,
+      "tchat": 1,
+      "ten": "Ổ cứng LEXAR 256GB_LNS100-256RB",
+      "thtcthue": null,
+      "thtien": 2916667,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 4,
+      "ttkhac": [
+        {
+          "ttruong": "ExternalValue",
+          "kdlieu": "string",
+          "dlieu": "4$1$0$8$233333"
+        },
+        {
+          "ttruong": "NumberExternal1",
+          "kdlieu": "numeric",
+          "dlieu": "0"
+        },
+        {
+          "ttruong": "NumberExternal2",
+          "kdlieu": "numeric",
+          "dlieu": "0"
+        },
+        {
+          "ttruong": "NumberExternal3",
+          "kdlieu": "numeric",
+          "dlieu": "0"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "63dbee9e-c73f-456c-9be5-0a8632ef0946",
+      "id": "6624039e-dab6-42bd-93ec-960f6ea96a76",
+      "dgia": 694444.44,
+      "dvtinh": "Chiếc",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 5,
+      "tchat": 1,
+      "ten": "Nguồn XIGMATEK X-POWER III 650",
+      "thtcthue": null,
+      "thtien": 694444,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 5,
+      "ttkhac": [
+        {
+          "ttruong": "ExternalValue",
+          "kdlieu": "string",
+          "dlieu": "5$1$0$8$55556"
+        },
+        {
+          "ttruong": "NumberExternal1",
+          "kdlieu": "numeric",
+          "dlieu": "0"
+        },
+        {
+          "ttruong": "NumberExternal2",
+          "kdlieu": "numeric",
+          "dlieu": "0"
+        },
+        {
+          "ttruong": "NumberExternal3",
+          "kdlieu": "numeric",
+          "dlieu": "0"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    }
+  ],
+  "qrcode": "00020101021202000400260052005300540058005900600062009965000001100402226769020110306C26THD0404173105082026060806081.1985E7",
+  "ttmstten": null,
+  "ladhddtten": null,
+  "hdxkhau": null,
+  "hdxkptquan": null,
+  "hdgktkhthue": null,
+  "hdonLquans": null,
+  "tthdclquan": false,
+  "pdndungs": null,
+  "hdtbssrses": null,
+  "hdTrung": null,
+  "isHDTrung": null,
+  "hdcttchinh": 0,
+  "dlhquan": null,
+  "dlnhtmai": null,
+  "bltphi": null,
+  "tcsvhdChinh": null
+}

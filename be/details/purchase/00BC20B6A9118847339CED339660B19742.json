@@ -1,0 +1,501 @@
+{
+  "nbmst": "0401877479",
+  "khmshdon": 1,
+  "khhdon": "C26TMP",
+  "shdon": 183,
+  "cqt": "4802",
+  "cttkhac": [
+    {
+      "ttruong": "QuanLy_ChuyenDoi",
+      "kdlieu": "string",
+      "dlieu": "False"
+    },
+    {
+      "ttruong": "DNBan_NgayKy",
+      "kdlieu": "string",
+      "dlieu": "2026-01-28 16:06:26"
+    },
+    {
+      "ttruong": "DNMua_KhachHang_Ma",
+      "kdlieu": "string",
+      "dlieu": "DN000457"
+    },
+    {
+      "ttruong": "IdHoaDon",
+      "kdlieu": "string",
+      "dlieu": "2773004"
+    },
+    {
+      "ttruong": "FinalPage",
+      "kdlieu": "string",
+      "dlieu": "1"
+    },
+    {
+      "ttruong": "IsShowArea",
+      "kdlieu": "string",
+      "dlieu": "0"
+    },
+    {
+      "ttruong": "EmptyLineNumber",
+      "kdlieu": "string",
+      "dlieu": "0"
+    }
+  ],
+  "dvtte": "VND",
+  "hdon": "01",
+  "hsgcma": "85d863ac-c70e-4a8a-bcaf-e1ba09cf73d7",
+  "hsgoc": "31ade109-2e79-4342-a7ab-0b79a379b38a",
+  "hthdon": 1,
+  "htttoan": 3,
+  "id": "a67d0b22-e587-4c4a-8795-62ae09e26bf0",
+  "idtbao": null,
+  "khdon": null,
+  "khhdgoc": null,
+  "khmshdgoc": null,
+  "lhdgoc": null,
+  "mhdon": "00BC20B6A9118847339CED339660B19742",
+  "mtdiep": null,
+  "mtdtchieu": "V040148690100000003741548F48352E19A1B6C6138",
+  "nbdchi": "K596/15/9 Hoàng Diệu, Phường Hòa Cường, Thành phố Đà Nẵng, Việt Nam",
+  "chma": null,
+  "chten": null,
+  "nbhdktngay": null,
+  "nbhdktso": null,
+  "nbhdso": null,
+  "nblddnbo": null,
+  "nbptvchuyen": null,
+  "nbstkhoan": "0061031513019",
+  "nbten": "CÔNG TY TNHH ĐẦU TƯ THƯƠNG MẠI VÀ DỊCH VỤ TIN HỌC MINH PHƯƠNG",
+  "nbtnhang": "tại Ngân Hàng TMCP An Bình - Chi Nhánh Đà Nẵng",
+  "nbtnvchuyen": null,
+  "nbttkhac": [
+    {
+      "ttruong": "DNBan_NguoiDaiDien",
+      "kdlieu": "string",
+      "dlieu": "BÙI MINH SINH"
+    },
+    {
+      "ttruong": "Mau_NguoiLap",
+      "kdlieu": "string",
+      "dlieu": "0401877479@KTT"
+    }
+  ],
+  "ncma": "2026-01-28T09:06:29.079Z",
+  "ncnhat": "2026-01-28T09:06:29.088Z",
+  "ngcnhat": "tvan_visnam",
+  "nky": "2026-01-28T09:06:26Z",
+  "nmdchi": "Số nhà 201 Tôn Thất Thuyết, Phường Nam Đông Hà, Tỉnh Quảng Trị, Việt Nam",
+  "nmmst": "3200758117",
+  "nmstkhoan": null,
+  "nmten": "CÔNG TY TNHH MINH NHẬT DIGITAL SYSTEMS",
+  "nmtnhang": null,
+  "nmtnmua": null,
+  "nmttkhac": [],
+  "ntao": "2026-01-28T09:06:29.038Z",
+  "ntnhan": "2026-01-28T09:06:28.993Z",
+  "pban": "2.1.0",
+  "ptgui": 1,
+  "shdgoc": null,
+  "tchat": 1,
+  "tdlap": "2026-01-27T17:00:00Z",
+  "tgia": 1,
+  "tgtcthue": 13000000,
+  "tgtthue": 1040000,
+  "tgtttbchu": "Mười bốn triệu không trăm bốn mươi nghìn đồng",
+  "tgtttbso": 14040000,
+  "thdon": "HÓA ĐƠN GIÁ TRỊ GIA TĂNG",
+  "thlap": 202601,
+  "thttlphi": [
+    {
+      "tlphi": "",
+      "tphi": null
+    }
+  ],
+  "thttltsuat": [
+    {
+      "tsuat": "8%",
+      "thtien": 13000000,
+      "tthue": 1040000,
+      "gttsuat": null
+    }
+  ],
+  "tlhdon": "HÓA ĐƠN GIÁ TRỊ GIA TĂNG",
+  "ttcktmai": 0,
+  "tthai": 1,
+  "ttkhac": [
+    {
+      "ttruong": "HoaDon_Loai",
+      "kdlieu": "string",
+      "dlieu": "1"
+    },
+    {
+      "ttruong": "QuanLy_SoBaoMat",
+      "kdlieu": "string",
+      "dlieu": "1ZUDMALBQJSL"
+    }
+  ],
+  "tttbao": 1,
+  "ttttkhac": [],
+  "ttxly": 5,
+  "tvandnkntt": "0401486901",
+  "mhso": null,
+  "ladhddt": 1,
+  "mkhang": "DN000457",
+  "nbsdthoai": "0935 142 142",
+  "nbdctdtu": "tinhocminhphuong.dng@gmail.com",
+  "nbfax": null,
+  "nbwebsite": null,
+  "nbcks": "{\"Subject\":\"C=VN, S=Đà Nẵng, CN=CÔNG TY TNHH ĐẦU TƯ THƯƠNG MẠI VÀ DỊCH VỤ TIN HỌC MINH PHƯƠNG, OID.0.9.2342.19200300.100.1.1=MST:0401877479\",\"SerialNumber\":\"54010113230CDB74E22AE5A2EEC63913\",\"Issuer\":\"C=VN, O=CÔNG TY CỔ PHẦN THƯƠNG MẠI VISNAM, CN=ONE-CA SHA-256\",\"NotAfter\":\"2027-03-03T06:57:23\",\"NotBefore\":\"2024-04-22T08:46:40\",\"SigningTime\":\"2026-01-28T16:06:26\"}",
+  "nmsdthoai": null,
+  "nmdctdtu": null,
+  "nmcmnd": null,
+  "nmcks": null,
+  "bhphap": 0,
+  "hddunlap": null,
+  "gchdgoc": null,
+  "tbhgtngay": null,
+  "bhpldo": null,
+  "bhpcbo": null,
+  "bhpngay": null,
+  "tdlhdgoc": null,
+  "tgtphi": null,
+  "unhiem": null,
+  "mstdvnunlhdon": null,
+  "tdvnunlhdon": null,
+  "nbmdvqhnsach": null,
+  "nbsqdinh": null,
+  "nbncqdinh": null,
+  "nbcqcqdinh": null,
+  "nbhtban": null,
+  "nmmdvqhnsach": null,
+  "nmddvchden": null,
+  "nmtgvchdtu": null,
+  "nmtgvchdden": null,
+  "nbtnban": null,
+  "dcdvnunlhdon": null,
+  "dksbke": null,
+  "dknlbke": null,
+  "thtttoan": "Tiền mặt/Chuyển khoản",
+  "msttcgp": "0401486901",
+  "cqtcks": "{\"Subject\":\"CN=CỤC THUẾ,O=BỘ TÀI CHÍNH,L=Hà Nội,C=VN\",\"SerialNumber\":\"2A05F812673607B0\",\"Issuer\":\"CN=CA phục vụ các cơ quan Nhà nước G2, O=Ban Cơ yếu Chính phủ, C=VN\",\"NotAfter\":\"2030-03-12T16:36:53\",\"NotBefore\":\"2025-03-13T16:36:53\",\"SigningTime\":\"2026-01-28T16:06:29\"}",
+  "gchu": "",
+  "kqcht": null,
+  "hdntgia": null,
+  "tgtkcthue": null,
+  "tgtkhac": null,
+  "nmshchieu": null,
+  "nmnchchieu": null,
+  "nmnhhhchieu": null,
+  "nmqtich": null,
+  "ktkhthue": null,
+  "nmstttoan": null,
+  "nmttttoan": null,
+  "mddkdoanh": null,
+  "tddkdoanh": null,
+  "dcddkdoanh": null,
+  "nmmtinh": null,
+  "nmttinh": null,
+  "nmmxa": null,
+  "nmtxa": null,
+  "nbmstgoc": null,
+  "lddctthe": null,
+  "hdhhdvu": [
+    {
+      "idhdon": "a67d0b22-e587-4c4a-8795-62ae09e26bf0",
+      "id": "954c3784-451a-4c3e-a756-537eea7bf68f",
+      "dgia": 5694444,
+      "dvtinh": "bộ",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": null,
+      "stt": 1,
+      "tchat": 1,
+      "ten": "Tivi UHD Samsung UA43DU7000KXXV",
+      "thtcthue": null,
+      "thtien": 5694444,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 1,
+      "ttkhac": [
+        {
+          "ttruong": "TongTien_CoThue",
+          "kdlieu": "string",
+          "dlieu": "6150000.000000"
+        },
+        {
+          "ttruong": "TongTien_Thue",
+          "kdlieu": "string",
+          "dlieu": "455556.000000"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "a67d0b22-e587-4c4a-8795-62ae09e26bf0",
+      "id": "a98e146e-f023-4d4f-a387-85876b231db2",
+      "dgia": 180556,
+      "dvtinh": "chiếc",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": null,
+      "stt": 2,
+      "tchat": 1,
+      "ten": "Cáp dữ liệu VIDEO HDMI HD175 8K dài 1.5M Ugreen (45431)",
+      "thtcthue": null,
+      "thtien": 180556,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 2,
+      "ttkhac": [
+        {
+          "ttruong": "TongTien_CoThue",
+          "kdlieu": "string",
+          "dlieu": "195000.000000"
+        },
+        {
+          "ttruong": "TongTien_Thue",
+          "kdlieu": "string",
+          "dlieu": "14444.000000"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "a67d0b22-e587-4c4a-8795-62ae09e26bf0",
+      "id": "ba174257-f7f9-4e62-852f-315d6bcdf8a6",
+      "dgia": 1564815,
+      "dvtinh": "cái",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": null,
+      "stt": 3,
+      "tchat": 1,
+      "ten": "Bo mạch chính máy vi tính Asus PRIME H510M-K",
+      "thtcthue": null,
+      "thtien": 1564815,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 3,
+      "ttkhac": [
+        {
+          "ttruong": "TongTien_CoThue",
+          "kdlieu": "string",
+          "dlieu": "1690000.000000"
+        },
+        {
+          "ttruong": "TongTien_Thue",
+          "kdlieu": "string",
+          "dlieu": "125185.000000"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "a67d0b22-e587-4c4a-8795-62ae09e26bf0",
+      "id": "3146a71e-b88b-405d-9da8-e3dd3f046373",
+      "dgia": 2638889,
+      "dvtinh": "chiếc",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": null,
+      "stt": 4,
+      "tchat": 1,
+      "ten": "Chíp vi xử lý Intel Core i3 10105 3.7Ghz/6M/1200 ",
+      "thtcthue": null,
+      "thtien": 2638889,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 4,
+      "ttkhac": [
+        {
+          "ttruong": "TongTien_CoThue",
+          "kdlieu": "string",
+          "dlieu": "2850000.000000"
+        },
+        {
+          "ttruong": "TongTien_Thue",
+          "kdlieu": "string",
+          "dlieu": "211111.000000"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "a67d0b22-e587-4c4a-8795-62ae09e26bf0",
+      "id": "b20b16ee-df63-4476-a033-dd61bcfbdcd5",
+      "dgia": 1342593,
+      "dvtinh": "cái",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": null,
+      "stt": 5,
+      "tchat": 1,
+      "ten": "Bộ nhớ ram của máy vi tính hiệu TeamGroup Elite 8GB DDR4-3200",
+      "thtcthue": null,
+      "thtien": 1342593,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 5,
+      "ttkhac": [
+        {
+          "ttruong": "TongTien_CoThue",
+          "kdlieu": "string",
+          "dlieu": "1450000.000000"
+        },
+        {
+          "ttruong": "TongTien_Thue",
+          "kdlieu": "string",
+          "dlieu": "107407.000000"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "a67d0b22-e587-4c4a-8795-62ae09e26bf0",
+      "id": "34d9293b-d318-4e89-9436-d4eee94db49d",
+      "dgia": 1111111,
+      "dvtinh": "cái",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": null,
+      "stt": 6,
+      "tchat": 1,
+      "ten": "Ổ cứng máy tính SSD 256GB Kingmax",
+      "thtcthue": null,
+      "thtien": 1111111,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 6,
+      "ttkhac": [
+        {
+          "ttruong": "TongTien_CoThue",
+          "kdlieu": "string",
+          "dlieu": "1200000.000000"
+        },
+        {
+          "ttruong": "TongTien_Thue",
+          "kdlieu": "string",
+          "dlieu": "88889.000000"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "a67d0b22-e587-4c4a-8795-62ae09e26bf0",
+      "id": "3ba3c4bb-e5c4-4794-bced-3ddc62b32be8",
+      "dgia": 171296,
+      "dvtinh": "chiếc",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": null,
+      "stt": 7,
+      "tchat": 1,
+      "ten": "EN49132_ Vỏ máy tính Xigmatek XS- 25",
+      "thtcthue": null,
+      "thtien": 171296,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 7,
+      "ttkhac": [
+        {
+          "ttruong": "TongTien_CoThue",
+          "kdlieu": "string",
+          "dlieu": "185000.000000"
+        },
+        {
+          "ttruong": "TongTien_Thue",
+          "kdlieu": "string",
+          "dlieu": "13704.000000"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "a67d0b22-e587-4c4a-8795-62ae09e26bf0",
+      "id": "15317af1-9081-4abe-9a76-ca03f89d52f6",
+      "dgia": 296296,
+      "dvtinh": "cái",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": null,
+      "stt": 8,
+      "tchat": 1,
+      "ten": "Nguồn máy tính Delta 350W nhãn hiệu VSP, model: P350W, công suất 350W",
+      "thtcthue": null,
+      "thtien": 296296,
+      "tlckhau": 0,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 8,
+      "ttkhac": [
+        {
+          "ttruong": "TongTien_CoThue",
+          "kdlieu": "string",
+          "dlieu": "320000.000000"
+        },
+        {
+          "ttruong": "TongTien_Thue",
+          "kdlieu": "string",
+          "dlieu": "23704.000000"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    }
+  ],
+  "qrcode": "00020101021202000400260052005300540058005900600062009963000001100401877479020110306C26TMP040318305082026012806071.404E7",
+  "ttmstten": null,
+  "ladhddtten": null,
+  "hdxkhau": null,
+  "hdxkptquan": null,
+  "hdgktkhthue": null,
+  "hdonLquans": null,
+  "tthdclquan": false,
+  "pdndungs": null,
+  "hdtbssrses": null,
+  "hdTrung": null,
+  "isHDTrung": null,
+  "hdcttchinh": 0,
+  "dlhquan": null,
+  "dlnhtmai": null,
+  "bltphi": null,
+  "tcsvhdChinh": null
+}

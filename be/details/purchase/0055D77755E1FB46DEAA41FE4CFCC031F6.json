@@ -1,0 +1,617 @@
+{
+  "nbmst": "3200730390",
+  "khmshdon": 1,
+  "khhdon": "C26THT",
+  "shdon": 27,
+  "cqt": "4501",
+  "cttkhac": [],
+  "dvtte": "VND",
+  "hdon": "01",
+  "hsgcma": "fb0af86f-0de2-449a-b6fe-33b2c3dec61f",
+  "hsgoc": "952e2b5c-ac62-4469-9084-0883eecbf55c",
+  "hthdon": 1,
+  "htttoan": 9,
+  "id": "ba2eaa20-79c5-45c4-b395-5c949bd3a2a4",
+  "idtbao": null,
+  "khdon": null,
+  "khhdgoc": null,
+  "khmshdgoc": null,
+  "lhdgoc": null,
+  "mhdon": "0055D77755E1FB46DEAA41FE4CFCC031F6",
+  "mtdiep": null,
+  "mtdtchieu": "V0100109106997C0C5C0C7E421894220D8B5E6BD51F",
+  "nbdchi": "125 Lê Lợi - Phường Nam Đông Hà - Tỉnh Quảng Trị",
+  "chma": null,
+  "chten": null,
+  "nbhdktngay": null,
+  "nbhdktso": null,
+  "nbhdso": null,
+  "nblddnbo": null,
+  "nbptvchuyen": null,
+  "nbstkhoan": "1013740999",
+  "nbten": "CÔNG TY TNHH MỘT THÀNH VIÊN HƯNG THỊNH COMPUTER",
+  "nbtnhang": "Ngần Hàng TMCP Ngoại Thương Việt Nam - CN Quảng Trị",
+  "nbtnvchuyen": null,
+  "nbttkhac": [
+    {
+      "ttruong": "Quận, huyện người bán",
+      "kdlieu": "string",
+      "dlieu": "Đông Hà"
+    },
+    {
+      "ttruong": "Tỉnh/Thành phố người bán",
+      "kdlieu": "string",
+      "dlieu": "Quảng Trị"
+    },
+    {
+      "ttruong": "Mã quốc gia người bán",
+      "kdlieu": "string",
+      "dlieu": "84"
+    },
+    {
+      "ttruong": "Link tra cứu người bán",
+      "kdlieu": "string",
+      "dlieu": null
+    }
+  ],
+  "ncma": "2026-07-24T02:55:48.525Z",
+  "ncnhat": "2026-07-24T02:55:48.541Z",
+  "ngcnhat": "tvan_viettel",
+  "nky": "2026-07-24T02:55:47Z",
+  "nmdchi": "201 TÔN THẤT THUYẾT, PHƯỜNG NAM ĐÔNG HÀ, TỈNH QUẢNG TRỊ, VIỆT NAM",
+  "nmmst": "3200758117",
+  "nmstkhoan": null,
+  "nmten": "CÔNG TY TNHH MINH NHẬT GIDITAL SYSTEM",
+  "nmtnhang": null,
+  "nmtnmua": null,
+  "nmttkhac": [
+    {
+      "ttruong": "Loại giấy tờ người mua",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Số giấy tờ người mua",
+      "kdlieu": "string",
+      "dlieu": null
+    }
+  ],
+  "ntao": "2026-07-24T02:55:48.472Z",
+  "ntnhan": "2026-07-24T02:55:48.428Z",
+  "pban": "2.1.0",
+  "ptgui": 1,
+  "shdgoc": null,
+  "tchat": 1,
+  "tdlap": "2026-07-23T17:00:00Z",
+  "tgia": 1,
+  "tgtcthue": 22846114,
+  "tgtthue": 1827689,
+  "tgtttbchu": "Hai mươi bốn triệu sáu trăm bảy mươi ba nghìn tám trăm lẻ ba đồng",
+  "tgtttbso": 24673803,
+  "thdon": "Hóa đơn giá trị gia tăng",
+  "thlap": 202607,
+  "thttlphi": [],
+  "thttltsuat": [
+    {
+      "tsuat": "8%",
+      "thtien": 22846114,
+      "tthue": 1827689,
+      "gttsuat": null
+    }
+  ],
+  "tlhdon": "Hóa đơn giá trị gia tăng",
+  "ttcktmai": 0,
+  "tthai": 4,
+  "ttkhac": [
+    {
+      "ttruong": "Số bảng kê",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Ngày bảng kê",
+      "kdlieu": null,
+      "dlieu": null
+    },
+    {
+      "ttruong": "Ghi chú",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Trạng thái thanh toán",
+      "kdlieu": "string",
+      "dlieu": "Đã thanh toán"
+    },
+    {
+      "ttruong": "Mã số bí mật",
+      "kdlieu": "string",
+      "dlieu": "1IBIWH6IEUHEDN6"
+    },
+    {
+      "ttruong": "Ghi chú hóa đơn",
+      "kdlieu": "string",
+      "dlieu": null
+    }
+  ],
+  "tttbao": 1,
+  "ttttkhac": [
+    {
+      "ttruong": "Tổng tiền thuế tiêu thụ đặc biệt",
+      "kdlieu": "string",
+      "dlieu": "0"
+    },
+    {
+      "ttruong": "Tổng tiền phí",
+      "kdlieu": "string",
+      "dlieu": "0"
+    }
+  ],
+  "ttxly": 5,
+  "tvandnkntt": "0100109106",
+  "mhso": null,
+  "ladhddt": 1,
+  "mkhang": null,
+  "nbsdthoai": "979677018",
+  "nbdctdtu": "nphung.89@gmail.com",
+  "nbfax": null,
+  "nbwebsite": null,
+  "nbcks": "{\"Subject\":\"UID=MST:3200730390,CN=CÔNG TY TNHH MỘT THÀNH VIÊN HƯNG THỊNH COMPUTER,L=QUẢNG TRỊ,C=VN\",\"SerialNumber\":\"5404FFFEB7033FB324B728D3C2DA49E2\",\"Issuer\":\"C=VN, O=Viettel Group, CN=Viettel-CA SHA2\",\"NotAfter\":\"2027-06-20T03:11:00\",\"NotBefore\":\"2025-05-20T03:11:00\",\"SigningTime\":\"2026-07-24T09:55:47\"}",
+  "nmsdthoai": null,
+  "nmdctdtu": null,
+  "nmcmnd": null,
+  "nmcks": null,
+  "bhphap": 0,
+  "hddunlap": null,
+  "gchdgoc": null,
+  "tbhgtngay": null,
+  "bhpldo": null,
+  "bhpcbo": null,
+  "bhpngay": null,
+  "tdlhdgoc": null,
+  "tgtphi": null,
+  "unhiem": null,
+  "mstdvnunlhdon": null,
+  "tdvnunlhdon": null,
+  "nbmdvqhnsach": null,
+  "nbsqdinh": null,
+  "nbncqdinh": null,
+  "nbcqcqdinh": null,
+  "nbhtban": null,
+  "nmmdvqhnsach": null,
+  "nmddvchden": null,
+  "nmtgvchdtu": null,
+  "nmtgvchdden": null,
+  "nbtnban": null,
+  "dcdvnunlhdon": null,
+  "dksbke": null,
+  "dknlbke": null,
+  "thtttoan": "TM/CK",
+  "msttcgp": "0100109106",
+  "cqtcks": "{\"Subject\":\"CN=CỤC THUẾ,O=BỘ TÀI CHÍNH,L=Hà Nội,C=VN\",\"SerialNumber\":\"2A05F812673607B0\",\"Issuer\":\"CN=CA phục vụ các cơ quan Nhà nước G2, O=Ban Cơ yếu Chính phủ, C=VN\",\"NotAfter\":\"2030-03-12T16:36:53\",\"NotBefore\":\"2025-03-13T16:36:53\",\"SigningTime\":\"2026-07-24T09:55:48\"}",
+  "gchu": "",
+  "kqcht": null,
+  "hdntgia": null,
+  "tgtkcthue": null,
+  "tgtkhac": null,
+  "nmshchieu": null,
+  "nmnchchieu": null,
+  "nmnhhhchieu": null,
+  "nmqtich": null,
+  "ktkhthue": null,
+  "nmstttoan": null,
+  "nmttttoan": null,
+  "mddkdoanh": null,
+  "tddkdoanh": null,
+  "dcddkdoanh": null,
+  "nmmtinh": null,
+  "nmttinh": null,
+  "nmmxa": null,
+  "nmtxa": null,
+  "nbmstgoc": null,
+  "lddctthe": null,
+  "hdhhdvu": [
+    {
+      "idhdon": "ba2eaa20-79c5-45c4-b395-5c949bd3a2a4",
+      "id": "57402d8e-5b05-47c5-bf62-7c8e692ec46b",
+      "dgia": 800926,
+      "dvtinh": "CÁI",
+      "ltsuat": "8%",
+      "sluong": 10,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 1,
+      "tchat": 1,
+      "ten": "BỘ NHỚ TRONG KINGSPEC 16GB 3200 MHZ",
+      "thtcthue": null,
+      "thtien": 8009260,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 1,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Ghi chú dòng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "8650001"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "640741"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "ba2eaa20-79c5-45c4-b395-5c949bd3a2a4",
+      "id": "81459022-268e-418c-b604-66731eebc5ad",
+      "dgia": 236111,
+      "dvtinh": "CÁI",
+      "ltsuat": "8%",
+      "sluong": 10,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 2,
+      "tchat": 1,
+      "ten": "CHUỘT GAMING KHÔNG DÂY NEWMEN G7",
+      "thtcthue": null,
+      "thtien": 2361110,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 2,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Ghi chú dòng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "2549999"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "188889"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "ba2eaa20-79c5-45c4-b395-5c949bd3a2a4",
+      "id": "6186354f-1668-48fc-8eb7-bc1626ebd099",
+      "dgia": 580333,
+      "dvtinh": "CHIẾC",
+      "ltsuat": "8%",
+      "sluong": 5,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 3,
+      "tchat": 1,
+      "ten": "VỎ MÁY TÍNH SAMA 3301",
+      "thtcthue": null,
+      "thtien": 2901665,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 3,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Ghi chú dòng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "3133798"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "232133"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "ba2eaa20-79c5-45c4-b395-5c949bd3a2a4",
+      "id": "e78adc1c-070d-4537-8fee-808dc54271cc",
+      "dgia": 601852,
+      "dvtinh": "CÁI",
+      "ltsuat": "8%",
+      "sluong": 4,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 4,
+      "tchat": 1,
+      "ten": "VỎ MÁY TÍNH EN48250",
+      "thtcthue": null,
+      "thtien": 2407408,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 4,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Ghi chú dòng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "2600001"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "192593"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "ba2eaa20-79c5-45c4-b395-5c949bd3a2a4",
+      "id": "0345f01c-d7f8-45a8-a39b-ad286884144b",
+      "dgia": 333333,
+      "dvtinh": "CÁI",
+      "ltsuat": "8%",
+      "sluong": 3,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 5,
+      "tchat": 1,
+      "ten": "Ổ CỨNG APACER 120 GB AS SSD 2,5\" 7MM",
+      "thtcthue": null,
+      "thtien": 999999,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 5,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Ghi chú dòng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "1079999"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "80000"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "ba2eaa20-79c5-45c4-b395-5c949bd3a2a4",
+      "id": "9102e9a7-bdd5-4180-bb57-9e53e333841b",
+      "dgia": 203704,
+      "dvtinh": "CÁI",
+      "ltsuat": "8%",
+      "sluong": 3,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 6,
+      "tchat": 1,
+      "ten": "VỎ MÁY TÍNH GIPCO GIP - 3586G",
+      "thtcthue": null,
+      "thtien": 611112,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 6,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Ghi chú dòng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "660001"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "48889"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "ba2eaa20-79c5-45c4-b395-5c949bd3a2a4",
+      "id": "2a2e2ee5-8b7c-4dc2-9ece-5a12cc5c1154",
+      "dgia": 1111112,
+      "dvtinh": "CHIẾC",
+      "ltsuat": "8%",
+      "sluong": 5,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 7,
+      "tchat": 1,
+      "ten": "Ổ CỨNG GẮN TRONG SAMSUNG SSD 870 250G",
+      "thtcthue": null,
+      "thtien": 5555560,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 7,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Ghi chú dòng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "6000004"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "444444"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    }
+  ],
+  "qrcode": "00020101021202000400260052005300540058005900600062009966000001103200730390020110306C26THT04022705082026072406112.4673803E7",
+  "ttmstten": null,
+  "ladhddtten": null,
+  "hdxkhau": null,
+  "hdxkptquan": null,
+  "hdgktkhthue": null,
+  "hdonLquans": null,
+  "tthdclquan": false,
+  "pdndungs": null,
+  "hdtbssrses": null,
+  "hdTrung": null,
+  "isHDTrung": null,
+  "hdcttchinh": 0,
+  "dlhquan": null,
+  "dlnhtmai": null,
+  "bltphi": null,
+  "tcsvhdChinh": null
+}

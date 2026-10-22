@@ -1,0 +1,287 @@
+{
+  "nbmst": "0109619574",
+  "khmshdon": 1,
+  "khhdon": "C26TYY",
+  "shdon": 1993,
+  "cqt": "0125",
+  "cttkhac": [
+    {
+      "ttruong": "VATRateOne",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "InvSubTotal",
+      "kdlieu": "string",
+      "dlieu": "2500000"
+    },
+    {
+      "ttruong": "DiscountAmount",
+      "kdlieu": "string",
+      "dlieu": "0"
+    },
+    {
+      "ttruong": "RowPerPage",
+      "kdlieu": "numberic",
+      "dlieu": "10"
+    }
+  ],
+  "dvtte": "VND",
+  "hdon": "01",
+  "hsgcma": "0b88dc59-feae-4758-b5e6-ab3866cab16c",
+  "hsgoc": "1885da4f-aef7-46db-a2a0-1ea0f7fd3cfd",
+  "hthdon": 1,
+  "htttoan": 3,
+  "id": "5c88d7dc-60d2-4b3b-bf6c-880a45dc0b37",
+  "idtbao": null,
+  "khdon": null,
+  "khhdgoc": null,
+  "khmshdgoc": null,
+  "lhdgoc": null,
+  "mhdon": "00C3BEB9AEB9B04654989781B8F52B0017",
+  "mtdiep": null,
+  "mtdtchieu": "V01059874322FA08A95C3B64EB69A467428A8FB08B6",
+  "nbdchi": "Số 11 Ngách 26 Ngõ 788 Kim Giang, Phường Thanh Liệt, Thành phố Hà Nội, Việt Nam",
+  "chma": null,
+  "chten": null,
+  "nbhdktngay": null,
+  "nbhdktso": null,
+  "nbhdso": null,
+  "nblddnbo": null,
+  "nbptvchuyen": null,
+  "nbstkhoan": "22222 2906 2020",
+  "nbten": "CÔNG TY TNHH TIN HỌC DKC",
+  "nbtnhang": "Mở Tại Ngân Hàng Quân Đội MB-Bank, Chi nhánh Hai Bà Trưng, Hà Nội",
+  "nbtnvchuyen": null,
+  "nbttkhac": [
+    {
+      "ttruong": "BankAccountName",
+      "kdlieu": "string",
+      "dlieu": "CÔNG TY TNHH TIN HỌC DKC"
+    }
+  ],
+  "ncma": "2026-10-19T10:23:29.898Z",
+  "ncnhat": "2026-10-19T10:23:29.906Z",
+  "ngcnhat": "tvan_softdreams",
+  "nky": "2026-10-19T10:23:20Z",
+  "nmdchi": "Số nhà 201 Tôn Thất Thuyết, Phường Nam Đông Hà, Tỉnh Quảng Trị, Việt Nam",
+  "nmmst": "3200758117",
+  "nmstkhoan": null,
+  "nmten": "CÔNG TY TNHH MINH NHẬT DIGITAL SYSTEMS",
+  "nmtnhang": null,
+  "nmtnmua": null,
+  "nmttkhac": [],
+  "ntao": "2026-10-19T10:23:29.855Z",
+  "ntnhan": "2026-10-19T10:23:29.810Z",
+  "pban": "2.1.0",
+  "ptgui": 1,
+  "shdgoc": null,
+  "tchat": 1,
+  "tdlap": "2026-10-18T17:00:00Z",
+  "tgia": 1,
+  "tgtcthue": 2500000,
+  "tgtthue": 0,
+  "tgtttbchu": "Hai  triệu năm  trăm nghìn đồng.",
+  "tgtttbso": 2500000,
+  "thdon": "Hóa đơn giá trị gia tăng",
+  "thlap": 202610,
+  "thttlphi": [
+    {
+      "tlphi": null,
+      "tphi": null
+    }
+  ],
+  "thttltsuat": [
+    {
+      "tsuat": "KCT",
+      "thtien": 2500000,
+      "tthue": 0,
+      "gttsuat": null
+    }
+  ],
+  "tlhdon": "Hóa đơn giá trị gia tăng",
+  "ttcktmai": 0,
+  "tthai": 1,
+  "ttkhac": [
+    {
+      "ttruong": "PortalLink",
+      "kdlieu": "string",
+      "dlieu": "http://0109619574hd.easyinvoice.com.vn"
+    },
+    {
+      "ttruong": "Fkey",
+      "kdlieu": "string",
+      "dlieu": "WIHJ3BPCV"
+    }
+  ],
+  "tttbao": 1,
+  "ttttkhac": [
+    {
+      "ttruong": "AmountKCT",
+      "kdlieu": "decimal",
+      "dlieu": "2500000"
+    }
+  ],
+  "ttxly": 5,
+  "tvandnkntt": "0105987432",
+  "mhso": null,
+  "ladhddt": 1,
+  "mkhang": null,
+  "nbsdthoai": "0978 148 325",
+  "nbdctdtu": "congtydkc1@gmail.com",
+  "nbfax": null,
+  "nbwebsite": null,
+  "nbcks": "{\"Subject\":\"OID.0.9.2342.19200300.100.1.1=MST:0109619574, CN=CÔNG TY TNHH TIN HỌC DKC, O=CÔNG TY TNHH TIN HỌC DKC, S=Hà Nội, C=VN\",\"SerialNumber\":\"5401125CEB9B6F3FC043BA5BD0DC4A2E\",\"Issuer\":\"CN=I-CA SHA-256, O=I-CA, C=VN\",\"NotAfter\":\"2027-10-24T15:26:39\",\"NotBefore\":\"2026-01-15T14:09:42\",\"SigningTime\":\"2026-10-19T17:23:20\"}",
+  "nmsdthoai": null,
+  "nmdctdtu": null,
+  "nmcmnd": null,
+  "nmcks": null,
+  "bhphap": 0,
+  "hddunlap": null,
+  "gchdgoc": null,
+  "tbhgtngay": null,
+  "bhpldo": null,
+  "bhpcbo": null,
+  "bhpngay": null,
+  "tdlhdgoc": null,
+  "tgtphi": null,
+  "unhiem": null,
+  "mstdvnunlhdon": null,
+  "tdvnunlhdon": null,
+  "nbmdvqhnsach": null,
+  "nbsqdinh": null,
+  "nbncqdinh": null,
+  "nbcqcqdinh": null,
+  "nbhtban": null,
+  "nmmdvqhnsach": null,
+  "nmddvchden": null,
+  "nmtgvchdtu": null,
+  "nmtgvchdden": null,
+  "nbtnban": null,
+  "dcdvnunlhdon": null,
+  "dksbke": null,
+  "dknlbke": null,
+  "thtttoan": "Tiền mặt/Chuyển khoản",
+  "msttcgp": "0105987432",
+  "cqtcks": "{\"Subject\":\"CN=CỤC THUẾ,O=BỘ TÀI CHÍNH,L=Hà Nội,C=VN\",\"SerialNumber\":\"2A05F812673607B0\",\"Issuer\":\"CN=CA phục vụ các cơ quan Nhà nước G2, O=Ban Cơ yếu Chính phủ, C=VN\",\"NotAfter\":\"2030-03-12T16:36:53\",\"NotBefore\":\"2025-03-13T16:36:53\",\"SigningTime\":\"2026-10-19T17:23:29\"}",
+  "gchu": "",
+  "kqcht": null,
+  "hdntgia": null,
+  "tgtkcthue": 0,
+  "tgtkhac": 0,
+  "nmshchieu": null,
+  "nmnchchieu": null,
+  "nmnhhhchieu": null,
+  "nmqtich": null,
+  "ktkhthue": null,
+  "nmstttoan": null,
+  "nmttttoan": null,
+  "mddkdoanh": null,
+  "tddkdoanh": null,
+  "dcddkdoanh": null,
+  "nmmtinh": null,
+  "nmttinh": null,
+  "nmmxa": null,
+  "nmtxa": null,
+  "nbmstgoc": null,
+  "lddctthe": null,
+  "hdhhdvu": [
+    {
+      "idhdon": "5c88d7dc-60d2-4b3b-bf6c-880a45dc0b37",
+      "id": "af498b96-353b-4a8e-9b22-6e954a5d66fc",
+      "dgia": 1800000,
+      "dvtinh": "Chiếc",
+      "ltsuat": "KCT",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 1,
+      "tchat": 1,
+      "ten": "Phần Mềm Microsoft office professional plus 2021 English APAC DM (SKU-79P-05746)",
+      "thtcthue": null,
+      "thtien": 1800000,
+      "tlckhau": 0,
+      "tsuat": 0,
+      "tthue": null,
+      "sxep": 1,
+      "ttkhac": [
+        {
+          "ttruong": "VATAmount",
+          "kdlieu": "decimal",
+          "dlieu": "0"
+        },
+        {
+          "ttruong": "Amount",
+          "kdlieu": "decimal",
+          "dlieu": "1800000"
+        },
+        {
+          "ttruong": "ProdSubTotal",
+          "kdlieu": "string",
+          "dlieu": "1800000"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "5c88d7dc-60d2-4b3b-bf6c-880a45dc0b37",
+      "id": "b563e308-a161-45cf-8601-32eece977c6e",
+      "dgia": 700000,
+      "dvtinh": "Chiếc",
+      "ltsuat": "KCT",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 2,
+      "tchat": 1,
+      "ten": "Phần mềm Windows Pro 11 64Bit Eng Intl 1pk DSP OEI (FQC-10572)",
+      "thtcthue": null,
+      "thtien": 700000,
+      "tlckhau": 0,
+      "tsuat": 0,
+      "tthue": null,
+      "sxep": 2,
+      "ttkhac": [
+        {
+          "ttruong": "VATAmount",
+          "kdlieu": "decimal",
+          "dlieu": "0"
+        },
+        {
+          "ttruong": "Amount",
+          "kdlieu": "decimal",
+          "dlieu": "700000"
+        },
+        {
+          "ttruong": "ProdSubTotal",
+          "kdlieu": "string",
+          "dlieu": "700000"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    }
+  ],
+  "qrcode": "00020101021202000400260052005300540058005900600062009966000001100109619574020110306C26TYY0404199305082026101906092500000.0",
+  "ttmstten": null,
+  "ladhddtten": null,
+  "hdxkhau": null,
+  "hdxkptquan": null,
+  "hdgktkhthue": null,
+  "hdonLquans": null,
+  "tthdclquan": false,
+  "pdndungs": null,
+  "hdtbssrses": null,
+  "hdTrung": null,
+  "isHDTrung": null,
+  "hdcttchinh": 0,
+  "dlhquan": null,
+  "dlnhtmai": null,
+  "bltphi": null,
+  "tcsvhdChinh": null
+}

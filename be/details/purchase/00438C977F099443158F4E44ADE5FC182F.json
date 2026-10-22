@@ -1,0 +1,428 @@
+{
+  "nbmst": "0108660795",
+  "khmshdon": 1,
+  "khhdon": "C26TZZ",
+  "shdon": 3535,
+  "cqt": "0109",
+  "cttkhac": [
+    {
+      "ttruong": "InvoiceTemplateID",
+      "kdlieu": "string",
+      "dlieu": "3ef055aa-3dc8-48fb-8adf-ad9ce16a9f00"
+    },
+    {
+      "ttruong": "IsTaxReduction",
+      "kdlieu": "numeric",
+      "dlieu": "False"
+    },
+    {
+      "ttruong": "IsTaxReduction43",
+      "kdlieu": "numeric",
+      "dlieu": "True"
+    },
+    {
+      "ttruong": "RefID",
+      "kdlieu": "string",
+      "dlieu": "367ad145-06aa-45b0-9372-c26d43909f32"
+    },
+    {
+      "ttruong": "TaxReductionType",
+      "kdlieu": "string",
+      "dlieu": "5"
+    },
+    {
+      "ttruong": "TaxReductionDescription",
+      "kdlieu": "string",
+      "dlieu": "204/2025/QH15"
+    },
+    {
+      "ttruong": "AmountDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "0"
+    },
+    {
+      "ttruong": "AmountOCDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "CoefficientDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "ExchangRateDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "MainCurrency",
+      "kdlieu": "string",
+      "dlieu": "VND"
+    },
+    {
+      "ttruong": "QuantityDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "UnitPriceDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "UnitPriceOCDecimalDigits",
+      "kdlieu": "string",
+      "dlieu": "2"
+    },
+    {
+      "ttruong": "AppID",
+      "kdlieu": "string",
+      "dlieu": "2AC7D9700E1A472895FC8FC2CE91BD07"
+    },
+    {
+      "ttruong": "TransactionID",
+      "kdlieu": "string",
+      "dlieu": "7NFQCZ0903_D"
+    }
+  ],
+  "dvtte": "VND",
+  "hdon": "01",
+  "hsgcma": "12cb3a9c-4b0a-408a-904d-593f6a4fb322",
+  "hsgoc": "6b2634b3-1c40-4c58-a005-da74d3368325",
+  "hthdon": 1,
+  "htttoan": 9,
+  "id": "a6bd0b80-b902-4c76-aa14-21e9c2eaa3e0",
+  "idtbao": null,
+  "khdon": null,
+  "khhdgoc": null,
+  "khmshdgoc": null,
+  "lhdgoc": null,
+  "mhdon": "00438C977F099443158F4E44ADE5FC182F",
+  "mtdiep": null,
+  "mtdtchieu": "V01012431503A142B1BDD6F486B9A394DD0D58C7E17",
+  "nbdchi": "Số 204 Phố Trần Đại Nghĩa, Phường Tương Mai, Thành Phố Hà Nội, Việt Nam",
+  "chma": null,
+  "chten": null,
+  "nbhdktngay": null,
+  "nbhdktso": null,
+  "nbhdso": null,
+  "nblddnbo": null,
+  "nbptvchuyen": null,
+  "nbstkhoan": "19134531443011",
+  "nbten": "CÔNG TY CỔ PHẦN CÔNG NGHỆ ZICZAC",
+  "nbtnhang": "Ngân hàng Techcombank - Chi nhánh Lạc Trung",
+  "nbtnvchuyen": null,
+  "nbttkhac": [
+    {
+      "ttruong": "CompanyBankNameWithBranch",
+      "kdlieu": "string",
+      "dlieu": "Ngân hàng Techcombank - Chi nhánh Lạc Trung - Lạc Trung"
+    },
+    {
+      "ttruong": "CompanyBranchBankName",
+      "kdlieu": "string",
+      "dlieu": "Lạc Trung"
+    },
+    {
+      "ttruong": "SellerAddress",
+      "kdlieu": "string",
+      "dlieu": "Số 204 Phố Trần Đại Nghĩa, Phường Tương Mai, Thành Phố Hà Nội, Việt Nam"
+    },
+    {
+      "ttruong": "SellerBankAccount",
+      "kdlieu": "string",
+      "dlieu": "19134531443011"
+    },
+    {
+      "ttruong": "SellerBankName",
+      "kdlieu": "string",
+      "dlieu": "Ngân hàng Techcombank - Chi nhánh Lạc Trung"
+    },
+    {
+      "ttruong": "SellerEmail",
+      "kdlieu": "string",
+      "dlieu": "honghop101088@gmail.com"
+    },
+    {
+      "ttruong": "SellerPhoneNumber",
+      "kdlieu": "string",
+      "dlieu": "0869 101 101"
+    },
+    {
+      "ttruong": "SellerWebsite",
+      "kdlieu": "string",
+      "dlieu": "ziczac.com.vn"
+    }
+  ],
+  "ncma": "2026-10-19T10:04:08.985Z",
+  "ncnhat": "2026-10-19T10:04:08.996Z",
+  "ngcnhat": "tvan_misa",
+  "nky": "2026-10-19T10:04:07Z",
+  "nmdchi": "Số nhà 201 Tôn Thất Thuyết, Phường Nam Đông Hà, Quảng Trị, Việt Nam",
+  "nmmst": "3200758117",
+  "nmstkhoan": null,
+  "nmten": "CÔNG TY TNHH MINH NHẬT DIGITAL SYSTEMS",
+  "nmtnhang": null,
+  "nmtnmua": null,
+  "nmttkhac": [
+    {
+      "ttruong": "AccountObjectID",
+      "kdlieu": "string",
+      "dlieu": "267f6938-7e01-4bf5-a09c-48e832d52751"
+    }
+  ],
+  "ntao": "2026-10-19T10:04:08.939Z",
+  "ntnhan": "2026-10-19T10:04:08.896Z",
+  "pban": "2.1.0",
+  "ptgui": 1,
+  "shdgoc": null,
+  "tchat": 1,
+  "tdlap": "2026-10-18T17:00:00Z",
+  "tgia": 1,
+  "tgtcthue": 2758333,
+  "tgtthue": 220667,
+  "tgtttbchu": "Hai triệu chín trăm bảy mươi chín nghìn đồng chẵn.",
+  "tgtttbso": 2979000,
+  "thdon": "Hóa đơn giá trị gia tăng",
+  "thlap": 202610,
+  "thttlphi": [],
+  "thttltsuat": [
+    {
+      "tsuat": "8%",
+      "thtien": 2758333,
+      "tthue": 220667,
+      "gttsuat": null
+    }
+  ],
+  "tlhdon": "Hóa đơn giá trị gia tăng",
+  "ttcktmai": 0,
+  "tthai": 1,
+  "ttkhac": [
+    {
+      "ttruong": "ListStockName",
+      "kdlieu": "string",
+      "dlieu": "Kho Văn Phòng"
+    }
+  ],
+  "tttbao": 1,
+  "ttttkhac": [
+    {
+      "ttruong": "TotalAmount",
+      "kdlieu": "numeric",
+      "dlieu": "2979000.0000"
+    },
+    {
+      "ttruong": "TotalAmountInWordsByENG",
+      "kdlieu": "string",
+      "dlieu": "Two million, nine hundred seventy-nine thousand dong."
+    },
+    {
+      "ttruong": "TotalAmountWithoutVAT",
+      "kdlieu": "numeric",
+      "dlieu": "2758333.00000000"
+    },
+    {
+      "ttruong": "TotalAmountWithoutVATOC",
+      "kdlieu": "numeric",
+      "dlieu": "2758333.0000"
+    },
+    {
+      "ttruong": "TotalSaleAmount",
+      "kdlieu": "numeric",
+      "dlieu": "2758333.0000"
+    },
+    {
+      "ttruong": "TotalSaleAmountOC",
+      "kdlieu": "numeric",
+      "dlieu": "2758333.0000"
+    },
+    {
+      "ttruong": "TotalVATAmount",
+      "kdlieu": "numeric",
+      "dlieu": "220667.0000"
+    },
+    {
+      "ttruong": "TotalAmountOC",
+      "kdlieu": "numeric",
+      "dlieu": "2979000.0000"
+    },
+    {
+      "ttruong": "TotalVATAmountOC",
+      "kdlieu": "numeric",
+      "dlieu": "220667.0000"
+    }
+  ],
+  "ttxly": 5,
+  "tvandnkntt": "0101243150",
+  "mhso": null,
+  "ladhddt": 1,
+  "mkhang": "Tiktok",
+  "nbsdthoai": "0869 101 101",
+  "nbdctdtu": "honghop101088@gmail.com",
+  "nbfax": null,
+  "nbwebsite": "ziczac.com.vn",
+  "nbcks": "{\"Subject\":\"OID.0.9.2342.19200300.100.1.1=MST:0108660795, CN=CÔNG TY CỔ PHẦN CÔNG NGHỆ ZICZAC, O=CÔNG TY CỔ PHẦN CÔNG NGHỆ ZICZAC, S=Hà Nội, C=VN\",\"SerialNumber\":\"54010C570D1EF0916CF2A4E913C16CC7\",\"Issuer\":\"CN=MISA-CA SHA256, O=MISA JOINT STOCK COMPANY, C=VN\",\"NotAfter\":\"2028-07-30T03:39:55\",\"NotBefore\":\"2025-07-31T03:39:55\",\"SigningTime\":\"2026-10-19T17:04:07\"}",
+  "nmsdthoai": null,
+  "nmdctdtu": null,
+  "nmcmnd": null,
+  "nmcks": null,
+  "bhphap": 0,
+  "hddunlap": null,
+  "gchdgoc": null,
+  "tbhgtngay": null,
+  "bhpldo": null,
+  "bhpcbo": null,
+  "bhpngay": null,
+  "tdlhdgoc": null,
+  "tgtphi": null,
+  "unhiem": null,
+  "mstdvnunlhdon": null,
+  "tdvnunlhdon": null,
+  "nbmdvqhnsach": null,
+  "nbsqdinh": null,
+  "nbncqdinh": null,
+  "nbcqcqdinh": null,
+  "nbhtban": null,
+  "nmmdvqhnsach": null,
+  "nmddvchden": null,
+  "nmtgvchdtu": null,
+  "nmtgvchdden": null,
+  "nbtnban": null,
+  "dcdvnunlhdon": null,
+  "dksbke": null,
+  "dknlbke": null,
+  "thtttoan": "TM/CK",
+  "msttcgp": "0101243150",
+  "cqtcks": "{\"Subject\":\"CN=CỤC THUẾ,O=BỘ TÀI CHÍNH,L=Hà Nội,C=VN\",\"SerialNumber\":\"2A05F812673607B0\",\"Issuer\":\"CN=CA phục vụ các cơ quan Nhà nước G2, O=Ban Cơ yếu Chính phủ, C=VN\",\"NotAfter\":\"2030-03-12T16:36:53\",\"NotBefore\":\"2025-03-13T16:36:53\",\"SigningTime\":\"2026-10-19T17:04:08\"}",
+  "gchu": "",
+  "kqcht": null,
+  "hdntgia": null,
+  "tgtkcthue": null,
+  "tgtkhac": null,
+  "nmshchieu": null,
+  "nmnchchieu": null,
+  "nmnhhhchieu": null,
+  "nmqtich": null,
+  "ktkhthue": null,
+  "nmstttoan": null,
+  "nmttttoan": null,
+  "mddkdoanh": null,
+  "tddkdoanh": null,
+  "dcddkdoanh": null,
+  "nmmtinh": null,
+  "nmttinh": null,
+  "nmmxa": null,
+  "nmtxa": null,
+  "nbmstgoc": null,
+  "lddctthe": null,
+  "hdhhdvu": [
+    {
+      "idhdon": "a6bd0b80-b902-4c76-aa14-21e9c2eaa3e0",
+      "id": "63e9245b-a87a-44db-b1f0-d6b90d506a4e",
+      "dgia": 2758333,
+      "dvtinh": "Chiếc",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 1,
+      "tchat": 1,
+      "ten": "Bảng mạch chính Asrock B760M PRO RS/D4",
+      "thtcthue": null,
+      "thtien": 2758333,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 1,
+      "ttkhac": [
+        {
+          "ttruong": "Amount",
+          "kdlieu": "numeric",
+          "dlieu": "2758333.000000"
+        },
+        {
+          "ttruong": "AmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "2758333.000000"
+        },
+        {
+          "ttruong": "AmountWithoutVATOC",
+          "kdlieu": "numeric",
+          "dlieu": "2758333.000000"
+        },
+        {
+          "ttruong": "DiscountAmount",
+          "kdlieu": "numeric",
+          "dlieu": "0.000000"
+        },
+        {
+          "ttruong": "MainConvertRate",
+          "kdlieu": "numeric",
+          "dlieu": "1.000000"
+        },
+        {
+          "ttruong": "MainQuantity",
+          "kdlieu": "numeric",
+          "dlieu": "1.000000"
+        },
+        {
+          "ttruong": "MainUnitName",
+          "kdlieu": "string",
+          "dlieu": "Chiếc"
+        },
+        {
+          "ttruong": "MainUnitPrice",
+          "kdlieu": "numeric",
+          "dlieu": "2758333.000000"
+        },
+        {
+          "ttruong": "RowType",
+          "kdlieu": "numeric",
+          "dlieu": "0"
+        },
+        {
+          "ttruong": "SortOrder",
+          "kdlieu": "numeric",
+          "dlieu": "1"
+        },
+        {
+          "ttruong": "UnitPrice",
+          "kdlieu": "numeric",
+          "dlieu": "2758333.000000"
+        },
+        {
+          "ttruong": "VATAmount",
+          "kdlieu": "numeric",
+          "dlieu": "220667.000000"
+        },
+        {
+          "ttruong": "VATAmountOC",
+          "kdlieu": "numeric",
+          "dlieu": "220667.000000"
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    }
+  ],
+  "qrcode": "00020101021202000400260052005300540058005900600062009966000001100108660795020110306C26TZZ0404353505082026101906092979000.0",
+  "ttmstten": null,
+  "ladhddtten": null,
+  "hdxkhau": null,
+  "hdxkptquan": null,
+  "hdgktkhthue": null,
+  "hdonLquans": null,
+  "tthdclquan": false,
+  "pdndungs": null,
+  "hdtbssrses": null,
+  "hdTrung": null,
+  "isHDTrung": null,
+  "hdcttchinh": 0,
+  "dlhquan": null,
+  "dlnhtmai": null,
+  "bltphi": null,
+  "tcsvhdChinh": null
+}

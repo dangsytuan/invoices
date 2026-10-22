@@ -1,0 +1,277 @@
+{
+  "nbmst": "3200741755",
+  "khmshdon": 1,
+  "khhdon": "C26TCC",
+  "shdon": 51,
+  "cqt": "4502",
+  "cttkhac": [],
+  "dvtte": "VND",
+  "hdon": "01",
+  "hsgcma": "d7d82de9-59e1-4f12-825a-a645ae4a7e94",
+  "hsgoc": "555d13a8-5ec9-44cc-a98f-8016052b80f5",
+  "hthdon": 1,
+  "htttoan": 9,
+  "id": "2b13f44e-8fa6-43bf-93a4-beae01b6b168",
+  "idtbao": null,
+  "khdon": null,
+  "khhdgoc": null,
+  "khmshdgoc": null,
+  "lhdgoc": null,
+  "mhdon": "00A787004C51A7458C8B281D9D6B8361B3",
+  "mtdiep": null,
+  "mtdtchieu": "V0100109106901B8889A8AD4EB7B3BFB0E361AE8DB4",
+  "nbdchi": "121 Tôn Thất Thuyết, Phường Nam Đông Hà, Quảng Trị",
+  "chma": null,
+  "chten": null,
+  "nbhdktngay": null,
+  "nbhdktso": null,
+  "nbhdso": null,
+  "nblddnbo": null,
+  "nbptvchuyen": null,
+  "nbstkhoan": "8603072999",
+  "nbten": "CÔNG TY TNHH MỘT THÀNH VIÊN CAMCOM",
+  "nbtnhang": "BIDV",
+  "nbtnvchuyen": null,
+  "nbttkhac": [
+    {
+      "ttruong": "Quận, huyện người bán",
+      "kdlieu": "string",
+      "dlieu": "Đông Hà"
+    },
+    {
+      "ttruong": "Tỉnh/Thành phố người bán",
+      "kdlieu": "string",
+      "dlieu": "Quảng Trị"
+    },
+    {
+      "ttruong": "Mã quốc gia người bán",
+      "kdlieu": "string",
+      "dlieu": "84"
+    },
+    {
+      "ttruong": "Link tra cứu người bán",
+      "kdlieu": "string",
+      "dlieu": null
+    }
+  ],
+  "ncma": "2026-06-18T05:20:26.514Z",
+  "ncnhat": "2026-06-18T05:20:26.525Z",
+  "ngcnhat": "tvan_viettel",
+  "nky": "2026-06-18T05:20:25Z",
+  "nmdchi": "201 Tôn Thất Thuyết, Phường Nam Đông Hà, Tỉnh Quảng Trị, Việt Nam",
+  "nmmst": "3200758117",
+  "nmstkhoan": null,
+  "nmten": "CÔNG TY TNHH MINH NHẬT DIGITAL SYSTEM",
+  "nmtnhang": null,
+  "nmtnmua": null,
+  "nmttkhac": [
+    {
+      "ttruong": "Loại giấy tờ người mua",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Số giấy tờ người mua",
+      "kdlieu": "string",
+      "dlieu": null
+    }
+  ],
+  "ntao": "2026-06-18T05:20:26.471Z",
+  "ntnhan": "2026-06-18T05:20:26.419Z",
+  "pban": "2.1.0",
+  "ptgui": 1,
+  "shdgoc": null,
+  "tchat": 1,
+  "tdlap": "2026-06-17T17:00:00Z",
+  "tgia": 1,
+  "tgtcthue": 1296296,
+  "tgtthue": 103704,
+  "tgtttbchu": "Một triệu bốn trăm nghìn đồng",
+  "tgtttbso": 1400000,
+  "thdon": "Hóa đơn giá trị gia tăng",
+  "thlap": 202606,
+  "thttlphi": [],
+  "thttltsuat": [
+    {
+      "tsuat": "8%",
+      "thtien": 1296296,
+      "tthue": 103704,
+      "gttsuat": null
+    }
+  ],
+  "tlhdon": "Hóa đơn giá trị gia tăng",
+  "ttcktmai": 0,
+  "tthai": 1,
+  "ttkhac": [
+    {
+      "ttruong": "Ghi chú",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Trạng thái thanh toán",
+      "kdlieu": "string",
+      "dlieu": "Đã thanh toán"
+    },
+    {
+      "ttruong": "Mã số bí mật",
+      "kdlieu": "string",
+      "dlieu": "EKXW61RVY7UXQL1"
+    },
+    {
+      "ttruong": "Ghi chú hóa đơn",
+      "kdlieu": "string",
+      "dlieu": null
+    }
+  ],
+  "tttbao": 1,
+  "ttttkhac": [
+    {
+      "ttruong": "Tổng tiền thuế tiêu thụ đặc biệt",
+      "kdlieu": "string",
+      "dlieu": "0"
+    },
+    {
+      "ttruong": "Tổng tiền phí",
+      "kdlieu": "string",
+      "dlieu": "0"
+    }
+  ],
+  "ttxly": 5,
+  "tvandnkntt": "0100109106",
+  "mhso": null,
+  "ladhddt": 1,
+  "mkhang": null,
+  "nbsdthoai": "0975730165",
+  "nbdctdtu": "hoadon.camcomservice@gmail.com",
+  "nbfax": null,
+  "nbwebsite": null,
+  "nbcks": "{\"Subject\":\"UID=MST:3200741755,CN=CÔNG TY TNHH MỘT THÀNH VIÊN CAMCOM,O=CÔNG TY TNHH MỘT THÀNH VIÊN CAMCOM,ST=Quảng Trị,C=VN\",\"SerialNumber\":\"54011632774A7888C63EB2A19419012A\",\"Issuer\":\"C=VN, O=WINGROUP, CN=WINCA\",\"NotAfter\":\"2027-06-15T08:47:23\",\"NotBefore\":\"2024-03-15T04:32:30\",\"SigningTime\":\"2026-06-18T12:20:25\"}",
+  "nmsdthoai": null,
+  "nmdctdtu": null,
+  "nmcmnd": null,
+  "nmcks": null,
+  "bhphap": 0,
+  "hddunlap": null,
+  "gchdgoc": null,
+  "tbhgtngay": null,
+  "bhpldo": null,
+  "bhpcbo": null,
+  "bhpngay": null,
+  "tdlhdgoc": null,
+  "tgtphi": null,
+  "unhiem": null,
+  "mstdvnunlhdon": null,
+  "tdvnunlhdon": null,
+  "nbmdvqhnsach": null,
+  "nbsqdinh": null,
+  "nbncqdinh": null,
+  "nbcqcqdinh": null,
+  "nbhtban": null,
+  "nmmdvqhnsach": null,
+  "nmddvchden": null,
+  "nmtgvchdtu": null,
+  "nmtgvchdden": null,
+  "nbtnban": null,
+  "dcdvnunlhdon": null,
+  "dksbke": null,
+  "dknlbke": null,
+  "thtttoan": "TM/CK",
+  "msttcgp": "0100109106",
+  "cqtcks": "{\"Subject\":\"CN=CỤC THUẾ,O=BỘ TÀI CHÍNH,L=Hà Nội,C=VN\",\"SerialNumber\":\"2A05F812673607B0\",\"Issuer\":\"CN=CA phục vụ các cơ quan Nhà nước G2, O=Ban Cơ yếu Chính phủ, C=VN\",\"NotAfter\":\"2030-03-12T16:36:53\",\"NotBefore\":\"2025-03-13T16:36:53\",\"SigningTime\":\"2026-06-18T12:20:26\"}",
+  "gchu": "",
+  "kqcht": null,
+  "hdntgia": null,
+  "tgtkcthue": null,
+  "tgtkhac": null,
+  "nmshchieu": null,
+  "nmnchchieu": null,
+  "nmnhhhchieu": null,
+  "nmqtich": null,
+  "ktkhthue": null,
+  "nmstttoan": null,
+  "nmttttoan": null,
+  "mddkdoanh": null,
+  "tddkdoanh": null,
+  "dcddkdoanh": null,
+  "nmmtinh": null,
+  "nmttinh": null,
+  "nmmxa": null,
+  "nmtxa": null,
+  "nbmstgoc": null,
+  "lddctthe": null,
+  "hdhhdvu": [
+    {
+      "idhdon": "2b13f44e-8fa6-43bf-93a4-beae01b6b168",
+      "id": "1bab3870-6049-4f38-b5f7-7d9c6d10bbbc",
+      "dgia": 1296296,
+      "dvtinh": "Chiếc",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 1,
+      "tchat": 1,
+      "ten": "Thiết bị kiểm soát vào ra Hikvision SH-K1 T9803F",
+      "thtcthue": null,
+      "thtien": 1296296,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 1,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Ghi chú dòng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "1400000"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "103704"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    }
+  ],
+  "qrcode": "00020101021202000400260052005300540058005900600062009964000001103200741755020110306C26TCC04025105082026061806091400000.0",
+  "ttmstten": null,
+  "ladhddtten": null,
+  "hdxkhau": null,
+  "hdxkptquan": null,
+  "hdgktkhthue": null,
+  "hdonLquans": null,
+  "tthdclquan": false,
+  "pdndungs": null,
+  "hdtbssrses": null,
+  "hdTrung": null,
+  "isHDTrung": null,
+  "hdcttchinh": 0,
+  "dlhquan": null,
+  "dlnhtmai": null,
+  "bltphi": null,
+  "tcsvhdChinh": null
+}

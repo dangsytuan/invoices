@@ -1,0 +1,326 @@
+{
+  "nbmst": "1600699053",
+  "khmshdon": 1,
+  "khhdon": "C26TTD",
+  "shdon": 6902,
+  "cqt": "8902",
+  "cttkhac": [],
+  "dvtte": "VND",
+  "hdon": "01",
+  "hsgcma": "c3f83e7e-c95c-456d-8b14-03ba8704c06c",
+  "hsgoc": "d15ad182-1206-4ab7-acc3-81e82605f493",
+  "hthdon": 1,
+  "htttoan": 9,
+  "id": "5ea971de-efd1-46e7-89b6-a61d6fafaf86",
+  "idtbao": null,
+  "khdon": null,
+  "khhdgoc": null,
+  "khmshdgoc": null,
+  "lhdgoc": null,
+  "mhdon": "00CCF2CA136154402698DF46DAC4E2B960",
+  "mtdiep": null,
+  "mtdtchieu": "V01001091061ED8F9AEDD7044BD99A92CA163646F5C",
+  "nbdchi": "Số 63 Hà Hoàng Hổ, Phường Long Xuyên, Tỉnh An Giang. Việt Nam.",
+  "chma": null,
+  "chten": null,
+  "nbhdktngay": null,
+  "nbhdktso": null,
+  "nbhdso": null,
+  "nblddnbo": null,
+  "nbptvchuyen": null,
+  "nbstkhoan": "15954069",
+  "nbten": "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ TIN HỌC TD",
+  "nbtnhang": "Ngân Hàng TMCP Á Châu Chi Nhánh An Giang",
+  "nbtnvchuyen": null,
+  "nbttkhac": [],
+  "ncma": "2026-08-26T02:11:33.346Z",
+  "ncnhat": "2026-08-26T02:11:33.355Z",
+  "ngcnhat": "tvan_viettel",
+  "nky": "2026-08-26T02:11:32Z",
+  "nmdchi": "Số nhà 201 Tôn Thất Thuyết, Phường Nam Đông Hà, Tỉnh Quảng Trị, Việt Nam",
+  "nmmst": "3200758117",
+  "nmstkhoan": null,
+  "nmten": "CÔNG TY TNHH MINH NHẬT DIGITAL SYSTEM",
+  "nmtnhang": null,
+  "nmtnmua": null,
+  "nmttkhac": [
+    {
+      "ttruong": "Loại giấy tờ người mua",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Số giấy tờ người mua",
+      "kdlieu": "string",
+      "dlieu": null
+    }
+  ],
+  "ntao": "2026-08-26T02:11:33.256Z",
+  "ntnhan": "2026-08-26T02:11:33.215Z",
+  "pban": "2.1.0",
+  "ptgui": 1,
+  "shdgoc": null,
+  "tchat": 1,
+  "tdlap": "2026-08-25T17:00:00Z",
+  "tgia": 1,
+  "tgtcthue": 1498148,
+  "tgtthue": 119852,
+  "tgtttbchu": "Một triệu sáu trăm mười tám nghìn đồng",
+  "tgtttbso": 1618000,
+  "thdon": "HÓA ĐƠN ĐIỆN TỬ GIÁ TRỊ GIA TĂNG",
+  "thlap": 202608,
+  "thttlphi": [],
+  "thttltsuat": [
+    {
+      "tsuat": "8%",
+      "thtien": 1498148,
+      "tthue": 119852,
+      "gttsuat": null
+    }
+  ],
+  "tlhdon": "HÓA ĐƠN ĐIỆN TỬ GIÁ TRỊ GIA TĂNG",
+  "ttcktmai": 0,
+  "tthai": 1,
+  "ttkhac": [
+    {
+      "ttruong": "Ngày hợp đồng",
+      "kdlieu": null,
+      "dlieu": null
+    },
+    {
+      "ttruong": "Loại tiền",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Hợp đồng số",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Của",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Tên chủ tài khoản",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Job No",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Số vận đơn",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Tên tàu số chuyến",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Container số",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Chủ hàng",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Số lệnh’",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Hãng tàu",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "MGM No",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Vận đơn",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Ghi chú",
+      "kdlieu": "string",
+      "dlieu": "Mã đơn hàng Shopee:260825996JQB5G"
+    },
+    {
+      "ttruong": "Trạng thái thanh toán",
+      "kdlieu": "string",
+      "dlieu": "Đã thanh toán"
+    },
+    {
+      "ttruong": "Mã số bí mật",
+      "kdlieu": "string",
+      "dlieu": "WVA4PKW8HRB7PXI"
+    },
+    {
+      "ttruong": "Ghi chú hóa đơn",
+      "kdlieu": "string",
+      "dlieu": null
+    }
+  ],
+  "tttbao": 1,
+  "ttttkhac": [
+    {
+      "ttruong": "Tổng tiền thuế tiêu thụ đặc biệt",
+      "kdlieu": "string",
+      "dlieu": "0"
+    },
+    {
+      "ttruong": "Tổng tiền phí",
+      "kdlieu": "string",
+      "dlieu": "0"
+    }
+  ],
+  "ttxly": 5,
+  "tvandnkntt": "0100109106",
+  "mhso": null,
+  "ladhddt": 1,
+  "mkhang": null,
+  "nbsdthoai": "0913877340",
+  "nbdctdtu": "thinh.agg@gmail.com",
+  "nbfax": null,
+  "nbwebsite": "http://vitinhtd.com",
+  "nbcks": "{\"Subject\":\"1.2.840.113549.1.9.1=#161174686f6e67677540676d61696c2e636f6d,UID=MST:1600699053,CN=CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ TIN HỌC TD,L=AN GIANG,C=VN\",\"SerialNumber\":\"5404FFFEB7033FB324B728D3C2E164CA\",\"Issuer\":\"C=VN, O=Viettel Group, CN=Viettel-CA SHA2\",\"NotAfter\":\"2027-08-09T01:56:00\",\"NotBefore\":\"2025-07-09T01:56:00\",\"SigningTime\":\"2026-08-26T09:11:32\"}",
+  "nmsdthoai": null,
+  "nmdctdtu": null,
+  "nmcmnd": null,
+  "nmcks": null,
+  "bhphap": 0,
+  "hddunlap": null,
+  "gchdgoc": null,
+  "tbhgtngay": null,
+  "bhpldo": null,
+  "bhpcbo": null,
+  "bhpngay": null,
+  "tdlhdgoc": null,
+  "tgtphi": null,
+  "unhiem": null,
+  "mstdvnunlhdon": null,
+  "tdvnunlhdon": null,
+  "nbmdvqhnsach": null,
+  "nbsqdinh": null,
+  "nbncqdinh": null,
+  "nbcqcqdinh": null,
+  "nbhtban": null,
+  "nmmdvqhnsach": null,
+  "nmddvchden": null,
+  "nmtgvchdtu": null,
+  "nmtgvchdden": null,
+  "nbtnban": null,
+  "dcdvnunlhdon": null,
+  "dksbke": null,
+  "dknlbke": null,
+  "thtttoan": "TM/CK",
+  "msttcgp": "0100109106",
+  "cqtcks": "{\"Subject\":\"CN=CỤC THUẾ,O=BỘ TÀI CHÍNH,L=Hà Nội,C=VN\",\"SerialNumber\":\"2A05F812673607B0\",\"Issuer\":\"CN=CA phục vụ các cơ quan Nhà nước G2, O=Ban Cơ yếu Chính phủ, C=VN\",\"NotAfter\":\"2030-03-12T16:36:53\",\"NotBefore\":\"2025-03-13T16:36:53\",\"SigningTime\":\"2026-08-26T09:11:33\"}",
+  "gchu": "",
+  "kqcht": null,
+  "hdntgia": null,
+  "tgtkcthue": null,
+  "tgtkhac": null,
+  "nmshchieu": null,
+  "nmnchchieu": null,
+  "nmnhhhchieu": null,
+  "nmqtich": null,
+  "ktkhthue": null,
+  "nmstttoan": null,
+  "nmttttoan": null,
+  "mddkdoanh": null,
+  "tddkdoanh": null,
+  "dcddkdoanh": null,
+  "nmmtinh": null,
+  "nmttinh": null,
+  "nmmxa": null,
+  "nmtxa": null,
+  "nbmstgoc": null,
+  "lddctthe": null,
+  "hdhhdvu": [
+    {
+      "idhdon": "5ea971de-efd1-46e7-89b6-a61d6fafaf86",
+      "id": "413ee101-0ba1-4f56-8409-290dc3afe99c",
+      "dgia": 1498148,
+      "dvtinh": "CÁI",
+      "ltsuat": "8%",
+      "sluong": 1,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 1,
+      "tchat": 1,
+      "ten": "MÀN HÌNH MÁY TÍNH 23.8 INCH FHD MONITOR FSID24BFIY; HIỆU FEUVISION",
+      "thtcthue": null,
+      "thtien": 1498148,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 1,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Ghi chú dòng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "1618000"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "119852"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    }
+  ],
+  "qrcode": "00020101021202000400260052005300540058005900600062009966000001101600699053020110306C26TTD0404690205082026082606091618000.0",
+  "ttmstten": null,
+  "ladhddtten": null,
+  "hdxkhau": null,
+  "hdxkptquan": null,
+  "hdgktkhthue": null,
+  "hdonLquans": null,
+  "tthdclquan": false,
+  "pdndungs": null,
+  "hdtbssrses": null,
+  "hdTrung": null,
+  "isHDTrung": null,
+  "hdcttchinh": 0,
+  "dlhquan": null,
+  "dlnhtmai": null,
+  "bltphi": null,
+  "tcsvhdChinh": null
+}

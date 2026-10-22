@@ -1,0 +1,347 @@
+{
+  "nbmst": "1600699053",
+  "khmshdon": 1,
+  "khhdon": "C26TTD",
+  "shdon": 4695,
+  "cqt": "8902",
+  "cttkhac": [],
+  "dvtte": "VND",
+  "hdon": "01",
+  "hsgcma": "3d42a00f-358d-4930-917f-7dac6534b6e2",
+  "hsgoc": "fe61c47b-19df-4c30-9528-9057d045958e",
+  "hthdon": 1,
+  "htttoan": 9,
+  "id": "c1be8356-69da-447e-8603-2786cf83b0a7",
+  "idtbao": null,
+  "khdon": null,
+  "khhdgoc": null,
+  "khmshdgoc": null,
+  "lhdgoc": null,
+  "mhdon": "0099B1BA01D5C445F487D4C97E91251713",
+  "mtdiep": null,
+  "mtdtchieu": "V010010910680F3597AF7A14320A2BCE8970FCC0973",
+  "nbdchi": "Số 63 Hà Hoàng Hổ, Phường Long Xuyên, Tỉnh An Giang. Việt Nam.",
+  "chma": null,
+  "chten": null,
+  "nbhdktngay": null,
+  "nbhdktso": null,
+  "nbhdso": null,
+  "nblddnbo": null,
+  "nbptvchuyen": null,
+  "nbstkhoan": "15954069",
+  "nbten": "CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ TIN HỌC TD",
+  "nbtnhang": "Ngân Hàng TMCP Á Châu Chi Nhánh An Giang",
+  "nbtnvchuyen": null,
+  "nbttkhac": [
+    {
+      "ttruong": "Quận, huyện người bán",
+      "kdlieu": "string",
+      "dlieu": "Long Xuyên"
+    },
+    {
+      "ttruong": "Tỉnh/Thành phố người bán",
+      "kdlieu": "string",
+      "dlieu": "An Giang"
+    },
+    {
+      "ttruong": "Mã quốc gia người bán",
+      "kdlieu": "string",
+      "dlieu": "84"
+    },
+    {
+      "ttruong": "Link tra cứu người bán",
+      "kdlieu": "string",
+      "dlieu": null
+    }
+  ],
+  "ncma": "2026-06-18T02:57:15.513Z",
+  "ncnhat": "2026-06-18T02:57:15.655Z",
+  "ngcnhat": "tvan_viettel",
+  "nky": "2026-06-18T02:57:09Z",
+  "nmdchi": "201 Tôn Thất Thuyết, Phường Nam Đông Hà, Tỉnh Quảng Trị, Việt Nam",
+  "nmmst": "3200758117",
+  "nmstkhoan": null,
+  "nmten": "CÔNG TY TNHH MINH NHẬT DIGITAL SYSTEM",
+  "nmtnhang": null,
+  "nmtnmua": null,
+  "nmttkhac": [
+    {
+      "ttruong": "Loại giấy tờ người mua",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Số giấy tờ người mua",
+      "kdlieu": "string",
+      "dlieu": null
+    }
+  ],
+  "ntao": "2026-06-18T02:57:15.469Z",
+  "ntnhan": "2026-06-18T02:57:10.013Z",
+  "pban": "2.1.0",
+  "ptgui": 1,
+  "shdgoc": null,
+  "tchat": 1,
+  "tdlap": "2026-06-17T17:00:00Z",
+  "tgia": 1,
+  "tgtcthue": 2083333,
+  "tgtthue": 166667,
+  "tgtttbchu": "Hai triệu hai trăm năm mươi nghìn đồng",
+  "tgtttbso": 2250000,
+  "thdon": "HÓA ĐƠN ĐIỆN TỬ GIÁ TRỊ GIA TĂNG",
+  "thlap": 202606,
+  "thttlphi": [],
+  "thttltsuat": [
+    {
+      "tsuat": "8%",
+      "thtien": 2083333,
+      "tthue": 166667,
+      "gttsuat": null
+    }
+  ],
+  "tlhdon": "HÓA ĐƠN ĐIỆN TỬ GIÁ TRỊ GIA TĂNG",
+  "ttcktmai": 0,
+  "tthai": 1,
+  "ttkhac": [
+    {
+      "ttruong": "Ngày hợp đồng",
+      "kdlieu": null,
+      "dlieu": null
+    },
+    {
+      "ttruong": "Loại tiền",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Hợp đồng số",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Của",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Tên chủ tài khoản",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Job No",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Số vận đơn",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Tên tàu số chuyến",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Container số",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Chủ hàng",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Số lệnh’",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Hãng tàu",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "MGM No",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Vận đơn",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Ghi chú",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Trạng thái thanh toán",
+      "kdlieu": "string",
+      "dlieu": "Đã thanh toán"
+    },
+    {
+      "ttruong": "Mã số bí mật",
+      "kdlieu": "string",
+      "dlieu": "OXCV1UXRT1ZY3PT"
+    },
+    {
+      "ttruong": "Ghi chú hóa đơn",
+      "kdlieu": "string",
+      "dlieu": null
+    }
+  ],
+  "tttbao": 1,
+  "ttttkhac": [
+    {
+      "ttruong": "Tổng tiền thuế tiêu thụ đặc biệt",
+      "kdlieu": "string",
+      "dlieu": "0"
+    },
+    {
+      "ttruong": "Tổng tiền phí",
+      "kdlieu": "string",
+      "dlieu": "0"
+    }
+  ],
+  "ttxly": 5,
+  "tvandnkntt": "0100109106",
+  "mhso": null,
+  "ladhddt": 1,
+  "mkhang": null,
+  "nbsdthoai": "0913877340",
+  "nbdctdtu": "thinh.agg@gmail.com",
+  "nbfax": null,
+  "nbwebsite": "http://vitinhtd.com",
+  "nbcks": "{\"Subject\":\"1.2.840.113549.1.9.1=#161174686f6e67677540676d61696c2e636f6d,UID=MST:1600699053,CN=CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ TIN HỌC TD,L=AN GIANG,C=VN\",\"SerialNumber\":\"5404FFFEB7033FB324B728D3C2E164CA\",\"Issuer\":\"C=VN, O=Viettel Group, CN=Viettel-CA SHA2\",\"NotAfter\":\"2027-08-09T01:56:00\",\"NotBefore\":\"2025-07-09T01:56:00\",\"SigningTime\":\"2026-06-18T09:57:09\"}",
+  "nmsdthoai": null,
+  "nmdctdtu": null,
+  "nmcmnd": null,
+  "nmcks": null,
+  "bhphap": 0,
+  "hddunlap": null,
+  "gchdgoc": null,
+  "tbhgtngay": null,
+  "bhpldo": null,
+  "bhpcbo": null,
+  "bhpngay": null,
+  "tdlhdgoc": null,
+  "tgtphi": null,
+  "unhiem": null,
+  "mstdvnunlhdon": null,
+  "tdvnunlhdon": null,
+  "nbmdvqhnsach": null,
+  "nbsqdinh": null,
+  "nbncqdinh": null,
+  "nbcqcqdinh": null,
+  "nbhtban": null,
+  "nmmdvqhnsach": null,
+  "nmddvchden": null,
+  "nmtgvchdtu": null,
+  "nmtgvchdden": null,
+  "nbtnban": null,
+  "dcdvnunlhdon": null,
+  "dksbke": null,
+  "dknlbke": null,
+  "thtttoan": "TM/CK",
+  "msttcgp": "0100109106",
+  "cqtcks": "{\"Subject\":\"CN=CỤC THUẾ,O=BỘ TÀI CHÍNH,L=Hà Nội,C=VN\",\"SerialNumber\":\"2A05F812673607B0\",\"Issuer\":\"CN=CA phục vụ các cơ quan Nhà nước G2, O=Ban Cơ yếu Chính phủ, C=VN\",\"NotAfter\":\"2030-03-12T16:36:53\",\"NotBefore\":\"2025-03-13T16:36:53\",\"SigningTime\":\"2026-06-18T09:57:15\"}",
+  "gchu": "",
+  "kqcht": null,
+  "hdntgia": null,
+  "tgtkcthue": null,
+  "tgtkhac": null,
+  "nmshchieu": null,
+  "nmnchchieu": null,
+  "nmnhhhchieu": null,
+  "nmqtich": null,
+  "ktkhthue": null,
+  "nmstttoan": null,
+  "nmttttoan": null,
+  "mddkdoanh": null,
+  "tddkdoanh": null,
+  "dcddkdoanh": null,
+  "nmmtinh": null,
+  "nmttinh": null,
+  "nmmxa": null,
+  "nmtxa": null,
+  "nbmstgoc": null,
+  "lddctthe": null,
+  "hdhhdvu": [
+    {
+      "idhdon": "c1be8356-69da-447e-8603-2786cf83b0a7",
+      "id": "d3aa0c4b-4255-4b45-ad36-340cdbbe18a1",
+      "dgia": 416666.6,
+      "dvtinh": "CÁI",
+      "ltsuat": "8%",
+      "sluong": 5,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 1,
+      "tchat": 1,
+      "ten": "ĐĨA DVD CHỨA MÃ KÍCH HOẠT VÀ P/M HỆ ĐIỀU HÀNH WINDOW 11 PRO 64BIT ENG INTL 1PK DSP OEI DVDFQC-10528 DÙNG CÀI ĐẶT CHO HỆ Đ/HÀNH WINDOW 11 TRÊN MÁY TÍNH, HIỆU: MICROSOFT, MỚI 100%",
+      "thtcthue": null,
+      "thtien": 2083333,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 1,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Ghi chú dòng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "2250000"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "166667"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    }
+  ],
+  "qrcode": "00020101021202000400260052005300540058005900600062009966000001101600699053020110306C26TTD0404469505082026061806092250000.0",
+  "ttmstten": null,
+  "ladhddtten": null,
+  "hdxkhau": null,
+  "hdxkptquan": null,
+  "hdgktkhthue": null,
+  "hdonLquans": null,
+  "tthdclquan": false,
+  "pdndungs": null,
+  "hdtbssrses": null,
+  "hdTrung": null,
+  "isHDTrung": null,
+  "hdcttchinh": 0,
+  "dlhquan": null,
+  "dlnhtmai": null,
+  "bltphi": null,
+  "tcsvhdChinh": null
+}

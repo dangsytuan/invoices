@@ -1,0 +1,382 @@
+{
+  "nbmst": "0400548986",
+  "khmshdon": 1,
+  "khhdon": "C26TMK",
+  "shdon": 195,
+  "cqt": "4802",
+  "cttkhac": [],
+  "dvtte": "VND",
+  "hdon": "01",
+  "hsgcma": "d308b9cd-f33f-4398-8214-6a7d057ac1ed",
+  "hsgoc": "54e49b73-95f7-45de-b489-6db8e9b934d0",
+  "hthdon": 1,
+  "htttoan": 9,
+  "id": "f1cad2e2-8b07-456c-be27-b666b81beb0f",
+  "idtbao": null,
+  "khdon": null,
+  "khhdgoc": null,
+  "khmshdgoc": null,
+  "lhdgoc": null,
+  "mhdon": "00870A6886CD6142C29649A8CB63996686",
+  "mtdiep": null,
+  "mtdtchieu": "V0100109106F0788C404ECD4B24919AC2107A2644B9",
+  "nbdchi": "445 Hoàng Diệu - Phường Hòa Cường - Thành Phố Đà Nẵng - Việt Nam",
+  "chma": null,
+  "chten": null,
+  "nbhdktngay": null,
+  "nbhdktso": null,
+  "nbhdso": null,
+  "nblddnbo": null,
+  "nbptvchuyen": null,
+  "nbstkhoan": "20052110300998",
+  "nbten": "CÔNG TY TNHH THIẾT BỊ TRUYỀN THÔNG MINH KHOA",
+  "nbtnhang": "Ngân Hàng Nông Nghiệp Và PTNT Quận Cẩm Lệ",
+  "nbtnvchuyen": null,
+  "nbttkhac": [
+    {
+      "ttruong": "Quận, huyện người bán",
+      "kdlieu": "string",
+      "dlieu": "Hải Châu"
+    },
+    {
+      "ttruong": "Tỉnh/Thành phố người bán",
+      "kdlieu": "string",
+      "dlieu": "Đà Nẵng"
+    },
+    {
+      "ttruong": "Mã quốc gia người bán",
+      "kdlieu": "string",
+      "dlieu": "84"
+    },
+    {
+      "ttruong": "Link tra cứu người bán",
+      "kdlieu": "string",
+      "dlieu": "https://vinvoice.viettel.vn/utilities/invoice-search"
+    }
+  ],
+  "ncma": "2026-05-05T08:14:19.954Z",
+  "ncnhat": "2026-05-05T08:14:19.960Z",
+  "ngcnhat": "tvan_viettel",
+  "nky": "2026-05-05T08:14:18Z",
+  "nmdchi": "Số nhà 201 Tôn Thất Thuyết, Phường Nam Đông Hà, Tỉnh Quảng Trị, Việt Nam",
+  "nmmst": "3200758117",
+  "nmstkhoan": null,
+  "nmten": "CÔNG TY TNHH MINH NHẬT DIGITAL SYSTEMS",
+  "nmtnhang": null,
+  "nmtnmua": null,
+  "nmttkhac": [
+    {
+      "ttruong": "Loại giấy tờ người mua",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Số giấy tờ người mua",
+      "kdlieu": "string",
+      "dlieu": null
+    }
+  ],
+  "ntao": "2026-05-05T08:14:19.917Z",
+  "ntnhan": "2026-05-05T08:14:19.879Z",
+  "pban": "2.1.0",
+  "ptgui": 1,
+  "shdgoc": null,
+  "tchat": 1,
+  "tdlap": "2026-05-04T17:00:00Z",
+  "tgia": 1,
+  "tgtcthue": 2550000,
+  "tgtthue": 204000,
+  "tgtttbchu": "Hai triệu bảy trăm năm mươi bốn nghìn đồng",
+  "tgtttbso": 2754000,
+  "thdon": "HÓA ĐƠN ĐIỆN TỬ GIÁ TRỊ GIA TĂNG",
+  "thlap": 202605,
+  "thttlphi": [],
+  "thttltsuat": [
+    {
+      "tsuat": "8%",
+      "thtien": 2550000,
+      "tthue": 204000,
+      "gttsuat": null
+    }
+  ],
+  "tlhdon": "HÓA ĐƠN ĐIỆN TỬ GIÁ TRỊ GIA TĂNG",
+  "ttcktmai": 0,
+  "tthai": 1,
+  "ttkhac": [
+    {
+      "ttruong": "sophieu",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "restaurant",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "ngaydi",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "ngayden",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "sokhach",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "sophong",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "foliono",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "giaphong",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "sodatphong",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Ghi chú",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Quy đổi",
+      "kdlieu": "string",
+      "dlieu": null
+    },
+    {
+      "ttruong": "Trạng thái thanh toán",
+      "kdlieu": "string",
+      "dlieu": "Đã thanh toán"
+    },
+    {
+      "ttruong": "Mã số bí mật",
+      "kdlieu": "string",
+      "dlieu": "EB8TAMJEWLKFQN2"
+    },
+    {
+      "ttruong": "Ghi chú hóa đơn",
+      "kdlieu": "string",
+      "dlieu": null
+    }
+  ],
+  "tttbao": 1,
+  "ttttkhac": [
+    {
+      "ttruong": "Tổng tiền thuế tiêu thụ đặc biệt",
+      "kdlieu": "string",
+      "dlieu": "0"
+    },
+    {
+      "ttruong": "Tổng tiền phí",
+      "kdlieu": "string",
+      "dlieu": "0"
+    }
+  ],
+  "ttxly": 5,
+  "tvandnkntt": "0100109106",
+  "mhso": null,
+  "ladhddt": 1,
+  "mkhang": null,
+  "nbsdthoai": "0911201100",
+  "nbdctdtu": "minhkhoacom@gmail.com",
+  "nbfax": "0911201100",
+  "nbwebsite": null,
+  "nbcks": "{\"Subject\":\"1.2.840.113549.1.9.1=#16104e4f4e414d4540474d41494c2e434f4d,UID=MST:0400548986,CN=CÔNG TY TNHH THIẾT BỊ TRUYỀN THÔNG MINH KHOA,L=ĐÀ NẴNG,C=VN\",\"SerialNumber\":\"5404FFFEB7033FB324B728D3C2DBC8AE\",\"Issuer\":\"C=VN, O=Viettel Group, CN=Viettel-CA SHA2\",\"NotAfter\":\"2028-01-29T02:27:00\",\"NotBefore\":\"2025-05-29T02:27:00\",\"SigningTime\":\"2026-05-05T15:14:18\"}",
+  "nmsdthoai": null,
+  "nmdctdtu": null,
+  "nmcmnd": null,
+  "nmcks": null,
+  "bhphap": 0,
+  "hddunlap": null,
+  "gchdgoc": null,
+  "tbhgtngay": null,
+  "bhpldo": null,
+  "bhpcbo": null,
+  "bhpngay": null,
+  "tdlhdgoc": null,
+  "tgtphi": null,
+  "unhiem": null,
+  "mstdvnunlhdon": null,
+  "tdvnunlhdon": null,
+  "nbmdvqhnsach": null,
+  "nbsqdinh": null,
+  "nbncqdinh": null,
+  "nbcqcqdinh": null,
+  "nbhtban": null,
+  "nmmdvqhnsach": null,
+  "nmddvchden": null,
+  "nmtgvchdtu": null,
+  "nmtgvchdden": null,
+  "nbtnban": null,
+  "dcdvnunlhdon": null,
+  "dksbke": null,
+  "dknlbke": null,
+  "thtttoan": "TM/CK",
+  "msttcgp": "0100109106",
+  "cqtcks": "{\"Subject\":\"CN=CỤC THUẾ,O=BỘ TÀI CHÍNH,L=Hà Nội,C=VN\",\"SerialNumber\":\"2A05F812673607B0\",\"Issuer\":\"CN=CA phục vụ các cơ quan Nhà nước G2, O=Ban Cơ yếu Chính phủ, C=VN\",\"NotAfter\":\"2030-03-12T16:36:53\",\"NotBefore\":\"2025-03-13T16:36:53\",\"SigningTime\":\"2026-05-05T15:14:19\"}",
+  "gchu": "",
+  "kqcht": null,
+  "hdntgia": null,
+  "tgtkcthue": null,
+  "tgtkhac": null,
+  "nmshchieu": null,
+  "nmnchchieu": null,
+  "nmnhhhchieu": null,
+  "nmqtich": null,
+  "ktkhthue": null,
+  "nmstttoan": null,
+  "nmttttoan": null,
+  "mddkdoanh": null,
+  "tddkdoanh": null,
+  "dcddkdoanh": null,
+  "nmmtinh": null,
+  "nmttinh": null,
+  "nmmxa": null,
+  "nmtxa": null,
+  "nbmstgoc": null,
+  "lddctthe": null,
+  "hdhhdvu": [
+    {
+      "idhdon": "f1cad2e2-8b07-456c-be27-b666b81beb0f",
+      "id": "b3e47320-c680-42bc-8ce4-717b90f8ee8d",
+      "dgia": 185000,
+      "dvtinh": "cái",
+      "ltsuat": "8%",
+      "sluong": 10,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 1,
+      "tchat": 1,
+      "ten": "Pin lithium cho máy tính xách tay, 10-30V/2A-7A, dung lượng 1000mAh-10000mAh, model AC21DE, mới 100%",
+      "thtcthue": null,
+      "thtien": 1850000,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 1,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Ghi chú dòng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "1998000"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "148000"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    },
+    {
+      "idhdon": "f1cad2e2-8b07-456c-be27-b666b81beb0f",
+      "id": "cb06ad76-29eb-45fc-8995-d16094dd8e48",
+      "dgia": 70000,
+      "dvtinh": "cái",
+      "ltsuat": "8%",
+      "sluong": 10,
+      "stbchu": null,
+      "stckhau": 0,
+      "stt": 2,
+      "tchat": 1,
+      "ten": "Cục sạc máy tính xách tay, ký hiệu Dell.inc, Model FA90M11. Điện vào (110-240)V-/50HZ, Điện ra 19.5v-20v, công suất 4.62a. Mới 100%",
+      "thtcthue": null,
+      "thtien": 700000,
+      "tlckhau": null,
+      "tsuat": 0.08,
+      "tthue": null,
+      "sxep": 2,
+      "ttkhac": [
+        {
+          "ttruong": "Số lô",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Hạn dùng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Ghi chú dòng",
+          "kdlieu": "string",
+          "dlieu": null
+        },
+        {
+          "ttruong": "Thành tiền thanh toán của hàng hóa",
+          "kdlieu": "string",
+          "dlieu": "756000"
+        },
+        {
+          "ttruong": "Tiền thuế dòng (Tiền thuế GTGT)",
+          "kdlieu": "string",
+          "dlieu": "56000"
+        },
+        {
+          "ttruong": "Chiết khấu lần 2",
+          "kdlieu": "string",
+          "dlieu": null
+        }
+      ],
+      "dvtte": null,
+      "tgia": null,
+      "tthhdtrung": [],
+      "mnnnghe": null
+    }
+  ],
+  "qrcode": "00020101021202000400260052005300540058005900600062009965000001100400548986020110306C26TMK040319505082026050506092754000.0",
+  "ttmstten": null,
+  "ladhddtten": null,
+  "hdxkhau": null,
+  "hdxkptquan": null,
+  "hdgktkhthue": null,
+  "hdonLquans": null,
+  "tthdclquan": false,
+  "pdndungs": null,
+  "hdtbssrses": null,
+  "hdTrung": null,
+  "isHDTrung": null,
+  "hdcttchinh": 0,
+  "dlhquan": null,
+  "dlnhtmai": null,
+  "bltphi": null,
+  "tcsvhdChinh": null
+}
