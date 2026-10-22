@@ -11,7 +11,8 @@ const prisma = new PrismaClient();
  */
 router.get('/', async (req, res) => {
   try {
-    const { type, search, startDate, endDate, page = 1, limit = 50 } = req.query;
+    // 1. Lấy đầy đủ các query params từ request gửi lên
+    const { type, search, status, page = 1, limit = 50 } = req.query;
     
     const skip = (Number(page) - 1) * Number(limit);
     const take = Number(limit);
@@ -19,26 +20,18 @@ router.get('/', async (req, res) => {
     // Xây dựng điều kiện lọc (where) cho Prisma
     const where = {};
 
-    // 1. Lọc theo loại hóa đơn (INBOUND / OUTBOUND) nếu có
+    // 2. Lọc theo loại hóa đơn (INBOUND / OUTBOUND) nếu có
     if (type && type !== 'ALL') {
       where.type = type;
     }
 
-    // 2. Lọc theo khoảng thời gian (dựa trên trường ngày lập hóa đơn `tdlap`)
-    if (startDate || endDate) {
-      where.tdlap = {};
-      if (startDate) {
-        where.tdlap.gte = new Date(startDate); // Từ ngày (00:00:00)
-      }
-      if (endDate) {
-        // Đặt giờ kết thúc là cuối ngày để lấy trọn vẹn ngày endDate
-        const endDateTime = new Date(endDate);
-        endDateTime.setHours(23, 59, 59, 999);
-        where.tdlap.lte = endDateTime;
-      }
+    // 3. Lọc theo trạng thái hóa đơn (tthai) nếu có và khác 'ALL'
+    if (status && status !== 'ALL') {
+      // Ép kiểu sang Number vì tthai trong DB thường là kiểu Int
+      where.tthai = Number(status);
     }
 
-    // 3. Lọc theo từ khóa tìm kiếm
+    // 4. Lọc theo từ khóa tìm kiếm (tìm trong Tên người bán, MST người bán, Tên người mua, MST người mua, Số hóa đơn)
     if (search && search.trim() !== '') {
       const keyword = search.trim();
       where.OR = [
@@ -49,6 +42,7 @@ router.get('/', async (req, res) => {
         { khhdon: { contains: keyword, mode: 'insensitive' } },
       ];
       
+      // Nếu số hóa đơn là dạng số (Int trong Prisma), ta kiểm tra thêm nếu keyword là số
       const numKeyword = Number(keyword);
       if (!isNaN(numKeyword)) {
         where.OR.push({ shdon: numKeyword });

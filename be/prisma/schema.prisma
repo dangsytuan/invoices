@@ -29,6 +29,8 @@ model Invoice {
   shdon        Int               // Số hóa đơn (VD: 170)
   hdon         String            // Loại hóa đơn (VD: "01" - Hóa đơn GTGT)
   thdon        String            // Tên loại hóa đơn (VD: "Hóa đơn giá trị gia tăng")
+
+  tthai        Int               @default(1)
   
   cqt          String?           // Cơ quan thuế cấp mã
   hsgcma       String?           // Mã cơ quan thuế / Mã giao dịch CQT
@@ -55,6 +57,7 @@ model Invoice {
   @@index([nbmst])
   @@index([nmmst])
   @@index([shdon, khhdon])
+  @@index([tthai])
 }
 
 // Bảng lưu chi tiết hàng hóa, dịch vụ trong hóa đơn

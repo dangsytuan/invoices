@@ -17,13 +17,21 @@ async function main() {
     console.log(`📂 Đang đọc ${files.length} file hóa đơn mua vào từ thư mục...\n`);
 
     const catalogMap = {};
+    const validInventoryStatuses = [1, '1', 2, '2', 3, '3']; // Chỉ lấy hóa đơn có hiệu lực
 
-    // 1. Quét và gom nhóm dữ liệu (không phân biệt chữ hoa / chữ thường)
+    // 1. Quét và gom nhóm dữ liệu (Có lọc trạng thái tthai hợp lệ)
     for (const file of files) {
       try {
         const filePath = path.join(purchaseDir, file);
         const rawData = fs.readFileSync(filePath, 'utf-8');
         const data = JSON.parse(rawData);
+
+        // Kiểm tra trạng thái hóa đơn (tthai)
+        const currentStatus = data.tthai;
+        if (!validInventoryStatuses.includes(currentStatus)) {
+          // Bỏ qua hóa đơn bị thay thế (4), bị điều chỉnh (5), đã hủy (6)
+          continue; 
+        }
 
         const items = data.hdhhdvu || [];
 
@@ -54,7 +62,7 @@ async function main() {
     }
 
     const productList = Object.values(catalogMap);
-    console.log(`📋 Tổng hợp được ${productList.length} sản phẩm độc lập (bỏ qua phân biệt hoa/thường).`);
+    console.log(`📋 Tổng hợp được ${productList.length} sản phẩm độc lập từ hóa đơn hợp lệ.`);
     console.log('🔄 Đang đồng bộ dữ liệu vào bảng Product trong Database...\n');
 
     let createdCount = 0;
@@ -62,7 +70,6 @@ async function main() {
 
     // 2. Lưu hoặc cập nhật vào bảng Product trong Database
     for (const prod of productList) {
-      // Kiểm tra xem sản phẩm đã tồn tại chưa (tìm kiếm không phân biệt hoa thường - mode: 'insensitive')
       const existing = await prisma.product.findFirst({
         where: {
           name: {
@@ -73,17 +80,17 @@ async function main() {
       });
 
       if (existing) {
-        // Nếu đã tồn tại, cập nhật lại tổng nhập
+        // Cập nhật lại tổng nhập và tính lại tồn kho dựa trên totalExported hiện có
         await prisma.product.update({
           where: { id: existing.id },
           data: {
             totalImported: prod.totalImported,
-            stockBalance: prod.totalImported - existing.totalExported
+            stockBalance: prod.totalImported - (existing.totalExported || 0)
           }
         });
         updatedCount++;
       } else {
-        // Nếu chưa có, tạo mới
+        // Tạo mới sản phẩm nếu chưa có
         await prisma.product.create({
           data: {
             name: prod.displayName,

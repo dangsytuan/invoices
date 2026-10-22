@@ -125,6 +125,7 @@ async function importInvoicesFromFolder(folderPath, invoiceType) {
         hdon: String(invInfo.hdon || '01'),
         thdon: invInfo.thdon || 'Hóa đơn giá trị gia tăng',
         cqt: invInfo.cqt || null,
+        tthai: invInfo.tthai,
         hsgcma: invInfo.hsgcma || null,
         mhdon: invInfo.mhdon || null,
         ncma: parseDate(invInfo.ncma),

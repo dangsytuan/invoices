@@ -16,15 +16,22 @@ async function main() {
     const files = fs.readdirSync(soldDir).filter(file => file.endsWith('.json'));
     console.log(`📂 Đang quét ${files.length} file hóa đơn bán ra từ thư mục...\n`);
 
-    // 1. Gom nhóm dữ liệu xuất bán từ các file JSON (không phân biệt hoa/thường)
-    // Map cấu trúc: lowerKey -> { displayName, unit, totalExported }
     const soldMap = {};
+    const validInventoryStatuses = [1, '1', 2, '2', 3, '3']; // Chỉ lấy hóa đơn có hiệu lực pháp lý
 
+    // 1. Gom nhóm dữ liệu xuất bán từ các file JSON (Có lọc trạng thái tthai hợp lệ)
     for (const file of files) {
       try {
         const filePath = path.join(soldDir, file);
         const rawData = fs.readFileSync(filePath, 'utf-8');
         const data = JSON.parse(rawData);
+
+        // Kiểm tra trạng thái hóa đơn (tthai)
+        const currentStatus = data.tthai;
+        if (!validInventoryStatuses.includes(currentStatus)) {
+          // Bỏ qua hóa đơn bị thay thế (4), bị điều chỉnh (5), đã hủy (6)
+          continue; 
+        }
 
         const items = data.hdhhdvu || [];
 
@@ -53,7 +60,7 @@ async function main() {
     }
 
     const soldProducts = Object.values(soldMap);
-    console.log(`📋 Tổng hợp được ${soldProducts.length} mặt hàng xuất bán duy nhất từ hóa đơn.`);
+    console.log(`📋 Tổng hợp được ${soldProducts.length} mặt hàng xuất bán duy nhất từ hóa đơn hợp lệ.`);
     console.log('🔄 Đang cập nhật vào bảng Product và kiểm tra danh mục...\n');
 
     let updatedCount = 0;
@@ -73,8 +80,11 @@ async function main() {
 
       if (existing) {
         // Nếu có trong danh mục -> Cập nhật tổng xuất và tính lại tồn kho
-        const newTotalExported = existing.totalExported + item.totalExported;
-        const newStockBalance = existing.totalImported - newTotalExported;
+        // Lưu ý: Nếu bạn chạy script này nhiều lần, để tránh cộng dồn nhân đôi, 
+        // bạn nên tính sum trực tiếp từ StockTransaction thay vì lấy existing.totalExported + item.totalExported.
+        // Tạm thời nếu chạy lần đầu hoặc theo luồng cũ, ta dùng:
+        const newTotalExported = item.totalExported; // Nếu quét tổng từ folder thì gán trực tiếp tổng mới tính được
+        const newStockBalance = (existing.totalImported || 0) - newTotalExported;
 
         await prisma.product.update({
           where: { id: existing.id },
@@ -97,11 +107,9 @@ async function main() {
     // 3. Nếu có sản phẩm chưa có trong danh mục, xuất file CSV log lại
     if (missingProducts.length > 0) {
       const csvLines = [];
-      // Tiêu đề CSV (có dấu BOM \uFEFF để Excel đọc chuẩn tiếng Việt không bị lỗi font)
       csvLines.push('\uFEFFSTT,Tên sản phẩm / Dịch vụ (Bán ra),Đơn vị tính,Tổng số lượng xuất');
 
       missingProducts.forEach((p, idx) => {
-        // Escape dấu phẩy trong tên sản phẩm nếu có
         const safeName = `"${p.name.replace(/"/g, '""')}"`;
         const safeUnit = `"${p.unit.replace(/"/g, '""')}"`;
         csvLines.push(`${idx + 1},${safeName},${safeUnit},${p.exportedQuantity}`);
