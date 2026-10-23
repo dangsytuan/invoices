@@ -82,14 +82,17 @@ model InvoiceDetail {
   @@index([invoiceId])
 }
 
-// Bảng ghi nhận lịch sử Nhập/Xuất kho theo từng dòng hóa đơn
 model StockTransaction {
   id              String        @id @default(uuid())
   invoiceId       String        // Khóa ngoại liên kết tới Invoice
   invoice         Invoice       @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
   
-  type            InvoiceType  // INBOUND (Nhập) hoặc OUTBOUND (Xuất)
-  productName     String        // Tên hàng hóa, dịch vụ
+  // Liên kết tới sản phẩm chuẩn (Cho phép để trống nếu chưa map được)
+  productId       String?       
+  product         Product?      @relation(fields: [productId], references: [id], onDelete: SetNull)
+
+  type            InvoiceType   // INBOUND (Nhập) hoặc OUTBOUND (Xuất)
+  productName     String        // Tên hàng gốc trên hóa đơn điện tử (để đối soát)
   unit            String?       // Đơn vị tính
   quantity        Float         // Số lượng
   unitPrice       Float         // Đơn giá chưa thuế
@@ -99,6 +102,7 @@ model StockTransaction {
   createdAt       DateTime      @default(now())
   updatedAt       DateTime      @updatedAt
 
+  @@index([productId])
   @@index([productName])
   @@index([transactionDate])
   @@index([invoiceId])
@@ -106,14 +110,54 @@ model StockTransaction {
 
 model Product {
   id            String   @id @default(uuid())
-  name          String   @unique // Tên sản phẩm chuẩn (đã chuẩn hóa)
-  unit          String?  // Đơn vị tính chuẩn
+  sku           String?   @unique // Mã SKU chuẩn nội bộ (Ví dụ: SP-AO-THUN-W-L)
+  name          String   // Tên sản phẩm chuẩn đã chuẩn hóa trong hệ thống
+  barcode       String?  @unique // Mã vạch chuẩn (nếu có trên sản phẩm)
+  unit          String?   // Đơn vị tính chuẩn của kho (Ví dụ: Cái, Hộp, Kg)
+  
+  categoryId    String?  
+  category      Category? @relation(fields: [categoryId], references: [id])
+
+  // Quản lý tồn kho
   totalImported Float    @default(0) // Tổng lượng đã nhập
   totalExported Float    @default(0) // Tổng lượng đã xuất
   stockBalance  Float    @default(0) // Tồn kho hiện tại
+  minStock      Float?   @default(0) // Định mức tồn kho tối thiểu (cảnh báo hết hàng)
+  
+  isActive      Boolean  @default(true) // Trạng thái sản phẩm (Đang kinh doanh / Ngừng kinh doanh)
+
+  // Quan hệ với bảng quy tắc ánh xạ tên nhà cung cấp (Phục vụ tự động hóa HĐĐT)
+  aliases       ProductAlias[]
+  stockTransactions StockTransaction[]
 
   createdAt     DateTime @default(now())
   updatedAt     DateTime @updatedAt
 
+  @@index([sku])
   @@index([name])
+}
+
+model ProductAlias {
+  id        String   @id @default(uuid())
+  productId String
+  product   Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  
+  name      String   // Tên khác của sản phẩm từ nhà cung cấp / hóa đơn
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([productId, name]) // Đảm bảo 1 sản phẩm chuẩn không bị lặp lại một tên alias y hệt
+  @@index([name])             // Cực kỳ quan trọng để hệ thống tra cứu (lookup) tên cực nhanh
+}
+
+// Bảng danh mục sản phẩm (Phục vụ lọc, báo cáo)
+model Category {
+  id          String    @id @default(uuid())
+  name        String    @unique
+  description String?
+  products    Product[]
+
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
 }

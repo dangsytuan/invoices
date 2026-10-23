@@ -5,8 +5,8 @@ const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 
 /**
- * @route   GET /api/products
- * @desc    Lấy danh sách sản phẩm (Hỗ trợ Search, Phân trang, Sắp xếp)
+ * @route   GET /api/products/list
+ * @desc    Lấy danh sách sản phẩm kèm theo danh sách Alias (Tên thay thế)
  * @access  Public
  */
 router.get('/list', async (req, res) => {
@@ -17,7 +17,6 @@ router.get('/list', async (req, res) => {
     const limitNum = parseInt(limit) || 20;
     const skip = (pageNum - 1) * limitNum;
 
-    // Điều kiện tìm kiếm theo tên (Không phân biệt hoa thường)
     const where = search
       ? {
           name: {
@@ -33,6 +32,9 @@ router.get('/list', async (req, res) => {
         where,
         skip,
         take: limitNum,
+        include: {
+          aliases: true // <--- BỔ SUNG DÒNG NÀY ĐỂ KÉO THEO DANH SÁCH ALIAS
+        },
         orderBy: {
           [sortBy]: order.toLowerCase() === 'desc' ? 'desc' : 'asc'
         }
