@@ -12,7 +12,7 @@ const prisma = new PrismaClient();
 router.get('/list', async (req, res) => {
   try {
     const { 
-      search,          // Tìm kiếm theo tên sản phẩm
+      search,          // Chuỗi tìm kiếm (ví dụ: "áo thun trắng")
       type,            // INBOUND hoặc OUTBOUND
       invoiceId,       // Lọc theo hóa đơn
       startDate,       // Ngày bắt đầu (YYYY-MM-DD)
@@ -30,12 +30,18 @@ router.get('/list', async (req, res) => {
     // Xây dựng điều kiện lọc (where clause)
     const where = {};
 
-    // 1. Tìm kiếm theo tên sản phẩm (không phân biệt hoa/thường)
-    if (search) {
-      where.productName = {
-        contains: search,
-        mode: 'insensitive'
-      };
+    // 1. Xử lý tìm kiếm theo từ khóa con (không phân biệt hoa/thường, vị trí)
+    if (search && search.trim() !== '') {
+      // Tách chuỗi thành mảng các từ khóa theo khoảng trắng, loại bỏ các từ trống
+      const keywords = search.trim().split(/\s+/);
+
+      // Sử dụng AND để đảm bảo tên sản phẩm phải chứa TẤT CẢ các từ khóa con
+      where.AND = keywords.map(keyword => ({
+        productName: {
+          contains: keyword,
+          mode: 'insensitive'
+        }
+      }));
     }
 
     // 2. Lọc theo loại giao dịch (INBOUND / OUTBOUND)
@@ -55,7 +61,6 @@ router.get('/list', async (req, res) => {
         where.transactionDate.gte = new Date(startDate);
       }
       if (endDate) {
-        // Cộng thêm 1 ngày hoặc set cuối ngày để lấy trọn vẹn ngày kết thúc
         const endDateTime = new Date(endDate);
         endDateTime.setHours(23, 59, 59, 999);
         where.transactionDate.lte = endDateTime;

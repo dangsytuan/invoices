@@ -17,14 +17,21 @@ router.get('/list', async (req, res) => {
     const limitNum = parseInt(limit) || 20;
     const skip = (pageNum - 1) * limitNum;
 
-    const where = search
-      ? {
-          name: {
-            contains: search,
-            mode: 'insensitive'
-          }
+    const where = {};
+
+    // 1. Xử lý tìm kiếm theo từ khóa con (không phân biệt hoa/thường, vị trí)
+    if (search && search.trim() !== '') {
+      // Tách chuỗi thành mảng các từ khóa theo khoảng trắng, loại bỏ các từ trống
+      const keywords = search.trim().split(/\s+/);
+
+      // Sử dụng AND để đảm bảo tên sản phẩm phải chứa TẤT CẢ các từ khóa con
+      where.AND = keywords.map(keyword => ({
+        name: {
+          contains: keyword,
+          mode: 'insensitive'
         }
-      : {};
+      }));
+    }
 
     const [total, products] = await Promise.all([
       prisma.product.count({ where }),
