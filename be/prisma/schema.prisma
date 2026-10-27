@@ -126,6 +126,12 @@ model Product {
   
   isActive      Boolean  @default(true) // Trạng thái sản phẩm (Đang kinh doanh / Ngừng kinh doanh)
 
+  // Phân loại sản phẩm: true nếu là Combo/Bộ máy ráp sẵn, false nếu là linh kiện đơn lẻ
+  isBundle    Boolean   @default(false)
+
+  components    ProductComponent[] @relation("BundleParent")
+  usedInBundles ProductComponent[] @relation("BundleComponent")
+
   // Quan hệ với bảng quy tắc ánh xạ tên nhà cung cấp (Phục vụ tự động hóa HĐĐT)
   aliases       ProductAlias[]
   stockTransactions StockTransaction[]
@@ -135,6 +141,29 @@ model Product {
 
   @@index([sku])
   @@index([name])
+  @@index([isBundle])
+}
+
+model ProductComponent {
+  id          String   @id @default(uuid())
+  
+  // ID của sản phẩm Cha (Combo / Bộ máy tính)
+  bundleId    String
+  bundle      Product  @relation("BundleParent", fields: [bundleId], references: [id], onDelete: Cascade)
+
+  // ID của sản phẩm Con (Linh kiện đơn lẻ bên trong)
+  componentId String
+  component   Product  @relation("BundleComponent", fields: [componentId], references: [id], onDelete: Restrict)
+
+  // Số lượng linh kiện này có trong 1 bộ (Ví dụ: 1 Main, 1 CPU, 2 Thanh RAM...)
+  quantity    Float    @default(1)
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([bundleId, componentId])
+  @@index([bundleId])
+  @@index([componentId])
 }
 
 model ProductAlias {
