@@ -188,6 +188,8 @@ router.post('/pull/purchase', async (req, res) => {
             }
         });
 
+        console.log(gdtResponse);
+
         return res.status(200).json({
             success: true,
             data: gdtResponse.data
