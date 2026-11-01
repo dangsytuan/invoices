@@ -135,6 +135,7 @@ async function main() {
             let savedInvoice;
             const invoicePayload = {
               type: basicInv._invoiceType,
+              isSco: basicInv._detailType === 'sco',
               nbmst: detailData.nbmst || '',
               nbten: detailData.nbten || '',
               nmmst: detailData.nmmst || '',

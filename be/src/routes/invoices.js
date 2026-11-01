@@ -7,52 +7,67 @@ const { v4: uuidv4 } = require('uuid');
 const router = express.Router();
 const prisma = new PrismaClient();
 
-/**
- * @route   GET /api/invoices
- * @desc    Lấy danh sách hóa đơn (có hỗ trợ lọc theo type, phân trang)
- * @query   type (INBOUND | OUTBOUND), page (mặc định 1), limit (mặc định 10)
- */
 router.get('/', async (req, res) => {
   try {
-    // 1. Lấy đầy đủ các query params từ request gửi lên
-    const { type, search, status, page = 1, limit = 50 } = req.query;
+    const { type, search, status, startDate, endDate, page = 1, limit = 50 } = req.query;
     
     const skip = (Number(page) - 1) * Number(limit);
     const take = Number(limit);
 
-    // Xây dựng điều kiện lọc (where) cho Prisma
     const where = {};
 
-    // 2. Lọc theo loại hóa đơn (INBOUND / OUTBOUND) nếu có
     if (type && type !== 'ALL') {
       where.type = type;
     }
 
-    // 3. Lọc theo trạng thái hóa đơn (tthai) nếu có và khác 'ALL'
-    if (status && status !== 'ALL') {
-      // Ép kiểu sang Number vì tthai trong DB thường là kiểu Int
+    if (status) {
       where.tthai = Number(status);
     }
 
-    // 4. Lọc theo từ khóa tìm kiếm (tìm trong Tên người bán, MST người bán, Tên người mua, MST người mua, Số hóa đơn)
-    if (search && search.trim() !== '') {
-      const keyword = search.trim();
-      where.OR = [
-        { nbten: { contains: keyword, mode: 'insensitive' } },
-        { nbmst: { contains: keyword, mode: 'insensitive' } },
-        { nmten: { contains: keyword, mode: 'insensitive' } },
-        { nmmst: { contains: keyword, mode: 'insensitive' } },
-        { khhdon: { contains: keyword, mode: 'insensitive' } },
-      ];
-      
-      // Nếu số hóa đơn là dạng số (Int trong Prisma), ta kiểm tra thêm nếu keyword là số
-      const numKeyword = Number(keyword);
-      if (!isNaN(numKeyword)) {
-        where.OR.push({ shdon: numKeyword });
+    // Lọc theo khoảng thời gian lập hóa đơn (tdlap)
+    if (startDate || endDate) {
+      where.tdlap = {};
+      if (startDate) {
+        where.tdlap.gte = new Date(`${startDate}T00:00:00.000`);
+      }
+      if (endDate) {
+        where.tdlap.lte = new Date(`${endDate}T23:59:59.999`);
       }
     }
 
-    // Truy vấn Database đồng thời đếm tổng và lấy dữ liệu phân trang
+    // Tìm kiếm từ khóa (Hỗ trợ tìm chính xác khi gõ #id, ví dụ: #123 hoặc #abc)
+    if (search && search.trim() !== '') {
+      const keyword = search.trim();
+
+      if (keyword.startsWith('#')) {
+        const exactIdStr = keyword.substring(1).trim(); // Giữ nguyên dạng chuỗi cho id
+        const exactIdNum = Number(exactIdStr);
+
+        where.OR = [
+          { id: exactIdStr }, // Tìm chính xác theo ID (kiểu String)
+        ];
+
+        // Nếu phần sau dấu # là số hợp lệ thì cho phép tìm thêm theo shdon (kiểu Int)
+        if (!isNaN(exactIdNum)) {
+          where.OR.push({ shdon: exactIdNum });
+        }
+      } else {
+        // Tìm kiếm gần đúng theo từ khóa thông thường
+        where.OR = [
+          { nbten: { contains: keyword, mode: 'insensitive' } },
+          { nbmst: { contains: keyword, mode: 'insensitive' } },
+          { nmten: { contains: keyword, mode: 'insensitive' } },
+          { nmmst: { contains: keyword, mode: 'insensitive' } },
+          { khhdon: { contains: keyword, mode: 'insensitive' } },
+        ];
+        
+        const numKeyword = Number(keyword);
+        if (!isNaN(numKeyword)) {
+          where.OR.push({ shdon: numKeyword });
+        }
+      }
+    }
+
     const [total, invoices] = await Promise.all([
       prisma.invoice.count({ where }),
       prisma.invoice.findMany({
@@ -80,10 +95,6 @@ router.get('/', async (req, res) => {
   }
 });
 
-/**
- * @route   GET /api/invoices/:id
- * @desc    Lấy chi tiết một hóa đơn theo ID kèm theo danh sách sản phẩm chi tiết
- */
 router.get('/:id', async (req, res) => {
   try {
     const { id } = req.params;
@@ -91,8 +102,7 @@ router.get('/:id', async (req, res) => {
     const invoice = await prisma.invoice.findUnique({
       where: { id },
       include: {
-        details: true,
-        stockTransactions: true,
+        details: true
       },
     });
 
@@ -103,6 +113,39 @@ router.get('/:id', async (req, res) => {
     return res.status(200).json({ success: true, data: invoice });
   } catch (error) {
     console.error('Lỗi khi lấy chi tiết hóa đơn:', error);
+    return res.status(500).json({ success: false, message: 'Lỗi server nội bộ' });
+  }
+});
+
+router.get('/relative', async (req, res) => {
+  try {
+    const { nbmst, khmshdon, khhdon, shdon } = req.query;
+
+    if (!nbmst || !khmshdon || !khhdon || !shdon) {
+      return res.status(400).json({ success: false, message: 'Thiếu thông tin tra cứu' });
+    }
+
+    const whereCondition = {
+      relNbmst: nbmst,
+      relKhmshdon: khmshdon,
+      relKhhdon: khhdon,
+      relShdon: shdon,
+    };
+
+    const invoice = await prisma.invoice.findFirst({
+      where: whereCondition,
+      include: {
+        details: true
+      },
+    });
+
+    if (!invoice) {
+      return res.status(404).json({ success: false, message: 'Không tìm thấy hóa đơn liên quan chính xác trong hệ thống' });
+    }
+
+    return res.status(200).json({ success: true, data: invoice });
+  } catch (error) {
+    console.error('Lỗi tìm hóa đơn theo thông tin:', error);
     return res.status(500).json({ success: false, message: 'Lỗi server nội bộ' });
   }
 });

@@ -28,6 +28,7 @@ app.use('/api/invoices', require('./routes/invoices'));
 app.use('/api/products', require('./routes/products'));
 app.use('/api/aliases', require('./routes/productAliases'));
 app.use('/api/stockTransactions', require('./routes/stockTransactions'));
+app.use('/api/taxs', require('./routes/taxs'));
 
 const PORT = process.env.PORT || 5001;
 

@@ -463,6 +463,91 @@ class TaxService {
       throw error;
     }
   }
+
+  /**
+   * Lấy danh sách hóa đơn liên quan đối với Hóa đơn máy tính tiền (SCO)
+   * @param {string} nbmst - Mã số thuế người bán
+   * @param {number|string} khmshdon - Ký hiệu mẫu số hóa đơn
+   * @param {string} khhdon - Ký hiệu hóa đơn
+   * @param {number|string} shdon - Số hóa đơn
+   * @returns {Promise<Array>} Mảng các hóa đơn liên quan (hoặc mảng trống [] nếu không có)
+   */
+  async getScoRelativeInvoices(nbmst, khmshdon, khhdon, shdon) {
+    try {
+      console.log(`Đang lấy hóa đơn máy tính tiền liên quan cho: MST=${nbmst}, Ký hiệu mẫu=${khmshdon}, Ký hiệu HĐ=${khhdon}, Số=${shdon}...`);
+
+      const response = await this.client.get('/api/sco-query/invoices/relative', {
+        params: { nbmst, khmshdon, khhdon, shdon },
+        headers: {
+          'action': 'Xem hóa đơn liên quan (hóa đơn máy tính tiền mua vào)',
+          'accept-language': 'vi',
+          'request-id': uuidv4(),
+          'end-point': '/tra-cuu/tra-cuu-hoa-don',
+          'referer': 'https://hoadondientu.gdt.gov.vn/tra-cuu/tra-cuu-hoa-don'
+        }
+      });
+
+      await this.sleep(800); // Nghỉ nhẹ tránh rate limit
+
+      const data = response.data;
+      if (Array.isArray(data) && data.length > 0) {
+        console.log(`-> Tìm thấy ${data.length} hóa đơn máy tính tiền liên quan.`);
+      } else {
+        console.log('-> Không có hóa đơn máy tính tiền liên quan nào.');
+      }
+
+      return Array.isArray(data) ? data : [];
+    } catch (error) {
+      console.error('Lỗi khi lấy hóa đơn máy tính tiền liên quan:', error.response?.data || error.message);
+      return [];
+    }
+  }
+
+  /**
+   * Lấy danh sách hóa đơn liên quan (ví dụ: hóa đơn thay thế, điều chỉnh cho hóa đơn gốc)
+   * @param {string} nbmst - Mã số thuế người bán
+   * @param {number|string} khmshdon - Ký hiệu mẫu số hóa đơn
+   * @param {string} khhdon - Ký hiệu hóa đơn
+   * @param {number|string} shdon - Số hóa đơn
+   * @param {string} type - Loại hóa đơn ('sold' hoặc 'purchase')
+   * @returns {Promise<Array>} Mảng các hóa đơn liên quan (hoặc mảng trống [] nếu không có)
+   */
+  async getRelativeInvoices(nbmst, khmshdon, khhdon, shdon, type = 'sold') {
+    try {
+      const actionName = type === 'purchase' 
+        ? 'Xem hóa đơn liên quan (hóa đơn mua vào)' 
+        : 'Xem hóa đơn liên quan (hóa đơn bán ra)';
+
+      console.log(`Đang lấy hóa đơn liên quan cho: MST=${nbmst}, Ký hiệu mẫu=${khmshdon}, Ký hiệu HĐ=${khhdon}, Số=${shdon}...`);
+
+      const response = await this.client.get('/api/query/invoices/relative', {
+        params: { nbmst, khmshdon, khhdon, shdon },
+        headers: {
+          'action': actionName,
+          'accept-language': 'vi',
+          'request-id': uuidv4(),
+          'end-point': '/tra-cuu/tra-cuu-hoa-don',
+          'referer': 'https://hoadondientu.gdt.gov.vn/tra-cuu/tra-cuu-hoa-don'
+        }
+      });
+
+      // Nghỉ nhẹ sau khi gọi API để tránh dính rate limit
+      await this.sleep(800);
+
+      const data = response.data;
+      if (Array.isArray(data) && data.length > 0) {
+        console.log(`-> Tìm thấy ${data.length} hóa đơn liên quan.`);
+      } else {
+        console.log('-> Không có hóa đơn liên quan nào.');
+      }
+
+      return Array.isArray(data) ? data : [];
+    } catch (error) {
+      console.error('Lỗi khi lấy hóa đơn liên quan:', error.response?.data || error.message);
+      // Trả về mảng rỗng để không làm crash luồng chính nếu hóa đơn không có liên quan hoặc lỗi phát sinh
+      return [];
+    }
+  }
 }
 
 module.exports = TaxService;

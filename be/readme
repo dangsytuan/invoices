@@ -15,3 +15,10 @@ npx prisma generate
 
 https://hoadondientu.gdt.gov.vn/
 3200758117/1234567@Abc
+
+tthai=1 Hoá đơn mới
+tthai=2 Hoá đơn thay thế
+tthai=3 Hoá đơn điều chỉnh
+tthai=4 Hoá đơn đã bị thay thế
+tthai=5 Hoá đơn đã bị điều chỉnh
+tthai=6 Hoá đơn đã bị huỷ
