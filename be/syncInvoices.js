@@ -55,6 +55,7 @@ function getMonthsInRange(startYear, startMonth, endYear, endMonth) {
 
 async function main() {
   try {
+   /* 
     const hasValidToken = taxService.loadSavedToken();
     if (!hasValidToken) {
       console.log('🔄 Token không tồn tại hoặc đã hết hạn. Bắt đầu luồng đăng nhập mới...');
@@ -138,8 +139,12 @@ async function main() {
               isSco: basicInv._detailType === 'sco',
               nbmst: detailData.nbmst || '',
               nbten: detailData.nbten || '',
+              nbdchi: detailData.nbdchi || '',
+              nbsdthoai: detailData.nbsdthoai || '',
               nmmst: detailData.nmmst || '',
               nmten: detailData.nmten || '',
+              nmdchi: detailData.nmdchi || '',
+              nmsdthoai: detailData.nmsdthoai || '',
               khmshdon: Number(detailData.khmshdon) || 1,
               khhdon: detailData.khhdon || '',
               shdon: Number(detailData.shdon) || 0,
@@ -203,36 +208,55 @@ async function main() {
         console.error(`❌ Lỗi khi xử lý ${monthObj.label}:`, errMonth.message);
       }
     }
-
-    // 4. XÂY DỰNG BẢNG PRODUCT VÀ STOCKTRANSACTION SAU KHI ĐÃ HOÀN TẤT TOÀN BỘ INVOICE
+*/
+   // 4. XÂY DỰNG BẢNG PRODUCT VÀ STOCKTRANSACTION SAU KHI ĐÃ HOÀN TẤT TOÀN BỘ INVOICE
     console.log('\n=========================================');
     console.log('🏭 Đang tổng hợp và xây dựng danh mục Product & StockTransaction...');
     
+    console.log('🧹 Đang tiến hành dọn dẹp bảng StockTransaction và Product...');
+    await prisma.$transaction([
+      prisma.stockTransaction.deleteMany(), // Xóa giao dịch kho trước
+      prisma.product.deleteMany(),         // Sau đó mới xóa sản phẩm
+    ]);
+    console.log('✅ Đã làm sạch Product và StockTransaction thành công!');
+    
+    // Lấy TOÀN BỘ chi tiết hóa đơn (cả INBOUND và OUTBOUND) để ghi nhận StockTransaction
     const allDetails = await prisma.invoiceDetail.findMany({
-      include: { invoice: true }
+      include: { 
+        invoice: true 
+      }
     });
 
     for (const detail of allDetails) {
       const productName = detail.ten.trim();
       const unitVal = detail.dvtinh || 'Cái';
+      const txType = detail.invoice.type; // 'INBOUND' hoặc 'OUTBOUND'
 
+      // Tìm xem sản phẩm đã tồn tại trong DB chưa
       let product = await prisma.product.findFirst({
         where: { name: productName }
       });
 
+      // Nếu sản phẩm chưa tồn tại:
       if (!product) {
-        product = await prisma.product.create({
-          data: {
-            name: productName,
-            unit: unitVal,
-            stockBalance: 0,
-            totalImported: 0,
-            totalExported: 0
-          }
-        });
+        // CHỈ TẠO MỚI PRODUCT NẾU ĐÂY LÀ HÓA ĐƠN MUA VÀO (INBOUND)
+        if (txType === 'INBOUND') {
+          product = await prisma.product.create({
+            data: {
+              name: productName,
+              unit: unitVal,
+              stockBalance: 0,
+              totalImported: 0,
+              totalExported: 0
+            }
+          });
+        } else {
+          // Nếu là OUTBOUND mà sản phẩm chưa từng được nhập vào trước đó -> Bỏ qua không xử lý
+          continue; 
+        }
       }
 
-      const txType = detail.invoice.type; 
+      // Tạo lịch sử giao dịch kho (StockTransaction) cho cả INBOUND và OUTBOUND
       await prisma.stockTransaction.create({
         data: {
           invoiceId: detail.invoiceId,
@@ -247,6 +271,7 @@ async function main() {
         }
       });
 
+      // Cập nhật số lượng tồn kho và tổng nhập/xuất của Product
       const qty = detail.sluong;
       if (txType === 'INBOUND') {
         await prisma.product.update({

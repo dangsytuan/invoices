@@ -32,7 +32,7 @@ async function main() {
 
       try {
         // 1. Thử gọi API thông thường trước
-        let relatives = await taxService.getRelativeInvoices(inv.nbmst, inv.khmshdon, inv.khhdon, inv.shdon, inv.type === 'OUTBOUND' ? 'sold' : 'purchase');
+        let relatives = await taxService.getRelativeInvoices(inv.nbmst, inv.khmshdon, inv.khhdon, inv.shdon);
         
         // 2. Nếu không có, thử gọi sang API SCO (máy tính tiền)
         if (!relatives || relatives.length === 0) {
@@ -47,13 +47,13 @@ async function main() {
           await prisma.invoice.update({
             where: { id: inv.id },
             data: {
-              tthai: relInfo.tthai !== undefined ? Number(relInfo.tthai) : inv.tthai,
               relNbmst: relInfo.nbmst || null,
               relKhmshdon: relInfo.khmshdon ? Number(relInfo.khmshdon) : null,
               relKhhdon: relInfo.khhdon || null,
               relShdon: relInfo.shdon ? Number(relInfo.shdon) : null
             }
           });
+          
           updatedCount++;
         }
 

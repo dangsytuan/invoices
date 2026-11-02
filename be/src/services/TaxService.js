@@ -22,6 +22,13 @@ class TaxService {
         'sec-ch-ua-platform': '"macOS"'
       }
     });
+    if(!this.loadSavedToken()){
+      console.log('🔄 Token không tồn tại hoặc đã hết hạn. Bắt đầu luồng đăng nhập mới...');
+
+      const username = '3200758117';
+      const password = '1234567@Abc';
+      this.login(username, password);
+    }
   }
 
   /**
@@ -196,21 +203,41 @@ class TaxService {
    */
   async getSoldInvoices(fromDate = null, toDate = null, size = 15, sort = 'tdlap:desc') {
     try {
-      const now = new Date();
+      // Hàm phụ trợ để chuyển đổi đầu vào (Date object hoặc chuỗi ngày) thành định dạng mong muốn
+      const formatCustomDate = (inputDate, isEndDay = false) => {
+        const date = inputDate ? new Date(inputDate) : new Date();
+        
+        // Đặt giờ, phút, giây, mili-giây tùy theo là ngày bắt đầu hay kết thúc
+        if (isEndDay) {
+          date.setHours(23, 59, 59, 999);
+        } else {
+          date.setHours(0, 0, 0, 0);
+        }
+
+        const day = String(date.getDate()).padStart(2, '0');
+        const month = String(date.getMonth() + 1).padStart(2, '0');
+        const year = date.getFullYear();
+        const hours = String(date.getHours()).padStart(2, '0');
+        const minutes = String(date.getMinutes()).padStart(2, '0');
+        const seconds = String(date.getSeconds()).padStart(2, '0');
+
+        return `${day}/${month}/${year}T${hours}:${minutes}:${seconds}`;
+      };
+
+      // Xử lý ngày kết thúc (mặc định là cuối ngày hiện tại nếu không truyền)
       if (!toDate) {
-        const dayEnd = String(now.getDate()).padStart(2, '0');
-        const monthEnd = String(now.getMonth() + 1).padStart(2, '0');
-        const yearEnd = now.getFullYear();
-        toDate = `${dayEnd}/${monthEnd}/${yearEnd}T23:59:59`;
+        toDate = formatCustomDate(null, true);
+      } else {
+        toDate = formatCustomDate(toDate, true);
       }
 
+      // Xử lý ngày bắt đầu (mặc định lùi lại 1 tháng, lấy đầu ngày nếu không truyền)
       if (!fromDate) {
         const pastDate = new Date();
         pastDate.setMonth(pastDate.getMonth() - 1);
-        const dayStart = String(pastDate.getDate()).padStart(2, '0');
-        const monthStart = String(pastDate.getMonth() + 1).padStart(2, '0');
-        const yearStart = pastDate.getFullYear();
-        fromDate = `${dayStart}/${monthStart}/${yearStart}T00:00:00`;
+        fromDate = formatCustomDate(pastDate, false);
+      } else {
+        fromDate = formatCustomDate(fromDate, false);
       }
 
       const searchQuery = `tdlap=ge=${fromDate};tdlap=le=${toDate}`;
@@ -237,6 +264,15 @@ class TaxService {
           }
         });
 
+        if (response.status === 401) {
+          console.log('Lỗi xác thực tài khoản');
+          return {
+            success: false,
+            code: 401,
+            message: 'Lỗi xác thực tài khoản'
+          };
+        }
+
         const result = response.data;
         if (result && result.datas && result.datas.length > 0) {
           allDatas.push(...result.datas);
@@ -257,10 +293,18 @@ class TaxService {
       }
 
       console.log(`🎉 Đã lấy xong toàn bộ ${allDatas.length} hóa đơn bán ra!`);
-      return allDatas;
+      return {
+        success: true,
+        code: 1,
+        message: 'Thành công',
+        data: allDatas
+      };
     } catch (error) {
-      console.error('Lỗi khi tải toàn bộ hóa đơn bán ra:', error.response?.data || error.message);
-      throw error;
+      return {
+        success: false,
+        code: 500,
+        message: error.message
+      };
     }
   }
 

@@ -35,24 +35,28 @@ router.get('/', async (req, res) => {
       }
     }
 
-    // Tìm kiếm từ khóa (Hỗ trợ tìm chính xác khi gõ #id, ví dụ: #123 hoặc #abc)
+    // Tìm kiếm từ khóa
     if (search && search.trim() !== '') {
       const keyword = search.trim();
 
       if (keyword.startsWith('#')) {
-        const exactIdStr = keyword.substring(1).trim(); // Giữ nguyên dạng chuỗi cho id
-        const exactIdNum = Number(exactIdStr);
+        // 🔍 Trường hợp gõ # (ví dụ: #123): Tìm chính xác tuyệt đối
+        const exactValue = keyword.substring(1).trim();
+        const exactNum = Number(exactValue);
 
         where.OR = [
-          { id: exactIdStr }, // Tìm chính xác theo ID (kiểu String)
+          { id: exactValue },
+          { nbmst: exactValue },
+          { nmmst: exactValue }
         ];
 
-        // Nếu phần sau dấu # là số hợp lệ thì cho phép tìm thêm theo shdon (kiểu Int)
-        if (!isNaN(exactIdNum)) {
-          where.OR.push({ shdon: exactIdNum });
+        // Chỉ tìm theo shdon nếu là số hợp lệ VÀ nằm trong giới hạn INT4 của Postgres (<= 2,147,483,647)
+        if (!isNaN(exactNum) && exactNum <= 2147483647) {
+          where.OR.push({ shdon: exactNum });
         }
       } else {
-        // Tìm kiếm gần đúng theo từ khóa thông thường
+        // 🔎 Trường hợp tìm kiếm thông thường (gần đúng)
+        console.log('tim kiem thuong');
         where.OR = [
           { nbten: { contains: keyword, mode: 'insensitive' } },
           { nbmst: { contains: keyword, mode: 'insensitive' } },
@@ -60,14 +64,16 @@ router.get('/', async (req, res) => {
           { nmmst: { contains: keyword, mode: 'insensitive' } },
           { khhdon: { contains: keyword, mode: 'insensitive' } },
         ];
-        
-        const numKeyword = Number(keyword);
-        if (!isNaN(numKeyword)) {
-          where.OR.push({ shdon: numKeyword });
+
+        // Chỉ push vào shdon nếu từ khóa là số và KHÔNG vượt quá giới hạn INT4 để tránh lỗi tràn bộ nhớ database
+        const keywordNum = Number(keyword);
+        if (!isNaN(keywordNum) && keywordNum <= 2147483647) {
+          where.OR.push({ shdon: keywordNum });
         }
       }
     }
 
+    // Thực hiện đồng thời truy vấn đếm tổng và lấy danh sách phân trang
     const [total, invoices] = await Promise.all([
       prisma.invoice.count({ where }),
       prisma.invoice.findMany({
