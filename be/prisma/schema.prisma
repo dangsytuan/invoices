@@ -62,6 +62,10 @@ model Invoice {
   tgtttbso     Float             // Tổng giá trị thanh toán bằng số (có thuế)
   tgtttbchu    String?           // Tổng giá trị thanh toán bằng chữ
   thtttoan     String?           // Hình thức thanh toán (VD: TM/CK)
+
+  relatedInvoiceId String?  
+  relatedInvoice   Invoice? @relation("InvoiceRelation", fields: [relatedInvoiceId], references: [id], onDelete: SetNull)
+  childInvoices    Invoice[] @relation("InvoiceRelation")
   
   // Quan hệ 1-nhiều với chi tiết hóa đơn
   details      InvoiceDetail[]   

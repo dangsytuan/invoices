@@ -22,15 +22,45 @@ async function main() {
     });
 
     console.log(`📦 Tìm thấy ${nonStandardInvoices.length} hóa đơn cần cập nhật liên quan.`);
-
+    
     let checkedCount = 0;
     let updatedCount = 0;
 
     for (const inv of nonStandardInvoices) {
       checkedCount++;
-      process.stdout.write(`\r⏳ Đang xử lý (${checkedCount}/${nonStandardInvoices.length}): HĐ số ${inv.shdon} (${inv.khhdon})...   `);
+      console.log(`đang xử lý hoá đơn: id=${inv.id} shdon=${inv.shdon} tthai=${inv.tthai} sco=${inv.isSco}`);
 
       try {
+        const invoice = await prisma.invoice.findFirst({
+          where: {
+            nbmst: inv.relNbmst,       // Mã số thuế người bán
+            khmshdon: inv.relKhmshdon, // Ký hiệu mẫu số (Int)
+            khhdon: inv.relKhhdon,     // Ký hiệu hóa đơn (String)
+            shdon: inv.relShdon,       // Số hóa đơn (Int)
+          },
+          include: {
+            details: true,
+          }
+        });
+
+        if (!invoice) {
+          console.log("Không tìm thấy hóa đơn phù hợp.");
+          continue;
+        }
+
+        console.log('Tìm thấy hoá đơn phù hợp');
+        console.log(`id: ${invoice.id}`);
+
+        await prisma.invoice.update({
+          where:{ id: inv.id },
+          data:{
+            relatedInvoiceId: invoice.id
+          }
+        });
+        console.log(`update thành công: ${inv.shdon}/${invoice.shdon}`);
+
+
+        /*
         // 1. Thử gọi API thông thường trước
         let relatives = await taxService.getRelativeInvoices(inv.nbmst, inv.khmshdon, inv.khhdon, inv.shdon);
         
@@ -40,6 +70,7 @@ async function main() {
         }
 
         if (relatives && relatives.length > 0) {
+
           // Lấy hóa đơn liên quan đầu tiên
           const relInfo = relatives[0];
 
@@ -53,17 +84,20 @@ async function main() {
               relShdon: relInfo.shdon ? Number(relInfo.shdon) : null
             }
           });
-          
           updatedCount++;
+          console.log(`đã cập nhật hoá đơn: ${inv.shdon}`);
         }
 
         await taxService.sleep(300);
+        */
       } catch (errRel) {
-        // Bỏ qua lỗi nhỏ từng hóa đơn
+        console.log(`lỗi: ${errRel.message}`);
       }
+      
     }
 
-    console.log(`\n\n✅ Hoàn tất! Đã cập nhật thành công thông tin liên quan cho ${updatedCount}/${nonStandardInvoices.length} hóa đơn.`);
+    // console.log(`\n\n✅ Hoàn tất! Đã cập nhật thành công thông tin liên quan cho ${updatedCount}/${nonStandardInvoices.length} hóa đơn.`);
+    return;
 
     console.log('\n==================================================');
     console.log('🏭 BƯỚC 2: Tính toán lại toàn bộ kho hàng (Stock & Transactions)...');
