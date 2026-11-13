@@ -617,7 +617,8 @@ async function inventory() {
         },
         invoice: {
           tthai: {
-            in: [1, 2], // Chỉ lấy hóa đơn có status là 1 hoặc 2
+            // in: [1, 2], // Chỉ lấy hóa đơn có status là 1 hoặc 2
+            notIn: [3, 4, 5, 6]
           },
         },
       },
@@ -951,6 +952,76 @@ async function mergeProducts(keepProductId, duplicateProductIds) {
   }
 }
 
+async function debugBundleExports() {
+  const targetComponentId = "4765dbad-3917-4e6c-86f7-79c6ef37ab45";
+
+  console.log('🔍 Đang quét toàn bộ giao dịch xuất kho (OUTBOUND) để tìm linh kiện trong Combo...');
+
+  // Lấy tất cả giao dịch OUTBOUND có liên kết sản phẩm và hóa đơn
+  const outboundTx = await prisma.stockTransaction.findMany({
+    where: {
+      type: 'OUTBOUND',
+      productId: { not: null }
+    },
+    include: {
+      invoice: { 
+        select: { 
+          shdon: true,   // Số hóa đơn
+          tthai: true    // Trạng thái hóa đơn trong DB
+        } 
+      },
+      product: {
+        select: {
+          name: true,
+          isBundle: true,
+          components: {
+            select: { componentId: true, quantity: true }
+          }
+        }
+      }
+    }
+  });
+
+  let totalContributed = 0;
+  let matchCount = 0;
+
+  outboundTx.forEach((tx, index) => {
+    const prod = tx.product;
+    if (!prod) return;
+
+    // Trường hợp 1: Sản phẩm xuất là Combo và chứa CPU này bên trong
+    if (prod.isBundle && prod.components) {
+      const matchComp = prod.components.find(c => c.componentId === targetComponentId);
+      if (matchComp) {
+        matchCount++;
+        const subQty = (tx.quantity || 0) * (matchComp.quantity || 1);
+        totalContributed += subQty;
+        console.log(`\n[Combo Match #${matchCount}] Giao dịch ID: ${tx.id}`);
+        console.log(`  - Tên Combo: ${prod.name}`);
+        console.log(`  - Hóa đơn liên kết: #${tx.invoice?.shdon}`);
+        console.log(`  - Trạng thái tthai trong DB: ${tx.invoice?.tthai}`);
+        console.log(`  - Số lượng bán Combo: ${tx.quantity} | Định mức CPU/Bộ: ${matchComp.quantity}`);
+        console.log(`  - ➔ Đóng góp vào Tổng xuất của CPU: +${subQty}`);
+      }
+    } 
+    // Trường hợp 2: Xuất trực tiếp sản phẩm này (nếu có)
+    else if (tx.productId === targetComponentId) {
+      matchCount++;
+      totalContributed += (tx.quantity || 0);
+      console.log(`\n[Direct Match #${matchCount}] Giao dịch ID: ${tx.id}`);
+      console.log(`  - Hóa đơn liên kết: #${tx.invoice?.shdon}`);
+      console.log(`  - Trạng thái tthai trong DB: ${tx.invoice?.tthai}`);
+      console.log(`  - Số lượng xuất trực tiếp: ${tx.quantity}`);
+    }
+  });
+
+  console.log(`\n========================================`);
+  console.log(`📊 Tổng số giao dịch xuất chứa CPU này: ${matchCount}`);
+  console.log(`📈 Tổng số lượng xuất cộng dồn tính ra: ${totalContributed}`);
+  console.log(`========================================`);
+}
+
+
 
 (async () => {
   try {
@@ -969,11 +1040,13 @@ async function mergeProducts(keepProductId, duplicateProductIds) {
 
     // await inventory();
 
-    await mergeProducts('6de5ecc6-97ec-4aad-bf70-1f474b922519', [
-      '1ac90a72-38fc-4412-af60-20b101d1b147',
-      '5878638d-97b2-40fb-a9c7-d687f53deb2d',
-      'e668a300-e893-4cbc-9809-b24aeaab2642'
+    await mergeProducts('fa066946-e67a-4224-b043-dc5b4e10b9fc', [
+      'a9a73406-a04d-4150-9096-0535019c288d',
     ]);
+
+
+    // await debugBundleExports();
+
 
   } catch (error) {
     console.error('Lỗi khi chạy test:', error.message);

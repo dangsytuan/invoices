@@ -31,17 +31,43 @@ router.get('/list', async (req, res) => {
     // Xây dựng điều kiện lọc (where clause)
     const where = {};
 
-    // 1. Xử lý tìm kiếm theo từ khóa con (không phân biệt hoa/thường, vị trí)
+    // 1. Xử lý tìm kiếm thông minh: Hỗ trợ tìm trong productName, Product.name và ProductAlias.name
     if (search && search.trim() !== '') {
-      // Tách chuỗi thành mảng các từ khóa theo khoảng trắng, loại bỏ các từ trống
       const keywords = search.trim().split(/\s+/);
 
-      // Sử dụng AND để đảm bảo tên sản phẩm phải chứa TẤT CẢ các từ khóa con
+      // Mỗi từ khóa trong chuỗi tìm kiếm phải thỏa mãn ít nhất MỘT trong các điều kiện (OR):
+      // - Hoặc nằm trong productName của giao dịch kho
+      // - Hoặc nằm trong tên chuẩn của sản phẩm (product.name)
+      // - Hoặc nằm trong danh sách tên thay thế (product.aliases.name)
       where.AND = keywords.map(keyword => ({
-        productName: {
-          contains: keyword,
-          mode: 'insensitive'
-        }
+        OR: [
+          {
+            productName: {
+              contains: keyword,
+              mode: 'insensitive'
+            }
+          },
+          {
+            product: {
+              name: {
+                contains: keyword,
+                mode: 'insensitive'
+              }
+            }
+          },
+          {
+            product: {
+              aliases: {
+                some: {
+                  name: {
+                    contains: keyword,
+                    mode: 'insensitive'
+                  }
+                }
+              }
+            }
+          }
+        ]
       }));
     }
 
@@ -83,13 +109,25 @@ router.get('/list', async (req, res) => {
           [sortBy]: order.toLowerCase() === 'asc' ? 'asc' : 'desc'
         },
         include: {
+          // Lấy kèm thông tin sản phẩm và danh sách alias để hiển thị nếu cần
+          product: {
+            select: {
+              id: true,
+              sku: true,
+              name: true,
+              aliases: {
+                select: { name: true }
+              }
+            }
+          },
           invoice: {
             select: {
               shdon: true,
               khhdon: true,
               nbten: true,
               nmten: true,
-              tdlap: true
+              tdlap: true,
+              tthai: true
             }
           }
         }

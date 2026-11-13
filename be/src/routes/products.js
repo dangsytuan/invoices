@@ -65,7 +65,7 @@ router.get('/stats', async (req, res) => {
  */
 router.get('/list', async (req, res) => {
   try {
-    const { search, page = 1, limit = 20, sortBy = 'name', order = 'asc', type } = req.query;
+    const { search, page = 1, limit = 20, sortBy = 'name', order = 'asc', type, negativeStock } = req.query;
 
     const pageNum = parseInt(page) || 1;
     const limitNum = parseInt(limit) || 20;
@@ -89,6 +89,13 @@ router.get('/list', async (req, res) => {
       where.isBundle = false;
     } else if (type === 'bundle') {
       where.isBundle = true;
+    }
+
+    // 3. Điều kiện lọc sản phẩm âm kho (tồn kho < 0)
+    if (negativeStock === 'true' || negativeStock === '1') {
+      where.stockBalance = {
+        lt: 0 // lt nghĩa là Less Than (nhỏ hơn 0)
+      };
     }
 
     const [total, products] = await Promise.all([
