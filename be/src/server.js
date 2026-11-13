@@ -4,7 +4,7 @@ const cors = require('cors');
 const cookieParser = require('cookie-parser');
 
 const { initCronJobs } = require('./services/cronSync');
-initCronJobs();
+// initCronJobs();
 
 const app = express();
 app.set('trust proxy', 1);

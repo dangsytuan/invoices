@@ -1,3 +1,6 @@
 pm2 start npm --name "invoices_be" -- run dev
 pm2 start npm --name "invoices_fe" -- run dev
 pm2 start npm --name "invoices_fe" -- run start
+
+sudo -u postgres pg_dump -F c -d invoices -f /tmp/invoices_$(date +%Y-%m-%d_%H-%M-%S).backup
+sudo mv  /tmp/invoices_*.backup /home/huydonat/invoices/backup/

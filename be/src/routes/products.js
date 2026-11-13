@@ -6,14 +6,15 @@ const prisma = new PrismaClient();
 
 /**
  * @route   GET /api/products/stats
- * @desc    Lấy tổng quan số liệu Nhập, Xuất, Tồn kho của toàn hệ thống
+ * @desc    Lấy tổng quan số liệu Nhập, Xuất, Tồn kho của toàn hệ thống (có hỗ trợ lọc theo từ khóa và loại sản phẩm)
  * @access  Public
  */
 router.get('/stats', async (req, res) => {
   try {
-    const { search } = req.query;
+    const { search, type } = req.query; // Nhận thêm tham số type ('single' | 'bundle' | 'all')
     const where = {};
 
+    // 1. Điều kiện tìm kiếm theo từ khóa
     if (search && search.trim() !== '') {
       const keywords = search.trim().split(/\s+/);
       where.AND = keywords.map(keyword => ({
@@ -24,8 +25,15 @@ router.get('/stats', async (req, res) => {
       }));
     }
 
+    // 2. Điều kiện lọc theo loại sản phẩm
+    if (type === 'single') {
+      where.isBundle = false; // Chỉ lấy sản phẩm đơn lẻ
+    } else if (type === 'bundle') {
+      where.isBundle = true;  // Chỉ lấy sản phẩm combo
+    }
+
     const aggregateResult = await prisma.product.aggregate({
-      where, // Thêm điều kiện where vào để thống kê theo từ khóa tìm kiếm
+      where, 
       _sum: {
         totalImported: true,
         totalExported: true,
@@ -52,12 +60,12 @@ router.get('/stats', async (req, res) => {
 
 /**
  * @route   GET /api/products/list
- * @desc    Lấy danh sách sản phẩm kèm theo Alias và danh sách linh kiện (nếu là Combo)
+ * @desc    Lấy danh sách sản phẩm kèm theo Alias, danh sách linh kiện và hỗ trợ lọc loại sản phẩm
  * @access  Public
  */
 router.get('/list', async (req, res) => {
   try {
-    const { search, page = 1, limit = 20, sortBy = 'name', order = 'asc' } = req.query;
+    const { search, page = 1, limit = 20, sortBy = 'name', order = 'asc', type } = req.query;
 
     const pageNum = parseInt(page) || 1;
     const limitNum = parseInt(limit) || 20;
@@ -65,6 +73,7 @@ router.get('/list', async (req, res) => {
 
     const where = {};
 
+    // 1. Điều kiện tìm kiếm theo từ khóa
     if (search && search.trim() !== '') {
       const keywords = search.trim().split(/\s+/);
       where.AND = keywords.map(keyword => ({
@@ -73,6 +82,13 @@ router.get('/list', async (req, res) => {
           mode: 'insensitive'
         }
       }));
+    }
+
+    // 2. Điều kiện lọc theo loại sản phẩm
+    if (type === 'single') {
+      where.isBundle = false;
+    } else if (type === 'bundle') {
+      where.isBundle = true;
     }
 
     const [total, products] = await Promise.all([
@@ -220,7 +236,7 @@ router.post('/', async (req, res) => {
 
 /**
  * @route   PUT /api/products/:id
- * @desc    Cập nhật thông tin sản phẩm và cấu hình lại linh kiện Combo (BOM)
+ * @desc    Cập nhật thông tin sản phẩm và cấu hình lại linh kiện Combo (BOM) - Tự động loại bỏ linh kiện không hợp lệ
  * @access  Public
  */
 router.put('/:id', async (req, res) => {
@@ -228,12 +244,13 @@ router.put('/:id', async (req, res) => {
     const { id } = req.params;
     const { name, unit, sku, barcode, isBundle, components } = req.body;
 
+    // 1. Kiểm tra sản phẩm chính có tồn tại không
     const existingProduct = await prisma.product.findUnique({ where: { id } });
     if (!existingProduct) {
       return res.status(404).json({ success: false, message: 'Không tìm thấy sản phẩm' });
     }
 
-    // Kiểm tra trùng tên nếu đổi tên
+    // 2. Kiểm tra trùng tên nếu có thay đổi tên sản phẩm
     if (name && name.trim().toLowerCase() !== existingProduct.name.toLowerCase()) {
       const duplicate = await prisma.product.findFirst({
         where: {
@@ -250,8 +267,42 @@ router.put('/:id', async (req, res) => {
       }
     }
 
+    // 3. Xử lý và lọc sạch danh sách linh kiện (BOM)
+    let validComponents = [];
+    if (components !== undefined && Array.isArray(components)) {
+      // Tự động loại bỏ các phần tử không có componentId hoặc componentId bị rỗng ("")
+      validComponents = components.filter(item => item && item.componentId && String(item.componentId).trim() !== "");
+
+      if (validComponents.length > 0) {
+        const componentIds = validComponents.map(item => item.componentId);
+
+        // Kiểm tra xem sản phẩm chính có tự đưa vào làm linh kiện của chính nó không
+        if (componentIds.includes(id)) {
+          return res.status(400).json({ 
+            success: false, 
+            message: 'Sản phẩm không thể tự làm linh kiện cấu thành chính nó' 
+          });
+        }
+
+        // Kiểm tra xem tất cả các componentId hợp lệ có thực sự tồn tại trong database không
+        const existingComponentsCount = await prisma.product.count({
+          where: {
+            id: { in: componentIds }
+          }
+        });
+
+        if (existingComponentsCount !== componentIds.length) {
+          return res.status(400).json({ 
+            success: false, 
+            message: 'Một hoặc nhiều linh kiện (componentId) cấu thành không tồn tại trong hệ thống' 
+          });
+        }
+      }
+    }
+
+    // 4. Tiến hành Transaction cập nhật database an toàn
     const updatedProduct = await prisma.$transaction(async (tx) => {
-      // 1. Cập nhật thông tin cơ bản sản phẩm
+      // Cập nhật thông tin cơ bản sản phẩm
       const product = await tx.product.update({
         where: { id },
         data: {
@@ -263,16 +314,16 @@ router.put('/:id', async (req, res) => {
         }
       });
 
-      // 2. Nếu có truyền mảng components lên, tiến hành cập nhật lại danh sách linh kiện cấu thành (BOM)
+      // Cập nhật lại danh sách liên kết linh kiện (BOM)
       if (components !== undefined && Array.isArray(components)) {
         // Xóa toàn bộ liên kết linh kiện cũ của combo này
         await tx.productComponent.deleteMany({
           where: { bundleId: id }
         });
 
-        // Thêm lại danh sách linh kiện mới
-        if (components.length > 0) {
-          const componentData = components.map(item => ({
+        // Thêm lại danh sách linh kiện mới (chỉ thêm các phần tử hợp lệ đã được lọc)
+        if (validComponents.length > 0) {
+          const componentData = validComponents.map(item => ({
             bundleId: id,
             componentId: item.componentId,
             quantity: parseFloat(item.quantity) || 1
@@ -287,15 +338,20 @@ router.put('/:id', async (req, res) => {
       return product;
     });
 
-    // Lấy lại thông tin hoàn chỉnh sau update
+    // 5. Lấy lại thông tin hoàn chỉnh sau khi update thành công để trả về cho Client
     const fullProduct = await prisma.product.findUnique({
       where: { id },
-      include: { components: { include: { component: true } }, aliases: true }
+      include: { 
+        components: { 
+          include: { component: true } 
+        }, 
+        aliases: true 
+      }
     });
 
-    res.json({ success: true, data: fullProduct });
+    return res.json({ success: true, data: fullProduct });
   } catch (error) {
-    res.status(500).json({ success: false, message: 'Lỗi máy chủ:', error: error.message });
+    return res.status(500).json({ success: false, message: 'Lỗi máy chủ:', error: error.message });
   }
 });
 
