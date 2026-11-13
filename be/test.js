@@ -127,7 +127,7 @@ async function getNewInvoices() {
   const now = new Date();
 
   const fromDay = new Date();
-  fromDay.setDate(now.getDate() - 7);
+  fromDay.setDate(now.getDate() - 10);
 
   const toDay = new Date(now);
 
@@ -250,34 +250,67 @@ async function BuildStock() {
   console.log(`đã thêm ${bd_product} sản phẩm mới`);
 }
 
+// Gán mã liên kết cho hàng hoá dịch vụ
 async function StockLinked() {
-  console.log('Tạo mã liên kết cho Stock');
+  console.log('Tạo mã liên kết cho Stock bắt đầu...');
 
-  // 1. Lấy các giao dịch chưa có productId (productId = null)
+  // 1. Lấy tất cả các giao dịch chưa có productId
   const stockTrans = await prisma.stockTransaction.findMany({
     where: {
       productId: null
-    }
+    },
+    select: { id: true, productName: true }
   });
 
-  // 2. Lấy toàn bộ danh sách sản phẩm chuẩn trong hệ thống một lần duy nhất
-  const allProducts = await prisma.product.findMany({
-    select: { id: true, sku: true, name: true, unit: true }
-  });
+  if (stockTrans.length === 0) {
+    console.log('Không có giao dịch nào cần liên kết.');
+    return;
+  }
 
   let linkedCount = 0;
-  for (const trans of stockTrans) {
-    if (!trans.productName) continue;
 
-    const matchedProduct = allProducts.find(p => {
-      if (!p.name) return false;
-      return p.name.toLowerCase() === trans.productName.toLocaleLowerCase();
+  // 2. Duyệt qua từng giao dịch để tìm kiếm khớp chính xác từ Product hoặc ProductAlias
+  for (const trans of stockTrans) {
+    const rawName = trans.productName.trim();
+    const lowerName = rawName.toLowerCase();
+
+    let matchedProductId = null;
+
+    // Bước A: Thử tìm khớp chính xác với tên chuẩn trong bảng Product trước
+    const product = await prisma.product.findFirst({
+      where: {
+        name: {
+          equals: rawName,
+          mode: 'insensitive' // Không phân biệt chữ hoa/thường (nếu Database hỗ trợ, ví dụ PostgreSQL)
+        }
+      },
+      select: { id: true }
     });
 
-    if (matchedProduct) {
+    if (product) {
+      matchedProductId = product.id;
+    } else {
+      // Bước B: Nếu không tìm thấy ở Product, tìm trong bảng ProductAlias (tên khác từ nhà cung cấp)
+      const alias = await prisma.productAlias.findFirst({
+        where: {
+          name: {
+            equals: rawName,
+            mode: 'insensitive'
+          }
+        },
+        select: { productId: true }
+      });
+
+      if (alias) {
+        matchedProductId = alias.productId;
+      }
+    }
+
+    // 3. Nếu tìm thấy mã sản phẩm phù hợp, tiến hành cập nhật giao dịch
+    if (matchedProductId) {
       await prisma.stockTransaction.update({
         where: { id: trans.id },
-        data: { productId: matchedProduct.id }
+        data: { productId: matchedProductId }
       });
 
       linkedCount++;
@@ -285,7 +318,6 @@ async function StockLinked() {
   }
 
   console.log(`\nHoàn tất! Đã liên kết thành công ${linkedCount}/${stockTrans.length} giao dịch.`);
-
 }
 
 async function BuildProductAndStockTransaction() {
@@ -562,8 +594,8 @@ function parseComponentsFromComboString(rawString) {
   return parts;
 }
 
-async function recalculateStockBalance() {
-  console.log('🔄 Bắt đầu quá trình tính toán lại tồn kho...');
+async function inventory() {
+  console.log('🔄 Bắt đầu quá trình tính toán lại tồn kho (Hỗ trợ Combo khi Xuất)...');
 
   try {
     // 1. Reset lại toàn bộ các giá trị tồn kho, tổng nhập, tổng xuất về 0 cho tất cả sản phẩm
@@ -576,9 +608,8 @@ async function recalculateStockBalance() {
       },
     });
 
-    // 2. Lấy tất cả các giao dịch hợp lệ:
-    // - Có liên kết với sản phẩm (productId != null)
-    // - Thuộc hóa đơn có trạng thái status là 1 hoặc 2
+    // 2. Lấy tất cả các giao dịch hợp lệ kèm thông tin Product (để check isBundle) 
+    // và thông tin linh kiện bên trong nếu là Combo (components)
     const validTransactions = await prisma.stockTransaction.findMany({
       where: {
         productId: {
@@ -594,27 +625,63 @@ async function recalculateStockBalance() {
         productId: true,
         type: true,      // 'INBOUND' (Nhập) hoặc 'OUTBOUND' (Xuất)
         quantity: true,  // Số lượng giao dịch
+        product: {
+          select: {
+            isBundle: true,
+            components: {
+              select: {
+                componentId: true,
+                quantity: true, // Số lượng linh kiện có trong 1 bộ combo
+              },
+            },
+          },
+        },
       },
     });
 
     console.log(`📊 Tìm thấy ${validTransactions.length} giao dịch hợp lệ để tính toán.`);
 
-    // 3. Gom nhóm (Aggregate) số liệu cộng dồn vào một Object trên RAM để tối ưu tốc độ xử lý
+    // 3. Gom nhóm (Aggregate) số liệu cộng dồn vào một Object trên RAM
     // Cấu trúc map: { [productId]: { imported: 0, exported: 0 } }
     const productStats = {};
+
+    // Hàm phụ trợ để khởi tạo cấu trúc nếu chưa có
+    const ensureProductStats = (id) => {
+      if (!productStats[id]) {
+        productStats[id] = { imported: 0, exported: 0 };
+      }
+    };
 
     for (const tx of validTransactions) {
       const pId = tx.productId;
       const qty = tx.quantity || 0;
+      const productInfo = tx.product;
 
-      if (!productStats[pId]) {
-        productStats[pId] = { imported: 0, exported: 0 };
-      }
+      if (!productInfo) continue;
 
       if (tx.type === 'INBOUND') {
-        productStats[pId].imported += qty; // Nhập -> Tăng thêm
+        // --- HÀNG NHẬP ---
+        // Nhập không tính combo: Nhập sản phẩm nào cộng dồn cho chính sản phẩm đó
+        ensureProductStats(pId);
+        productStats[pId].imported += qty;
+
       } else if (tx.type === 'OUTBOUND') {
-        productStats[pId].exported += qty; // Xuất -> Giảm đi
+        // --- HÀNG XUẤT ---
+        if (productInfo.isBundle && productInfo.components && productInfo.components.length > 0) {
+          // Nếu sản phẩm xuất là COMBO -> Bung ra trừ kho các linh kiện bên trong
+          for (const comp of productInfo.components) {
+            const componentId = comp.componentId;
+            // Số lượng xuất linh kiện = Số lượng bán combo * Định mức linh kiện trong 1 bộ
+            const exportedQtyForComponent = qty * (comp.quantity || 1);
+
+            ensureProductStats(componentId);
+            productStats[componentId].exported += exportedQtyForComponent;
+          }
+        } else {
+          // Nếu là sản phẩm đơn lẻ bình thường -> Trừ trực tiếp số lượng xuất của sản phẩm đó
+          ensureProductStats(pId);
+          productStats[pId].exported += qty;
+        }
       }
     }
 
@@ -637,7 +704,7 @@ async function recalculateStockBalance() {
       updatedCount++;
     }
 
-    console.log(`✅ Hoàn tất! Đã cập nhật lại tồn kho thành công cho ${updatedCount} sản phẩm.`);
+    console.log(`✅ Hoàn tất! Đã cập nhật lại tồn kho thành công cho ${updatedCount} sản phẩm/linh kiện.`);
   } catch (error) {
     console.error('❌ Lỗi khi tính toán lại tồn kho:', error);
   }
@@ -720,6 +787,170 @@ async function UpdateRelationInvoices() {
 
 }
 
+async function mergeProducts(keepProductId, duplicateProductIds) {
+  console.log(`🚀 Bắt đầu gộp các sản phẩm vào sản phẩm chính ID: ${keepProductId}`);
+
+  try {
+    // 1. Lấy thông tin sản phẩm giữ lại
+    const targetProduct = await prisma.product.findUnique({
+      where: { id: keepProductId }
+    });
+
+    if (!targetProduct) {
+      throw new Error(`Không tìm thấy sản phẩm chính với ID: ${keepProductId}`);
+    }
+
+    // Lấy danh sách các sản phẩm cần gộp (loại trừ sản phẩm giữ lại nếu lỡ truyền vào)
+    const duplicates = await prisma.product.findMany({
+      where: {
+        id: { in: duplicateProductIds, not: keepProductId }
+      },
+      include: {
+        stockTransactions: true,
+        components: true,
+        usedInBundles: true
+      }
+    });
+
+    if (duplicates.length === 0) {
+      console.log('⚠️ Không có sản phẩm trùng lặp nào hợp lệ để gộp.');
+      return;
+    }
+
+    let extraImported = 0;
+    let extraExported = 0;
+
+    // Tập hợp danh sách tên cần đưa vào bảng ProductAlias
+    const aliasesToAdd = new Set();
+
+    for (const dup of duplicates) {
+      // Cộng dồn thông số kho
+      extraImported += dup.totalImported || 0;
+      extraExported += dup.totalExported || 0;
+
+      // Thêm tên chính của sản phẩm bị gộp vào danh sách alias tiềm năng
+      if (dup.name) {
+        aliasesToAdd.add(dup.name.trim());
+      }
+
+      // Lấy các alias hiện có của sản phẩm bị gộp để mang sang sản phẩm mới
+      const existingAliases = await prisma.productAlias.findMany({
+        where: { productId: dup.id },
+        select: { name: true }
+      });
+      existingAliases.forEach(a => aliasesToAdd.add(a.name.trim()));
+
+      // 2. Cập nhật StockTransaction: chuyển productId từ sản phẩm cũ sang sản phẩm chính
+      if (dup.stockTransactions.length > 0) {
+        await prisma.stockTransaction.updateMany({
+          where: { productId: dup.id },
+          data: { productId: keepProductId }
+        });
+      }
+
+      // 3. Xử lý liên kết Combo (ProductComponent) tránh vi phạm ràng buộc
+      // 3.1. Nếu sản phẩm bị gộp đang là linh kiện trong các bộ combo khác (usedInBundles)
+      for (const cb of dup.usedInBundles) {
+        const existingComp = await prisma.productComponent.findUnique({
+          where: {
+            bundleId_componentId: {
+              bundleId: cb.bundleId,
+              componentId: keepProductId
+            }
+          }
+        });
+
+        if (!existingComp) {
+          await prisma.productComponent.update({
+            where: { id: cb.id },
+            data: { componentId: keepProductId }
+          });
+        } else {
+          // Nếu sản phẩm giữ lại đã có trong combo đó rồi thì xóa bản ghi thừa của sản phẩm cũ
+          await prisma.productComponent.delete({ where: { id: cb.id } });
+        }
+      }
+
+      // 3.2. Nếu sản phẩm bị gộp là một bộ combo chứa các linh kiện bên trong (components)
+      for (const comp of dup.components) {
+        const existingParentComp = await prisma.productComponent.findUnique({
+          where: {
+            bundleId_componentId: {
+              bundleId: keepProductId,
+              componentId: comp.componentId
+            }
+          }
+        });
+
+        if (!existingParentComp) {
+          await prisma.productComponent.update({
+            where: { id: comp.id },
+            data: { bundleId: keepProductId }
+          });
+        } else {
+          await prisma.productComponent.delete({ where: { id: comp.id } });
+        }
+      }
+    }
+
+    // 4. Cập nhật lại tổng kho cho sản phẩm giữ lại
+    const newTotalImported = (targetProduct.totalImported || 0) + extraImported;
+    const newTotalExported = (targetProduct.totalExported || 0) + extraExported;
+    const newStockBalance = newTotalImported - newTotalExported;
+
+    await prisma.product.update({
+      where: { id: keepProductId },
+      data: {
+        totalImported: newTotalImported,
+        totalExported: newTotalExported,
+        stockBalance: newStockBalance
+      }
+    });
+
+    // 5. Thêm các tên cũ vào ProductAlias của sản phẩm chính (có kiểm tra tồn tại)
+    for (const aliasName of aliasesToAdd) {
+      // Bỏ qua nếu tên alias trùng hoàn toàn với tên chuẩn hiện tại của sản phẩm giữ lại
+      if (aliasName.toLowerCase() === targetProduct.name.trim().toLowerCase()) {
+        continue;
+      }
+
+      // Kiểm tra xem alias này đã tồn tại trong hệ thống chưa (tránh lỗi unique constraint)
+      const existingAlias = await prisma.productAlias.findFirst({
+        where: {
+          name: {
+            equals: aliasName,
+            mode: 'insensitive'
+          }
+        }
+      });
+
+      if (!existingAlias) {
+        await prisma.productAlias.create({
+          data: {
+            productId: keepProductId,
+            name: aliasName
+          }
+        });
+        console.log(`➕ Đã thêm alias mới: "${aliasName}"`);
+      }
+    }
+
+    // 6. Xóa các sản phẩm trùng lặp sau khi đã chuyển dịch toàn bộ dữ liệu an toàn
+    const duplicateIds = duplicates.map(d => d.id);
+    await prisma.product.deleteMany({
+      where: { id: { in: duplicateIds } }
+    });
+
+    console.log(`✅ Gộp thành công ${duplicateIds.length} sản phẩm vào sản phẩm chính (ID: ${keepProductId})!`);
+
+    // (Tùy chọn) Gọi lại hàm tính tồn kho để đảm bảo số liệu khớp tuyệt đối với StockTransaction thực tế
+    // await inventory();
+
+  } catch (error) {
+    console.error('❌ Lỗi trong quá trình gộp sản phẩm:', error);
+  }
+}
+
 
 (async () => {
   try {
@@ -734,7 +965,15 @@ async function UpdateRelationInvoices() {
     // await StockLinked();
 
     // await recalculateStockBalance();
-    await UpdateRelationInvoices();
+    // await UpdateRelationInvoices();
+
+    // await inventory();
+
+    await mergeProducts('6de5ecc6-97ec-4aad-bf70-1f474b922519', [
+      '1ac90a72-38fc-4412-af60-20b101d1b147',
+      '5878638d-97b2-40fb-a9c7-d687f53deb2d',
+      'e668a300-e893-4cbc-9809-b24aeaab2642'
+    ]);
 
   } catch (error) {
     console.error('Lỗi khi chạy test:', error.message);
